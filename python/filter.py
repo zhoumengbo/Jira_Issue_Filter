@@ -3,10 +3,8 @@ import os
 import re
 
 csv.field_size_limit(500 * 1024 * 1024)
-keyword_list = ['failure', 'crash', 'node', 'network', 'restart', 'kill', 'snapshot', 'explode', 'dead', 'active',
-                'standby', 'leader', 'follower', 'master', 'shutdown', 'EC', 'failover', 'broker', 'cluster', 'quorum',
-                'connect', 'startup', 'elect', 'watcher', 'timeout', 'terminate', 'sync',  'consistent', 'replica',
-                'remote', 'recovery', 'peer', 'group']
+keyword_list = ['failure', 'node', 'network', 'leader', 'follower', 'shutdown', 'failover',
+                'cluster', 'quorum', 'elect',  'consistent', 'replica', 'remote', 'recovery', 'group']
 
 
 def issue_filter(source):
@@ -53,5 +51,5 @@ def issue_filter(source):
 
 if __name__ == '__main__':
     source_list = ['CAS', 'HADOOP', 'HBASE', 'HDFS', 'KAFKA', 'ZK']
-    source = '../source/ZK'
+    source = '../source/CAS'
     issue_filter(source)
