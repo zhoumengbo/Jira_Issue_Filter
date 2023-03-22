@@ -1,0 +1,935 @@
+Issue_key,keyword
+HBASE-26755,['failure']
+HBASE-23904,"['failure', 'active', 'master', 'master', 'master', 'master', 'master', 'master', 'down', 'down', 'down', 'connect', 'hang']"
+HBASE-27246,"['master', 'master', 'sync', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23566,"['network', 'network']"
+HBASE-26088,"['failure', 'crash', 'timeout', 'hang']"
+HBASE-26166,['master']
+HBASE-24661,['failure']
+HBASE-24958,"['failure', 'recovery']"
+HBASE-24280,"['failure', 'failure', 'master', 'hang']"
+HBASE-26938,"['failure', 'failure', 'master', 'cluster']"
+HBASE-27151,['failure']
+HBASE-22100,"['hang', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22106,"['failure', 'restart', 'group']"
+HBASE-22370,"['failover', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22856,"['failure', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup']"
+HBASE-27489,['master']
+HBASE-25692,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'distributed', 'peer']"
+HBASE-27554,"['failure', 'master', 'master', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-24856,['master']
+HBASE-24215,"['setup', 'setup', 'setup', 'setup']"
+HBASE-25429,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'recovery']"
+HBASE-24454,"['cluster', 'sync']"
+HBASE-24815,"['connect', 'connect', 'connect', 'connect']"
+HBASE-23881,"['failure', 'setup', 'connect']"
+HBASE-25341,"['failure', 'master']"
+HBASE-22522,"['master', 'master', 'master']"
+HBASE-25503,"['master', 'down']"
+HBASE-27589,['failure']
+HBASE-26244,['sync']
+HBASE-24197,['failure']
+HBASE-26184,['snapshot']
+HBASE-24768,"['failure', 'failure', 'failure', 'master', 'setup', 'connect', 'connect', 'connect', 'connect']"
+HBASE-25447,['remote']
+HBASE-25900,"['failure', 'failure', 'hang', 'hang', 'hang', 'sync']"
+HBASE-23222,['failure']
+HBASE-25366,"['crash', 'crash', 'active', 'active', 'standby', 'standby', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'sync', 'replica']"
+HBASE-24755,['group']
+HBASE-23243,['cluster']
+HBASE-26787,"['replica', 'replica']"
+HBASE-22838,"['failure', 'group', 'group']"
+HBASE-23693,"['failure', 'crash', 'crash', 'node', 'active', 'master', 'master', 'down', 'hang', 'group', 'group']"
+HBASE-24812,['hang']
+HBASE-25355,"['cluster', 'cluster', 'replica', 'peer']"
+HBASE-23255,"['master', 'master']"
+HBASE-26896,"['snapshot', 'snapshot']"
+HBASE-26436,"['hang', 'group', 'group']"
+HBASE-27027,"['failure', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'startup']"
+HBASE-24593,['failure']
+HBASE-22282,['sync']
+HBASE-26753,"['timeout', 'timeout', 'replica', 'replica']"
+HBASE-27292,['failure']
+HBASE-27211,"['failure', 'master']"
+HBASE-25710,"['recovery', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup']"
+HBASE-26297,"['master', 'master', 'sync', 'replica']"
+HBASE-27420,"['connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'hang']"
+HBASE-24719,"['cluster', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23171,"['network', 'master', 'master', 'master', 'master', 'master']"
+HBASE-26776,['failure']
+HBASE-27579,"['master', 'failover', 'failover']"
+HBASE-22646,"['restart', 'cluster']"
+HBASE-23079,"['node', 'node', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'timeout', 'timeout']"
+HBASE-22581,['master']
+HBASE-23833,"['failure', 'failure', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-25596,"['crash', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22289,"['failure', 'restart', 'restart', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-23205,"['failure', 'node', 'hang', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery']"
+HBASE-26384,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'master', 'master', 'master', 'master', 'master', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'consistent']"
+HBASE-27097,"['down', 'down', 'cluster', 'connect', 'hang', 'sync', 'group', 'group']"
+HBASE-26469,"['active', 'master', 'master', 'hang', 'hang', 'hang', 'hang', 'hang']"
+HBASE-22462,"['hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-25888,"['failure', 'master', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup']"
+HBASE-26527,['crash']
+HBASE-25980,"['master', 'replica', 'replica']"
+HBASE-22601,"['crash', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'watcher', 'watcher', 'terminate', 'terminate', 'hang', 'hang', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'group']"
+HBASE-25735,"['connect', 'remote']"
+HBASE-24437,"['master', 'master', 'master', 'master', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout']"
+HBASE-26195,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica']"
+HBASE-22057,"['down', 'hang', 'replica', 'peer', 'peer']"
+HBASE-25875,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
+HBASE-24135,"['master', 'master', 'group', 'group', 'group']"
+HBASE-27381,"['dead', 'hang']"
+HBASE-26537,"['failure', 'hang']"
+HBASE-25709,['cluster']
+HBASE-22492,"['network', 'network', 'master', 'timeout']"
+HBASE-27204,"['connect', 'connect', 'timeout', 'hang', 'hang', 'hang']"
+HBASE-26021,['cluster']
+HBASE-21991,['cluster']
+HBASE-25023,"['node', 'node', 'master', 'master', 'master', 'master', 'master', 'down', 'down']"
+HBASE-22835,"['cluster', 'hang']"
+HBASE-24615,"['snapshot', 'snapshot', 'snapshot', 'master']"
+HBASE-25861,"['hang', 'consistent']"
+HBASE-25774,"['failure', 'snapshot', 'active', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-26688,"['crash', 'down', 'down', 'connect', 'hang']"
+HBASE-25924,"['cluster', 'replica']"
+HBASE-25279,['down']
+HBASE-24649,"['timeout', 'hang']"
+HBASE-24250,['hang']
+HBASE-27004,"['cluster', 'cluster']"
+HBASE-26120,"['node', 'failover', 'startup', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-24813,"['restart', 'kill', 'kill', 'terminate', 'consistent', 'peer', 'peer', 'peer', 'peer', 'peer']"
+HBASE-27455,"['crash', 'crash']"
+HBASE-26670,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'sync', 'sync']"
+HBASE-22475,"['master', 'master', 'master', 'distributed']"
+HBASE-25898,"['node', 'kill', 'cluster', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22761,['cluster']
+HBASE-26951,"['master', 'down', 'startup']"
+HBASE-26054,"['failure', 'failure', 'hang', 'hang']"
+HBASE-26783,['cluster']
+HBASE-27599,['failure']
+HBASE-26541,['hang']
+HBASE-27650,['sync']
+HBASE-25186,"['failure', 'master', 'sync']"
+HBASE-26712,"['master', 'master', 'master', 'master', 'master']"
+HBASE-27169,"['master', 'master', 'master', 'master', 'sync', 'sync', 'sync']"
+HBASE-26027,"['connect', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-25445,['master']
+HBASE-23078,"['snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22477,"['crash', 'active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync', 'replica']"
+HBASE-23121,['kill']
+HBASE-27321,['replica']
+HBASE-25984,"['dead', 'dead', 'cluster', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-26465,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'dead', 'hang', 'hang']"
+HBASE-22190,"['snapshot', 'snapshot']"
+HBASE-22236,"['master', 'hang', 'hang', 'sync', 'sync']"
+HBASE-22045,"['snapshot', 'snapshot']"
+HBASE-26533,"['crash', 'node', 'node', 'elect']"
+HBASE-23679,"['crash', 'node', 'down', 'cluster', 'hang', 'hang']"
+HBASE-25648,"['master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-22212,"['hang', 'hang']"
+HBASE-22086,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
+HBASE-27021,"['consistent', 'consistent']"
+HBASE-22537,"['restart', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22013,"['replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-25929,"['crash', 'crash', 'crash', 'cluster']"
+HBASE-23345,"['cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer']"
+HBASE-24858,['hang']
+HBASE-25717,"['crash', 'cluster']"
+HBASE-22072,"['crash', 'crash', 'crash', 'recovery']"
+HBASE-22607,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'hang']"
+HBASE-22981,['failure']
+HBASE-22163,"['master', 'master']"
+HBASE-25921,['hang']
+HBASE-27550,['connect']
+HBASE-24117,"['node', 'restart', 'kill', 'kill', 'down', 'remote']"
+HBASE-25255,"['active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'setup', 'group']"
+HBASE-22784,"['master', 'master', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'setup', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22852,"['node', 'kill', 'master', 'master', 'down']"
+HBASE-22070,['hang']
+HBASE-22739,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-23895,"['node', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'EC', 'sync', 'sync']"
+HBASE-27038,"['failure', 'failure', 'down', 'hang']"
+HBASE-24482,['master']
+HBASE-22398,['master']
+HBASE-25473,['failure']
+HBASE-26768,"['failure', 'timeout', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-23369,"['kill', 'master', 'master', 'cluster', 'cluster']"
+HBASE-26063,"['master', 'hang', 'hang']"
+HBASE-22169,['cluster']
+HBASE-22194,"['snapshot', 'snapshot', 'snapshot', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'down']"
+HBASE-22424,"['master', 'master', 'master', 'group', 'group', 'group', 'group']"
+HBASE-22693,"['snapshot', 'snapshot', 'snapshot', 'cluster']"
+HBASE-22298,"['master', 'hang']"
+HBASE-25932,"['failure', 'failure', 'active', 'active', 'master', 'sync', 'sync', 'sync', 'replica']"
+HBASE-27580,"['connect', 'connect']"
+HBASE-22103,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-23173,"['node', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-24211,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'watcher', 'watcher', 'watcher', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync']"
+HBASE-25698,"['failure', 'cluster', 'cluster', 'cluster', 'elect', 'replica']"
+HBASE-25472,['failure']
+HBASE-22652,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'down', 'connect', 'timeout', 'timeout', 'timeout', 'timeout']"
+HBASE-26643,"['master', 'failover']"
+HBASE-26062,"['cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica']"
+HBASE-23709,['consistent']
+HBASE-24896,"['dead', 'dead', 'replica']"
+HBASE-24601,"['hang', 'hang', 'hang']"
+HBASE-24517,"['master', 'hang']"
+HBASE-26812,['kill']
+HBASE-22965,"['crash', 'crash']"
+HBASE-26967,"['connect', 'connect', 'elect', 'elect']"
+HBASE-22012,"['hang', 'hang']"
+HBASE-26199,"['restart', 'active', 'master', 'hang']"
+HBASE-24372,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'EC', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-26036,"['crash', 'cluster']"
+HBASE-23045,['replica']
+HBASE-24277,"['master', 'down']"
+HBASE-24168,['master']
+HBASE-22751,"['timeout', 'sync']"
+HBASE-22442,"['sync', 'sync', 'sync']"
+HBASE-22867,"['cluster', 'connect', 'connect', 'sync', 'sync', 'sync']"
+HBASE-22686,"['failure', 'crash', 'crash', 'crash', 'crash', 'node', 'node', 'restart', 'master', 'master', 'down', 'cluster', 'cluster', 'cluster', 'watcher', 'watcher', 'watcher', 'distributed', 'distributed']"
+HBASE-26274,"['down', 'hang', 'hang', 'hang']"
+HBASE-25741,"['terminate', 'terminate', 'terminate', 'terminate', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer', 'peer', 'peer']"
+HBASE-23364,"['down', 'down', 'down']"
+HBASE-24552,"['master', 'replica', 'replica', 'replica', 'replica']"
+HBASE-24031,['master']
+HBASE-26722,"['failure', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'active', 'hang', 'backup']"
+HBASE-23157,['sync']
+HBASE-22471,['master']
+HBASE-26557,['master']
+HBASE-22887,['master']
+HBASE-22632,['cluster']
+HBASE-25385,"['failure', 'hang', 'hang', 'hang', 'hang']"
+HBASE-27053,"['cluster', 'cluster']"
+HBASE-24625,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22774,"['restart', 'group']"
+HBASE-23312,"['master', 'hang', 'hang']"
+HBASE-23117,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'cluster', 'startup']"
+HBASE-23051,"['failure', 'failure', 'master', 'master', 'master', 'master']"
+HBASE-22323,"['failure', 'failure', 'hang', 'hang']"
+HBASE-26815,"['node', 'node', 'node', 'restart', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-26864,"['master', 'master', 'master', 'master', 'EC', 'EC', 'EC', 'hang']"
+HBASE-23737,"['node', 'node', 'cluster']"
+HBASE-26074,"['connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'hang', 'hang', 'hang', 'hang', 'sync', 'sync', 'consistent', 'consistent']"
+HBASE-26437,"['node', 'node', 'node', 'node', 'node', 'snapshot', 'cluster']"
+HBASE-22003,"['replica', 'replica', 'replica']"
+HBASE-25590,"['cluster', 'replica', 'replica', 'replica', 'replica', 'remote', 'peer']"
+HBASE-22661,"['master', 'cluster', 'sync']"
+HBASE-24480,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-22224,"['EC', 'EC', 'EC', 'EC', 'EC', 'connect', 'connect', 'hang']"
+HBASE-23359,"['down', 'down']"
+HBASE-26299,['connect']
+HBASE-22793,"['connect', 'remote', 'remote', 'remote']"
+HBASE-26543,['active']
+HBASE-23040,"['cluster', 'cluster', 'cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-27390,"['master', 'master']"
+HBASE-22404,"['restart', 'active', 'master', 'master', 'master', 'master', 'down', 'remote', 'remote']"
+HBASE-25905,"['down', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-25404,"['master', 'master', 'hang']"
+HBASE-22509,"['sync', 'sync', 'sync', 'consistent']"
+HBASE-24131,"['snapshot', 'snapshot', 'timeout']"
+HBASE-25478,['peer']
+HBASE-25457,"['master', 'sync']"
+HBASE-26679,"['node', 'down', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-23185,"['hang', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-27064,"['master', 'master', 'master', 'master', 'master', 'sync', 'sync']"
+HBASE-23197,['backup']
+HBASE-23247,"['crash', 'dead', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'down', 'down', 'cluster', 'cluster', 'cluster', 'sync', 'sync']"
+HBASE-22067,['cluster']
+HBASE-26946,"['restart', 'master', 'master', 'master']"
+HBASE-25238,"['node', 'node', 'node', 'node', 'active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'connect']"
+HBASE-23033,['failure']
+HBASE-23804,"['master', 'master', 'master', 'master', 'master', 'master', 'connect', 'distributed']"
+HBASE-26467,['cluster']
+HBASE-22963,"['master', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22414,['terminate']
+HBASE-26763,"['crash', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22121,"['sync', 'sync', 'replica', 'replica', 'replica']"
+HBASE-23263,"['master', 'master', 'master']"
+HBASE-27106,"['failure', 'hang', 'hang', 'consistent']"
+HBASE-23663,"['sync', 'sync']"
+HBASE-22095,"['snapshot', 'snapshot']"
+HBASE-23376,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica']"
+HBASE-22386,"['down', 'down']"
+HBASE-22923,"['master', 'down', 'down', 'group', 'group', 'group', 'group', 'group']"
+HBASE-26777,['EC']
+HBASE-23203,"['master', 'sync', 'sync', 'sync', 'sync', 'sync', 'group', 'group', 'group', 'group']"
+HBASE-26761,"['failure', 'EC']"
+HBASE-22310,['master']
+HBASE-22490,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'master', 'master', 'consistent', 'consistent']"
+HBASE-24027,"['node', 'node', 'master', 'master', 'master', 'master']"
+HBASE-26741,['hang']
+HBASE-23262,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'replica', 'group', 'group', 'group']"
+HBASE-25598,['sync']
+HBASE-26491,"['connect', 'connect']"
+HBASE-26383,"['restart', 'active', 'master', 'master', 'master', 'master', 'failover', 'failover', 'hang', 'consistent']"
+HBASE-22230,"['connect', 'connect', 'connect', 'connect']"
+HBASE-26468,"['crash', 'crash', 'restart', 'master', 'master', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'terminate']"
+HBASE-23006,"['master', 'replica', 'replica']"
+HBASE-23601,"['restart', 'replica', 'replica', 'replica']"
+HBASE-25994,"['active', 'replica']"
+HBASE-21990,['hang']
+HBASE-25178,['node']
+HBASE-26211,"['master', 'down', 'connect']"
+HBASE-23054,"['sync', 'sync']"
+HBASE-25498,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'connect', 'connect']"
+HBASE-26960,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-27170,"['restart', 'cluster', 'cluster']"
+HBASE-26866,"['active', 'master', 'master', 'down', 'down', 'down', 'down', 'sync', 'replica']"
+HBASE-27608,['hang']
+HBASE-24322,"['failure', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-24961,"['sync', 'sync', 'sync', 'sync']"
+HBASE-25902,['cluster']
+HBASE-27564,"['node', 'node', 'node', 'node', 'node', 'node', 'master', 'setup', 'setup', 'setup', 'setup', 'setup', 'connect', 'connect', 'hang', 'hang']"
+HBASE-27193,"['node', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'hang']"
+HBASE-22292,['failure']
+HBASE-27094,['EC']
+HBASE-22649,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
+HBASE-24184,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'master', 'EC']"
+HBASE-26176,['master']
+HBASE-22441,"['cluster', 'sync']"
+HBASE-22331,"['connect', 'connect', 'hang']"
+HBASE-22903,"['master', 'sync']"
+HBASE-25470,['master']
+HBASE-23149,['elect']
+HBASE-23702,['master']
+HBASE-23294,"['replica', 'peer']"
+HBASE-24656,"['master', 'master', 'master', 'master', 'master', 'down', 'down', 'backup', 'backup', 'backup']"
+HBASE-22191,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster']"
+HBASE-22740,['master']
+HBASE-24956,"['connect', 'timeout', 'timeout', 'timeout']"
+HBASE-22287,['cluster']
+HBASE-24506,"['restart', 'dead', 'dead', 'dead', 'cluster', 'sync', 'sync']"
+HBASE-24496,"['active', 'active']"
+HBASE-24189,"['crash', 'restart', 'startup', 'consistent']"
+HBASE-27042,['setup']
+HBASE-25928,['hang']
+HBASE-24399,"['group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23005,"['master', 'elect', 'elect']"
+HBASE-26311,"['master', 'replica', 'replica']"
+HBASE-27561,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-22681,"['sync', 'sync']"
+HBASE-22929,['crash']
+HBASE-27066,"['active', 'master', 'hang', 'hang']"
+HBASE-27160,"['node', 'master', 'master', 'master', 'master', 'sync', 'sync', 'sync', 'sync']"
+HBASE-23561,"['node', 'node', 'node']"
+HBASE-23585,['hang']
+HBASE-26396,"['group', 'group', 'group']"
+HBASE-23921,['master']
+HBASE-25848,"['replica', 'replica', 'replica', 'backup', 'backup']"
+HBASE-23834,"['master', 'hang', 'hang']"
+HBASE-22941,"['hang', 'hang']"
+HBASE-26875,['sync']
+HBASE-25611,['cluster']
+HBASE-25901,"['restart', 'restart', 'replica']"
+HBASE-23659,"['master', 'master', 'replica', 'replica', 'replica']"
+HBASE-24885,"['master', 'master', 'master']"
+HBASE-23150,['master']
+HBASE-26075,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-27075,"['hang', 'hang', 'hang', 'group']"
+HBASE-25583,"['crash', 'crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer', 'peer']"
+HBASE-25829,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-22881,"['sync', 'sync', 'sync']"
+HBASE-22416,"['setup', 'connect', 'connect', 'connect']"
+HBASE-23192,['crash']
+HBASE-22510,"['master', 'master']"
+HBASE-24074,"['master', 'master', 'master', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer']"
+HBASE-23202,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'master', 'cluster']"
+HBASE-23181,"['restart', 'cluster']"
+HBASE-22206,"['down', 'down', 'down']"
+HBASE-25077,"['master', 'master', 'master', 'setup']"
+HBASE-27485,"['down', 'down', 'cluster']"
+HBASE-27600,"['failure', 'consistent']"
+HBASE-27547,['cluster']
+HBASE-24342,['master']
+HBASE-24376,"['master', 'master', 'cluster']"
+HBASE-26786,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'timeout', 'hang', 'sync', 'sync', 'sync']"
+HBASE-27621,"['replica', 'replica']"
+HBASE-22860,"['master', 'master', 'master', 'master', 'master', 'elect', 'elect']"
+HBASE-24588,"['master', 'sync', 'consistent', 'consistent']"
+HBASE-26674,"['elect', 'elect']"
+HBASE-25021,"['master', 'master']"
+HBASE-24158,"['down', 'down', 'sync']"
+HBASE-24016,"['down', 'hang', 'hang', 'hang', 'hang']"
+HBASE-23328,"['cluster', 'hang', 'replica', 'replica', 'replica', 'replica']"
+HBASE-26767,['hang']
+HBASE-22674,['connect']
+HBASE-27017,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'active', 'master']"
+HBASE-26204,"['master', 'master', 'cluster', 'cluster', 'cluster', 'cluster', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
+HBASE-26155,"['crash', 'cluster']"
+HBASE-23744,['cluster']
+HBASE-27081,"['hang', 'hang', 'hang', 'hang', 'hang']"
+HBASE-26480,"['master', 'down', 'cluster', 'hang', 'hang']"
+HBASE-26977,"['down', 'down', 'down', 'down', 'down', 'down']"
+HBASE-27379,"['sync', 'sync']"
+HBASE-25130,['master']
+HBASE-25216,"['failure', 'node', 'restart', 'master', 'hang', 'hang', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica']"
+HBASE-26086,"['master', 'master']"
+HBASE-22767,"['restart', 'down', 'hang', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23313,"['kill', 'hang', 'hang']"
+HBASE-24274,['hang']
+HBASE-23594,"['dead', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'remote']"
+HBASE-27230,"['failure', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-22207,['kill']
+HBASE-26393,['down']
+HBASE-25897,['restart']
+HBASE-26715,"['kill', 'timeout', 'timeout', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-26654,['hang']
+HBASE-25311,"['node', 'restart', 'restart', 'master', 'master']"
+HBASE-26988,"['failure', 'master', 'master', 'master', 'master']"
+HBASE-27630,['connect']
+HBASE-26615,"['snapshot', 'snapshot', 'snapshot', 'cluster']"
+HBASE-24239,['master']
+HBASE-23587,"['sync', 'sync', 'sync']"
+HBASE-24545,"['down', 'cluster', 'recovery']"
+HBASE-24247,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-22551,"['master', 'master', 'master', 'master']"
+HBASE-27362,"['down', 'down', 'elect', 'elect', 'elect', 'hang']"
+HBASE-26675,"['snapshot', 'sync', 'sync']"
+HBASE-27055,['master']
+HBASE-26433,"['restart', 'restart', 'active', 'active', 'active', 'master', 'master', 'master', 'master', 'cluster', 'consistent', 'consistent', 'consistent']"
+HBASE-25903,"['active', 'hang']"
+HBASE-26087,"['crash', 'hang']"
+HBASE-25230,['cluster']
+HBASE-26406,"['master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'cluster', 'cluster', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'peer', 'peer']"
+HBASE-22393,['sync']
+HBASE-22408,['dead']
+HBASE-26026,"['cluster', 'sync', 'sync']"
+HBASE-26745,"['master', 'hang']"
+HBASE-26811,"['master', 'setup', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-26029,"['node', 'node', 'dead', 'dead', 'master', 'down', 'down', 'watcher', 'watcher', 'watcher', 'sync', 'replica', 'replica', 'replica']"
+HBASE-23282,"['crash', 'restart', 'dead', 'dead', 'master', 'cluster']"
+HBASE-27335,"['cluster', 'connect', 'hang', 'hang']"
+HBASE-24190,"['network', 'consistent', 'distributed', 'peer', 'peer', 'peer']"
+HBASE-23112,['hang']
+HBASE-26546,['failure']
+HBASE-26300,"['failure', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup']"
+HBASE-27628,"['cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica']"
+HBASE-25594,"['restart', 'restart', 'restart', 'cluster', 'remote']"
+HBASE-25287,"['cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
+HBASE-24794,"['failure', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'hang', 'hang', 'hang']"
+HBASE-22137,['hang']
+HBASE-25922,"['crash', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
+HBASE-24088,['connect']
+HBASE-27528,"['hang', 'remote', 'remote', 'remote', 'remote']"
+HBASE-24844,"['active', 'active', 'master', 'master', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'connect', 'watcher', 'watcher']"
+HBASE-22654,['active']
+HBASE-22058,['hang']
+HBASE-25693,"['snapshot', 'standby', 'master', 'master', 'master']"
+HBASE-26142,['sync']
+HBASE-26210,"['hang', 'hang', 'hang', 'hang']"
+HBASE-26718,['backup']
+HBASE-24151,"['active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23327,"['snapshot', 'EC', 'connect', 'connect', 'connect']"
+HBASE-25060,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-27119,"['master', 'master', 'master', 'replica']"
+HBASE-25280,"['replica', 'replica', 'replica']"
+HBASE-26870,['master']
+HBASE-26496,['failure']
+HBASE-23998,"['hang', 'sync', 'group', 'group']"
+HBASE-27602,"['master', 'master', 'master', 'master', 'master', 'master', 'hang', 'hang']"
+HBASE-26114,"['active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'down', 'EC']"
+HBASE-22198,"['master', 'sync', 'sync']"
+HBASE-26106,"['master', 'master', 'master', 'hang', 'replica']"
+HBASE-23176,"['snapshot', 'snapshot', 'snapshot']"
+HBASE-23682,"['dead', 'active', 'master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-23142,"['master', 'master', 'master', 'master', 'master', 'sync', 'sync']"
+HBASE-25562,['replica']
+HBASE-24721,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-25626,['master']
+HBASE-25487,"['hang', 'hang']"
+HBASE-27352,['master']
+HBASE-24752,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'startup', 'startup', 'backup']"
+HBASE-22840,"['timeout', 'timeout']"
+HBASE-23351,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'connect']"
+HBASE-27484,"['cluster', 'cluster', 'cluster', 'cluster', 'elect']"
+HBASE-26238,"['hang', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22349,"['node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'master', 'master', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'terminate']"
+HBASE-26625,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
+HBASE-27673,"['down', 'connect']"
+HBASE-27065,"['active', 'master']"
+HBASE-23261,"['node', 'node', 'node', 'node', 'master', 'master', 'master']"
+HBASE-26941,"['master', 'master']"
+HBASE-22733,"['active', 'master', 'master', 'master', 'master', 'cluster']"
+HBASE-23694,"['active', 'active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'sync', 'sync', 'sync', 'recovery']"
+HBASE-27143,"['setup', 'distributed']"
+HBASE-24176,"['EC', 'EC']"
+HBASE-22779,"['hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang']"
+HBASE-26385,['replica']
+HBASE-25685,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-26831,"['master', 'hang']"
+HBASE-24546,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'master', 'master', 'master', 'master', 'master', 'master', 'hang', 'backup', 'backup']"
+HBASE-24040,['group']
+HBASE-23909,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+HBASE-24246,"['master', 'master', 'master', 'master', 'master', 'master', 'hang']"
+HBASE-22546,['cluster']
+HBASE-21980,['sync']
+HBASE-22935,['remote']
+HBASE-25053,"['active', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster']"
+HBASE-23581,['node']
+HBASE-22010,['kill']
+HBASE-26107,"['active', 'cluster', 'cluster', 'distributed', 'distributed']"
+HBASE-27087,"['master', 'master', 'master', 'master', 'master', 'master', 'master']"
+HBASE-26898,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect']"
+HBASE-22952,"['master', 'cluster', 'connect', 'connect', 'timeout', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-26438,"['snapshot', 'hang']"
+HBASE-22128,"['crash', 'crash', 'dead', 'dead', 'master', 'master', 'master', 'master']"
+HBASE-22893,"['timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang']"
+HBASE-22054,"['active', 'active']"
+HBASE-22495,['master']
+HBASE-25166,"['master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'cluster', 'connect', 'connect', 'connect', 'connect', 'remote']"
+HBASE-22150,"['crash', 'master', 'sync']"
+HBASE-22142,['master']
+HBASE-23056,"['restart', 'restart']"
+HBASE-23098,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
+HBASE-22562,['dead']
+HBASE-22354,"['dead', 'master', 'timeout']"
+HBASE-22453,"['hang', 'hang', 'hang', 'hang', 'hang', 'backup', 'backup']"
+HBASE-22476,"['backup', 'backup', 'backup', 'backup', 'backup']"
+HBASE-22456,['sync']
+HBASE-22376,['master']
+HBASE-22487,['replica']
+HBASE-22360,"['down', 'down']"
+HBASE-21983,['sync']
+HBASE-23159,['hang']
+HBASE-23193,"['master', 'group']"
+HBASE-23125,"['master', 'group', 'group', 'group']"
+HBASE-22440,"['master', 'replica']"
+HBASE-25556,"['active', 'active', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22486,"['master', 'master', 'timeout', 'timeout', 'hang', 'sync']"
+HBASE-24897,"['replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-24019,"['hang', 'hang', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23589,"['active', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-27426,"['node', 'node', 'master', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'hang']"
+HBASE-22863,['master']
+HBASE-25501,"['restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'master', 'master', 'master', 'master', 'master', 'cluster', 'cluster', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup', 'backup']"
+HBASE-27192,"['master', 'master', 'master', 'down', 'quorum', 'quorum', 'connect', 'connect', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HBASE-24830,"['crash', 'crash', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'master', 'timeout']"
+HBASE-24675,"['restart', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-23648,"['connect', 'connect', 'sync', 'sync']"
+HBASE-23892,"['master', 'master', 'master', 'master', 'setup']"
+HBASE-22053,"['hang', 'hang']"
+HBASE-24203,"['active', 'active', 'active', 'active', 'setup', 'setup', 'sync', 'sync']"
+HBASE-24564,"['crash', 'dead', 'master', 'master', 'master', 'master', 'master', 'quorum', 'connect', 'timeout']"
+HBASE-22700,"['master', 'timeout', 'timeout', 'timeout']"
+HBASE-22902,"['sync', 'sync', 'sync', 'sync', 'peer', 'group', 'group']"
+HBASE-25292,"['node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'dead', 'master', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'remote', 'remote', 'remote']"
+HBASE-20855,['replica']
+HBASE-21059,['failure']
+HBASE-20290,['replica']
+HBASE-21162,['hang']
+HBASE-21862,['connect']
+HBASE-21866,['group']
+HBASE-21387,"['snapshot', 'snapshot', 'snapshot']"
+HBASE-21440,['crash']
+HBASE-20741,"['replica', 'replica']"
+HBASE-21565,"['dead', 'dead']"
+HBASE-20169,['down']
+HBASE-21102,"['elect', 'replica']"
+HBASE-21614,['recovery']
+HBASE-20411,['sync']
+HBASE-20108,['active']
+HBASE-20588,['hang']
+HBASE-20668,['hang']
+HBASE-20106,['remote']
+HBASE-20114,['group']
+HBASE-20544,['down']
+HBASE-20859,['cluster']
+HBASE-20368,['group']
+HBASE-21531,"['kill', 'master']"
+HBASE-21505,['replica']
+HBASE-20732,"['master', 'down']"
+HBASE-20634,['crash']
+HBASE-21943,['sync']
+HBASE-20322,['crash']
+HBASE-20485,['replica']
+HBASE-21266,"['dead', 'dead']"
+HBASE-21417,['crash']
+HBASE-20822,['sync']
+HBASE-21069,['crash']
+HBASE-20531,['down']
+HBASE-20589,"['active', 'standby', 'master']"
+HBASE-21582,"['snapshot', 'sync']"
+HBASE-21349,['down']
+HBASE-20777,['down']
+HBASE-21219,['backup']
+HBASE-20566,['group']
+HBASE-21077,['backup']
+HBASE-20187,"['startup', 'hang']"
+HBASE-20353,['startup']
+HBASE-20987,"['master', 'startup']"
+HBASE-21547,['master']
+HBASE-20648,"['master', 'replica']"
+HBASE-20280,['dead']
+HBASE-20362,"['down', 'down']"
+HBASE-20535,['sync']
+HBASE-21891,['hang']
+HBASE-21259,"['node', 'dead']"
+HBASE-20903,['consistent']
+HBASE-21166,['cluster']
+HBASE-20653,['group']
+HBASE-20666,['group']
+HBASE-21070,['snapshot']
+HBASE-21910,['sync']
+HBASE-21084,['snapshot']
+HBASE-20861,"['replica', 'peer']"
+HBASE-21900,['sync']
+HBASE-21052,['snapshot']
+HBASE-21131,"['replica', 'replica', 'recovery']"
+HBASE-20901,['replica']
+HBASE-20606,['group']
+HBASE-20877,['master']
+HBASE-20314,['master']
+HBASE-20500,"['group', 'group']"
+HBASE-21785,['master']
+HBASE-20908,['replica']
+HBASE-20924,"['restart', 'master']"
+HBASE-21740,['down']
+HBASE-21525,['snapshot']
+HBASE-20966,['snapshot']
+HBASE-21452,['group']
+HBASE-21777,['hang']
+HBASE-21378,['master']
+HBASE-20561,['down']
+HBASE-20364,['timeout']
+HBASE-21404,['active']
+HBASE-20421,['connect']
+HBASE-20293,['replica']
+HBASE-20766,['cluster']
+HBASE-21431,['connect']
+HBASE-20144,"['master', 'down', 'hang']"
+HBASE-20229,['replica']
+HBASE-20602,['master']
+HBASE-21005,['down']
+HBASE-20927,['dead']
+HBASE-21450,['connect']
+HBASE-20755,['hang']
+HBASE-20220,"['cluster', 'group']"
+HBASE-20524,['replica']
+HBASE-21300,['snapshot']
+HBASE-21383,['hang']
+HBASE-20514,['restart']
+HBASE-20585,['peer']
+HBASE-20996,['hang']
+HBASE-20842,['remote']
+HBASE-21391,['master']
+HBASE-21345,['master']
+HBASE-20772,['down']
+HBASE-20767,['connect']
+HBASE-21018,"['crash', 'sync']"
+HBASE-20794,['master']
+HBASE-21749,['replica']
+HBASE-21707,['group']
+HBASE-20237,['sync']
+HBASE-20612,['cluster']
+HBASE-20808,['down']
+HBASE-21292,['hang']
+HBASE-20382,['group']
+HBASE-20997,['master']
+HBASE-21961,['sync']
+HBASE-21430,"['connect', 'connect']"
+HBASE-19319,['sync']
+HBASE-19490,['failure']
+HBASE-19138,['failure']
+HBASE-18771,['failure']
+HBASE-19954,['down']
+HBASE-18759,['failure']
+HBASE-19991,['failure']
+HBASE-19392,"['failure', 'master']"
+HBASE-18851,['failure']
+HBASE-19825,['failure']
+HBASE-20090,['failure']
+HBASE-19422,['failure']
+HBASE-19643,['sync']
+HBASE-17987,['failure']
+HBASE-19317,"['failure', 'node']"
+HBASE-18362,['replica']
+HBASE-18233,['dead']
+HBASE-19619,['replica']
+HBASE-18946,['replica']
+HBASE-19218,['restart']
+HBASE-18655,['sync']
+HBASE-19343,['snapshot']
+HBASE-18943,['cluster']
+HBASE-19019,['timeout']
+HBASE-18129,['master']
+HBASE-18864,"['cluster', 'replica', 'peer']"
+HBASE-20061,['sync']
+HBASE-19694,['cluster']
+HBASE-18907,['timeout']
+HBASE-19838,"['active', 'master', 'master', 'down', 'backup']"
+HBASE-17723,['sync']
+HBASE-19042,['down']
+HBASE-19666,['elect']
+HBASE-18393,['active']
+HBASE-19768,"['dead', 'startup']"
+HBASE-19929,['hang']
+HBASE-18348,['sync']
+HBASE-18132,"['node', 'replica']"
+HBASE-18626,"['hang', 'replica']"
+HBASE-19060,['hang']
+HBASE-18263,['backup']
+HBASE-17718,['node']
+HBASE-18111,"['cluster', 'connect']"
+HBASE-18551,['crash']
+HBASE-19287,"['master', 'hang']"
+HBASE-19850,['snapshot']
+HBASE-18040,['master']
+HBASE-19315,['snapshot']
+HBASE-18545,['group']
+HBASE-19796,['replica']
+HBASE-19771,['snapshot']
+HBASE-19974,['group']
+HBASE-19893,"['snapshot', 'master']"
+HBASE-19977,['sync']
+HBASE-19822,['down']
+HBASE-19055,['active']
+HBASE-20004,['cluster']
+HBASE-20054,['replica']
+HBASE-19757,"['cluster', 'group']"
+HBASE-19321,"['cluster', 'hang', 'sync']"
+HBASE-19337,"['terminate', 'hang', 'sync']"
+HBASE-18282,['replica']
+HBASE-19433,['hang']
+HBASE-18847,['sync']
+HBASE-18341,['hang']
+HBASE-19703,['master']
+HBASE-19884,['consistent']
+HBASE-19794,['hang']
+HBASE-18973,['master']
+HBASE-17785,['snapshot']
+HBASE-19144,"['cluster', 'group']"
+HBASE-19522,['sync']
+HBASE-18490,"['replica', 'replica']"
+HBASE-18549,['replica']
+HBASE-17713,['cluster']
+HBASE-18081,['connect']
+HBASE-20049,"['restart', 'master', 'replica']"
+HBASE-19934,"['snapshot', 'replica']"
+HBASE-20104,['group']
+HBASE-19120,"['master', 'down']"
+HBASE-17779,"['replica', 'replica']"
+HBASE-18036,"['restart', 'cluster']"
+HBASE-19980,['snapshot']
+HBASE-19088,['group']
+HBASE-18149,['consistent']
+HBASE-18525,['master']
+HBASE-18120,['sync']
+HBASE-17988,"['active', 'master']"
+HBASE-19173,['cluster']
+HBASE-19215,['timeout']
+HBASE-18340,['hang']
+HBASE-19039,['hang']
+HBASE-17861,['down']
+HBASE-18247,['replica']
+HBASE-18355,['snapshot']
+HBASE-19979,['connect']
+HBASE-19553,['replica']
+HBASE-19281,['replica']
+HBASE-19748,['hang']
+HBASE-19364,['replica']
+HBASE-20102,"['down', 'down']"
+HBASE-18890,"['master', 'down']"
+HBASE-19752,['group']
+HBASE-19624,['hang']
+HBASE-19821,['hang']
+HBASE-19923,"['replica', 'peer']"
+HBASE-19094,"['master', 'startup']"
+HBASE-19117,"['active', 'master']"
+HBASE-19391,['replica']
+HBASE-19905,"['replica', 'peer']"
+HBASE-19549,['hang']
+HBASE-18141,['down']
+HBASE-19783,"['cluster', 'hang', 'replica', 'peer']"
+HBASE-18392,"['restart', 'timeout']"
+HBASE-18278,['master']
+HBASE-19565,['hang']
+HBASE-18274,['restart']
+HBASE-19734,['cluster']
+HBASE-18180,['connect']
+HBASE-18005,"['down', 'replica', 'replica']"
+HBASE-19513,['sync']
+HBASE-18292,['master']
+HBASE-18516,['dead']
+HBASE-17902,['master']
+HBASE-18616,['startup']
+HBASE-17807,['timeout']
+HBASE-18543,"['master', 'master']"
+HBASE-18557,['hang']
+HBASE-17957,['replica']
+HBASE-18741,['backup']
+HBASE-18493,"['crash', 'sync']"
+HBASE-18177,['sync']
+HBASE-18480,"['cluster', 'hang']"
+HBASE-18625,"['crash', 'replica']"
+HBASE-18484,"['snapshot', 'cluster']"
+HBASE-18053,"['hang', 'sync']"
+HBASE-18598,['sync']
+HBASE-18051,['group']
+HBASE-18743,"['snapshot', 'snapshot']"
+HBASE-18492,['elect']
+HBASE-19640,['hang']
+HBASE-17934,"['replica', 'replica']"
+HBASE-18035,['replica']
+HBASE-18192,['down']
+HBASE-18092,['peer']
+HBASE-19075,['master']
+HBASE-19098,['remote']
+HBASE-18575,['master']
+HBASE-18560,"['master', 'master', 'hang']"
+HBASE-18852,['down']
+HBASE-19023,['sync']
+HBASE-19559,['node']
+HBASE-17879,['snapshot']
+HBASE-19829,['cluster']
+HBASE-18244,"['hang', 'group']"
+HBASE-17792,['connect']
+HBASE-15310,['failure']
+HBASE-17079,['failure']
+HBASE-15976,['failure']
+HBASE-16752,"['failure', 'replica']"
+HBASE-16201,['failure']
+HBASE-17636,['replica']
+HBASE-15636,['failure']
+HBASE-17379,['sync']
+HBASE-17125,['consistent']
+HBASE-17374,['crash']
+HBASE-16664,['sync']
+HBASE-15252,['timeout']
+HBASE-15145,['peer']
+HBASE-15128,['master']
+HBASE-15019,"['restart', 'hang']"
+HBASE-17617,['consistent']
+HBASE-15236,['consistent']
+HBASE-16679,['hang']
+HBASE-15965,['hang']
+HBASE-16304,['dead']
+HBASE-15251,"['restart', 'master', 'failover', 'cluster']"
+HBASE-15259,['replica']
+HBASE-15278,"['hang', 'sync']"
+HBASE-16375,['cluster']
+HBASE-17501,['node']
+HBASE-17624,['group']
+HBASE-15699,"['sync', 'sync']"
+HBASE-15218,['crash']
+HBASE-15830,['sync']
+HBASE-16462,['hang']
+HBASE-16093,['consistent']
+HBASE-16294,['replica']
+HBASE-15190,"['kill', 'cluster']"
+HBASE-14802,"['crash', 'dead', 'failover', 'recovery']"
+HBASE-16234,['replica']
+HBASE-16289,['sync']
+HBASE-17460,"['replica', 'replica']"
+HBASE-14886,['peer']
+HBASE-16270,"['snapshot', 'replica']"
+HBASE-15465,['elect']
+HBASE-17475,['sync']
+HBASE-16464,['snapshot']
+HBASE-15980,['master']
+HBASE-15057,"['master', 'backup']"
+HBASE-16446,"['peer', 'peer']"
+HBASE-15430,['snapshot']
+HBASE-15805,"['node', 'down', 'quorum', 'timeout']"
+HBASE-16200,['consistent']
+HBASE-15858,['group']
+HBASE-15393,"['node', 'cluster', 'replica', 'peer']"
+HBASE-16429,['dead']
+HBASE-15520,['sync']
+HBASE-16810,['node']
+HBASE-15189,"['kill', 'cluster']"
+HBASE-15188,"['kill', 'cluster']"
+HBASE-15873,['snapshot']
+HBASE-15866,"['timeout', 'timeout', 'timeout']"
+HBASE-15734,['backup']
+HBASE-17301,['master']
+HBASE-17648,"['cluster', 'sync']"
+HBASE-16135,"['node', 'peer']"
+HBASE-15938,['crash']
+HBASE-15070,['master']
+HBASE-16853,['failover']
+HBASE-16244,['timeout']
+HBASE-16576,"['cluster', 'peer']"
+HBASE-14872,['down']
+HBASE-15080,['sync']
+HBASE-14861,"['master', 'master']"
+HBASE-14717,"['cluster', 'replica', 'peer']"
+HBASE-14815,['timeout']
+HBASE-14592,['restart']
+HBASE-14664,"['kill', 'active', 'master', 'master', 'failover']"
+HBASE-15030,['master']
+HBASE-16471,['master']
+HBASE-14812,['dead']
+HBASE-17376,['sync']
+HBASE-17303,"['dead', 'master', 'replica']"
+HBASE-17468,"['connect', 'connect']"
+HBASE-15764,['backup']
+HBASE-14926,"['crash', 'timeout']"
+HBASE-16499,"['cluster', 'replica']"
+HBASE-15732,['group']
+HBASE-16284,"['down', 'cluster']"
+HBASE-17426,['consistent']
+HBASE-15186,['hang']
+HBASE-17452,['snapshot']
+HBASE-16081,['peer']
+HBASE-15769,"['cluster', 'peer']"
+HBASE-16875,['hang']
+HBASE-16515,['sync']
+HBASE-16938,['peer']
+HBASE-15567,"['hang', 'replica']"
+HBASE-16009,['backup']
+HBASE-16211,"['restart', 'hang']"
+HBASE-17347,['snapshot']
+HBASE-16182,['timeout']
+HBASE-15645,['timeout']
+HBASE-16619,['master']
+HBASE-16841,"['snapshot', 'snapshot']"
+HBASE-16054,['sync']
+HBASE-15850,['hang']
+HBASE-16966,['master']
+HBASE-15955,['active']
+HBASE-17309,['connect']
+HBASE-17504,['sync']
+HBASE-15824,['master']
+HBASE-15274,['consistent']
+HBASE-16207,['snapshot']
+HBASE-15200,['node']
+HBASE-16367,['master']
+HBASE-16309,['elect']
+HBASE-16221,['connect']
+HBASE-16556,['timeout']
+HBASE-15378,['hang']
+HBASE-16456,['group']
+HBASE-17635,"['replica', 'replica']"
+HBASE-16768,['consistent']
+HBASE-16396,['replica']
+HBASE-16731,['consistent']
+HBASE-15913,['sync']
+HBASE-16031,['replica']
+HBASE-15623,['hang']
+HBASE-17496,['group']
+HBASE-15472,['replica']
+HBASE-15566,['timeout']
+HBASE-17166,['master']
+HBASE-16852,['elect']
+HBASE-16491,['group']
+HBASE-15140,['dead']
+HBASE-16655,"['backup', 'backup']"
+HBASE-16040,['replica']
+HBASE-16603,['backup']
+HBASE-16866,['sync']
+HBASE-16017,['connect']
+HBASE-15836,['backup']
+HBASE-17653,"['dead', 'sync', 'distributed', 'group']"
+HBASE-14625,['down']
+HBASE-16971,['sync']
+HBASE-16110,['sync']
+HBASE-17430,['dead']
+HBASE-16654,['active']
+HBASE-17158,['dead']
+HBASE-17390,['master']
+HBASE-16159,['sync']
+HBASE-16016,['dead']
+HBASE-17403,['sync']
+HBASE-17385,['hang']
