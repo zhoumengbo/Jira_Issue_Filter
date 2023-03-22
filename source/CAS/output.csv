@@ -2,418 +2,378 @@ Issue_key,keyword
 CASSANDRA-16334,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'replica', 'replica']"
 CASSANDRA-16254,"['failure', 'failure', 'failure']"
 CASSANDRA-16660,['failure']
-CASSANDRA-17335,"['failure', 'distributed']"
+CASSANDRA-17335,['failure']
 CASSANDRA-17116,"['failure', 'failure', 'failure', 'startup', 'sync', 'sync', 'sync', 'sync']"
 CASSANDRA-17456,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'replica']"
 CASSANDRA-18086,['consistent']
-CASSANDRA-17819,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17461,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17307,"['failure', 'node', 'node', 'down', 'down', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17819,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-17461,"['failure', 'node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-17307,"['failure', 'node', 'node', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync']"
 CASSANDRA-15697,"['elect', 'elect']"
 CASSANDRA-17658,"['failure', 'failure']"
 CASSANDRA-17314,"['timeout', 'timeout']"
 CASSANDRA-17458,"['failure', 'failure', 'replica']"
-CASSANDRA-17342,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'cluster', 'cluster', 'cluster', 'hang', 'hang', 'consistent', 'consistent', 'group']"
-CASSANDRA-15709,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang']"
+CASSANDRA-17342,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'cluster', 'cluster', 'cluster', 'consistent', 'consistent', 'group']"
+CASSANDRA-15709,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-17849,"['failure', 'failure', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-17310,"['node', 'node', 'down', 'down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17701,"['failure', 'failure', 'node', 'node', 'down']"
+CASSANDRA-17310,"['node', 'node']"
+CASSANDRA-17701,"['failure', 'failure', 'node', 'node']"
 CASSANDRA-15672,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
 CASSANDRA-17801,"['elect', 'elect', 'sync']"
 CASSANDRA-17416,"['startup', 'replica']"
-CASSANDRA-17462,"['failure', 'failure', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17462,"['failure', 'failure']"
 CASSANDRA-17463,"['failure', 'failure', 'replica']"
-CASSANDRA-17636,"['failure', 'failure', 'down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16381,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'hang', 'replica', 'replica', 'replica', 'replica']"
+CASSANDRA-17636,"['failure', 'failure']"
+CASSANDRA-16381,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'replica', 'replica', 'replica', 'replica']"
 CASSANDRA-15948,"['failure', 'consistent']"
 CASSANDRA-15679,['replica']
-CASSANDRA-16628,"['node', 'node', 'node', 'hang']"
-CASSANDRA-15922,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'hang']"
-CASSANDRA-16954,"['failure', 'failure', 'failure', 'failure', 'node', 'network', 'network', 'network', 'down', 'down', 'down', 'peer', 'peer']"
+CASSANDRA-16628,"['node', 'node', 'node']"
+CASSANDRA-15922,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node']"
+CASSANDRA-16954,"['failure', 'failure', 'failure', 'failure', 'node', 'network', 'network', 'network', 'peer', 'peer']"
 CASSANDRA-17469,"['failure', 'failure', 'failure', 'failure']"
 CASSANDRA-17482,"['failure', 'failure']"
 CASSANDRA-17020,['failure']
-CASSANDRA-17903,"['failure', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17903,['failure']
 CASSANDRA-16883,"['failure', 'snapshot']"
-CASSANDRA-17136,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-17136,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'cluster', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-17492,['failure']
 CASSANDRA-17459,"['failure', 'failure']"
 CASSANDRA-17386,"['failure', 'consistent']"
 CASSANDRA-15987,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-18036,['failure']
-CASSANDRA-16349,"['node', 'node', 'node', 'node', 'node', 'cluster', 'sync', 'sync', 'peer', 'peer', 'backup']"
-CASSANDRA-15861,"['failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'kill', 'dead', 'dead', 'hang', 'sync', 'sync', 'sync', 'sync']"
+CASSANDRA-16349,"['node', 'node', 'node', 'node', 'node', 'cluster', 'sync', 'sync', 'peer', 'peer']"
+CASSANDRA-15861,"['failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'kill', 'dead', 'dead', 'sync', 'sync', 'sync', 'sync']"
 CASSANDRA-17301,"['failure', 'connect', 'connect', 'connect', 'connect', 'connect']"
 CASSANDRA-15782,['failure']
-CASSANDRA-17714,"['failure', 'failure', 'failure', 'failure', 'node', 'node', 'down']"
-CASSANDRA-17284,"['timeout', 'timeout', 'timeout', 'sync', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17714,"['failure', 'failure', 'failure', 'failure', 'node', 'node']"
+CASSANDRA-17284,"['timeout', 'timeout', 'timeout', 'sync']"
 CASSANDRA-16491,"['node', 'node', 'connect']"
 CASSANDRA-17397,"['failure', 'failure', 'connect']"
-CASSANDRA-17541,"['failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'kill', 'kill', 'kill', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'connect', 'connect', 'connect', 'connect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
-CASSANDRA-16992,"['node', 'node', 'node', 'network', 'timeout', 'timeout', 'timeout', 'sync', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16668,"['failure', 'failure', 'hang', 'hang', 'hang', 'hang']"
-CASSANDRA-16148,"['failure', 'hang']"
+CASSANDRA-17541,"['failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'kill', 'kill', 'kill', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'dead', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
+CASSANDRA-16992,"['node', 'node', 'node', 'network', 'timeout', 'timeout', 'timeout', 'sync']"
+CASSANDRA-16668,"['failure', 'failure']"
+CASSANDRA-16148,['failure']
 CASSANDRA-17892,"['failure', 'node', 'node', 'replica', 'replica']"
 CASSANDRA-16469,"['failure', 'network', 'network', 'consistent', 'replica', 'replica']"
-CASSANDRA-16397,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'active', 'active', 'active', 'active', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'connect', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-16817,['hang']
+CASSANDRA-16397,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'active', 'active', 'active', 'active', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16991,"['failure', 'failure']"
-CASSANDRA-17637,"['failure', 'failure', 'failure', 'node', 'node', 'down']"
+CASSANDRA-17637,"['failure', 'failure', 'failure', 'node', 'node']"
 CASSANDRA-17368,['failure']
-CASSANDRA-17387,"['failure', 'node', 'hang']"
+CASSANDRA-17387,"['failure', 'node']"
 CASSANDRA-18188,"['failure', 'node', 'node', 'node', 'node', 'node', 'EC', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16874,"['failure', 'failure', 'active', 'remote', 'remote']"
-CASSANDRA-17626,"['failure', 'node', 'node', 'node', 'node', 'dead', 'dead', 'dead', 'down', 'sync', 'sync', 'sync', 'peer', 'peer', 'peer']"
+CASSANDRA-17626,"['failure', 'node', 'node', 'node', 'node', 'dead', 'dead', 'dead', 'sync', 'sync', 'sync', 'peer', 'peer', 'peer']"
 CASSANDRA-17291,"['timeout', 'timeout']"
-CASSANDRA-17256,"['failure', 'down', 'down']"
-CASSANDRA-17489,"['setup', 'setup']"
-CASSANDRA-16585,"['failure', 'failure', 'crash', 'crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'replica', 'replica', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17256,"['failure', 'shutdown']"
+CASSANDRA-16585,"['failure', 'failure', 'crash', 'crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'replica', 'replica']"
 CASSANDRA-16492,"['node', 'node', 'connect']"
 CASSANDRA-16490,"['node', 'node', 'connect']"
 CASSANDRA-17289,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'quorum', 'connect', 'timeout', 'sync', 'sync']"
 CASSANDRA-16581,['timeout']
-CASSANDRA-17290,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'connect', 'timeout']"
-CASSANDRA-15852,['hang']
+CASSANDRA-17290,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'cluster', 'cluster', 'connect', 'timeout']"
 CASSANDRA-18157,"['node', 'node']"
 CASSANDRA-17926,"['node', 'node', 'replica', 'replica']"
 CASSANDRA-16728,"['failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'timeout']"
-CASSANDRA-15685,"['distributed', 'distributed', 'distributed']"
-CASSANDRA-17627,"['failure', 'node', 'node', 'down', 'connect', 'peer']"
+CASSANDRA-17627,"['failure', 'node', 'node', 'connect', 'peer']"
 CASSANDRA-16616,"['failure', 'node', 'node', 'restart', 'kill', 'connect', 'connect', 'connect', 'connect', 'recovery', 'recovery', 'recovery', 'recovery']"
 CASSANDRA-15886,"['failure', 'node', 'node', 'node', 'restart', 'restart', 'restart']"
 CASSANDRA-16474,"['failure', 'connect']"
-CASSANDRA-17660,"['failure', 'distributed', 'distributed']"
-CASSANDRA-17306,"['failure', 'node', 'down']"
+CASSANDRA-17660,['failure']
+CASSANDRA-17306,"['failure', 'node']"
 CASSANDRA-17929,"['remote', 'remote']"
 CASSANDRA-15885,"['failure', 'replica', 'replica', 'replica']"
-CASSANDRA-17299,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-15928,"['failure', 'backup']"
-CASSANDRA-16508,"['down', 'down', 'down', 'down', 'down']"
+CASSANDRA-17299,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-15928,['failure']
 CASSANDRA-17323,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
 CASSANDRA-15696,"['failure', 'consistent']"
-CASSANDRA-17079,"['failure', 'failure', 'cluster', 'setup', 'timeout', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate']"
-CASSANDRA-18164,"['down', 'down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16415,"['failure', 'cluster', 'setup', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17466,"['failure', 'failure', 'node', 'node', 'node', 'kill', 'kill', 'active', 'down', 'down', 'setup', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'terminate', 'terminate', 'sync', 'sync', 'sync', 'sync', 'sync', 'remote', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
+CASSANDRA-17079,"['failure', 'failure', 'cluster', 'timeout', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate']"
+CASSANDRA-16415,"['failure', 'cluster']"
+CASSANDRA-17466,"['failure', 'failure', 'node', 'node', 'node', 'kill', 'kill', 'active', 'shutdown', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'terminate', 'terminate', 'sync', 'sync', 'sync', 'sync', 'sync', 'remote', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
 CASSANDRA-17530,['node']
-CASSANDRA-16296,"['node', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'setup', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'startup']"
+CASSANDRA-16296,"['node', 'node', 'node', 'node', 'node', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'startup']"
 CASSANDRA-16601,['failure']
 CASSANDRA-16399,"['elect', 'consistent']"
 CASSANDRA-17668,['startup']
-CASSANDRA-15650,"['failure', 'failure', 'node', 'node', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-15650,"['failure', 'failure', 'node', 'node', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16418,"['node', 'cluster']"
-CASSANDRA-16226,"['down', 'cluster']"
-CASSANDRA-17594,"['node', 'network', 'network', 'network', 'down', 'down', 'connect', 'connect', 'remote', 'peer', 'peer']"
-CASSANDRA-16283,"['node', 'node', 'node', 'node', 'node', 'hang']"
+CASSANDRA-16226,['cluster']
+CASSANDRA-17594,"['node', 'network', 'network', 'network', 'shutdown', 'connect', 'connect', 'remote', 'peer', 'peer']"
+CASSANDRA-16283,"['node', 'node', 'node', 'node', 'node']"
 CASSANDRA-15901,"['node', 'node']"
 CASSANDRA-16358,"['failure', 'failure']"
-CASSANDRA-16238,"['failure', 'node', 'down', 'setup', 'setup', 'startup', 'startup']"
+CASSANDRA-16238,"['failure', 'node', 'startup', 'startup']"
 CASSANDRA-17828,"['timeout', 'timeout', 'timeout']"
-CASSANDRA-16720,"['distributed', 'distributed', 'distributed', 'distributed']"
 CASSANDRA-15677,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'connect']"
 CASSANDRA-17848,"['EC', 'EC']"
-CASSANDRA-17587,"['failure', 'node', 'down']"
-CASSANDRA-15684,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-18144,['hang']
-CASSANDRA-17493,"['node', 'active', 'down', 'down', 'down']"
+CASSANDRA-17587,"['failure', 'node']"
+CASSANDRA-15684,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-17493,"['node', 'active']"
 CASSANDRA-15976,['elect']
-CASSANDRA-16588,"['node', 'node', 'node', 'restart', 'down', 'startup', 'distributed', 'distributed']"
+CASSANDRA-16588,"['node', 'node', 'node', 'restart', 'shutdown', 'startup']"
 CASSANDRA-16524,"['node', 'node', 'cluster', 'cluster', 'peer']"
 CASSANDRA-17882,"['failure', 'EC', 'EC']"
-CASSANDRA-16362,['hang']
-CASSANDRA-17729,"['failure', 'failure', 'failure', 'down', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-17729,"['failure', 'failure', 'failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-17232,['failure']
-CASSANDRA-17663,"['failure', 'down', 'down', 'down', 'down', 'connect', 'hang', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
+CASSANDRA-17663,"['failure', 'shutdown', 'shutdown', 'shutdown', 'connect', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer']"
 CASSANDRA-15663,"['replica', 'replica']"
-CASSANDRA-17872,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'connect', 'timeout', 'timeout', 'timeout', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
+CASSANDRA-17872,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'connect', 'timeout', 'timeout', 'timeout', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
 CASSANDRA-17083,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-17749,"['failure', 'node', 'node', 'node', 'down']"
-CASSANDRA-16634,"['node', 'node', 'node', 'node', 'node', 'node', 'down', 'hang']"
+CASSANDRA-17749,"['failure', 'node', 'node', 'node']"
+CASSANDRA-16634,"['node', 'node', 'node', 'node', 'node', 'node']"
 CASSANDRA-17451,"['failure', 'failure', 'node', 'EC', 'EC', 'EC', 'EC', 'cluster', 'timeout', 'sync']"
 CASSANDRA-17602,"['cluster', 'connect']"
-CASSANDRA-17725,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang']"
-CASSANDRA-15666,"['node', 'follower', 'hang', 'hang', 'sync', 'sync', 'sync']"
+CASSANDRA-17725,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-15666,"['node', 'follower', 'sync', 'sync', 'sync']"
 CASSANDRA-16384,"['crash', 'crash', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16143,"['failure', 'failure', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'dead', 'follower', 'follower', 'cluster', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'peer', 'peer', 'peer']"
 CASSANDRA-17081,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-CASSANDRA-17366,"['failure', 'node', 'node', 'node', 'setup', 'setup', 'startup', 'startup', 'startup', 'startup', 'startup', 'timeout', 'timeout']"
-CASSANDRA-16577,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'setup', 'startup', 'startup', 'timeout', 'terminate', 'hang', 'hang', 'replica', 'replica']"
+CASSANDRA-17366,"['failure', 'node', 'node', 'node', 'startup', 'startup', 'startup', 'startup', 'startup', 'timeout', 'timeout']"
+CASSANDRA-16577,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'startup', 'startup', 'timeout', 'terminate', 'replica', 'replica']"
 CASSANDRA-17623,"['EC', 'EC', 'elect', 'elect', 'elect', 'elect']"
 CASSANDRA-16518,"['crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'cluster', 'cluster', 'connect', 'peer', 'peer', 'peer']"
 CASSANDRA-17695,['failure']
-CASSANDRA-16807,"['snapshot', 'snapshot', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'hang', 'hang', 'replica']"
-CASSANDRA-16387,"['failure', 'hang', 'consistent']"
+CASSANDRA-16807,"['snapshot', 'snapshot', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica']"
+CASSANDRA-16387,"['failure', 'consistent']"
 CASSANDRA-16644,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'replica', 'replica', 'replica', 'replica', 'replica']"
 CASSANDRA-17140,"['elect', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate']"
-CASSANDRA-15949,['setup']
 CASSANDRA-15981,"['crash', 'crash', 'crash']"
 CASSANDRA-18125,"['node', 'node', 'node', 'node', 'active', 'active', 'cluster', 'cluster']"
-CASSANDRA-15946,"['distributed', 'distributed', 'distributed']"
 CASSANDRA-17581,"['node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-16307,"['node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'hang', 'group']"
-CASSANDRA-17650,"['startup', 'hang']"
+CASSANDRA-16307,"['node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'group']"
+CASSANDRA-17650,['startup']
 CASSANDRA-16670,"['cluster', 'elect', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-15783,"['failure', 'replica']"
 CASSANDRA-16659,"['cluster', 'connect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-CASSANDRA-17677,"['connect', 'hang']"
+CASSANDRA-17677,['connect']
 CASSANDRA-16843,"['node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 CASSANDRA-17132,"['node', 'node', 'startup', 'timeout', 'timeout']"
-CASSANDRA-17411,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang']"
-CASSANDRA-16657,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+CASSANDRA-17411,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-16657,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 CASSANDRA-16097,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-CASSANDRA-16953,"['failure', 'failure', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16953,"['failure', 'failure']"
 CASSANDRA-16441,"['failure', 'node', 'snapshot', 'active']"
-CASSANDRA-17706,"['distributed', 'distributed']"
 CASSANDRA-16259,"['node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-15958,"['sync', 'sync']"
-CASSANDRA-16144,"['node', 'node', 'node', 'node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'hang', 'peer']"
-CASSANDRA-15963,"['failure', 'node', 'node', 'node', 'node', 'node', 'dead', 'down', 'sync', 'sync', 'sync']"
+CASSANDRA-16144,"['node', 'node', 'node', 'node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'peer']"
+CASSANDRA-15963,"['failure', 'node', 'node', 'node', 'node', 'node', 'dead', 'sync', 'sync', 'sync']"
 CASSANDRA-16241,"['cluster', 'cluster', 'cluster']"
-CASSANDRA-17611,"['failure', 'node', 'node', 'node', 'down', 'down', 'down']"
-CASSANDRA-17244,"['failure', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17611,"['failure', 'node', 'node', 'node']"
+CASSANDRA-17244,['failure']
 CASSANDRA-16852,['failure']
 CASSANDRA-17080,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-CASSANDRA-16495,"['failure', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'down', 'consistent']"
+CASSANDRA-16495,"['failure', 'node', 'node', 'node', 'node', 'consistent']"
 CASSANDRA-17922,"['failure', 'node', 'connect']"
 CASSANDRA-17507,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-CASSANDRA-15938,"['node', 'cluster', 'cluster', 'hang']"
+CASSANDRA-15938,"['node', 'cluster', 'cluster']"
 CASSANDRA-16836,"['failure', 'failure', 'node', 'restart', 'restart', 'explode', 'EC', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica']"
-CASSANDRA-17133,['hang']
 CASSANDRA-17732,['failure']
 CASSANDRA-15670,"['elect', 'replica', 'replica', 'replica']"
-CASSANDRA-16317,"['distributed', 'distributed', 'distributed']"
-CASSANDRA-15766,"['node', 'hang']"
+CASSANDRA-15766,['node']
 CASSANDRA-16614,['node']
-CASSANDRA-17543,"['timeout', 'timeout', 'distributed', 'distributed']"
+CASSANDRA-17543,"['timeout', 'timeout']"
 CASSANDRA-17605,"['EC', 'EC', 'EC', 'EC', 'cluster']"
 CASSANDRA-17901,['failure']
-CASSANDRA-16582,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'hang', 'replica', 'replica', 'group']"
+CASSANDRA-16582,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'replica', 'group']"
 CASSANDRA-15985,"['cluster', 'startup']"
-CASSANDRA-16752,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'hang', 'sync', 'replica', 'replica', 'replica']"
-CASSANDRA-16572,['hang']
+CASSANDRA-16752,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'replica', 'replica', 'replica']"
 CASSANDRA-15667,"['failure', 'consistent', 'consistent']"
-CASSANDRA-16655,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'hang']"
+CASSANDRA-16655,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure']"
 CASSANDRA-15879,"['failure', 'failure']"
-CASSANDRA-18218,"['node', 'node', 'down', 'cluster', 'connect', 'timeout', 'timeout', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'consistent']"
-CASSANDRA-17733,['hang']
+CASSANDRA-18218,"['node', 'node', 'cluster', 'connect', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'consistent']"
 CASSANDRA-16071,"['crash', 'node', 'cluster']"
 CASSANDRA-15863,['restart']
-CASSANDRA-17612,"['node', 'node', 'restart', 'timeout', 'hang']"
-CASSANDRA-17243,"['hang', 'hang']"
+CASSANDRA-17612,"['node', 'node', 'restart', 'timeout']"
 CASSANDRA-17039,['consistent']
 CASSANDRA-17619,"['node', 'node', 'node', 'restart', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'startup']"
 CASSANDRA-16280,"['consistent', 'remote']"
-CASSANDRA-17050,['hang']
 CASSANDRA-16948,"['node', 'node', 'elect']"
 CASSANDRA-17084,"['startup', 'startup', 'startup']"
 CASSANDRA-17557,['timeout']
 CASSANDRA-17885,['node']
-CASSANDRA-16848,"['failure', 'node', 'node', 'distributed']"
+CASSANDRA-16848,"['failure', 'node', 'node']"
 CASSANDRA-18113,['cluster']
-CASSANDRA-16359,"['down', 'remote', 'remote']"
+CASSANDRA-16359,"['remote', 'remote']"
 CASSANDRA-16223,['elect']
 CASSANDRA-17454,"['failure', 'failure', 'node', 'EC', 'EC', 'EC', 'cluster', 'timeout', 'sync']"
 CASSANDRA-17563,['node']
 CASSANDRA-17912,"['failure', 'node']"
 CASSANDRA-16713,['failure']
-CASSANDRA-17217,"['failure', 'distributed']"
+CASSANDRA-17217,['failure']
 CASSANDRA-17144,['failure']
-CASSANDRA-18046,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'down', 'down', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-16094,"['failure', 'node', 'down', 'down', 'EC']"
+CASSANDRA-18046,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-16094,"['failure', 'node', 'shutdown', 'EC']"
 CASSANDRA-16619,"['node', 'node', 'node', 'node', 'node', 'restart']"
-CASSANDRA-15857,['hang']
 CASSANDRA-16328,['failure']
 CASSANDRA-17349,['node']
 CASSANDRA-17474,"['crash', 'startup']"
 CASSANDRA-16095,"['node', 'node', 'restart']"
 CASSANDRA-17552,"['failure', 'sync', 'consistent']"
-CASSANDRA-18088,"['hang', 'sync']"
-CASSANDRA-15937,"['node', 'node', 'hang', 'hang']"
-CASSANDRA-16355,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16443,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'cluster', 'connect', 'connect', 'connect', 'connect', 'startup', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'group', 'backup']"
-CASSANDRA-17847,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'active', 'down']"
-CASSANDRA-15833,"['node', 'hang']"
-CASSANDRA-15789,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16433,"['hang', 'hang']"
-CASSANDRA-16689,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang']"
-CASSANDRA-15865,['hang']
-CASSANDRA-15614,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'setup', 'setup', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'replica']"
+CASSANDRA-18088,['sync']
+CASSANDRA-15937,"['node', 'node']"
+CASSANDRA-16443,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'cluster', 'connect', 'connect', 'connect', 'connect', 'startup', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'peer', 'peer', 'peer', 'peer', 'peer', 'peer', 'group']"
+CASSANDRA-17847,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'active']"
+CASSANDRA-15833,['node']
+CASSANDRA-15789,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'elect']"
+CASSANDRA-16689,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-15614,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'kill', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'replica']"
 CASSANDRA-17254,['node']
 CASSANDRA-18207,"['node', 'node']"
-CASSANDRA-16063,"['node', 'node', 'node', 'node', 'restart', 'down', 'down', 'startup', 'startup', 'startup']"
-CASSANDRA-18191,"['failure', 'failure', 'failure', 'node', 'node', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'hang']"
-CASSANDRA-17933,"['node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'setup', 'startup']"
-CASSANDRA-16213,"['failure', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'peer']"
-CASSANDRA-16494,"['connect', 'connect', 'connect', 'connect', 'connect', 'timeout', 'hang', 'hang', 'hang', 'sync', 'sync', 'distributed', 'distributed']"
-CASSANDRA-17213,"['consistent', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16063,"['node', 'node', 'node', 'node', 'restart', 'startup', 'startup', 'startup']"
+CASSANDRA-18191,"['failure', 'failure', 'failure', 'node', 'node', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect']"
+CASSANDRA-17933,"['node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'startup']"
+CASSANDRA-16213,"['failure', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'peer']"
+CASSANDRA-16494,"['connect', 'connect', 'connect', 'connect', 'connect', 'timeout', 'sync', 'sync']"
+CASSANDRA-17213,['consistent']
 CASSANDRA-17584,"['elect', 'elect']"
 CASSANDRA-17078,['failure']
-CASSANDRA-17629,"['failure', 'node', 'node', 'down']"
-CASSANDRA-17005,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'down', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync']"
-CASSANDRA-16545,"['node', 'cluster', 'cluster', 'elect', 'hang', 'hang', 'hang', 'consistent', 'peer', 'peer']"
-CASSANDRA-17583,"['distributed', 'distributed', 'distributed']"
-CASSANDRA-17606,"['failure', 'node', 'node', 'node', 'down']"
-CASSANDRA-17566,"['node', 'replica', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17629,"['failure', 'node', 'node']"
+CASSANDRA-17005,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync']"
+CASSANDRA-16545,"['node', 'cluster', 'cluster', 'elect', 'consistent', 'peer', 'peer']"
+CASSANDRA-17606,"['failure', 'node', 'node', 'node']"
+CASSANDRA-17566,"['node', 'replica']"
 CASSANDRA-16737,['EC']
-CASSANDRA-16586,"['node', 'down', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16586,"['node', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync']"
 CASSANDRA-17085,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16479,"['EC', 'EC']"
 CASSANDRA-16127,"['node', 'node', 'node', 'node', 'restart', 'remote', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-16483,"['failure', 'hang', 'remote']"
+CASSANDRA-16483,"['failure', 'remote']"
 CASSANDRA-16607,['node']
 CASSANDRA-16354,"['cluster', 'cluster', 'connect']"
-CASSANDRA-16002,"['failure', 'network', 'network', 'network', 'startup', 'startup', 'startup', 'startup', 'startup', 'startup', 'sync', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17571,"['setup', 'startup']"
-CASSANDRA-15878,"['node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'setup', 'startup', 'hang', 'hang']"
-CASSANDRA-15689,"['timeout', 'hang', 'hang']"
+CASSANDRA-16002,"['failure', 'network', 'network', 'network', 'startup', 'startup', 'startup', 'startup', 'startup', 'startup', 'sync']"
+CASSANDRA-17571,['startup']
+CASSANDRA-15878,"['node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'startup']"
+CASSANDRA-15689,['timeout']
 CASSANDRA-16365,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-17367,"['node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'hang', 'hang']"
-CASSANDRA-16089,"['node', 'node', 'cluster', 'hang']"
-CASSANDRA-17780,"['node', 'startup', 'hang']"
-CASSANDRA-17680,"['failure', 'node', 'node', 'down']"
+CASSANDRA-17367,"['node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect']"
+CASSANDRA-16089,"['node', 'node', 'cluster']"
+CASSANDRA-17780,"['node', 'startup']"
+CASSANDRA-17680,"['failure', 'node', 'node']"
 CASSANDRA-16592,"['EC', 'EC', 'EC', 'elect', 'elect', 'consistent']"
 CASSANDRA-17879,['EC']
 CASSANDRA-17210,['cluster']
-CASSANDRA-17792,"['down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-18200,"['quorum', 'connect', 'connect', 'hang', 'hang', 'peer']"
-CASSANDRA-16050,['hang']
+CASSANDRA-18200,"['quorum', 'connect', 'connect', 'peer']"
 CASSANDRA-15980,"['connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'peer', 'peer', 'peer']"
-CASSANDRA-17115,"['failure', 'down']"
+CASSANDRA-17115,['failure']
 CASSANDRA-15671,"['failure', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-17735,"['connect', 'startup', 'hang']"
+CASSANDRA-17735,"['connect', 'startup']"
 CASSANDRA-17076,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16311,"['replica', 'replica']"
 CASSANDRA-15693,"['node', 'node', 'node', 'node']"
-CASSANDRA-16124,"['node', 'node', 'node', 'node', 'node', 'restart', 'setup', 'setup', 'remote', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-16124,"['node', 'node', 'node', 'node', 'node', 'restart', 'remote', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-16774,['node']
-CASSANDRA-16653,"['node', 'node', 'node', 'node', 'EC', 'EC', 'setup']"
+CASSANDRA-16653,"['node', 'node', 'node', 'node', 'EC', 'EC']"
 CASSANDRA-15896,"['crash', 'node', 'node', 'node', 'EC', 'EC', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'group', 'group']"
 CASSANDRA-16210,"['failure', 'failure', 'node']"
 CASSANDRA-16332,['EC']
 CASSANDRA-15784,"['failure', 'node']"
-CASSANDRA-15694,"['node', 'distributed']"
+CASSANDRA-15694,['node']
 CASSANDRA-16721,"['replica', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-16435,"['node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'hang']"
+CASSANDRA-16435,"['node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 CASSANDRA-15776,['node']
-CASSANDRA-16237,"['startup', 'startup', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17070,"['down', 'timeout']"
+CASSANDRA-16237,"['startup', 'startup']"
+CASSANDRA-17070,['timeout']
 CASSANDRA-17267,"['node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
-CASSANDRA-16376,"['failure', 'connect', 'connect', 'hang']"
+CASSANDRA-16376,"['failure', 'connect', 'connect']"
 CASSANDRA-15778,['consistent']
-CASSANDRA-15695,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-15695,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16938,"['node', 'node', 'node', 'node', 'node', 'node']"
-CASSANDRA-16598,"['distributed', 'distributed', 'distributed']"
 CASSANDRA-16839,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'snapshot', 'snapshot', 'snapshot', 'startup']"
 CASSANDRA-16888,"['failure', 'consistent']"
 CASSANDRA-16146,"['node', 'node']"
-CASSANDRA-17651,"['down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
 CASSANDRA-16877,"['node', 'node', 'cluster', 'connect', 'startup', 'startup', 'peer']"
 CASSANDRA-18116,['master']
-CASSANDRA-15727,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'setup', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'peer']"
+CASSANDRA-15727,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'peer']"
 CASSANDRA-18028,['failure']
-CASSANDRA-17156,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-17782,"['failure', 'hang']"
+CASSANDRA-17782,['failure']
 CASSANDRA-16429,['EC']
 CASSANDRA-15854,"['node', 'node']"
-CASSANDRA-16411,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'setup', 'startup']"
+CASSANDRA-16411,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'startup']"
 CASSANDRA-16777,['failure']
 CASSANDRA-16862,['consistent']
 CASSANDRA-17565,['node']
 CASSANDRA-17653,"['cluster', 'cluster']"
 CASSANDRA-17352,['cluster']
-CASSANDRA-15970,"['crash', 'node', 'node', 'node', 'node', 'cluster', 'startup', 'distributed']"
-CASSANDRA-18183,"['setup', 'hang']"
+CASSANDRA-15970,"['crash', 'node', 'node', 'node', 'node', 'cluster', 'startup']"
 CASSANDRA-16596,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 CASSANDRA-16003,['failure']
-CASSANDRA-18264,"['down', 'hang']"
 CASSANDRA-18024,['node']
 CASSANDRA-18211,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
-CASSANDRA-15649,"['timeout', 'timeout', 'timeout', 'distributed']"
-CASSANDRA-15665,"['follower', 'follower', 'hang', 'hang']"
+CASSANDRA-15649,"['timeout', 'timeout', 'timeout']"
+CASSANDRA-15665,"['follower', 'follower']"
 CASSANDRA-15999,['elect']
-CASSANDRA-16493,"['connect', 'timeout', 'distributed']"
+CASSANDRA-16493,"['connect', 'timeout']"
 CASSANDRA-17805,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-CASSANDRA-15883,['hang']
 CASSANDRA-16686,"['EC', 'EC', 'EC']"
 CASSANDRA-16841,"['node', 'node', 'elect']"
-CASSANDRA-15961,"['failure', 'snapshot', 'cluster', 'setup', 'hang']"
-CASSANDRA-15906,"['elect', 'hang']"
-CASSANDRA-17638,['backup']
+CASSANDRA-15961,"['failure', 'snapshot', 'cluster']"
+CASSANDRA-15906,['elect']
 CASSANDRA-17955,"['snapshot', 'snapshot']"
-CASSANDRA-17573,"['distributed', 'distributed', 'peer']"
+CASSANDRA-17573,['peer']
 CASSANDRA-18240,"['EC', 'EC', 'EC']"
-CASSANDRA-16944,['hang']
-CASSANDRA-16716,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-CASSANDRA-15830,"['node', 'restart', 'setup', 'startup', 'startup', 'startup']"
-CASSANDRA-15905,"['EC', 'EC', 'hang', 'hang']"
+CASSANDRA-16716,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+CASSANDRA-15830,"['node', 'restart', 'startup', 'startup', 'startup']"
+CASSANDRA-15905,"['EC', 'EC']"
 CASSANDRA-18118,"['replica', 'replica']"
 CASSANDRA-15993,"['cluster', 'timeout', 'timeout', 'sync']"
-CASSANDRA-17974,['down']
-CASSANDRA-17026,['distributed']
-CASSANDRA-16771,"['failure', 'failure', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16771,"['failure', 'failure', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
 CASSANDRA-17283,"['failure', 'failure', 'active', 'active', 'cluster', 'cluster', 'connect', 'connect']"
-CASSANDRA-16679,['distributed']
 CASSANDRA-17167,['timeout']
-CASSANDRA-16301,"['cluster', 'setup', 'startup', 'replica', 'replica']"
+CASSANDRA-16301,"['cluster', 'startup', 'replica', 'replica']"
 CASSANDRA-17628,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'elect', 'elect', 'elect', 'elect']"
-CASSANDRA-16818,"['down', 'hang']"
-CASSANDRA-16826,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
+CASSANDRA-16826,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
 CASSANDRA-16482,"['replica', 'replica']"
-CASSANDRA-17618,"['node', 'node', 'node', 'distributed', 'distributed']"
-CASSANDRA-18047,"['failure', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-15810,"['node', 'node', 'down', 'cluster', 'cluster', 'startup']"
-CASSANDRA-17467,"['elect', 'hang', 'hang']"
-CASSANDRA-17620,"['failure', 'hang']"
+CASSANDRA-17618,"['node', 'node', 'node']"
+CASSANDRA-18047,['failure']
+CASSANDRA-15810,"['node', 'node', 'cluster', 'cluster', 'startup']"
+CASSANDRA-17467,['elect']
+CASSANDRA-17620,['failure']
 CASSANDRA-17516,"['node', 'node']"
 CASSANDRA-15700,"['node', 'node', 'node']"
 CASSANDRA-15730,['failure']
 CASSANDRA-16412,"['node', 'node']"
-CASSANDRA-17312,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang']"
+CASSANDRA-17312,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-17889,"['snapshot', 'snapshot', 'snapshot']"
-CASSANDRA-17641,"['down', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
 CASSANDRA-16273,['node']
 CASSANDRA-18136,"['group', 'group']"
 CASSANDRA-18110,"['restart', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'peer']"
 CASSANDRA-17724,['startup']
 CASSANDRA-17119,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'quorum', 'quorum', 'connect', 'connect', 'timeout', 'consistent']"
 CASSANDRA-17747,"['failure', 'EC']"
-CASSANDRA-16217,"['EC', 'cluster', 'cluster', 'hang']"
+CASSANDRA-16217,"['EC', 'cluster', 'cluster']"
 CASSANDRA-16758,"['connect', 'connect']"
 CASSANDRA-16053,"['connect', 'timeout']"
-CASSANDRA-15637,"['node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'EC', 'cluster', 'cluster', 'setup', 'elect', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'backup']"
-CASSANDRA-16692,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'cluster', 'setup', 'startup', 'timeout', 'terminate', 'terminate']"
+CASSANDRA-15637,"['node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica']"
+CASSANDRA-16692,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'startup', 'timeout', 'terminate', 'terminate']"
 CASSANDRA-16277,"['failure', 'connect', 'connect', 'peer']"
-CASSANDRA-16937,"['node', 'node', 'node', 'restart', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'hang', 'sync', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
-CASSANDRA-16248,"['down', 'startup', 'timeout', 'timeout', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang']"
+CASSANDRA-16937,"['node', 'node', 'node', 'restart', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'sync', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
+CASSANDRA-16248,"['startup', 'timeout', 'timeout']"
 CASSANDRA-16693,"['node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 CASSANDRA-17669,"['node', 'node']"
 CASSANDRA-16224,"['EC', 'elect', 'elect', 'elect', 'elect']"
 CASSANDRA-17216,['failure']
-CASSANDRA-16646,"['node', 'node', 'node', 'node', 'distributed', 'distributed']"
+CASSANDRA-16646,"['node', 'node', 'node', 'node']"
 CASSANDRA-16750,['failure']
-CASSANDRA-17700,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang', 'consistent']"
-CASSANDRA-16754,"['failure', 'node', 'node', 'node', 'node', 'down', 'startup', 'startup', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17700,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'consistent']"
+CASSANDRA-16754,"['failure', 'node', 'node', 'node', 'node', 'shutdown', 'startup', 'startup']"
 CASSANDRA-16068,"['failure', 'failure', 'node', 'node', 'node', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'EC', 'EC', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'peer', 'peer', 'peer', 'peer']"
-CASSANDRA-15797,"['failure', 'setup', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'hang']"
-CASSANDRA-16856,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'down', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'sync']"
+CASSANDRA-15797,"['failure', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-16856,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'sync']"
 CASSANDRA-16685,"['active', 'active']"
 CASSANDRA-17615,"['timeout', 'timeout']"
 CASSANDRA-15874,"['failure', 'node', 'cluster']"
-CASSANDRA-15899,"['node', 'node', 'EC', 'EC', 'hang', 'replica']"
+CASSANDRA-15899,"['node', 'node', 'EC', 'EC', 'replica']"
 CASSANDRA-16580,"['connect', 'connect', 'connect', 'connect']"
 CASSANDRA-16530,['node']
-CASSANDRA-16638,"['node', 'node', 'node', 'node', 'restart', 'cluster', 'hang', 'hang']"
+CASSANDRA-16638,"['node', 'node', 'node', 'node', 'restart', 'cluster']"
 CASSANDRA-16781,['node']
-CASSANDRA-15951,"['setup', 'startup']"
+CASSANDRA-15951,['startup']
 CASSANDRA-16179,"['node', 'node', 'node', 'node', 'node', 'node']"
-CASSANDRA-17791,"['hang', 'hang']"
 CASSANDRA-16220,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16178,"['node', 'EC', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-CASSANDRA-16028,['hang']
-CASSANDRA-17141,"['node', 'node', 'node', 'node', 'node', 'node', 'hang']"
+CASSANDRA-17141,"['node', 'node', 'node', 'node', 'node', 'node']"
 CASSANDRA-18241,"['EC', 'EC', 'EC']"
 CASSANDRA-15819,"['node', 'node', 'node', 'node', 'node']"
-CASSANDRA-17348,"['node', 'node', 'node', 'sync', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17348,"['node', 'node', 'node', 'sync']"
 CASSANDRA-16678,"['failure', 'connect']"
 CASSANDRA-16554,"['active', 'active', 'active']"
 CASSANDRA-18055,['node']
@@ -421,116 +381,101 @@ CASSANDRA-16868,"['EC', 'EC', 'EC', 'EC']"
 CASSANDRA-17347,"['crash', 'startup', 'group']"
 CASSANDRA-17455,['replica']
 CASSANDRA-15770,"['restart', 'restart', 'restart']"
-CASSANDRA-16114,"['hang', 'hang', 'hang', 'hang']"
-CASSANDRA-17705,"['down', 'down', 'down']"
+CASSANDRA-17705,"['shutdown', 'shutdown']"
 CASSANDRA-16406,"['node', 'node', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
 CASSANDRA-15757,['failure']
 CASSANDRA-15744,['failure']
 CASSANDRA-15902,"['node', 'node', 'cluster', 'cluster', 'timeout', 'terminate']"
-CASSANDRA-17946,"['down', 'hang']"
-CASSANDRA-16808,"['node', 'node', 'node', 'down', 'cluster', 'hang']"
-CASSANDRA-17877,"['hang', 'hang']"
+CASSANDRA-16808,"['node', 'node', 'node', 'cluster']"
 CASSANDRA-16175,"['replica', 'replica', 'replica']"
 CASSANDRA-16086,['elect']
-CASSANDRA-17880,['down']
 CASSANDRA-16711,['timeout']
 CASSANDRA-15791,"['failure', 'quorum', 'quorum']"
 CASSANDRA-15848,"['replica', 'replica']"
 CASSANDRA-16347,"['node', 'terminate', 'terminate']"
-CASSANDRA-16945,"['node', 'node', 'elect', 'elect', 'hang', 'consistent']"
-CASSANDRA-17754,"['node', 'setup', 'setup']"
+CASSANDRA-16945,"['node', 'node', 'elect', 'elect', 'consistent']"
+CASSANDRA-17754,['node']
 CASSANDRA-16523,['failure']
-CASSANDRA-16797,"['failure', 'hang']"
-CASSANDRA-18184,"['network', 'network', 'down', 'cluster', 'cluster']"
-CASSANDRA-16533,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16797,['failure']
+CASSANDRA-18184,"['network', 'network', 'cluster', 'cluster']"
+CASSANDRA-16533,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 CASSANDRA-18141,"['EC', 'EC', 'replica']"
-CASSANDRA-17214,"['node', 'node', 'restart', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'startup', 'startup', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16207,"['node', 'node', 'down', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17214,"['node', 'node', 'restart', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'startup', 'startup']"
+CASSANDRA-16207,"['node', 'node']"
 CASSANDRA-16472,"['quorum', 'quorum']"
 CASSANDRA-17143,"['node', 'timeout']"
 CASSANDRA-15707,['failure']
 CASSANDRA-15688,"['startup', 'startup']"
-CASSANDRA-17891,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-17033,['hang']
+CASSANDRA-17891,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-16446,"['node', 'node', 'node', 'node', 'node', 'restart', 'cluster']"
-CASSANDRA-17378,"['timeout', 'timeout', 'timeout', 'timeout', 'hang', 'hang', 'hang', 'hang', 'hang']"
-CASSANDRA-17604,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'setup', 'startup', 'hang', 'peer', 'peer', 'peer', 'peer']"
+CASSANDRA-17378,"['timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-17604,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'startup', 'peer', 'peer', 'peer', 'peer']"
 CASSANDRA-16733,"['cluster', 'cluster']"
 CASSANDRA-17771,"['node', 'node', 'EC']"
-CASSANDRA-15613,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'setup', 'setup', 'setup', 'elect', 'elect', 'replica']"
+CASSANDRA-15613,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'replica']"
 CASSANDRA-17670,['timeout']
 CASSANDRA-16030,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 CASSANDRA-16892,"['node', 'connect']"
-CASSANDRA-17613,"['timeout', 'hang', 'hang', 'replica']"
+CASSANDRA-17613,"['timeout', 'replica']"
 CASSANDRA-16208,['replica']
-CASSANDRA-18215,['hang']
 CASSANDRA-16608,"['node', 'node']"
-CASSANDRA-16525,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'hang', 'hang', 'replica', 'distributed', 'distributed', 'distributed', 'distributed', 'peer', 'peer']"
-CASSANDRA-16425,"['down', 'down', 'startup', 'startup']"
-CASSANDRA-15739,"['failure', 'hang', 'hang']"
+CASSANDRA-16525,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'peer', 'peer']"
+CASSANDRA-16425,"['shutdown', 'shutdown', 'startup', 'startup']"
+CASSANDRA-15739,['failure']
 CASSANDRA-16036,"['network', 'elect', 'elect']"
 CASSANDRA-17975,['consistent']
 CASSANDRA-15990,"['kill', 'kill', 'kill', 'kill', 'connect', 'timeout', 'replica']"
-CASSANDRA-16822,['hang']
 CASSANDRA-17233,['consistent']
-CASSANDRA-16712,"['hang', 'hang']"
-CASSANDRA-16394,"['failure', 'node', 'cluster', 'hang', 'hang', 'distributed', 'distributed']"
-CASSANDRA-16575,['hang']
+CASSANDRA-16394,"['failure', 'node', 'cluster']"
 CASSANDRA-16225,"['sync', 'sync']"
 CASSANDRA-16963,"['node', 'restart']"
 CASSANDRA-16303,['node']
 CASSANDRA-16682,['restart']
-CASSANDRA-17752,"['node', 'node', 'node', 'node', 'restart', 'down']"
-CASSANDRA-17524,"['node', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'hang', 'hang', 'peer']"
-CASSANDRA-17049,"['node', 'node', 'down']"
-CASSANDRA-16975,['hang']
+CASSANDRA-17752,"['node', 'node', 'node', 'node', 'restart']"
+CASSANDRA-17524,"['node', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'peer']"
+CASSANDRA-17049,"['node', 'node']"
 CASSANDRA-16759,"['node', 'cluster', 'cluster']"
-CASSANDRA-16331,"['failure', 'node', 'cluster', 'cluster', 'setup', 'setup', 'setup', 'setup', 'setup']"
-CASSANDRA-16157,"['node', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16049,"['node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16331,"['failure', 'node', 'cluster', 'cluster']"
+CASSANDRA-16157,['node']
+CASSANDRA-16049,"['node', 'node', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
 CASSANDRA-17715,['node']
-CASSANDRA-16196,"['node', 'hang']"
+CASSANDRA-16196,['node']
 CASSANDRA-17810,"['timeout', 'timeout', 'replica', 'replica']"
 CASSANDRA-16683,"['node', 'group']"
-CASSANDRA-17731,"['down', 'down', 'down', 'down', 'down']"
-CASSANDRA-16971,"['node', 'replica', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
-CASSANDRA-16796,"['crash', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'consistent', 'replica', 'peer', 'peer', 'peer', 'peer']"
+CASSANDRA-17731,"['shutdown', 'shutdown']"
+CASSANDRA-16971,"['node', 'replica']"
+CASSANDRA-16796,"['crash', 'node', 'node', 'node', 'node', 'shutdown', 'consistent', 'replica', 'peer', 'peer', 'peer', 'peer']"
 CASSANDRA-16199,"['node', 'node']"
-CASSANDRA-17424,"['down', 'elect', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-17683,"['hang', 'hang']"
-CASSANDRA-16671,"['node', 'EC', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'hang']"
-CASSANDRA-16004,"['distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17424,"['elect', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-16671,"['node', 'EC', 'EC', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect']"
 CASSANDRA-17614,"['node', 'node', 'replica', 'replica']"
 CASSANDRA-17857,"['elect', 'consistent', 'consistent']"
 CASSANDRA-16119,"['EC', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 CASSANDRA-17545,['remote']
-CASSANDRA-16478,"['cluster', 'elect', 'elect', 'hang']"
+CASSANDRA-16478,"['cluster', 'elect', 'elect']"
 CASSANDRA-16155,"['node', 'EC']"
 CASSANDRA-16151,"['timeout', 'timeout', 'timeout']"
 CASSANDRA-15706,['failure']
 CASSANDRA-16962,"['node', 'node', 'node', 'EC']"
-CASSANDRA-15683,"['hang', 'hang', 'hang']"
-CASSANDRA-17453,"['distributed', 'distributed', 'distributed']"
-CASSANDRA-17268,"['down', 'down', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
-CASSANDRA-16276,"['node', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'group']"
-CASSANDRA-16700,['down']
+CASSANDRA-17268,"['timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+CASSANDRA-16276,"['node', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'group']"
 CASSANDRA-18225,"['node', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
-CASSANDRA-16084,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16084,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
 CASSANDRA-16104,"['node', 'snapshot', 'cluster']"
-CASSANDRA-15929,"['network', 'setup', 'startup']"
+CASSANDRA-15929,"['network', 'startup']"
 CASSANDRA-18224,"['node', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
-CASSANDRA-16457,"['node', 'sync', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16457,"['node', 'sync']"
 CASSANDRA-16847,"['node', 'node', 'node', 'node']"
 CASSANDRA-16643,"['EC', 'EC']"
-CASSANDRA-16008,"['kill', 'down', 'setup', 'setup', 'setup', 'connect', 'startup', 'startup', 'hang', 'hang', 'remote', 'remote', 'remote', 'remote']"
-CASSANDRA-17806,"['cluster', 'setup', 'timeout', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate']"
+CASSANDRA-16008,"['kill', 'connect', 'startup', 'startup', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-17806,"['cluster', 'timeout', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate', 'terminate']"
 CASSANDRA-17273,"['replica', 'replica', 'replica', 'replica']"
-CASSANDRA-15678,"['node', 'node', 'node', 'snapshot', 'EC', 'EC', 'cluster', 'cluster', 'connect', 'hang', 'distributed', 'backup']"
-CASSANDRA-16453,"['EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'hang', 'consistent', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-15678,"['node', 'node', 'node', 'snapshot', 'EC', 'EC', 'cluster', 'cluster', 'connect']"
+CASSANDRA-16453,"['EC', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'consistent']"
 CASSANDRA-16473,"['node', 'cluster', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-2441,['crash']
 CASSANDRA-1901,['node']
-CASSANDRA-440,"['node', 'down']"
+CASSANDRA-440,['node']
 CASSANDRA-1012,['remote']
 CASSANDRA-646,['node']
 CASSANDRA-639,['failure']
@@ -543,8 +488,8 @@ CASSANDRA-1831,['failure']
 CASSANDRA-1834,['failure']
 CASSANDRA-593,['quorum']
 CASSANDRA-1790,['failure']
-CASSANDRA-742,"['node', 'down']"
-CASSANDRA-2539,"['node', 'down']"
+CASSANDRA-742,['node']
+CASSANDRA-2539,['node']
 CASSANDRA-1732,['node']
 CASSANDRA-2563,['cluster']
 CASSANDRA-1666,['startup']
@@ -552,9 +497,8 @@ CASSANDRA-1850,['failure']
 CASSANDRA-1852,['restart']
 CASSANDRA-72,['network']
 CASSANDRA-781,['cluster']
-CASSANDRA-2388,"['down', 'replica']"
-CASSANDRA-809,['down']
-CASSANDRA-1853,"['node', 'node', 'hang']"
+CASSANDRA-2388,['replica']
+CASSANDRA-1853,"['node', 'node']"
 CASSANDRA-348,['node']
 CASSANDRA-2301,['consistent']
 CASSANDRA-2076,['restart']
@@ -563,14 +507,11 @@ CASSANDRA-651,"['node', 'restart', 'kill']"
 CASSANDRA-21,['node']
 CASSANDRA-682,['node']
 CASSANDRA-2494,['consistent']
-CASSANDRA-1964,['distributed']
 CASSANDRA-603,['node']
-CASSANDRA-1927,"['node', 'down']"
-CASSANDRA-2240,"['node', 'hang']"
+CASSANDRA-1927,['node']
+CASSANDRA-2240,['node']
 CASSANDRA-995,"['crash', 'node', 'restart']"
-CASSANDRA-711,['down']
 CASSANDRA-1408,['node']
-CASSANDRA-338,['hang']
 CASSANDRA-649,['consistent']
 CASSANDRA-2228,['node']
 CASSANDRA-153,['timeout']
@@ -580,11 +521,11 @@ CASSANDRA-1924,['replica']
 CASSANDRA-1111,"['node', 'cluster', 'cluster', 'replica']"
 CASSANDRA-2538,['EC']
 CASSANDRA-475,['crash']
-CASSANDRA-1463,"['node', 'down', 'cluster']"
+CASSANDRA-1463,"['node', 'cluster']"
 CASSANDRA-1645,['node']
 CASSANDRA-1545,['startup']
 CASSANDRA-2525,['replica']
-CASSANDRA-2290,"['dead', 'hang']"
+CASSANDRA-2290,['dead']
 CASSANDRA-1348,['restart']
 CASSANDRA-914,['connect']
 CASSANDRA-1670,['node']
@@ -598,7 +539,7 @@ CASSANDRA-2408,['node']
 CASSANDRA-696,['cluster']
 CASSANDRA-2536,['connect']
 CASSANDRA-644,['node']
-CASSANDRA-1787,"['node', 'setup']"
+CASSANDRA-1787,['node']
 CASSANDRA-1333,['connect']
 CASSANDRA-1904,['startup']
 CASSANDRA-1458,['kill']
@@ -610,33 +551,26 @@ CASSANDRA-1221,"['node', 'cluster']"
 CASSANDRA-150,"['node', 'cluster']"
 CASSANDRA-1310,['node']
 CASSANDRA-1697,['node']
-CASSANDRA-1961,['hang']
 CASSANDRA-1840,"['node', 'node', 'node']"
 CASSANDRA-1304,"['node', 'node']"
 CASSANDRA-39,['sync']
-CASSANDRA-2543,"['down', 'cluster']"
+CASSANDRA-2543,['cluster']
 CASSANDRA-1341,"['node', 'node', 'cluster']"
-CASSANDRA-817,['distributed']
 CASSANDRA-1239,['node']
-CASSANDRA-90,['hang']
 CASSANDRA-2514,['node']
 CASSANDRA-1609,['restart']
 CASSANDRA-762,['node']
 CASSANDRA-1648,['crash']
 CASSANDRA-114,['node']
-CASSANDRA-487,['down']
 CASSANDRA-93,['remote']
 CASSANDRA-1605,"['node', 'dead']"
 CASSANDRA-551,"['connect', 'terminate']"
 CASSANDRA-2493,['elect']
 CASSANDRA-538,['node']
-CASSANDRA-1678,['down']
 CASSANDRA-78,['recovery']
 CASSANDRA-384,['network']
 CASSANDRA-1640,['cluster']
 CASSANDRA-219,['remote']
-CASSANDRA-2216,['hang']
-CASSANDRA-2350,['hang']
 CASSANDRA-2182,['startup']
 CASSANDRA-1011,"['node', 'node']"
 CASSANDRA-1883,['quorum']
@@ -660,10 +594,9 @@ CASSANDRA-3957,['failure']
 CASSANDRA-4799,['failure']
 CASSANDRA-4337,['failure']
 CASSANDRA-3864,['failure']
-CASSANDRA-3482,['hang']
 CASSANDRA-4935,['failure']
 CASSANDRA-2613,['failure']
-CASSANDRA-3407,"['failure', 'hang', 'hang']"
+CASSANDRA-3407,['failure']
 CASSANDRA-3508,"['failure', 'failure']"
 CASSANDRA-3939,['failure']
 CASSANDRA-4002,['elect']
@@ -678,12 +611,11 @@ CASSANDRA-4195,"['node', 'cluster']"
 CASSANDRA-4093,['failure']
 CASSANDRA-3539,['node']
 CASSANDRA-4576,"['node', 'node']"
-CASSANDRA-3193,"['failure', 'down']"
+CASSANDRA-3193,['failure']
 CASSANDRA-3311,"['elect', 'elect']"
-CASSANDRA-4128,"['timeout', 'hang']"
+CASSANDRA-4128,['timeout']
 CASSANDRA-2740,['node']
 CASSANDRA-5203,"['node', 'dead', 'replica']"
-CASSANDRA-4925,['hang']
 CASSANDRA-3011,['replica']
 CASSANDRA-2593,['elect']
 CASSANDRA-3965,['failure']
@@ -694,7 +626,6 @@ CASSANDRA-5334,['node']
 CASSANDRA-4436,"['restart', 'cluster']"
 CASSANDRA-5450,['cluster']
 CASSANDRA-2947,"['node', 'node', 'dead']"
-CASSANDRA-4071,['hang']
 CASSANDRA-2842,['connect']
 CASSANDRA-2816,['sync']
 CASSANDRA-3521,['snapshot']
@@ -702,30 +633,24 @@ CASSANDRA-2739,['node']
 CASSANDRA-4281,['node']
 CASSANDRA-2647,['startup']
 CASSANDRA-4753,['node']
-CASSANDRA-3758,['hang']
-CASSANDRA-3730,['hang']
 CASSANDRA-5102,"['node', 'node']"
 CASSANDRA-5381,['node']
 CASSANDRA-2717,['EC']
 CASSANDRA-4494,['node']
-CASSANDRA-5121,"['node', 'restart', 'hang', 'peer']"
+CASSANDRA-5121,"['node', 'restart', 'peer']"
 CASSANDRA-4698,['node']
-CASSANDRA-5229,['hang']
-CASSANDRA-5332,"['node', 'down']"
+CASSANDRA-5332,['node']
 CASSANDRA-3216,['remote']
-CASSANDRA-3520,['hang']
-CASSANDRA-3690,['backup']
-CASSANDRA-3554,"['node', 'down']"
+CASSANDRA-3554,['node']
 CASSANDRA-3650,['group']
 CASSANDRA-4201,['startup']
 CASSANDRA-3191,"['node', 'cluster']"
-CASSANDRA-3236,"['node', 'hang']"
+CASSANDRA-3236,['node']
 CASSANDRA-4462,['active']
-CASSANDRA-5146,['hang']
 CASSANDRA-4695,['timeout']
 CASSANDRA-3551,['quorum']
 CASSANDRA-4112,['node']
-CASSANDRA-4843,"['node', 'hang']"
+CASSANDRA-4843,['node']
 CASSANDRA-3421,['explode']
 CASSANDRA-4294,['replica']
 CASSANDRA-4375,['timeout']
@@ -733,10 +658,8 @@ CASSANDRA-5127,['node']
 CASSANDRA-3641,['consistent']
 CASSANDRA-5107,['node']
 CASSANDRA-4555,"['node', 'elect']"
-CASSANDRA-5064,['hang']
 CASSANDRA-4922,['cluster']
 CASSANDRA-4683,['node']
-CASSANDRA-3302,['hang']
 CASSANDRA-4594,['consistent']
 CASSANDRA-5469,['startup']
 CASSANDRA-3989,['node']
@@ -745,12 +668,11 @@ CASSANDRA-3543,['dead']
 CASSANDRA-4782,['restart']
 CASSANDRA-3417,['startup']
 CASSANDRA-2792,"['node', 'node', 'node']"
-CASSANDRA-4781,"['node', 'kill', 'hang']"
+CASSANDRA-4781,"['node', 'kill']"
 CASSANDRA-3931,['node']
 CASSANDRA-3831,['cluster']
 CASSANDRA-5424,"['node', 'node']"
 CASSANDRA-3250,['sync']
-CASSANDRA-2797,['hang']
 CASSANDRA-3253,['dead']
 CASSANDRA-2818,['node']
 CASSANDRA-4262,['node']
@@ -758,24 +680,20 @@ CASSANDRA-4795,['replica']
 CASSANDRA-3351,['node']
 CASSANDRA-2950,['restart']
 CASSANDRA-4161,['EC']
-CASSANDRA-2907,['hang']
-CASSANDRA-3273,['down']
 CASSANDRA-3821,"['restart', 'cluster']"
-CASSANDRA-5129,"['node', 'cluster', 'hang']"
-CASSANDRA-4792,['hang']
+CASSANDRA-5129,"['node', 'cluster']"
 CASSANDRA-3483,['cluster']
-CASSANDRA-3369,"['node', 'hang']"
+CASSANDRA-3369,['node']
 CASSANDRA-2960,['replica']
 CASSANDRA-4669,"['crash', 'startup']"
 CASSANDRA-2619,['restart']
-CASSANDRA-2598,"['snapshot', 'backup']"
+CASSANDRA-2598,['snapshot']
 CASSANDRA-4842,['crash']
 CASSANDRA-4532,['elect']
 CASSANDRA-4289,['restart']
 CASSANDRA-2712,['node']
 CASSANDRA-4675,"['node', 'replica']"
 CASSANDRA-3544,['startup']
-CASSANDRA-3838,['hang']
 CASSANDRA-2766,"['node', 'recovery']"
 CASSANDRA-5211,"['node', 'dead', 'cluster']"
 CASSANDRA-4317,['cluster']
@@ -786,19 +704,16 @@ CASSANDRA-4760,['cluster']
 CASSANDRA-4328,['timeout']
 CASSANDRA-3119,['consistent']
 CASSANDRA-3000,['EC']
-CASSANDRA-3807,['down']
 CASSANDRA-4166,['crash']
-CASSANDRA-3881,['hang']
 CASSANDRA-5343,['cluster']
 CASSANDRA-2918,['replica']
 CASSANDRA-4783,['elect']
-CASSANDRA-5454,"['node', 'hang']"
-CASSANDRA-4020,['hang']
+CASSANDRA-5454,['node']
 CASSANDRA-3109,"['node', 'cluster', 'replica']"
 CASSANDRA-3985,['elect']
 CASSANDRA-5298,['node']
-CASSANDRA-5236,['down']
-CASSANDRA-3776,"['connect', 'hang', 'peer']"
+CASSANDRA-5236,['shutdown']
+CASSANDRA-3776,"['connect', 'peer']"
 CASSANDRA-2732,['connect']
 CASSANDRA-4024,['EC']
 CASSANDRA-4394,['restart']
@@ -807,55 +722,45 @@ CASSANDRA-3867,['connect']
 CASSANDRA-4053,"['terminate', 'peer']"
 CASSANDRA-4772,['node']
 CASSANDRA-3496,['node']
-CASSANDRA-4086,['down']
 CASSANDRA-3608,['node']
-CASSANDRA-3737,"['node', 'down']"
+CASSANDRA-3737,['node']
 CASSANDRA-5476,"['node', 'node']"
 CASSANDRA-4840,['node']
 CASSANDRA-3700,['elect']
 CASSANDRA-5125,['cluster']
 CASSANDRA-3139,['replica']
-CASSANDRA-3666,['hang']
 CASSANDRA-3696,['node']
 CASSANDRA-5341,['elect']
-CASSANDRA-3335,['down']
+CASSANDRA-3335,['shutdown']
 CASSANDRA-4216,['elect']
 CASSANDRA-4115,['node']
-CASSANDRA-3272,['down']
 CASSANDRA-4026,['EC']
-CASSANDRA-5179,['hang']
-CASSANDRA-4277,['hang']
-CASSANDRA-3882,"['dead', 'distributed']"
+CASSANDRA-3882,['dead']
 CASSANDRA-2622,['elect']
 CASSANDRA-3736,['node']
 CASSANDRA-2825,"['node', 'node', 'cluster']"
 CASSANDRA-4499,['cluster']
 CASSANDRA-5046,['EC']
-CASSANDRA-4203,['hang']
 CASSANDRA-3096,['timeout']
 CASSANDRA-5171,['EC']
 CASSANDRA-4657,['sync']
-CASSANDRA-4996,['hang']
-CASSANDRA-5053,['hang']
 CASSANDRA-2642,['restart']
 CASSANDRA-4046,['replica']
 CASSANDRA-2942,['restart']
 CASSANDRA-5456,['node']
 CASSANDRA-2759,['replica']
-CASSANDRA-4492,['hang']
 CASSANDRA-3629,['node']
 CASSANDRA-4918,['elect']
 CASSANDRA-4370,['elect']
-CASSANDRA-5087,['hang']
 CASSANDRA-4728,['cluster']
 CASSANDRA-3812,['node']
 CASSANDRA-4479,['consistent']
 CASSANDRA-3114,"['restart', 'EC', 'cluster']"
 CASSANDRA-5404,['elect']
 CASSANDRA-2597,['consistent']
-CASSANDRA-5368,['down']
+CASSANDRA-5368,['shutdown']
 CASSANDRA-3346,['startup']
-CASSANDRA-2933,"['node', 'hang']"
+CASSANDRA-2933,['node']
 CASSANDRA-5244,['node']
 CASSANDRA-3876,"['node', 'consistent']"
 CASSANDRA-2949,['replica']
@@ -863,7 +768,7 @@ CASSANDRA-4465,"['node', 'restart', 'cluster']"
 CASSANDRA-4802,['startup']
 CASSANDRA-3039,['node']
 CASSANDRA-7691,['failure']
-CASSANDRA-8220,['down']
+CASSANDRA-8220,['shutdown']
 CASSANDRA-5818,['startup']
 CASSANDRA-6375,['failure']
 CASSANDRA-8832,['failure']
@@ -883,7 +788,7 @@ CASSANDRA-6152,"['node', 'node', 'cluster']"
 CASSANDRA-6598,['startup']
 CASSANDRA-7473,['failure']
 CASSANDRA-7891,['elect']
-CASSANDRA-6531,"['node', 'down']"
+CASSANDRA-6531,"['node', 'shutdown']"
 CASSANDRA-8208,"['failure', 'consistent']"
 CASSANDRA-7763,"['failure', 'cluster']"
 CASSANDRA-7508,['node']
@@ -896,7 +801,7 @@ CASSANDRA-7429,['failure']
 CASSANDRA-6133,['failure']
 CASSANDRA-5529,['connect']
 CASSANDRA-8815,['failure']
-CASSANDRA-6004,"['node', 'node', 'setup', 'elect', 'timeout', 'replica']"
+CASSANDRA-6004,"['node', 'node', 'elect', 'timeout', 'replica']"
 CASSANDRA-6673,"['node', 'node', 'replica']"
 CASSANDRA-8266,"['node', 'node']"
 CASSANDRA-6050,['EC']
@@ -904,18 +809,14 @@ CASSANDRA-6435,['node']
 CASSANDRA-8108,['EC']
 CASSANDRA-7035,['failure']
 CASSANDRA-5954,"['node', 'node', 'node']"
-CASSANDRA-8725,['hang']
 CASSANDRA-5575,['failure']
-CASSANDRA-5882,['hang']
-CASSANDRA-7614,['hang']
-CASSANDRA-8336,"['restart', 'down', 'timeout']"
+CASSANDRA-8336,"['restart', 'shutdown', 'timeout']"
 CASSANDRA-8558,['elect']
 CASSANDRA-6707,"['node', 'node', 'cluster', 'elect']"
 CASSANDRA-6137,"['EC', 'consistent']"
-CASSANDRA-6971,['hang']
 CASSANDRA-8447,['node']
-CASSANDRA-7560,"['node', 'hang']"
-CASSANDRA-6210,"['node', 'cluster', 'hang']"
+CASSANDRA-7560,['node']
+CASSANDRA-6210,"['node', 'cluster']"
 CASSANDRA-5701,['connect']
 CASSANDRA-8280,['crash']
 CASSANDRA-6107,['node']
@@ -934,49 +835,44 @@ CASSANDRA-6554,"['node', 'node', 'EC']"
 CASSANDRA-5925,"['node', 'cluster']"
 CASSANDRA-6541,['connect']
 CASSANDRA-8366,"['node', 'node', 'cluster']"
-CASSANDRA-6373,['hang']
-CASSANDRA-6948,"['node', 'restart', 'down', 'startup']"
+CASSANDRA-6948,"['node', 'restart', 'shutdown', 'startup']"
 CASSANDRA-8072,['startup']
 CASSANDRA-6082,['consistent']
 CASSANDRA-7042,['restart']
 CASSANDRA-8421,['node']
-CASSANDRA-7434,"['crash', 'hang']"
+CASSANDRA-7434,['crash']
 CASSANDRA-6875,['elect']
 CASSANDRA-7581,['node']
 CASSANDRA-6648,['node']
 CASSANDRA-7585,"['node', 'connect']"
-CASSANDRA-6841,"['node', 'node', 'cluster', 'hang']"
+CASSANDRA-6841,"['node', 'node', 'cluster']"
 CASSANDRA-5916,"['node', 'sync']"
-CASSANDRA-8106,['hang']
 CASSANDRA-6848,['node']
 CASSANDRA-7082,['node']
 CASSANDRA-6221,"['node', 'cluster']"
-CASSANDRA-6998,"['cluster', 'setup', 'replica']"
+CASSANDRA-6998,"['cluster', 'replica']"
 CASSANDRA-6623,"['node', 'cluster']"
 CASSANDRA-6127,"['node', 'node', 'node', 'node', 'cluster']"
-CASSANDRA-6753,"['failure', 'failure', 'node', 'node', 'node', 'snapshot', 'snapshot', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'backup']"
+CASSANDRA-6753,"['failure', 'failure', 'node', 'node', 'node', 'snapshot', 'snapshot', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync']"
 CASSANDRA-6327,['elect']
-CASSANDRA-6407,['hang']
 CASSANDRA-6826,"['node', 'cluster']"
 CASSANDRA-8523,['node']
 CASSANDRA-7307,"['node', 'node', 'dead']"
 CASSANDRA-6129,['node']
-CASSANDRA-6651,['hang']
 CASSANDRA-8514,['node']
 CASSANDRA-7196,['elect']
-CASSANDRA-8471,"['node', 'down']"
+CASSANDRA-8471,['node']
 CASSANDRA-6220,"['cluster', 'elect']"
 CASSANDRA-8797,['elect']
 CASSANDRA-7853,['elect']
 CASSANDRA-6825,"['node', 'cluster']"
 CASSANDRA-6181,"['crash', 'node']"
-CASSANDRA-6097,"['node', 'hang']"
+CASSANDRA-6097,['node']
 CASSANDRA-7981,['elect']
 CASSANDRA-6458,['node']
 CASSANDRA-8718,['node']
 CASSANDRA-7983,['node']
 CASSANDRA-5995,['EC']
-CASSANDRA-7310,['down']
 CASSANDRA-8290,['restart']
 CASSANDRA-8853,"['node', 'startup']"
 CASSANDRA-5942,"['node', 'cluster']"
@@ -999,7 +895,6 @@ CASSANDRA-6739,['node']
 CASSANDRA-8216,['elect']
 CASSANDRA-6620,"['node', 'kill']"
 CASSANDRA-6981,['elect']
-CASSANDRA-6582,['hang']
 CASSANDRA-7318,['node']
 CASSANDRA-6465,['cluster']
 CASSANDRA-7601,['node']
@@ -1013,12 +908,10 @@ CASSANDRA-6488,"['node', 'cluster']"
 CASSANDRA-8801,"['node', 'restart', 'cluster']"
 CASSANDRA-6053,"['node', 'EC', 'peer']"
 CASSANDRA-8768,['node']
-CASSANDRA-6175,['hang']
 CASSANDRA-5692,['cluster']
 CASSANDRA-6523,['cluster']
 CASSANDRA-8516,['node']
 CASSANDRA-6788,['kill']
-CASSANDRA-8321,['hang']
 CASSANDRA-8049,['startup']
 CASSANDRA-6629,['node']
 CASSANDRA-6496,"['node', 'node']"
@@ -1029,7 +922,6 @@ CASSANDRA-8776,['node']
 CASSANDRA-5911,"['node', 'node']"
 CASSANDRA-5612,['cluster']
 CASSANDRA-7800,"['cluster', 'elect']"
-CASSANDRA-8472,['hang']
 CASSANDRA-7474,['snapshot']
 CASSANDRA-6098,['timeout']
 CASSANDRA-6223,"['node', 'EC', 'timeout']"
@@ -1039,15 +931,13 @@ CASSANDRA-6799,"['node', 'node']"
 CASSANDRA-7490,"['cluster', 'elect']"
 CASSANDRA-7845,['node']
 CASSANDRA-5736,"['node', 'kill']"
-CASSANDRA-5758,['hang']
 CASSANDRA-8214,['elect']
 CASSANDRA-8549,['cluster']
 CASSANDRA-7059,['cluster']
 CASSANDRA-6325,['startup']
 CASSANDRA-5535,['sync']
 CASSANDRA-7655,['cluster']
-CASSANDRA-8353,['hang']
-CASSANDRA-6754,"['failure', 'failure', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync', 'backup']"
+CASSANDRA-6754,"['failure', 'failure', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'cluster', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'sync', 'sync', 'sync', 'sync', 'sync']"
 CASSANDRA-8227,['EC']
 CASSANDRA-7665,['node']
 CASSANDRA-5631,"['node', 'startup']"
@@ -1064,11 +954,10 @@ CASSANDRA-7025,['node']
 CASSANDRA-6493,['EC']
 CASSANDRA-6883,"['node', 'cluster']"
 CASSANDRA-5690,['sync']
-CASSANDRA-7209,['hang']
 CASSANDRA-6079,['node']
 CASSANDRA-6184,['node']
 CASSANDRA-8009,['node']
-CASSANDRA-6578,['down']
+CASSANDRA-6578,['shutdown']
 CASSANDRA-8735,['replica']
 CASSANDRA-6894,['node']
 CASSANDRA-8845,['cluster']
@@ -1080,14 +969,12 @@ CASSANDRA-5926,['dead']
 CASSANDRA-7446,['node']
 CASSANDRA-5945,"['node', 'cluster']"
 CASSANDRA-8450,['node']
-CASSANDRA-7976,['hang']
 CASSANDRA-5599,['EC']
 CASSANDRA-5706,['startup']
 CASSANDRA-7984,"['node', 'node']"
 CASSANDRA-6088,['timeout']
 CASSANDRA-6115,['node']
 CASSANDRA-6583,"['active', 'active']"
-CASSANDRA-6472,['hang']
 CASSANDRA-6658,['startup']
 CASSANDRA-7100,['cluster']
 CASSANDRA-7636,['cluster']
@@ -1095,8 +982,7 @@ CASSANDRA-7126,['peer']
 CASSANDRA-6301,['node']
 CASSANDRA-6803,['node']
 CASSANDRA-6702,['node']
-CASSANDRA-6571,"['node', 'restart', 'down']"
-CASSANDRA-8373,['hang']
+CASSANDRA-6571,"['node', 'restart']"
 CASSANDRA-8054,['EC']
 CASSANDRA-7357,"['snapshot', 'startup']"
 CASSANDRA-6405,"['node', 'node']"
@@ -1104,16 +990,13 @@ CASSANDRA-8258,['EC']
 CASSANDRA-6047,['snapshot']
 CASSANDRA-6628,['crash']
 CASSANDRA-6169,['node']
-CASSANDRA-7879,['hang']
 CASSANDRA-6891,['node']
 CASSANDRA-8640,['node']
 CASSANDRA-6418,"['node', 'snapshot', 'snapshot', 'snapshot']"
 CASSANDRA-6913,['startup']
-CASSANDRA-7189,['hang']
 CASSANDRA-7956,"['crash', 'node']"
 CASSANDRA-8206,['cluster']
 CASSANDRA-8260,"['node', 'node', 'peer']"
-CASSANDRA-6603,['hang']
 CASSANDRA-7758,"['node', 'cluster']"
 CASSANDRA-8292,['remote']
 CASSANDRA-5660,['node']
@@ -1129,10 +1012,9 @@ CASSANDRA-7730,['cluster']
 CASSANDRA-8372,['EC']
 CASSANDRA-6343,['node']
 CASSANDRA-7798,['cluster']
-CASSANDRA-6669,"['down', 'startup']"
+CASSANDRA-6669,['startup']
 CASSANDRA-8302,['cluster']
 CASSANDRA-8293,['startup']
-CASSANDRA-6341,['hang']
 CASSANDRA-7669,"['node', 'connect']"
 CASSANDRA-8326,['connect']
 CASSANDRA-6520,"['node', 'cluster']"
@@ -1148,7 +1030,7 @@ CASSANDRA-9477,"['failure', 'node']"
 CASSANDRA-10961,"['node', 'cluster']"
 CASSANDRA-10756,['failure']
 CASSANDRA-10167,['failure']
-CASSANDRA-10315,"['node', 'down']"
+CASSANDRA-10315,['node']
 CASSANDRA-10730,['timeout']
 CASSANDRA-10160,['failure']
 CASSANDRA-8924,"['failure', 'node', 'node']"
@@ -1160,12 +1042,11 @@ CASSANDRA-10139,['failure']
 CASSANDRA-10129,['failure']
 CASSANDRA-10130,"['failure', 'restart']"
 CASSANDRA-10621,['node']
-CASSANDRA-9260,"['failure', 'down']"
+CASSANDRA-9260,"['failure', 'shutdown']"
 CASSANDRA-9884,['node']
 CASSANDRA-9749,['startup']
 CASSANDRA-10423,"['failure', 'node']"
-CASSANDRA-9492,['hang']
-CASSANDRA-9955,"['failure', 'node', 'node', 'node', 'down']"
+CASSANDRA-9955,"['failure', 'node', 'node', 'node']"
 CASSANDRA-10347,"['failure', 'node']"
 CASSANDRA-9495,['failure']
 CASSANDRA-9612,['node']
@@ -1179,12 +1060,12 @@ CASSANDRA-10254,['node']
 CASSANDRA-10969,"['node', 'node', 'node', 'restart', 'cluster', 'cluster']"
 CASSANDRA-10292,"['node', 'cluster']"
 CASSANDRA-9686,['EC']
-CASSANDRA-9453,"['startup', 'hang']"
+CASSANDRA-9453,['startup']
 CASSANDRA-9117,"['EC', 'startup']"
 CASSANDRA-10303,['node']
 CASSANDRA-9549,"['node', 'node', 'node', 'EC', 'cluster', 'replica', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-11021,['cluster']
-CASSANDRA-9021,"['node', 'node', 'cluster', 'cluster', 'setup']"
+CASSANDRA-9021,"['node', 'node', 'cluster', 'cluster']"
 CASSANDRA-9033,"['node', 'node', 'EC']"
 CASSANDRA-10534,['sync']
 CASSANDRA-9097,['node']
@@ -1199,7 +1080,6 @@ CASSANDRA-11038,"['node', 'node', 'restart']"
 CASSANDRA-10652,['startup']
 CASSANDRA-9291,"['node', 'node', 'node', 'node']"
 CASSANDRA-11057,['node']
-CASSANDRA-9132,['hang']
 CASSANDRA-10991,['node']
 CASSANDRA-9631,"['node', 'cluster', 'cluster']"
 CASSANDRA-9279,['startup']
@@ -1207,12 +1087,11 @@ CASSANDRA-10204,"['node', 'cluster', 'cluster']"
 CASSANDRA-10968,['snapshot']
 CASSANDRA-10902,['startup']
 CASSANDRA-11087,['cluster']
-CASSANDRA-9310,"['master', 'hang', 'hang']"
-CASSANDRA-9218,"['node', 'down']"
+CASSANDRA-9310,['master']
+CASSANDRA-9218,['node']
 CASSANDRA-9636,['elect']
-CASSANDRA-10135,['hang']
-CASSANDRA-11143,"['node', 'down', 'hang']"
-CASSANDRA-10511,"['restart', 'down']"
+CASSANDRA-11143,['node']
+CASSANDRA-10511,['restart']
 CASSANDRA-10554,['node']
 CASSANDRA-10987,['node']
 CASSANDRA-10413,"['crash', 'node']"
@@ -1239,7 +1118,7 @@ CASSANDRA-9630,['connect']
 CASSANDRA-10986,['node']
 CASSANDRA-10879,['connect']
 CASSANDRA-10231,"['crash', 'node', 'node']"
-CASSANDRA-10052,"['node', 'down']"
+CASSANDRA-10052,['node']
 CASSANDRA-11019,['node']
 CASSANDRA-9998,"['snapshot', 'EC']"
 CASSANDRA-9240,['restart']
@@ -1250,10 +1129,8 @@ CASSANDRA-11034,['consistent']
 CASSANDRA-10829,['node']
 CASSANDRA-10959,['timeout']
 CASSANDRA-10729,['EC']
-CASSANDRA-10067,['hang']
-CASSANDRA-11163,['hang']
 CASSANDRA-10014,['cluster']
-CASSANDRA-10811,"['EC', 'hang']"
+CASSANDRA-10811,['EC']
 CASSANDRA-10978,['node']
 CASSANDRA-9180,['peer']
 CASSANDRA-10270,['node']
@@ -1263,15 +1140,11 @@ CASSANDRA-11157,['connect']
 CASSANDRA-10607,['crash']
 CASSANDRA-10686,['timeout']
 CASSANDRA-9696,['node']
-CASSANDRA-9534,['distributed']
 CASSANDRA-9281,['elect']
 CASSANDRA-10298,"['node', 'dead']"
 CASSANDRA-10539,"['node', 'consistent']"
 CASSANDRA-9419,['connect']
-CASSANDRA-8992,['hang']
-CASSANDRA-10665,['hang']
 CASSANDRA-9201,['startup']
-CASSANDRA-11062,['down']
 CASSANDRA-10371,['node']
 CASSANDRA-9898,['crash']
 CASSANDRA-11025,"['node', 'node', 'node']"
@@ -1282,52 +1155,45 @@ CASSANDRA-9398,['snapshot']
 CASSANDRA-10834,['connect']
 CASSANDRA-10357,['elect']
 CASSANDRA-10780,['startup']
-CASSANDRA-9560,"['node', 'node', 'restart', 'hang']"
+CASSANDRA-9560,"['node', 'node', 'restart']"
 CASSANDRA-10390,['consistent']
 CASSANDRA-10382,['node']
 CASSANDRA-10530,['node']
 CASSANDRA-9190,['EC']
 CASSANDRA-9022,"['node', 'cluster']"
-CASSANDRA-9238,['down']
-CASSANDRA-9060,['hang']
-CASSANDRA-9197,['down']
+CASSANDRA-9238,['shutdown']
 CASSANDRA-11226,['node']
-CASSANDRA-10010,['hang']
-CASSANDRA-9487,['hang']
 CASSANDRA-9953,['snapshot']
 CASSANDRA-10380,['EC']
-CASSANDRA-10447,['down']
+CASSANDRA-10447,['shutdown']
 CASSANDRA-10962,"['restart', 'snapshot']"
 CASSANDRA-9507,['timeout']
 CASSANDRA-10608,['dead']
 CASSANDRA-10487,['elect']
 CASSANDRA-10491,['consistent']
 CASSANDRA-11217,['startup']
-CASSANDRA-10220,['hang']
 CASSANDRA-9700,['elect']
 CASSANDRA-10176,"['node', 'replica']"
 CASSANDRA-9639,['cluster']
 CASSANDRA-11005,['consistent']
 CASSANDRA-10953,"['node', 'timeout']"
-CASSANDRA-11010,['hang']
 CASSANDRA-10634,['replica']
 CASSANDRA-10079,"['node', 'EC']"
 CASSANDRA-9688,['connect']
 CASSANDRA-11146,['EC']
-CASSANDRA-10288,"['node', 'hang', 'consistent', 'replica']"
+CASSANDRA-10288,"['node', 'consistent', 'replica']"
 CASSANDRA-10127,['consistent']
 CASSANDRA-9439,['elect']
 CASSANDRA-8950,['node']
 CASSANDRA-9031,"['node', 'node', 'cluster']"
 CASSANDRA-11007,['node']
-CASSANDRA-11120,"['node', 'down']"
+CASSANDRA-11120,['node']
 CASSANDRA-12457,['failure']
 CASSANDRA-12261,"['failure', 'failure']"
 CASSANDRA-12213,"['failure', 'failure']"
 CASSANDRA-13216,['failure']
 CASSANDRA-11811,"['failure', 'snapshot']"
 CASSANDRA-11687,['failure']
-CASSANDRA-12103,['hang']
 CASSANDRA-12531,"['failure', 'failure', 'failure']"
 CASSANDRA-12856,"['failure', 'restart', 'replica']"
 CASSANDRA-11470,"['failure', 'replica']"
@@ -1415,7 +1281,6 @@ CASSANDRA-13250,['failure']
 CASSANDRA-12323,['failure']
 CASSANDRA-12505,"['failure', 'node']"
 CASSANDRA-11838,['failure']
-CASSANDRA-12938,['hang']
 CASSANDRA-12428,['failure']
 CASSANDRA-12600,"['failure', 'node', 'node', 'node']"
 CASSANDRA-13139,['failure']
@@ -1464,7 +1329,6 @@ CASSANDRA-13123,"['node', 'active']"
 CASSANDRA-12886,['connect']
 CASSANDRA-12539,['restart']
 CASSANDRA-12149,['EC']
-CASSANDRA-12781,['down']
 CASSANDRA-12903,"['node', 'node']"
 CASSANDRA-12253,['node']
 CASSANDRA-12402,['connect']
@@ -1475,26 +1339,23 @@ CASSANDRA-11930,['node']
 CASSANDRA-11866,['node']
 CASSANDRA-12060,['consistent']
 CASSANDRA-11339,['EC']
-CASSANDRA-12901,"['node', 'hang', 'sync']"
+CASSANDRA-12901,"['node', 'sync']"
 CASSANDRA-12673,"['node', 'node', 'node', 'EC', 'connect']"
-CASSANDRA-12279,"['node', 'hang']"
+CASSANDRA-12279,['node']
 CASSANDRA-11323,['node']
 CASSANDRA-12715,['node']
 CASSANDRA-12454,['node']
 CASSANDRA-11495,['elect']
-CASSANDRA-12251,['down']
+CASSANDRA-12251,['shutdown']
 CASSANDRA-12127,['cluster']
-CASSANDRA-12740,['hang']
 CASSANDRA-13069,['node']
 CASSANDRA-11615,"['cluster', 'connect']"
 CASSANDRA-11744,"['node', 'node', 'restart']"
-CASSANDRA-12754,"['timeout', 'hang']"
+CASSANDRA-12754,['timeout']
 CASSANDRA-13272,['node']
 CASSANDRA-12499,['cluster']
-CASSANDRA-11357,['hang']
 CASSANDRA-12044,['cluster']
-CASSANDRA-12509,"['node', 'down']"
-CASSANDRA-13061,['hang']
+CASSANDRA-12509,['node']
 CASSANDRA-11302,['timeout']
 CASSANDRA-12004,['consistent']
 CASSANDRA-11991,['node']
@@ -1508,18 +1369,16 @@ CASSANDRA-12281,['startup']
 CASSANDRA-12924,"['restart', 'connect']"
 CASSANDRA-11830,['node']
 CASSANDRA-11815,['replica']
-CASSANDRA-11416,"['cluster', 'backup']"
-CASSANDRA-13116,['hang']
+CASSANDRA-11416,['cluster']
 CASSANDRA-12026,['cluster']
 CASSANDRA-12043,['replica']
 CASSANDRA-11813,['node']
 CASSANDRA-12734,['snapshot']
 CASSANDRA-11923,['elect']
-CASSANDRA-11604,"['elect', 'hang']"
+CASSANDRA-11604,['elect']
 CASSANDRA-11939,['consistent']
 CASSANDRA-12844,"['crash', 'node', 'node']"
 CASSANDRA-12753,['startup']
-CASSANDRA-12954,"['distributed', 'distributed']"
 CASSANDRA-12205,['node']
 CASSANDRA-11980,['active']
 CASSANDRA-12109,['connect']
@@ -1527,7 +1386,6 @@ CASSANDRA-12522,['node']
 CASSANDRA-11297,['node']
 CASSANDRA-12368,['replica']
 CASSANDRA-12435,"['cluster', 'timeout']"
-CASSANDRA-11325,['hang']
 CASSANDRA-11307,"['sync', 'sync']"
 CASSANDRA-12962,['restart']
 CASSANDRA-12899,['EC']
@@ -1565,7 +1423,7 @@ CASSANDRA-14041,"['dead', 'sync']"
 CASSANDRA-13842,['failure']
 CASSANDRA-14889,['failure']
 CASSANDRA-13933,"['failure', 'node']"
-CASSANDRA-13672,"['failure', 'node', 'hang']"
+CASSANDRA-13672,"['failure', 'node']"
 CASSANDRA-14583,['failure']
 CASSANDRA-15143,['failure']
 CASSANDRA-13658,"['failure', 'recovery']"
@@ -1577,7 +1435,6 @@ CASSANDRA-13836,"['failure', 'snapshot', 'snapshot']"
 CASSANDRA-13755,"['failure', 'consistent']"
 CASSANDRA-15358,['connect']
 CASSANDRA-14358,"['node', 'node', 'node', 'node', 'node', 'node', 'restart', 'EC', 'cluster', 'cluster', 'cluster', 'connect', 'connect', 'connect', 'consistent']"
-CASSANDRA-15543,['distributed']
 CASSANDRA-15214,['node']
 CASSANDRA-14762,['node']
 CASSANDRA-13938,"['crash', 'node']"
@@ -1585,14 +1442,11 @@ CASSANDRA-14522,"['cluster', 'connect']"
 CASSANDRA-14080,['startup']
 CASSANDRA-13400,['cluster']
 CASSANDRA-14013,"['restart', 'snapshot']"
-CASSANDRA-14922,['down']
+CASSANDRA-14922,['shutdown']
 CASSANDRA-14672,['node']
 CASSANDRA-14245,['EC']
-CASSANDRA-13948,['hang']
-CASSANDRA-13603,['hang']
 CASSANDRA-14155,"['node', 'startup']"
-CASSANDRA-13813,['distributed']
-CASSANDRA-14841,"['cluster', 'distributed']"
+CASSANDRA-14841,['cluster']
 CASSANDRA-15459,['group']
 CASSANDRA-15310,"['connect', 'connect']"
 CASSANDRA-15385,['connect']
@@ -1605,8 +1459,7 @@ CASSANDRA-13592,['EC']
 CASSANDRA-14919,['cluster']
 CASSANDRA-13717,['cluster']
 CASSANDRA-15367,['dead']
-CASSANDRA-14142,['down']
-CASSANDRA-14638,"['node', 'EC', 'cluster', 'hang']"
+CASSANDRA-14638,"['node', 'EC', 'cluster']"
 CASSANDRA-13308,['node']
 CASSANDRA-14989,['EC']
 CASSANDRA-14167,"['quorum', 'elect']"
@@ -1626,18 +1479,16 @@ CASSANDRA-14509,"['timeout', 'sync']"
 CASSANDRA-14540,['node']
 CASSANDRA-13620,['startup']
 CASSANDRA-15400,['cluster']
-CASSANDRA-15507,['distributed']
 CASSANDRA-13324,"['node', 'connect']"
-CASSANDRA-13480,"['node', 'hang']"
+CASSANDRA-13480,['node']
 CASSANDRA-15409,['node']
-CASSANDRA-13307,['down']
-CASSANDRA-13441,"['node', 'hang']"
+CASSANDRA-13441,['node']
 CASSANDRA-13911,['EC']
 CASSANDRA-13797,['sync']
 CASSANDRA-14242,['consistent']
 CASSANDRA-14896,['node']
 CASSANDRA-14137,"['crash', 'startup']"
-CASSANDRA-13562,"['node', 'hang']"
+CASSANDRA-13562,['node']
 CASSANDRA-14594,['elect']
 CASSANDRA-13375,['elect']
 CASSANDRA-14804,['node']
@@ -1645,10 +1496,6 @@ CASSANDRA-13700,['node']
 CASSANDRA-15314,['node']
 CASSANDRA-15315,['node']
 CASSANDRA-14023,"['network', 'replica']"
-CASSANDRA-15524,['distributed']
-CASSANDRA-14067,['hang']
-CASSANDRA-14890,['hang']
-CASSANDRA-13923,['down']
 CASSANDRA-14475,['node']
 CASSANDRA-14136,['cluster']
 CASSANDRA-13311,['connect']
@@ -1662,7 +1509,7 @@ CASSANDRA-14958,['cluster']
 CASSANDRA-13526,"['node', 'replica']"
 CASSANDRA-14579,['node']
 CASSANDRA-13920,['cluster']
-CASSANDRA-14109,"['node', 'hang']"
+CASSANDRA-14109,['node']
 CASSANDRA-14182,['elect']
 CASSANDRA-14955,['node']
 CASSANDRA-15435,['EC']
@@ -1675,7 +1522,6 @@ CASSANDRA-13880,['cluster']
 CASSANDRA-14904,['connect']
 CASSANDRA-15075,['EC']
 CASSANDRA-15216,['node']
-CASSANDRA-14616,['hang']
 CASSANDRA-15056,['connect']
 CASSANDRA-15134,['snapshot']
 CASSANDRA-15120,['node']
@@ -1686,10 +1532,9 @@ CASSANDRA-13918,['recovery']
 CASSANDRA-14075,"['node', 'node']"
 CASSANDRA-14028,"['node', 'leader']"
 CASSANDRA-14909,['connect']
-CASSANDRA-14530,"['node', 'down', 'connect', 'connect', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
+CASSANDRA-14530,"['node', 'shutdown', 'connect', 'connect', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 CASSANDRA-15307,['remote']
 CASSANDRA-13874,['node']
-CASSANDRA-14219,['hang']
 CASSANDRA-14597,['snapshot']
 CASSANDRA-14564,['cluster']
 CASSANDRA-13524,['connect']

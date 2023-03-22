@@ -1,14 +1,12 @@
 Issue_key,keyword
 HDFS-13509,"['failure', 'failure']"
-HDFS-15543,"['node', 'node', 'down', 'cluster', 'cluster', 'cluster', 'cluster']"
+HDFS-15543,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
 HDFS-13705,"['failure', 'failure']"
-HDFS-15624,['hang']
 HDFS-14101,"['failure', 'node']"
-HDFS-16333,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'EC', 'hang']"
+HDFS-16333,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'EC']"
 HDFS-14180,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-16385,"['node', 'node', 'node', 'node']"
-HDFS-16177,['down']
-HDFS-14846,"['failure', 'failure', 'crash', 'crash', 'hang']"
+HDFS-14846,"['failure', 'failure', 'crash', 'crash']"
 HDFS-16127,"['failure', 'failure', 'node', 'recovery']"
 HDFS-15124,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-14245,"['node', 'node', 'node', 'node', 'node', 'group']"
@@ -19,9 +17,9 @@ HDFS-15157,"['failure', 'node', 'node']"
 HDFS-15193,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-13618,['failure']
 HDFS-15743,"['failure', 'failure']"
-HDFS-14333,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-14333,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-13746,"['failure', 'failure', 'group']"
-HDFS-14056,"['node', 'hang']"
+HDFS-14056,['node']
 HDFS-13806,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
 HDFS-15077,['failure']
 HDFS-14189,"['failure', 'node']"
@@ -29,31 +27,30 @@ HDFS-14900,['failure']
 HDFS-16525,['connect']
 HDFS-15240,"['node', 'node', 'node', 'node', 'EC', 'EC', 'connect', 'elect', 'timeout', 'timeout', 'remote', 'group', 'group']"
 HDFS-14557,"['node', 'node', 'node', 'node', 'node', 'sync']"
-HDFS-15147,"['restart', 'restart', 'restart', 'cluster', 'hang', 'consistent']"
-HDFS-16496,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'hang']"
+HDFS-15147,"['restart', 'restart', 'restart', 'cluster', 'consistent']"
+HDFS-16496,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-13588,['failure']
 HDFS-13895,"['EC', 'EC', 'EC']"
 HDFS-15443,"['failure', 'node', 'node', 'node', 'node']"
-HDFS-15128,"['failure', 'failure', 'failure', 'crash', 'node', 'node', 'node', 'node', 'restart', 'terminate', 'terminate', 'hang', 'hang', 'hang', 'hang']"
+HDFS-15128,"['failure', 'failure', 'failure', 'crash', 'node', 'node', 'node', 'node', 'restart', 'terminate', 'terminate']"
 HDFS-16635,"['node', 'startup', 'startup']"
 HDFS-15506,"['failure', 'node', 'node', 'snapshot', 'snapshot']"
 HDFS-16311,['node']
 HDFS-14462,"['node', 'node', 'cluster']"
-HDFS-15219,"['kill', 'dead', 'down', 'down', 'timeout']"
+HDFS-15219,"['kill', 'dead', 'shutdown', 'timeout']"
 HDFS-15316,"['failure', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'consistent']"
 HDFS-14065,['node']
 HDFS-16896,"['failure', 'failure']"
 HDFS-13524,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'connect', 'timeout', 'timeout', 'timeout', 'timeout', 'remote', 'peer']"
 HDFS-16806,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-HDFS-15438,['hang']
 HDFS-14962,['connect']
-HDFS-13723,"['node', 'node', 'node', 'node', 'active', 'active', 'down', 'down', 'timeout', 'timeout', 'timeout', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-HDFS-15446,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'down']"
+HDFS-13723,"['node', 'node', 'node', 'node', 'active', 'active', 'shutdown', 'timeout', 'timeout', 'timeout', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HDFS-15446,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-15802,['failure']
 HDFS-15508,['failure']
 HDFS-15507,['failure']
-HDFS-16064,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'hang', 'hang', 'consistent', 'consistent', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HDFS-15186,"['cluster', 'hang', 'group']"
+HDFS-16064,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'consistent', 'consistent', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-15186,"['cluster', 'group']"
 HDFS-16303,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'dead', 'active', 'cluster', 'cluster', 'cluster', 'cluster', 'terminate']"
 HDFS-16689,"['crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'restart', 'restart', 'active', 'failover', 'elect', 'sync', 'sync', 'sync', 'sync']"
 HDFS-15900,"['active', 'active', 'active']"
@@ -63,18 +60,18 @@ HDFS-16111,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'no
 HDFS-16507,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'quorum', 'elect', 'elect', 'elect', 'sync', 'remote']"
 HDFS-14529,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-16853,"['node', 'node', 'node', 'node', 'node', 'active', 'cluster']"
-HDFS-16187,"['restart', 'restart', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'hang', 'consistent', 'consistent']"
+HDFS-16187,"['restart', 'restart', 'restart', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'consistent', 'consistent']"
 HDFS-13977,"['restart', 'kill', 'kill', 'kill', 'cluster', 'timeout', 'remote']"
 HDFS-15792,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-15237,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'EC', 'remote']"
-HDFS-14847,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'hang', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group']"
-HDFS-15113,"['node', 'restart', 'restart', 'restart', 'restart', 'standby', 'down', 'sync', 'sync', 'sync']"
-HDFS-14498,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'hang', 'replica', 'replica']"
-HDFS-14768,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'timeout', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-14847,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group']"
+HDFS-15113,"['node', 'restart', 'restart', 'restart', 'restart', 'standby', 'sync', 'sync', 'sync']"
+HDFS-14498,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'replica', 'replica']"
+HDFS-14768,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'timeout', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-13959,"['failure', 'node', 'node', 'node']"
-HDFS-14389,"['node', 'node', 'node', 'node', 'node', 'down', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HDFS-14389,"['node', 'node', 'node', 'node', 'node', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HDFS-16109,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'timeout', 'timeout', 'timeout']"
-HDFS-14500,"['cluster', 'startup', 'startup', 'startup', 'startup', 'startup', 'hang']"
+HDFS-14500,"['cluster', 'startup', 'startup', 'startup', 'startup', 'startup']"
 HDFS-16269,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-16659,"['node', 'network', 'elect', 'sync', 'sync', 'sync']"
 HDFS-16272,"['crash', 'EC', 'EC', 'EC', 'recovery', 'recovery']"
@@ -82,14 +79,14 @@ HDFS-16182,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 
 HDFS-15915,"['sync', 'sync', 'sync']"
 HDFS-14148,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-14722,"['cluster', 'group', 'group']"
-HDFS-13671,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'hang']"
+HDFS-13671,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-15226,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-14459,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'startup', 'replica', 'replica', 'replica']"
 HDFS-16826,"['connect', 'connect', 'connect', 'connect']"
 HDFS-14527,"['node', 'node', 'node', 'node', 'node', 'node', 'dead', 'cluster', 'cluster', 'cluster', 'terminate', 'terminate']"
 HDFS-14509,['cluster']
 HDFS-16935,"['failure', 'node', 'cluster', 'cluster']"
-HDFS-16420,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-16420,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-13673,"['failure', 'failure']"
 HDFS-16544,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
 HDFS-14039,"['failure', 'node', 'restart', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
@@ -100,19 +97,18 @@ HDFS-14486,['recovery']
 HDFS-15685,"['node', 'node', 'node', 'node']"
 HDFS-14323,"['cluster', 'cluster']"
 HDFS-15319,"['node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot']"
-HDFS-13833,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'hang', 'hang', 'replica', 'replica', 'replica']"
+HDFS-13833,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'replica', 'replica', 'replica']"
 HDFS-15916,"['snapshot', 'snapshot', 'cluster', 'cluster', 'cluster', 'cluster']"
 HDFS-14081,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica']"
 HDFS-14135,['failure']
-HDFS-15018,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'down', 'down', 'down', 'sync']"
+HDFS-15018,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'shutdown', 'shutdown', 'shutdown', 'sync']"
 HDFS-14311,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connect', 'connect']"
 HDFS-16517,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
 HDFS-16402,"['node', 'node', 'node']"
-HDFS-16259,"['hang', 'remote']"
+HDFS-16259,['remote']
 HDFS-16145,"['failure', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'EC', 'replica', 'group', 'group']"
-HDFS-15580,"['node', 'node', 'hang', 'hang']"
-HDFS-14920,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'cluster', 'cluster', 'hang', 'hang', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HDFS-16129,['hang']
+HDFS-15580,"['node', 'node']"
+HDFS-14920,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-14739,"['group', 'group', 'group', 'group', 'group']"
 HDFS-16408,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'timeout', 'timeout', 'timeout']"
 HDFS-14986,"['node', 'node', 'node']"
@@ -121,9 +117,9 @@ HDFS-15391,"['failure', 'restart', 'restart', 'cluster', 'replica']"
 HDFS-14751,"['node', 'node', 'node', 'node', 'node']"
 HDFS-14503,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-15270,['terminate']
-HDFS-14973,"['cluster', 'cluster', 'startup', 'distributed']"
-HDFS-16108,"['failure', 'down', 'sync', 'sync']"
-HDFS-14655,"['crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'standby', 'down', 'down', 'EC', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync']"
+HDFS-14973,"['cluster', 'cluster', 'startup']"
+HDFS-16108,"['failure', 'sync', 'sync']"
+HDFS-14655,"['crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'standby', 'EC', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync']"
 HDFS-14575,['terminate']
 HDFS-14867,"['group', 'group']"
 HDFS-16055,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
@@ -137,30 +133,27 @@ HDFS-14514,"['node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot',
 HDFS-15795,"['failure', 'EC']"
 HDFS-15205,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC']"
 HDFS-13844,['node']
-HDFS-16852,"['down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'connect']"
+HDFS-16852,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'connect']"
 HDFS-14048,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart']"
 HDFS-16623,"['node', 'node', 'connect']"
-HDFS-14668,['setup']
 HDFS-15012,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'active', 'active']"
 HDFS-13772,"['node', 'node', 'node', 'node', 'node', 'node']"
-HDFS-15115,"['crash', 'crash', 'node', 'node', 'node', 'hang', 'hang', 'hang']"
-HDFS-15439,"['failure', 'hang']"
-HDFS-13596,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'down', 'down']"
+HDFS-15115,"['crash', 'crash', 'node', 'node', 'node']"
+HDFS-15439,['failure']
+HDFS-13596,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart']"
 HDFS-14642,"['node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HDFS-16838,"['node', 'down']"
+HDFS-16838,"['node', 'shutdown']"
 HDFS-15974,"['node', 'node']"
 HDFS-14429,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica']"
 HDFS-13768,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'cluster', 'startup', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery']"
 HDFS-14013,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'standby', 'connect', 'terminate', 'terminate']"
 HDFS-16923,"['node', 'node', 'node', 'node']"
 HDFS-13330,['replica']
-HDFS-14852,"['hang', 'hang']"
 HDFS-16732,"['node', 'node', 'cluster']"
-HDFS-16604,"['down', 'down', 'down', 'down']"
-HDFS-13677,"['node', 'node', 'node', 'node', 'node', 'node', 'hang']"
-HDFS-16550,"['crash', 'crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'active', 'down', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'startup']"
+HDFS-13677,"['node', 'node', 'node', 'node', 'node', 'node']"
+HDFS-16550,"['crash', 'crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'active', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'startup']"
 HDFS-15408,"['failure', 'node', 'cluster', 'cluster', 'connect', 'timeout']"
-HDFS-14609,"['node', 'hang', 'hang']"
+HDFS-14609,['node']
 HDFS-14434,"['cluster', 'cluster', 'connect', 'connect', 'connect', 'group']"
 HDFS-14967,"['failure', 'failure', 'cluster']"
 HDFS-16061,"['failure', 'replica']"
@@ -169,7 +162,7 @@ HDFS-15535,"['snapshot', 'snapshot']"
 HDFS-13816,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-13369,"['node', 'node']"
 HDFS-15963,"['sync', 'sync']"
-HDFS-16934,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'hang', 'hang', 'hang', 'hang', 'peer', 'peer', 'peer', 'peer']"
+HDFS-16934,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'peer', 'peer', 'peer', 'peer']"
 HDFS-16297,"['cluster', 'replica', 'replica']"
 HDFS-14143,['cluster']
 HDFS-16538,"['EC', 'EC', 'cluster']"
@@ -179,13 +172,12 @@ HDFS-13868,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapsh
 HDFS-15421,"['node', 'active', 'standby', 'startup']"
 HDFS-14669,"['node', 'node', 'node']"
 HDFS-16510,"['node', 'node', 'EC', 'cluster', 'cluster', 'cluster']"
-HDFS-13433,"['node', 'node', 'node', 'node', 'cluster', 'setup']"
-HDFS-14546,['setup']
+HDFS-13433,"['node', 'node', 'node', 'node', 'cluster']"
 HDFS-13838,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-14537,['node']
 HDFS-15276,"['node', 'node']"
 HDFS-14074,"['sync', 'sync']"
-HDFS-14759,"['hang', 'remote']"
+HDFS-14759,['remote']
 HDFS-14111,"['node', 'network', 'remote']"
 HDFS-15048,"['node', 'node', 'node']"
 HDFS-16837,"['sync', 'remote']"
@@ -208,78 +200,69 @@ HDFS-14880,"['cluster', 'cluster']"
 HDFS-14806,"['standby', 'standby', 'standby']"
 HDFS-15126,"['node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-14126,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HDFS-16536,['down']
 HDFS-13359,"['sync', 'sync']"
-HDFS-14383,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'hang', 'replica']"
+HDFS-14383,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica']"
 HDFS-15798,"['node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'EC', 'EC', 'replica']"
 HDFS-14618,"['sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-15250,"['crash', 'crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'remote', 'peer', 'peer', 'peer']"
-HDFS-13676,['hang']
-HDFS-14961,"['failure', 'node', 'node', 'node', 'node', 'node', 'elect', 'elect', 'hang', 'hang', 'consistent']"
+HDFS-14961,"['failure', 'node', 'node', 'node', 'node', 'node', 'elect', 'elect', 'consistent']"
 HDFS-16027,"['cluster', 'cluster', 'cluster', 'terminate']"
-HDFS-15058,"['failure', 'snapshot', 'snapshot', 'snapshot', 'down', 'down', 'down', 'down']"
-HDFS-16586,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'master', 'master', 'down', 'down', 'down', 'down', 'EC', 'cluster', 'cluster', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'group', 'group', 'group', 'group', 'group']"
-HDFS-14359,"['node', 'hang', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HDFS-15058,"['failure', 'snapshot', 'snapshot', 'snapshot', 'shutdown', 'shutdown']"
+HDFS-16586,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'master', 'master', 'EC', 'cluster', 'cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'group', 'group', 'group', 'group', 'group']"
+HDFS-14359,"['node', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HDFS-14754,"['EC', 'EC', 'replica']"
-HDFS-13356,"['down', 'hang']"
 HDFS-14581,"['crash', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'EC', 'replica']"
 HDFS-14685,['node']
 HDFS-15209,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
-HDFS-14699,"['node', 'down', 'EC', 'EC', 'EC', 'cluster', 'replica', 'replica']"
+HDFS-14699,"['node', 'shutdown', 'EC', 'EC', 'EC', 'cluster', 'replica', 'replica']"
 HDFS-14660,"['node', 'node', 'cluster', 'cluster', 'consistent']"
 HDFS-13901,['node']
 HDFS-15111,['standby']
-HDFS-16761,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down']"
+HDFS-16761,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-15725,"['node', 'node', 'node', 'node', 'kill', 'EC', 'replica', 'replica', 'replica', 'recovery', 'recovery']"
-HDFS-14396,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'EC']"
+HDFS-14396,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC']"
 HDFS-14423,"['group', 'group']"
 HDFS-13993,"['failure', 'node']"
 HDFS-13785,"['node', 'node', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
 HDFS-15198,['connect']
-HDFS-14578,"['node', 'node', 'elect', 'hang', 'hang']"
+HDFS-14578,"['node', 'node', 'elect']"
 HDFS-13983,"['crash', 'crash']"
 HDFS-14317,"['node', 'active', 'active', 'active', 'standby', 'standby', 'standby']"
-HDFS-15069,['hang']
-HDFS-14599,['hang']
 HDFS-15709,"['EC', 'EC', 'connect']"
 HDFS-15422,"['node', 'node', 'node', 'node', 'active', 'standby']"
 HDFS-15287,['cluster']
 HDFS-13836,"['node', 'node', 'node', 'terminate', 'terminate']"
 HDFS-14499,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-14834,"['node', 'node', 'node', 'node', 'EC', 'EC', 'EC', 'replica']"
-HDFS-13963,"['node', 'hang']"
+HDFS-13963,['node']
 HDFS-15644,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'replica', 'replica']"
 HDFS-14088,"['failover', 'sync']"
 HDFS-16161,['node']
 HDFS-14777,"['cluster', 'cluster', 'sync']"
 HDFS-13336,['node']
-HDFS-14821,"['down', 'down', 'down', 'down', 'cluster', 'hang']"
+HDFS-14821,['cluster']
 HDFS-16748,"['node', 'node', 'sync']"
 HDFS-15865,"['node', 'network']"
-HDFS-13770,"['hang', 'hang', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-13770,"['sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-14679,"['EC', 'EC']"
-HDFS-16518,"['down', 'down', 'EC']"
-HDFS-15085,"['node', 'node', 'node', 'down', 'down', 'recovery']"
+HDFS-16518,"['shutdown', 'EC']"
+HDFS-15085,"['node', 'node', 'node', 'recovery']"
 HDFS-16498,"['node', 'node', 'node', 'restart']"
-HDFS-15149,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'setup', 'setup', 'setup', 'setup', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
+HDFS-15149,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-14027,"['node', 'EC', 'connect', 'sync', 'sync', 'sync', 'sync', 'consistent', 'remote', 'remote', 'remote']"
-HDFS-15348,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'down', 'failover', 'failover']"
-HDFS-14874,"['hang', 'hang', 'hang', 'hang']"
+HDFS-15348,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'failover', 'failover']"
 HDFS-13908,"['node', 'node']"
 HDFS-14228,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'consistent']"
 HDFS-14946,"['crash', 'node', 'node', 'node', 'node', 'node', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
-HDFS-14207,"['node', 'node', 'node', 'node', 'node', 'node', 'down', 'startup', 'terminate']"
-HDFS-15667,"['hang', 'hang', 'hang']"
+HDFS-14207,"['node', 'node', 'node', 'node', 'node', 'node', 'startup', 'terminate']"
 HDFS-15181,['node']
-HDFS-13799,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'terminate', 'sync', 'sync']"
+HDFS-13799,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'terminate', 'sync', 'sync']"
 HDFS-13485,"['node', 'node', 'node', 'node', 'node', 'node', 'elect', 'elect', 'elect']"
 HDFS-14708,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-16422,"['EC', 'replica', 'group']"
-HDFS-14831,"['down', 'hang']"
-HDFS-16572,['hang']
 HDFS-14686,['EC']
-HDFS-13721,"['node', 'node', 'startup', 'elect', 'elect', 'hang']"
-HDFS-15618,"['node', 'node', 'node', 'down', 'down', 'down']"
+HDFS-13721,"['node', 'node', 'startup', 'elect', 'elect']"
+HDFS-15618,"['node', 'node', 'node', 'shutdown', 'shutdown', 'shutdown']"
 HDFS-14535,"['sync', 'sync']"
 HDFS-13892,"['node', 'node', 'node', 'node']"
 HDFS-13251,"['node', 'cluster']"
@@ -287,13 +270,13 @@ HDFS-14925,"['snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-14895,"['node', 'node']"
 HDFS-14583,"['replica', 'group', 'group']"
 HDFS-14647,"['node', 'node', 'node', 'node', 'startup', 'elect', 'elect']"
-HDFS-16540,"['node', 'node', 'network', 'restart', 'restart', 'restart', 'hang']"
+HDFS-16540,"['node', 'node', 'network', 'restart', 'restart', 'restart']"
 HDFS-16042,"['node', 'node', 'EC']"
 HDFS-15458,"['node', 'node', 'node', 'node']"
 HDFS-16563,"['node', 'node', 'node']"
 HDFS-15988,['timeout']
 HDFS-16236,"['failure', 'node']"
-HDFS-14964,"['restart', 'hang', 'hang']"
+HDFS-14964,['restart']
 HDFS-15423,"['node', 'node', 'node', 'cluster', 'cluster']"
 HDFS-16198,['cluster']
 HDFS-15323,"['crash', 'active']"
@@ -301,7 +284,7 @@ HDFS-15253,"['node', 'node', 'node', 'failover', 'replica']"
 HDFS-13292,['EC']
 HDFS-14145,"['node', 'node', 'node']"
 HDFS-14075,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'sync', 'sync']"
-HDFS-15211,"['EC', 'hang', 'hang']"
+HDFS-15211,['EC']
 HDFS-15281,"['node', 'node', 'node', 'node', 'node']"
 HDFS-14416,"['failover', 'failover']"
 HDFS-16207,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
@@ -309,7 +292,7 @@ HDFS-16001,['consistent']
 HDFS-15929,['EC']
 HDFS-14677,"['node', 'node', 'node']"
 HDFS-14043,"['crash', 'node', 'node']"
-HDFS-16373,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart', 'down']"
+HDFS-16373,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'restart', 'restart']"
 HDFS-16809,['EC']
 HDFS-13840,"['restart', 'restart']"
 HDFS-14549,"['node', 'node', 'node', 'node', 'active']"
@@ -317,10 +300,10 @@ HDFS-15536,['consistent']
 HDFS-13786,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
 HDFS-16443,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-14859,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'startup', 'sync', 'sync']"
-HDFS-13837,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'active', 'active', 'active', 'standby', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'down', 'cluster', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'hang', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'group', 'group', 'group', 'group']"
+HDFS-13837,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'active', 'active', 'active', 'active', 'active', 'standby', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'peer', 'peer', 'group', 'group', 'group', 'group']"
 HDFS-13730,"['node', 'cluster', 'peer', 'peer', 'peer']"
 HDFS-13997,['node']
-HDFS-15210,"['node', 'restart', 'down', 'down', 'down', 'EC', 'EC', 'setup', 'setup', 'hang']"
+HDFS-15210,"['node', 'restart', 'shutdown', 'EC', 'EC']"
 HDFS-13926,"['EC', 'sync']"
 HDFS-13638,"['node', 'cluster', 'replica', 'replica']"
 HDFS-15216,"['node', 'node', 'node', 'network', 'snapshot', 'snapshot', 'snapshot', 'replica', 'replica', 'replica', 'replica']"
@@ -338,22 +321,21 @@ HDFS-14548,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapsh
 HDFS-14623,"['node', 'node', 'node']"
 HDFS-13863,['node']
 HDFS-16885,['node']
-HDFS-13832,"['EC', 'hang']"
-HDFS-14372,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'down', 'down', 'connect']"
+HDFS-13832,['EC']
+HDFS-14372,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'shutdown', 'connect']"
 HDFS-13663,"['node', 'node', 'node', 'node', 'sync', 'sync', 'sync', 'sync', 'sync', 'replica', 'replica', 'replica', 'replica']"
 HDFS-14242,"['node', 'node', 'node', 'node', 'EC', 'EC', 'replica', 'replica', 'group', 'group', 'group', 'group']"
 HDFS-16925,"['node', 'node']"
 HDFS-14996,"['EC', 'EC']"
-HDFS-13758,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'hang']"
+HDFS-13758,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
 HDFS-13635,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica']"
 HDFS-15068,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'dead', 'dead', 'sync', 'sync', 'sync', 'consistent']"
 HDFS-13886,"['snapshot', 'snapshot']"
 HDFS-14913,"['node', 'node']"
-HDFS-14279,"['hang', 'hang', 'hang']"
 HDFS-15095,"['node', 'node']"
 HDFS-13573,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-15246,"['node', 'node', 'node']"
-HDFS-14324,"['node', 'down']"
+HDFS-14324,['node']
 HDFS-14636,"['node', 'node', 'node', 'cluster']"
 HDFS-16832,"['node', 'node']"
 HDFS-15875,"['node', 'node', 'node', 'node', 'node', 'connect', 'timeout', 'sync', 'consistent', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
@@ -361,7 +343,7 @@ HDFS-15200,"['node', 'node', 'node', 'node', 'standby', 'failover', 'replica', '
 HDFS-15622,"['node', 'node', 'node', 'restart', 'dead', 'failover', 'cluster', 'replica', 'replica']"
 HDFS-13715,"['cluster', 'cluster']"
 HDFS-15660,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HDFS-15187,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'down', 'failover', 'failover', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-15187,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'failover', 'failover', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-13426,['sync']
 HDFS-14367,"['node', 'EC']"
 HDFS-15148,"['node', 'connect']"
@@ -369,22 +351,20 @@ HDFS-14881,['dead']
 HDFS-14445,"['node', 'node', 'node', 'node', 'node']"
 HDFS-14598,"['node', 'node', 'node', 'node', 'EC']"
 HDFS-15573,"['node', 'node']"
-HDFS-14838,['hang']
 HDFS-15538,"['node', 'node', 'replica', 'replica', 'replica']"
-HDFS-13642,"['EC', 'EC', 'hang']"
-HDFS-16881,"['node', 'down']"
+HDFS-13642,"['EC', 'EC']"
+HDFS-16881,['node']
 HDFS-13945,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
-HDFS-14144,['hang']
 HDFS-16591,"['connect', 'connect']"
-HDFS-15398,"['EC', 'EC', 'EC', 'hang', 'hang', 'hang', 'group', 'group', 'group', 'group']"
-HDFS-15170,"['node', 'node', 'node', 'node', 'active', 'standby', 'down', 'EC', 'EC', 'failover', 'failover', 'recovery', 'recovery']"
+HDFS-15398,"['EC', 'EC', 'EC', 'group', 'group', 'group', 'group']"
+HDFS-15170,"['node', 'node', 'node', 'node', 'active', 'standby', 'shutdown', 'EC', 'EC', 'failover', 'failover', 'recovery', 'recovery']"
 HDFS-14808,['EC']
 HDFS-13842,"['cluster', 'cluster']"
 HDFS-16565,"['node', 'connect', 'connect', 'connect']"
 HDFS-15561,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HDFS-14890,"['node', 'node', 'node', 'node', 'node', 'hang']"
+HDFS-14890,"['node', 'node', 'node', 'node', 'node']"
 HDFS-15223,"['node', 'node', 'node', 'node']"
-HDFS-13835,"['cluster', 'hang', 'hang']"
+HDFS-13835,['cluster']
 HDFS-13529,"['cluster', 'cluster']"
 HDFS-14373,"['EC', 'group']"
 HDFS-16509,"['node', 'node', 'node']"
@@ -394,17 +374,15 @@ HDFS-15809,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'no
 HDFS-14836,['node']
 HDFS-14610,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-14287,"['node', 'kill', 'connect']"
-HDFS-15227,['hang']
 HDFS-15293,['node']
 HDFS-15403,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HDFS-15627,"['terminate', 'hang', 'consistent']"
+HDFS-15627,"['terminate', 'consistent']"
 HDFS-13239,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC']"
 HDFS-14582,"['node', 'node', 'node', 'node']"
 HDFS-14631,"['replica', 'replica', 'replica']"
 HDFS-14721,['remote']
 HDFS-14630,"['node', 'node', 'restart', 'restart', 'EC', 'timeout', 'timeout']"
 HDFS-16738,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'sync', 'sync', 'sync']"
-HDFS-14010,['hang']
 HDFS-13668,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-13486,['node']
 HDFS-15779,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'EC', 'EC']"
@@ -413,16 +391,15 @@ HDFS-14266,"['node', 'EC', 'EC', 'group', 'group']"
 HDFS-15791,"['node', 'node', 'node']"
 HDFS-13949,"['node', 'node', 'node', 'startup', 'startup', 'timeout', 'timeout', 'timeout']"
 HDFS-16706,"['cluster', 'cluster', 'cluster', 'cluster']"
-HDFS-13322,"['hang', 'hang']"
 HDFS-15118,"['cluster', 'cluster']"
 HDFS-14849,"['node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'cluster', 'replica', 'replica']"
-HDFS-15191,"['cluster', 'hang', 'remote', 'peer', 'peer']"
+HDFS-15191,"['cluster', 'remote', 'peer', 'peer']"
 HDFS-14541,"['sync', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-14418,"['node', 'node']"
 HDFS-14941,"['node', 'node', 'node', 'failover', 'failover']"
 HDFS-16895,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-14272,"['active', 'cluster', 'startup', 'sync']"
-HDFS-15165,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'EC', 'hang', 'hang', 'hang', 'group']"
+HDFS-15165,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'EC', 'group']"
 HDFS-14350,"['node', 'node', 'active', 'EC', 'EC', 'EC', 'EC']"
 HDFS-13774,"['EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'EC', 'replica']"
 HDFS-13888,"['node', 'node', 'node', 'kill']"
@@ -431,20 +408,19 @@ HDFS-16593,"['node', 'node']"
 HDFS-16547,"['node', 'node', 'node', 'node', 'node', 'failover']"
 HDFS-16566,"['replica', 'replica', 'recovery', 'recovery']"
 HDFS-13999,"['restart', 'recovery']"
-HDFS-14140,"['down', 'cluster', 'cluster', 'cluster', 'sync', 'sync', 'sync']"
+HDFS-14140,"['cluster', 'cluster', 'cluster', 'sync', 'sync', 'sync']"
 HDFS-13683,"['cluster', 'cluster', 'cluster']"
-HDFS-14477,"['cluster', 'cluster', 'cluster', 'setup']"
+HDFS-14477,"['cluster', 'cluster', 'cluster']"
 HDFS-16871,"['node', 'node', 'group']"
 HDFS-15396,"['failure', 'failure']"
-HDFS-15014,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'remote']"
-HDFS-15372,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'hang', 'hang', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HDFS-15014,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'remote']"
+HDFS-15372,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HDFS-15214,['snapshot']
 HDFS-15628,"['failure', 'cluster']"
-HDFS-16456,"['node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'hang', 'replica', 'replica', 'replica', 'replica']"
-HDFS-16417,['hang']
+HDFS-16456,"['node', 'node', 'node', 'node', 'node', 'EC', 'EC', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica']"
 HDFS-15297,"['node', 'node']"
 HDFS-14414,"['node', 'node']"
-HDFS-16051,"['node', 'node', 'hang']"
+HDFS-16051,"['node', 'node']"
 HDFS-14442,"['node', 'active', 'active', 'active', 'active', 'active', 'active', 'active', 'failover', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'terminate']"
 HDFS-14219,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-15456,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'connect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
@@ -453,9 +429,9 @@ HDFS-15839,"['node', 'node', 'node', 'node', 'node']"
 HDFS-15343,"['node', 'node']"
 HDFS-13910,"['node', 'node', 'cluster', 'cluster', 'cluster']"
 HDFS-14910,['consistent']
-HDFS-15566,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart', 'down']"
+HDFS-15566,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'restart', 'restart']"
 HDFS-14793,['startup']
-HDFS-14637,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'restart', 'restart', 'cluster', 'cluster', 'cluster', 'cluster', 'setup', 'startup', 'hang', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HDFS-14637,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'restart', 'restart', 'cluster', 'cluster', 'cluster', 'cluster', 'startup', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-13660,['cluster']
 HDFS-15201,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-16724,"['cluster', 'cluster']"
@@ -463,13 +439,11 @@ HDFS-15052,"['node', 'explode', 'remote']"
 HDFS-16350,"['node', 'node']"
 HDFS-14492,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'cluster', 'cluster', 'cluster']"
 HDFS-16334,['node']
-HDFS-14726,['hang']
-HDFS-16449,"['hang', 'hang']"
-HDFS-15451,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'startup', 'hang']"
+HDFS-15451,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart', 'startup']"
 HDFS-16680,['connect']
 HDFS-14909,['node']
 HDFS-13736,"['node', 'node', 'node', 'node', 'node', 'node']"
-HDFS-16254,"['snapshot', 'snapshot', 'down']"
+HDFS-16254,"['snapshot', 'snapshot']"
 HDFS-16199,"['node', 'node']"
 HDFS-16293,['EC']
 HDFS-16046,['timeout']
@@ -477,7 +451,7 @@ HDFS-16676,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'no
 HDFS-15225,['snapshot']
 HDFS-15801,"['node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HDFS-16409,['node']
-HDFS-16406,"['node', 'node', 'node', 'node', 'node', 'down', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+HDFS-16406,"['node', 'node', 'node', 'node', 'node', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 HDFS-16151,"['connect', 'connect']"
 HDFS-15949,"['EC', 'EC']"
 HDFS-16121,"['snapshot', 'snapshot']"
@@ -486,7 +460,7 @@ HDFS-16343,"['node', 'startup']"
 HDFS-16099,"['node', 'active', 'failover']"
 HDFS-15998,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-16503,"['node', 'node', 'node', 'EC', 'EC', 'consistent']"
-HDFS-15719,"['crash', 'crash', 'down', 'elect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
+HDFS-15719,"['crash', 'crash', 'elect', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout', 'timeout']"
 HDFS-15610,"['node', 'node', 'node', 'node', 'node']"
 HDFS-15621,"['node', 'node', 'node']"
 HDFS-16057,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'active', 'active', 'active', 'active']"
@@ -494,31 +468,27 @@ HDFS-16633,['cluster']
 HDFS-13990,"['sync', 'sync']"
 HDFS-13368,"['node', 'node', 'consistent', 'consistent']"
 HDFS-16777,['remote']
-HDFS-13268,['hang']
-HDFS-13349,"['down', 'hang', 'hang']"
 HDFS-13427,['cluster']
 HDFS-14879,['snapshot']
 HDFS-14885,['node']
 HDFS-14046,['node']
-HDFS-14005,['hang']
 HDFS-15164,['node']
 HDFS-15286,"['node', 'node', 'node']"
 HDFS-13249,['snapshot']
 HDFS-15320,"['node', 'node', 'node', 'elect', 'elect', 'elect']"
 HDFS-14007,"['node', 'node', 'node']"
-HDFS-15485,"['node', 'node', 'cluster', 'quorum', 'hang']"
+HDFS-15485,"['node', 'node', 'cluster', 'quorum']"
 HDFS-14873,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-13957,"['node', 'node']"
-HDFS-14933,['hang']
 HDFS-13795,"['node', 'node']"
 HDFS-16868,['node']
 HDFS-16766,"['EC', 'EC', 'cluster', 'cluster', 'cluster']"
 HDFS-16877,"['node', 'node', 'node']"
 HDFS-16831,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HDFS-16756,"['node', 'node', 'down', 'cluster']"
+HDFS-16756,"['node', 'node', 'cluster']"
 HDFS-16876,"['node', 'node', 'node', 'active', 'active', 'connect', 'connect', 'connect', 'connect']"
 HDFS-16884,"['node', 'sync', 'replica', 'replica', 'replica']"
-HDFS-13615,"['dead', 'hang']"
+HDFS-13615,['dead']
 HDFS-14175,['EC']
 HDFS-14556,['cluster']
 HDFS-14482,['crash']
@@ -530,13 +500,13 @@ HDFS-15108,"['node', 'node', 'node', 'node', 'active', 'active', 'failover']"
 HDFS-16910,"['cluster', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-14887,"['node', 'node']"
 HDFS-14612,['node']
-HDFS-13350,"['EC', 'EC', 'hang', 'replica']"
-HDFS-13626,"['hang', 'hang', 'hang', 'hang', 'group', 'group', 'group', 'group']"
+HDFS-13350,"['EC', 'EC', 'replica']"
+HDFS-13626,"['group', 'group', 'group', 'group']"
 HDFS-13280,['snapshot']
 HDFS-13846,"['node', 'node']"
 HDFS-13586,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync', 'sync']"
 HDFS-14945,"['node', 'node', 'node']"
-HDFS-14922,"['node', 'restart', 'snapshot', 'startup', 'hang', 'hang']"
+HDFS-14922,"['node', 'restart', 'snapshot', 'startup']"
 HDFS-15283,"['restart', 'restart', 'cluster', 'cluster', 'group']"
 HDFS-15199,"['node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-15158,"['node', 'node']"
@@ -552,7 +522,6 @@ HDFS-14720,"['node', 'node', 'replica']"
 HDFS-15363,"['cluster', 'cluster', 'cluster', 'cluster']"
 HDFS-15135,"['node', 'node', 'EC']"
 HDFS-14263,['replica']
-HDFS-15325,['hang']
 HDFS-15332,['snapshot']
 HDFS-14042,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HDFS-14218,['EC']
@@ -567,21 +536,20 @@ HDFS-14802,['node']
 HDFS-15185,"['cluster', 'startup', 'startup']"
 HDFS-14504,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-15054,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
-HDFS-15380,"['node', 'hang', 'hang', 'remote', 'remote', 'remote']"
+HDFS-15380,"['node', 'remote', 'remote', 'remote']"
 HDFS-14869,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'sync', 'replica', 'replica']"
 HDFS-15540,"['group', 'group', 'group', 'group', 'group', 'group']"
-HDFS-16144,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot', 'hang', 'hang']"
+HDFS-16144,"['snapshot', 'snapshot', 'snapshot', 'snapshot', 'snapshot']"
 HDFS-15661,"['node', 'dead']"
 HDFS-1345,['failure']
 HDFS-795,['node']
 HDFS-4272,['failure']
 HDFS-4271,['failure']
 HDFS-5993,['failure']
-HDFS-4348,"['node', 'backup']"
+HDFS-4348,['node']
 HDFS-1595,"['failure', 'node']"
 HDFS-2991,['failure']
 HDFS-4442,['failure']
-HDFS-6937,['hang']
 HDFS-4505,['failure']
 HDFS-5042,['failure']
 HDFS-6958,['failure']
@@ -604,32 +572,28 @@ HDFS-4275,"['failure', 'node']"
 HDFS-2944,"['failure', 'node']"
 HDFS-1885,['failure']
 HDFS-5059,['snapshot']
-HDFS-4405,"['failure', 'down']"
+HDFS-4405,['failure']
 HDFS-1699,['failure']
 HDFS-5032,['failure']
 HDFS-1540,"['node', 'node']"
-HDFS-32,"['down', 'cluster']"
-HDFS-448,['hang']
+HDFS-32,['cluster']
 HDFS-1371,['node']
 HDFS-1232,['crash']
 HDFS-5225,['node']
-HDFS-5356,['down']
+HDFS-5356,['shutdown']
 HDFS-1065,['node']
-HDFS-7414,"['node', 'down']"
+HDFS-7414,"['node', 'shutdown']"
 HDFS-2470,['node']
-HDFS-4136,['hang']
 HDFS-3677,['node']
 HDFS-5315,['snapshot']
-HDFS-1594,"['node', 'down']"
+HDFS-1594,"['node', 'shutdown']"
 HDFS-4043,['node']
 HDFS-4138,['startup']
 HDFS-4811,"['node', 'standby']"
-HDFS-6827,['hang']
 HDFS-1197,['restart']
 HDFS-1194,['node']
 HDFS-875,['replica']
 HDFS-4794,['cluster']
-HDFS-7175,['hang']
 HDFS-6101,['node']
 HDFS-138,['node']
 HDFS-4253,['replica']
@@ -650,41 +614,36 @@ HDFS-6763,['active']
 HDFS-1226,['crash']
 HDFS-1234,"['node', 'node']"
 HDFS-5958,"['node', 'cluster']"
-HDFS-5313,"['EC', 'startup', 'hang']"
+HDFS-5313,"['EC', 'startup']"
 HDFS-5216,"['node', 'dead']"
 HDFS-4081,['node']
 HDFS-89,"['node', 'startup']"
-HDFS-3655,"['node', 'hang']"
+HDFS-3655,['node']
 HDFS-6964,['replica']
 HDFS-6666,['startup']
-HDFS-6098,['down']
+HDFS-6098,['shutdown']
 HDFS-4176,['timeout']
-HDFS-3384,['setup']
 HDFS-1235,"['node', 'node']"
-HDFS-1281,['setup']
 HDFS-6179,"['node', 'node']"
 HDFS-3586,['replica']
 HDFS-5730,['consistent']
 HDFS-7191,['connect']
 HDFS-1904,['node']
 HDFS-4608,['recovery']
-HDFS-1625,['hang']
 HDFS-6832,['node']
 HDFS-118,"['node', 'node', 'restart', 'connect']"
 HDFS-7320,['consistent']
 HDFS-5849,['node']
-HDFS-742,"['down', 'hang']"
 HDFS-4310,['node']
 HDFS-788,['node']
-HDFS-5802,"['node', 'down']"
-HDFS-5529,['down']
+HDFS-5802,['node']
+HDFS-5529,['shutdown']
 HDFS-3735,['node']
 HDFS-7187,"['crash', 'node', 'connect']"
 HDFS-3713,"['failover', 'failover']"
 HDFS-185,['node']
 HDFS-6148,"['crash', 'recovery']"
-HDFS-7842,"['down', 'cluster']"
-HDFS-4040,['setup']
+HDFS-7842,['cluster']
 HDFS-7657,['node']
 HDFS-4896,['cluster']
 HDFS-7401,"['node', 'dead']"
@@ -694,7 +653,6 @@ HDFS-97,['node']
 HDFS-3836,['node']
 HDFS-6359,['standby']
 HDFS-6248,['crash']
-HDFS-52,['down']
 HDFS-7847,['remote']
 HDFS-2378,['timeout']
 HDFS-5678,['dead']
@@ -712,14 +670,14 @@ HDFS-5422,['node']
 HDFS-5421,['node']
 HDFS-5420,['node']
 HDFS-1381,"['node', 'node']"
-HDFS-5877,"['node', 'hang']"
+HDFS-5877,['node']
 HDFS-1753,['node']
 HDFS-6590,"['node', 'restart']"
 HDFS-5295,['cluster']
 HDFS-7525,['node']
 HDFS-4853,['node']
 HDFS-5373,['replica']
-HDFS-2213,"['down', 'cluster']"
+HDFS-2213,['cluster']
 HDFS-5646,['failover']
 HDFS-1480,"['node', 'replica']"
 HDFS-134,['node']
@@ -728,7 +686,6 @@ HDFS-7166,['replica']
 HDFS-7319,['dead']
 HDFS-7261,"['node', 'sync']"
 HDFS-3325,['node']
-HDFS-6860,['hang']
 HDFS-1970,"['node', 'recovery', 'recovery']"
 HDFS-4757,['node']
 HDFS-7736,['snapshot']
@@ -736,7 +693,6 @@ HDFS-2950,['EC']
 HDFS-1897,['network']
 HDFS-132,"['node', 'startup']"
 HDFS-645,['node']
-HDFS-1422,['hang']
 HDFS-10318,['failure']
 HDFS-10323,['failure']
 HDFS-8870,['failure']
@@ -759,7 +715,6 @@ HDFS-10590,['failure']
 HDFS-9332,['failure']
 HDFS-12837,['failure']
 HDFS-10592,['failure']
-HDFS-12339,['down']
 HDFS-10720,['failure']
 HDFS-10738,['failure']
 HDFS-10253,['failure']
@@ -790,9 +745,8 @@ HDFS-11821,['replica']
 HDFS-8791,['node']
 HDFS-9493,['node']
 HDFS-9697,"['restart', 'snapshot']"
-HDFS-10609,"['down', 'recovery']"
+HDFS-10609,['recovery']
 HDFS-9067,['node']
-HDFS-12040,['down']
 HDFS-9063,['snapshot']
 HDFS-8807,['node']
 HDFS-8693,"['node', 'standby']"
@@ -800,7 +754,7 @@ HDFS-11499,['recovery']
 HDFS-10810,['replica']
 HDFS-10512,['terminate']
 HDFS-11896,"['node', 'dead']"
-HDFS-11041,['down']
+HDFS-11041,['shutdown']
 HDFS-12716,['node']
 HDFS-10587,['recovery']
 HDFS-10859,['node']
@@ -813,10 +767,9 @@ HDFS-10627,['network']
 HDFS-8406,['recovery']
 HDFS-11481,"['snapshot', 'snapshot']"
 HDFS-10719,['node']
-HDFS-11797,"['hang', 'consistent', 'replica']"
+HDFS-11797,"['consistent', 'replica']"
 HDFS-13112,['dead']
 HDFS-12860,['group']
-HDFS-11258,['hang']
 HDFS-10603,"['node', 'snapshot']"
 HDFS-12630,"['restart', 'replica']"
 HDFS-9236,['recovery']
@@ -825,9 +778,7 @@ HDFS-11799,"['node', 'replica']"
 HDFS-12840,"['EC', 'EC']"
 HDFS-11576,"['recovery', 'recovery']"
 HDFS-8855,"['active', 'connect']"
-HDFS-12920,['hang']
 HDFS-10797,['snapshot']
-HDFS-11303,['hang']
 HDFS-11197,['snapshot']
 HDFS-12085,['node']
 HDFS-11817,['node']
@@ -835,7 +786,6 @@ HDFS-12984,['cluster']
 HDFS-12371,['node']
 HDFS-12913,"['active', 'cluster']"
 HDFS-11945,['recovery']
-HDFS-9787,['hang']
 HDFS-12935,['node']
 HDFS-11445,['replica']
 HDFS-12682,['EC']
@@ -843,7 +793,7 @@ HDFS-11608,['crash']
 HDFS-11708,['replica']
 HDFS-10267,['sync']
 HDFS-10453,"['cluster', 'replica']"
-HDFS-11674,"['down', 'replica']"
+HDFS-11674,['replica']
 HDFS-9619,['node']
 HDFS-13051,"['dead', 'sync']"
 HDFS-9612,['terminate']
@@ -853,9 +803,7 @@ HDFS-10888,['node']
 HDFS-10748,['timeout']
 HDFS-10197,['timeout']
 HDFS-9231,['snapshot']
-HDFS-10240,['hang']
 HDFS-12044,['recovery']
-HDFS-10260,['down']
 HDFS-11960,['replica']
 HDFS-12659,['node']
 HDFS-9076,['node']
@@ -865,13 +813,12 @@ HDFS-9701,['dead']
 HDFS-12886,['recovery']
 HDFS-10220,"['node', 'failover']"
 HDFS-12897,['snapshot']
-HDFS-9515,['down']
+HDFS-9515,['shutdown']
 HDFS-12985,"['crash', 'restart']"
 HDFS-10313,['snapshot']
 HDFS-11609,"['node', 'dead']"
 HDFS-11019,"['consistent', 'replica', 'replica']"
 HDFS-8268,['node']
-HDFS-8003,['hang']
 HDFS-11225,['crash']
 HDFS-9535,['replica']
 HDFS-10741,['consistent']
@@ -897,15 +844,12 @@ HDFS-10477,['standby']
 HDFS-11087,['node']
 HDFS-7959,['node']
 HDFS-9044,"['node', 'elect']"
-HDFS-11050,['hang']
 HDFS-11733,['node']
 HDFS-8780,"['node', 'node', 'dead']"
 HDFS-12323,"['timeout', 'terminate']"
-HDFS-12437,['setup']
-HDFS-9384,['hang']
 HDFS-9914,"['connect', 'timeout']"
 HDFS-10192,"['node', 'failover']"
-HDFS-8173,['down']
+HDFS-8173,['shutdown']
 HDFS-11131,['sync']
 HDFS-12754,['dead']
 HDFS-8552,['node']
@@ -914,13 +858,13 @@ HDFS-13145,['crash']
 HDFS-8311,['timeout']
 HDFS-8470,['node']
 HDFS-12576,['node']
-HDFS-8896,"['down', 'down']"
+HDFS-8896,['shutdown']
 HDFS-9780,['cluster']
 HDFS-12606,['crash']
 HDFS-8797,['connect']
 HDFS-9639,['consistent']
 HDFS-12498,['cluster']
-HDFS-7952,"['node', 'down']"
+HDFS-7952,['node']
 HDFS-8229,['restart']
 HDFS-8586,"['node', 'node', 'dead']"
 HDFS-8232,['node']
@@ -954,7 +898,7 @@ HDFS-9293,['standby']
 HDFS-8718,['replica']
 HDFS-9488,['group']
 HDFS-12813,['node']
-HDFS-12781,"['node', 'node', 'node', 'down']"
+HDFS-12781,"['node', 'node', 'node']"
 HDFS-8851,['node']
 HDFS-9287,['node']
 HDFS-12369,"['snapshot', 'recovery']"
@@ -962,7 +906,7 @@ HDFS-10506,['snapshot']
 HDFS-9124,['replica']
 HDFS-9393,"['node', 'node', 'replica']"
 HDFS-11098,['node']
-HDFS-8258,"['node', 'down']"
+HDFS-8258,"['node', 'shutdown']"
 HDFS-10816,"['node', 'replica']"
 HDFS-8148,"['node', 'startup']"
 HDFS-8715,['node']
@@ -977,19 +921,17 @@ HDFS-12010,['consistent']
 HDFS-12054,['node']
 HDFS-11502,['node']
 HDFS-9929,['EC']
-HDFS-11890,['down']
 HDFS-11718,['sync']
-HDFS-12407,"['node', 'down']"
+HDFS-12407,"['node', 'shutdown']"
 HDFS-11879,['sync']
 HDFS-10883,['consistent']
 HDFS-11512,['timeout']
 HDFS-10773,['sync']
 HDFS-10643,['node']
 HDFS-12358,['sync']
-HDFS-10759,['hang']
 HDFS-12215,['group']
 HDFS-11448,['sync']
-HDFS-10223,"['connect', 'timeout', 'hang', 'peer']"
+HDFS-10223,"['connect', 'timeout', 'peer']"
 HDFS-9871,['cluster']
 HDFS-12125,['EC']
 HDFS-11856,['remote']
@@ -999,32 +941,28 @@ HDFS-10306,['active']
 HDFS-9842,['node']
 HDFS-8256,['replica']
 HDFS-7998,['cluster']
-HDFS-11312,"['node', 'hang']"
+HDFS-11312,['node']
 HDFS-8174,['replica']
-HDFS-8110,"['node', 'down']"
-HDFS-10189,['down']
+HDFS-8110,['node']
 HDFS-8670,"['node', 'node']"
 HDFS-8351,['node']
 HDFS-8257,['node']
 HDFS-9858,['cluster']
 HDFS-8665,['replica']
 HDFS-9356,['node']
-HDFS-7897,['down']
 HDFS-8800,['node']
 HDFS-8175,"['snapshot', 'snapshot']"
 HDFS-8706,"['node', 'startup']"
 HDFS-9141,['node']
 HDFS-8627,['node']
 HDFS-9659,"['node', 'timeout']"
-HDFS-8548,"['down', 'cluster']"
-HDFS-8847,['hang']
+HDFS-8548,"['shutdown', 'cluster']"
 HDFS-9036,"['node', 'elect']"
 HDFS-8551,['node']
 HDFS-8682,"['node', 'node', 'dead']"
 HDFS-8908,['node']
 HDFS-9142,['node']
 HDFS-12375,['node']
-HDFS-8043,['down']
 HDFS-12094,['EC']
 HDFS-9001,['cluster']
 HDFS-12176,['cluster']
@@ -1038,7 +976,6 @@ HDFS-10282,['replica']
 HDFS-12082,['node']
 HDFS-9477,['node']
 HDFS-13190,['snapshot']
-HDFS-11827,['hang']
 HDFS-11180,"['dead', 'failover']"
 HDFS-12938,['consistent']
 HDFS-10735,['cluster']
