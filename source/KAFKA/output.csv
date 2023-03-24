@@ -1,812 +1,522 @@
 Issue_key,keyword
-KAFKA-9385,"['cluster', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'replica', 'replica']"
-KAFKA-14197,"['failure', 'node', 'node', 'shutdown']"
-KAFKA-13544,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster']"
-KAFKA-12943,"['group', 'group']"
-KAFKA-9329,"['failure', 'failure', 'replica', 'replica', 'replica']"
-KAFKA-10706,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'elect', 'replica', 'replica', 'replica']"
+KAFKA-9385,"['cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica']"
+KAFKA-14197,"['node', 'node']"
+KAFKA-9777,"['delay', 'delay']"
+KAFKA-13544,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
+KAFKA-9329,"['replica', 'replica', 'replica']"
+KAFKA-10706,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'replica', 'replica', 'replica']"
 KAFKA-8426,"['consistent', 'consistent']"
-KAFKA-8052,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-8052,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica']"
 KAFKA-13490,['consistent']
-KAFKA-9572,"['failure', 'leader', 'recovery']"
-KAFKA-9270,"['failure', 'node']"
-KAFKA-8162,"['failure', 'network', 'network', 'network', 'network', 'network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-9620,"['failure', 'failure', 'node', 'node', 'group']"
-KAFKA-8858,"['failure', 'group']"
-KAFKA-8692,"['failure', 'remote', 'remote', 'remote']"
-KAFKA-10778,"['failure', 'failure', 'consistent']"
-KAFKA-14154,"['failure', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'failover', 'replica']"
+KAFKA-9572,"['leader', 'recovery']"
+KAFKA-9270,['node']
+KAFKA-8162,"['network', 'network', 'network', 'network', 'network', 'network', 'election']"
+KAFKA-9620,"['node', 'node']"
+KAFKA-9287,['delay']
+KAFKA-8692,"['remote', 'remote', 'remote']"
+KAFKA-10778,['consistent']
+KAFKA-14154,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica']"
 KAFKA-8649,"['node', 'node', 'cluster']"
-KAFKA-9491,"['failure', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-13370,"['failure', 'failure', 'failure', 'failure']"
-KAFKA-8715,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-8072,"['failure', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
-KAFKA-8530,['failure']
-KAFKA-12667,"['shutdown', 'shutdown', 'shutdown']"
-KAFKA-9576,"['failure', 'failure']"
-KAFKA-9711,"['failure', 'failure', 'failure']"
-KAFKA-8341,['group']
-KAFKA-13018,"['failure', 'node', 'node']"
-KAFKA-9727,"['failure', 'recovery']"
-KAFKA-9247,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-9491,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'election', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-8072,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
+KAFKA-13018,"['node', 'node']"
+KAFKA-9727,['recovery']
+KAFKA-9247,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery']"
 KAFKA-12786,"['network', 'network', 'network', 'network', 'network']"
-KAFKA-12626,"['failure', 'cluster']"
+KAFKA-12626,['cluster']
 KAFKA-8044,"['node', 'node', 'node', 'node']"
-KAFKA-13728,"['failure', 'failure', 'network', 'network']"
-KAFKA-13539,"['failure', 'failure', 'failure']"
-KAFKA-9562,"['failure', 'failure', 'network']"
-KAFKA-13106,"['network', 'network', 'group', 'group']"
+KAFKA-13728,"['network', 'network']"
+KAFKA-13539,['delay']
+KAFKA-9562,['network']
+KAFKA-13106,"['network', 'network']"
 KAFKA-13837,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-13391,"['failure', 'failure', 'failure']"
 KAFKA-9131,"['network', 'cluster']"
-KAFKA-9632,['failure']
-KAFKA-13419,"['leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9089,"['failure', 'failure', 'failure', 'failure', 'shutdown', 'consistent', 'consistent', 'replica', 'replica', 'replica']"
-KAFKA-13674,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'recovery']"
-KAFKA-8914,['group']
+KAFKA-13419,['leader']
+KAFKA-9089,"['consistent', 'consistent', 'replica', 'replica', 'replica']"
+KAFKA-13674,['recovery']
 KAFKA-10312,"['leader', 'leader', 'leader', 'leader', 'leader']"
-KAFKA-13702,"['failure', 'failure']"
 KAFKA-13899,"['consistent', 'consistent', 'consistent', 'consistent']"
-KAFKA-10798,"['failure', 'failure', 'failure', 'failure', 'failure']"
-KAFKA-8427,['shutdown']
+KAFKA-10798,"['delay', 'delay', 'delay', 'delay', 'delay', 'delay']"
 KAFKA-9654,['leader']
 KAFKA-14695,['network']
-KAFKA-13933,"['failure', 'elect', 'elect']"
-KAFKA-14644,"['failure', 'leader', 'quorum', 'elect']"
-KAFKA-10471,"['failure', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'recovery', 'recovery']"
+KAFKA-14644,"['leader', 'election']"
+KAFKA-10471,"['recovery', 'recovery']"
 KAFKA-9605,"['node', 'node', 'network', 'network', 'network', 'network', 'network']"
-KAFKA-12660,"['failure', 'group']"
-KAFKA-12857,"['failure', 'leader', 'leader']"
+KAFKA-12857,"['leader', 'leader']"
 KAFKA-13632,"['cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica']"
 KAFKA-14010,"['leader', 'follower', 'cluster']"
-KAFKA-10352,"['replica', 'group', 'group']"
-KAFKA-14455,"['failure', 'failure', 'failure', 'failure', 'cluster', 'cluster']"
-KAFKA-10763,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-10352,['replica']
+KAFKA-14455,"['cluster', 'cluster']"
+KAFKA-10763,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'delay', 'delay']"
 KAFKA-14078,"['leader', 'leader', 'follower', 'follower', 'replica', 'replica']"
-KAFKA-13017,['failure']
 KAFKA-13033,['consistent']
 KAFKA-14203,['consistent']
-KAFKA-9231,"['network', 'group']"
-KAFKA-12730,['failure']
-KAFKA-13461,"['failure', 'elect', 'elect']"
-KAFKA-14649,['failure']
+KAFKA-9231,['network']
 KAFKA-14618,"['follower', 'replica', 'replica']"
-KAFKA-8950,"['node', 'group']"
-KAFKA-9543,['group']
-KAFKA-9241,['failure']
-KAFKA-8933,"['failure', 'failure', 'node', 'group', 'group', 'group']"
-KAFKA-8972,"['failure', 'consistent', 'consistent', 'group']"
-KAFKA-8334,"['network', 'follower', 'replica', 'replica', 'replica', 'remote', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10284,['group']
-KAFKA-13840,"['failure', 'group', 'group']"
-KAFKA-8755,"['failure', 'failure', 'replica']"
-KAFKA-9891,"['failure', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-14520,"['cluster', 'group']"
-KAFKA-9073,"['replica', 'replica', 'group']"
-KAFKA-8586,['failure']
-KAFKA-13600,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster']"
-KAFKA-13714,"['failure', 'failure', 'failure', 'failure', 'failure']"
-KAFKA-8803,"['network', 'leader', 'leader', 'leader', 'consistent', 'consistent', 'replica', 'group']"
-KAFKA-9212,"['leader', 'leader', 'leader', 'cluster', 'replica', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10455,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'group', 'group', 'group', 'group']"
-KAFKA-13474,"['node', 'network', 'network', 'cluster', 'elect', 'elect']"
-KAFKA-13292,"['network', 'network', 'shutdown', 'shutdown', 'shutdown']"
-KAFKA-12635,"['replica', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-13310,"['network', 'cluster', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-13407,"['failure', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9087,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group']"
-KAFKA-14440,"['failure', 'shutdown', 'cluster', 'cluster']"
-KAFKA-13556,"['failure', 'failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'group', 'group']"
+KAFKA-8950,['node']
+KAFKA-8933,['node']
+KAFKA-8972,"['consistent', 'consistent']"
+KAFKA-8334,"['network', 'follower', 'delay', 'delay', 'delay', 'delay', 'delay', 'replica', 'replica', 'replica', 'remote']"
+KAFKA-8755,['replica']
+KAFKA-9891,"['node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-14520,['cluster']
+KAFKA-9073,"['delay', 'replica', 'replica']"
+KAFKA-13600,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'delay', 'cluster', 'cluster', 'cluster']"
+KAFKA-8803,"['network', 'leader', 'leader', 'leader', 'consistent', 'consistent', 'replica']"
+KAFKA-9212,"['leader', 'leader', 'leader', 'cluster', 'replica']"
+KAFKA-10455,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
+KAFKA-13474,"['node', 'network', 'network', 'cluster']"
+KAFKA-13292,"['network', 'network']"
+KAFKA-12635,['replica']
+KAFKA-13310,"['network', 'cluster', 'cluster']"
+KAFKA-13407,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9087,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-14440,"['cluster', 'cluster']"
+KAFKA-13556,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'replica']"
 KAFKA-8248,"['node', 'network']"
 KAFKA-9144,"['leader', 'leader', 'leader', 'leader', 'leader', 'recovery']"
 KAFKA-13663,['consistent']
-KAFKA-8289,['group']
-KAFKA-12323,['failure']
-KAFKA-9374,"['shutdown', 'group']"
-KAFKA-8098,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-8211,"['remote', 'remote', 'remote', 'group', 'group']"
-KAFKA-9203,"['cluster', 'group']"
+KAFKA-8098,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-8211,"['remote', 'remote', 'remote']"
+KAFKA-9203,['cluster']
 KAFKA-10119,"['consistent', 'replica']"
 KAFKA-14282,"['node', 'node', 'node']"
-KAFKA-9701,"['node', 'node', 'node', 'network', 'network', 'network', 'consistent', 'consistent', 'consistent', 'consistent', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12984,"['consistent', 'group', 'group', 'group', 'group']"
+KAFKA-9701,"['node', 'node', 'node', 'network', 'network', 'network', 'consistent', 'consistent', 'consistent', 'consistent']"
+KAFKA-12984,['consistent']
 KAFKA-8878,['node']
-KAFKA-10793,"['failure', 'node', 'node', 'network', 'network', 'consistent', 'remote', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-10793,"['node', 'node', 'network', 'network', 'consistent', 'remote']"
 KAFKA-12677,['node']
-KAFKA-9752,"['group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9267,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'elect', 'elect', 'elect']"
+KAFKA-9267,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'cluster']"
 KAFKA-9831,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 KAFKA-12835,['cluster']
-KAFKA-8487,['group']
+KAFKA-8824,['delay']
 KAFKA-13166,"['network', 'network', 'network', 'network', 'network']"
 KAFKA-12734,['replica']
-KAFKA-14548,"['failure', 'failure', 'cluster', 'cluster', 'cluster', 'group', 'group', 'group', 'group']"
-KAFKA-14693,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
-KAFKA-14024,"['node', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9250,"['node', 'node', 'network', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10722,['group']
-KAFKA-8412,"['shutdown', 'shutdown', 'shutdown']"
-KAFKA-10274,"['failure', 'consistent', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-14548,"['cluster', 'cluster', 'cluster']"
+KAFKA-14024,"['node', 'leader', 'leader']"
+KAFKA-9250,"['node', 'node', 'network', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-10274,['consistent']
 KAFKA-8076,"['leader', 'replica']"
-KAFKA-9854,['elect']
 KAFKA-8264,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-10811,"['failure', 'cluster', 'cluster', 'cluster']"
-KAFKA-13483,"['failure', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9644,['failure']
+KAFKA-10811,"['cluster', 'cluster', 'cluster']"
+KAFKA-13483,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-12375,['cluster']
 KAFKA-13834,['node']
-KAFKA-8245,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-8662,['failure']
-KAFKA-12257,"['failure', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'group', 'group', 'group']"
-KAFKA-8335,"['cluster', 'group']"
-KAFKA-9263,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group']"
+KAFKA-12257,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster']"
+KAFKA-8335,['cluster']
+KAFKA-9263,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8937,"['remote', 'remote', 'remote']"
 KAFKA-8242,"['leader', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-12701,['network']
 KAFKA-8670,"['cluster', 'cluster', 'cluster']"
-KAFKA-12297,['failure']
-KAFKA-9527,['group']
-KAFKA-9092,"['cluster', 'replica', 'replica', 'group', 'group']"
+KAFKA-9092,"['cluster', 'replica', 'replica']"
 KAFKA-9739,"['node', 'node']"
 KAFKA-8889,['node']
 KAFKA-10192,"['cluster', 'cluster', 'remote', 'remote', 'remote']"
 KAFKA-8624,['replica']
-KAFKA-12468,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9972,"['elect', 'group']"
-KAFKA-8315,"['elect', 'elect', 'group']"
-KAFKA-8620,['shutdown']
-KAFKA-14713,['shutdown']
+KAFKA-12468,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica']"
+KAFKA-8315,['election']
+KAFKA-14713,"['delay', 'delay']"
 KAFKA-13720,"['leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8041,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 KAFKA-13727,"['leader', 'replica', 'recovery']"
-KAFKA-9179,"['failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'failure', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
+KAFKA-9179,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
 KAFKA-9254,"['replica', 'replica', 'replica']"
-KAFKA-9925,"['group', 'group']"
 KAFKA-13255,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica']"
-KAFKA-9659,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10105,"['leader', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-10105,"['leader', 'cluster']"
 KAFKA-9807,"['leader', 'cluster', 'replica', 'replica']"
 KAFKA-9265,['replica']
-KAFKA-8260,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-8260,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-9541,"['remote', 'remote', 'remote']"
 KAFKA-12520,['cluster']
 KAFKA-13943,"['node', 'leader', 'leader', 'cluster']"
 KAFKA-13486,"['node', 'cluster']"
 KAFKA-9013,['cluster']
-KAFKA-14382,"['leader', 'group', 'group', 'group']"
-KAFKA-13909,['shutdown']
+KAFKA-14382,['leader']
 KAFKA-10123,"['node', 'node', 'node', 'leader', 'leader', 'leader']"
-KAFKA-10857,"['cluster', 'cluster', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9824,"['network', 'leader', 'leader', 'shutdown', 'elect', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10049,"['group', 'group', 'group', 'group']"
-KAFKA-12487,['group']
+KAFKA-10857,"['delay', 'cluster', 'cluster', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9824,"['network', 'leader', 'leader', 'election', 'replica', 'replica', 'replica', 'recovery', 'recovery']"
 KAFKA-9298,"['remote', 'remote', 'remote']"
-KAFKA-8381,"['failure', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'shutdown']"
+KAFKA-8381,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network']"
 KAFKA-8269,"['leader', 'leader', 'leader', 'replica', 'replica', 'replica']"
 KAFKA-14697,"['network', 'cluster']"
-KAFKA-9140,"['failure', 'failure', 'failure', 'failure', 'failure', 'shutdown', 'group', 'group']"
-KAFKA-8063,"['failure', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
-KAFKA-13406,['failure']
-KAFKA-12702,"['failure', 'node', 'node', 'network', 'cluster', 'cluster']"
+KAFKA-8063,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
+KAFKA-12702,"['node', 'node', 'network', 'cluster', 'cluster']"
 KAFKA-13253,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-10133,"['cluster', 'cluster']"
-KAFKA-9521,['group']
-KAFKA-8526,"['failure', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9805,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'group']"
+KAFKA-8526,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9805,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-8069,['leader']
-KAFKA-8896,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10614,"['leader', 'leader', 'leader', 'elect', 'elect', 'replica', 'replica', 'group', 'group', 'group']"
-KAFKA-8500,"['group', 'group']"
+KAFKA-8896,['delay']
+KAFKA-10614,"['leader', 'leader', 'leader', 'replica', 'replica']"
 KAFKA-8030,['replica']
-KAFKA-10633,"['leader', 'group', 'group', 'group']"
+KAFKA-10633,['leader']
 KAFKA-9314,['network']
 KAFKA-9747,"['node', 'node']"
-KAFKA-9992,"['group', 'group', 'group', 'group', 'group', 'group']"
 KAFKA-10378,"['network', 'network', 'network', 'network']"
-KAFKA-12896,"['leader', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-12896,"['leader', 'leader', 'leader']"
 KAFKA-13736,"['network', 'network', 'network', 'network', 'network', 'network']"
-KAFKA-9473,['failure']
 KAFKA-8602,['replica']
-KAFKA-9672,"['leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'replica']"
-KAFKA-12558,"['failure', 'failure']"
-KAFKA-13417,"['leader', 'elect', 'replica', 'replica']"
-KAFKA-8079,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9672,"['leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica']"
+KAFKA-13417,"['leader', 'election', 'replica', 'replica']"
+KAFKA-8079,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8087,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8137,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9842,"['group', 'group', 'group']"
-KAFKA-13435,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9802,"['failure', 'failure', 'consistent']"
-KAFKA-12726,['shutdown']
+KAFKA-13435,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
+KAFKA-9802,['consistent']
 KAFKA-9516,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8138,"['leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-8092,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-8075,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-8092,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-8075,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-8113,"['leader', 'replica']"
-KAFKA-12380,"['shutdown', 'shutdown']"
 KAFKA-8764,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'follower', 'replica', 'replica', 'replica']"
-KAFKA-9623,['shutdown']
 KAFKA-10102,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-KAFKA-13911,['failure']
-KAFKA-9887,['failure']
-KAFKA-10101,"['failure', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
-KAFKA-10417,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-13249,"['shutdown', 'shutdown', 'shutdown']"
+KAFKA-10101,"['recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
 KAFKA-8875,"['replica', 'replica']"
-KAFKA-8317,"['group', 'group', 'group']"
 KAFKA-10704,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
-KAFKA-9823,"['group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-8139,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'shutdown', 'shutdown']"
-KAFKA-9051,"['shutdown', 'shutdown', 'cluster']"
+KAFKA-8139,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network']"
+KAFKA-9051,['cluster']
 KAFKA-9818,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'remote', 'remote', 'remote']"
 KAFKA-13773,"['node', 'node', 'node', 'node', 'replica', 'recovery']"
-KAFKA-8081,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-12150,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9213,"['network', 'leader', 'leader', 'leader', 'shutdown', 'cluster', 'cluster', 'cluster', 'elect', 'replica', 'replica', 'recovery', 'recovery']"
+KAFKA-8081,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-12150,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9213,"['network', 'leader', 'leader', 'leader', 'election', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'recovery', 'recovery']"
 KAFKA-14337,['leader']
 KAFKA-12336,"['node', 'node']"
-KAFKA-12495,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'group', 'group']"
+KAFKA-8635,"['delay', 'delay', 'delay']"
+KAFKA-12495,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay']"
 KAFKA-13388,"['node', 'node', 'node', 'node', 'node']"
 KAFKA-10631,['cluster']
-KAFKA-9935,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 KAFKA-9571,"['cluster', 'replica']"
-KAFKA-13132,"['leader', 'elect', 'replica', 'replica']"
+KAFKA-13132,"['leader', 'replica', 'replica']"
 KAFKA-14379,"['leader', 'follower', 'follower', 'follower', 'follower', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-8070,"['failure', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12326,"['cluster', 'group']"
+KAFKA-12326,['cluster']
 KAFKA-13418,['network']
-KAFKA-8062,"['shutdown', 'group', 'group', 'group', 'group']"
-KAFKA-8093,"['elect', 'elect']"
-KAFKA-13206,"['follower', 'follower', 'follower', 'shutdown']"
-KAFKA-10239,"['group', 'group']"
-KAFKA-8541,"['elect', 'elect']"
-KAFKA-9171,"['failure', 'leader', 'leader']"
-KAFKA-8313,['shutdown']
+KAFKA-13206,"['follower', 'follower', 'follower']"
+KAFKA-8541,['election']
+KAFKA-9171,"['leader', 'leader']"
 KAFKA-9666,"['node', 'node', 'node']"
 KAFKA-8622,"['cluster', 'cluster', 'cluster']"
 KAFKA-8724,['cluster']
-KAFKA-10257,"['failure', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'shutdown']"
-KAFKA-12411,"['failure', 'leader', 'follower', 'follower', 'follower', 'elect', 'group']"
-KAFKA-12414,"['failure', 'follower', 'follower', 'follower', 'elect', 'group', 'group']"
-KAFKA-12413,"['failure', 'follower', 'follower', 'follower', 'elect', 'group', 'group']"
-KAFKA-8104,"['elect', 'elect', 'consistent', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-10257,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network']"
+KAFKA-12411,"['leader', 'follower', 'follower', 'follower', 'election']"
+KAFKA-12414,"['follower', 'follower', 'follower']"
+KAFKA-12413,"['follower', 'follower', 'follower']"
+KAFKA-8104,['consistent']
 KAFKA-8807,"['remote', 'remote', 'remote']"
-KAFKA-9607,"['leader', 'group', 'group', 'group', 'group']"
-KAFKA-9093,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-9607,['leader']
 KAFKA-13552,['remote']
 KAFKA-8152,"['replica', 'replica', 'replica']"
 KAFKA-9839,"['node', 'node']"
-KAFKA-14659,"['failure', 'failure', 'failure']"
-KAFKA-10167,"['replica', 'replica', 'replica', 'replica', 'group', 'group']"
-KAFKA-9724,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'group']"
-KAFKA-8122,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery', 'recovery', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12343,"['failure', 'cluster', 'group']"
-KAFKA-8165,"['node', 'node', 'leader', 'group', 'group']"
-KAFKA-12230,"['failure', 'failure', 'remote', 'remote', 'remote']"
-KAFKA-13740,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'group', 'group', 'group', 'group']"
-KAFKA-14317,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'elect']"
-KAFKA-13266,"['failure', 'leader', 'leader', 'replica', 'replica', 'replica']"
+KAFKA-10167,"['replica', 'replica', 'replica', 'replica']"
+KAFKA-9724,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader']"
+KAFKA-8122,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery', 'recovery']"
+KAFKA-12343,['cluster']
+KAFKA-8165,"['node', 'node', 'leader']"
+KAFKA-12230,"['remote', 'remote', 'remote']"
+KAFKA-14317,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network']"
+KAFKA-13266,"['leader', 'leader', 'replica', 'replica', 'replica']"
 KAFKA-9830,"['network', 'network']"
 KAFKA-9558,"['node', 'node', 'leader', 'leader', 'leader', 'leader']"
-KAFKA-13136,"['group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10559,"['shutdown', 'shutdown']"
-KAFKA-8785,"['elect', 'elect']"
-KAFKA-14292,"['leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster']"
+KAFKA-8785,['election']
+KAFKA-14292,"['leader', 'delay', 'cluster']"
 KAFKA-13148,"['leader', 'leader']"
-KAFKA-9497,['failure']
-KAFKA-13476,"['failure', 'group']"
-KAFKA-13073,"['failure', 'node']"
+KAFKA-13073,['node']
 KAFKA-8039,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'remote', 'remote', 'remote']"
-KAFKA-14072,"['network', 'cluster', 'cluster', 'group']"
+KAFKA-14072,"['network', 'cluster', 'cluster']"
 KAFKA-9769,"['leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-13741,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-KAFKA-9793,"['failure', 'node']"
+KAFKA-9793,['node']
 KAFKA-9535,['leader']
-KAFKA-9801,"['leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12639,"['cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-13141,"['network', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'elect', 'elect', 'replica']"
-KAFKA-13390,"['shutdown', 'shutdown', 'replica', 'recovery', 'recovery']"
-KAFKA-9264,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-9801,['leader']
+KAFKA-12639,['cluster']
+KAFKA-13141,"['network', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'replica']"
+KAFKA-13390,"['replica', 'recovery', 'recovery']"
+KAFKA-9264,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
 KAFKA-13488,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster']"
-KAFKA-9307,"['network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'elect', 'elect', 'replica']"
+KAFKA-9307,"['network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'election', 'replica']"
 KAFKA-13937,"['node', 'node', 'node', 'cluster', 'cluster', 'cluster']"
 KAFKA-8695,"['cluster', 'cluster', 'consistent', 'consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-12785,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12462,['shutdown']
-KAFKA-14271,"['failure', 'leader', 'cluster', 'cluster', 'cluster']"
+KAFKA-12785,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
+KAFKA-14271,"['leader', 'cluster', 'cluster', 'cluster']"
 KAFKA-14111,['cluster']
 KAFKA-9137,"['leader', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-13100,['leader']
-KAFKA-12528,"['network', 'network', 'elect']"
+KAFKA-12528,"['network', 'network']"
 KAFKA-14380,"['leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-14378,"['leader', 'follower', 'follower', 'follower', 'follower', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-9742,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'recovery', 'recovery', 'recovery', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-9742,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'recovery', 'recovery', 'recovery']"
 KAFKA-14704,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower']"
-KAFKA-12529,"['network', 'network', 'network', 'elect']"
-KAFKA-14553,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9599,"['group', 'group', 'group']"
+KAFKA-12529,"['network', 'network', 'network']"
 KAFKA-8257,"['network', 'network', 'network', 'network']"
-KAFKA-8573,"['network', 'network', 'network', 'network', 'network', 'network', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-12926,"['leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-8573,"['network', 'network', 'network', 'network', 'network', 'network', 'election', 'cluster', 'cluster']"
+KAFKA-12926,"['leader', 'leader', 'leader', 'leader', 'cluster', 'cluster']"
 KAFKA-10353,['network']
-KAFKA-8737,"['group', 'group', 'group']"
-KAFKA-9239,['group']
-KAFKA-12983,"['group', 'group']"
-KAFKA-12640,"['cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-12537,['shutdown']
+KAFKA-12640,['cluster']
 KAFKA-10158,"['replica', 'replica']"
 KAFKA-13173,"['leader', 'leader', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-8688,"['failure', 'leader', 'leader', 'elect']"
+KAFKA-8688,"['leader', 'leader']"
 KAFKA-14314,"['cluster', 'replica']"
 KAFKA-8736,['node']
-KAFKA-12751,"['leader', 'elect']"
+KAFKA-12751,"['leader', 'election']"
 KAFKA-9046,['cluster']
-KAFKA-14545,"['cluster', 'group', 'group', 'group', 'group']"
+KAFKA-14545,['cluster']
 KAFKA-8463,"['leader', 'leader']"
 KAFKA-9240,"['remote', 'remote', 'remote']"
-KAFKA-13858,"['leader', 'leader', 'follower', 'follower', 'follower', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
+KAFKA-13858,"['leader', 'leader', 'follower', 'follower', 'follower', 'delay']"
 KAFKA-13008,['remote']
-KAFKA-12686,"['leader', 'leader', 'leader', 'leader', 'elect', 'elect']"
+KAFKA-12686,"['leader', 'leader', 'leader', 'leader', 'election', 'election', 'delay']"
 KAFKA-12897,"['cluster', 'cluster', 'replica']"
 KAFKA-9768,['cluster']
-KAFKA-8332,"['elect', 'elect', 'elect', 'elect', 'group', 'group', 'group']"
+KAFKA-8332,"['election', 'election']"
 KAFKA-10052,['cluster']
-KAFKA-9602,['shutdown']
-KAFKA-10401,"['group', 'group', 'group', 'group']"
-KAFKA-12412,"['failure', 'follower', 'follower', 'follower', 'elect', 'group', 'group']"
+KAFKA-12412,"['follower', 'follower', 'follower']"
 KAFKA-10155,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-13161,"['leader', 'leader', 'leader', 'follower', 'follower']"
-KAFKA-14295,"['elect', 'elect']"
-KAFKA-14645,['failure']
-KAFKA-13782,['elect']
 KAFKA-8146,"['network', 'network']"
-KAFKA-9184,"['group', 'group']"
-KAFKA-10152,['failure']
-KAFKA-8042,['replica']
-KAFKA-9218,"['failure', 'cluster']"
+KAFKA-8042,"['delay', 'replica']"
+KAFKA-9218,['cluster']
 KAFKA-10396,['cluster']
 KAFKA-10520,"['node', 'node', 'node', 'node']"
 KAFKA-9159,"['leader', 'leader', 'leader']"
-KAFKA-8117,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-8117,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-9025,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
 KAFKA-8442,"['leader', 'consistent', 'consistent']"
 KAFKA-13582,"['consistent', 'consistent']"
-KAFKA-10081,['failure']
-KAFKA-12523,['shutdown']
-KAFKA-9232,"['group', 'group', 'group', 'group']"
-KAFKA-14196,"['failure', 'failure', 'failure', 'shutdown', 'quorum', 'group']"
-KAFKA-10888,"['node', 'cluster', 'cluster', 'cluster', 'cluster']"
+KAFKA-9232,['delay']
+KAFKA-10888,"['node', 'delay', 'delay', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-8058,['cluster']
-KAFKA-14007,['failure']
-KAFKA-10420,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 KAFKA-10432,"['leader', 'leader', 'leader', 'leader', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery', 'recovery']"
-KAFKA-13966,"['failure', 'leader']"
+KAFKA-13966,['leader']
 KAFKA-9840,"['leader', 'leader', 'leader', 'leader']"
-KAFKA-9812,"['failure', 'shutdown']"
 KAFKA-9338,"['leader', 'leader', 'leader', 'leader', 'follower', 'replica', 'replica']"
 KAFKA-8213,['remote']
-KAFKA-8367,"['cluster', 'cluster', 'group', 'group']"
-KAFKA-13312,"['failure', 'network', 'remote']"
-KAFKA-9190,"['failure', 'elect', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-14650,['failure']
+KAFKA-8367,"['cluster', 'cluster']"
+KAFKA-13312,"['network', 'remote']"
+KAFKA-9190,"['election', 'election']"
 KAFKA-10689,['node']
 KAFKA-8340,['replica']
 KAFKA-13791,['consistent']
 KAFKA-13745,"['network', 'network']"
-KAFKA-8121,['failure']
 KAFKA-8437,['node']
-KAFKA-8228,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'cluster', 'group', 'group', 'group']"
+KAFKA-8228,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'cluster']"
 KAFKA-13112,"['leader', 'leader']"
 KAFKA-12308,['node']
-KAFKA-9947,"['failure', 'failure', 'network', 'network', 'network', 'shutdown', 'group']"
-KAFKA-8171,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group']"
+KAFKA-9947,"['network', 'network', 'network']"
+KAFKA-8171,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-13270,['node']
-KAFKA-14099,['shutdown']
-KAFKA-8212,['group']
 KAFKA-8813,"['cluster', 'cluster']"
 KAFKA-8306,['consistent']
-KAFKA-12455,"['quorum', 'group']"
-KAFKA-12226,['failure']
-KAFKA-8038,"['network', 'network', 'network', 'network', 'network', 'network', 'network', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-9821,"['failure', 'group', 'group', 'group', 'group']"
-KAFKA-9266,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9568,"['group', 'group']"
+KAFKA-8038,"['network', 'network', 'network', 'network', 'network', 'network', 'network']"
 KAFKA-9815,"['consistent', 'consistent']"
 KAFKA-9379,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-10300,"['failure', 'group', 'group', 'group', 'group']"
-KAFKA-12889,"['cluster', 'group', 'group', 'group']"
-KAFKA-8086,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-9691,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
+KAFKA-12889,['cluster']
+KAFKA-8086,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-9691,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote']"
 KAFKA-8614,['consistent']
 KAFKA-13080,"['node', 'follower']"
 KAFKA-8022,"['leader', 'leader', 'leader', 'leader', 'leader', 'replica', 'replica', 'replica']"
 KAFKA-10371,"['leader', 'leader', 'leader', 'replica', 'replica', 'replica', 'replica']"
-KAFKA-12712,"['shutdown', 'quorum', 'quorum', 'quorum', 'quorum']"
 KAFKA-9229,"['network', 'network', 'network', 'network', 'network', 'network']"
-KAFKA-10870,"['leader', 'remote', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-10870,"['leader', 'remote']"
 KAFKA-14275,['consistent']
 KAFKA-13996,['replica']
 KAFKA-12339,"['cluster', 'cluster']"
-KAFKA-9841,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-14199,"['node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-8564,"['leader', 'shutdown']"
+KAFKA-9841,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay', 'delay']"
+KAFKA-14199,"['node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'election']"
+KAFKA-8564,['leader']
 KAFKA-10212,['cluster']
 KAFKA-9310,"['node', 'node', 'node']"
 KAFKA-8033,"['leader', 'replica']"
 KAFKA-10311,['node']
 KAFKA-10314,"['leader', 'follower', 'follower', 'replica', 'replica']"
-KAFKA-8891,"['elect', 'elect']"
-KAFKA-12252,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'group']"
-KAFKA-10724,['quorum']
+KAFKA-12252,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster']"
 KAFKA-14128,"['node', 'node', 'network']"
-KAFKA-10723,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
-KAFKA-14422,"['leader', 'leader', 'leader', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-14422,"['leader', 'leader', 'leader']"
 KAFKA-10110,"['cluster', 'cluster', 'cluster', 'cluster']"
-KAFKA-13730,"['node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
+KAFKA-13730,"['node', 'node', 'network', 'network', 'network', 'network', 'network', 'network', 'election']"
 KAFKA-13940,"['node', 'leader', 'leader', 'consistent']"
-KAFKA-9885,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+KAFKA-9885,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-10387,['replica']
-KAFKA-10682,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'group', 'group']"
-KAFKA-10651,"['group', 'group', 'group']"
+KAFKA-10682,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-10157,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network']"
-KAFKA-8568,"['network', 'network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect']"
-KAFKA-12949,"['leader', 'leader', 'leader', 'shutdown']"
+KAFKA-8568,"['network', 'network', 'network', 'election']"
+KAFKA-12949,"['leader', 'leader', 'leader']"
 KAFKA-9695,['replica']
 KAFKA-9617,"['leader', 'follower', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-13983,"['node', 'node', 'node', 'node', 'node']"
 KAFKA-13102,"['replica', 'replica']"
-KAFKA-14729,"['network', 'group', 'group']"
+KAFKA-14729,['network']
 KAFKA-14144,"['leader', 'leader']"
 KAFKA-12503,"['node', 'node', 'node', 'node']"
-KAFKA-8066,"['network', 'network', 'network', 'leader', 'leader', 'shutdown', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'group']"
-KAFKA-8461,"['leader', 'leader', 'elect']"
-KAFKA-10247,"['leader', 'leader', 'group']"
+KAFKA-8066,"['network', 'network', 'network', 'leader', 'leader', 'replica', 'replica', 'replica']"
+KAFKA-8461,"['leader', 'leader']"
+KAFKA-10247,"['leader', 'leader']"
 KAFKA-13794,['network']
-KAFKA-13155,['shutdown']
-KAFKA-9004,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'elect', 'elect', 'replica']"
-KAFKA-13558,['elect']
-KAFKA-14236,"['cluster', 'group', 'group']"
+KAFKA-9004,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'election', 'replica']"
+KAFKA-14236,['cluster']
 KAFKA-12996,"['leader', 'leader', 'leader']"
-KAFKA-14201,"['group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-10240,"['shutdown', 'shutdown', 'shutdown']"
-KAFKA-10063,"['shutdown', 'shutdown']"
 KAFKA-8417,"['network', 'network', 'network', 'network', 'network', 'network']"
-KAFKA-14062,"['network', 'elect']"
-KAFKA-13372,"['node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'shutdown', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery']"
-KAFKA-13254,"['failure', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+KAFKA-14062,['network']
+KAFKA-13372,"['node', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'election', 'election', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery']"
+KAFKA-13254,"['delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 KAFKA-8255,"['leader', 'replica', 'replica']"
 KAFKA-9819,"['node', 'node']"
-KAFKA-14532,['shutdown']
 KAFKA-9889,"['remote', 'remote', 'remote']"
 KAFKA-9930,"['leader', 'leader', 'leader', 'follower', 'follower', 'cluster', 'replica', 'replica']"
-KAFKA-14311,"['shutdown', 'shutdown', 'shutdown', 'cluster', 'group']"
-KAFKA-13228,['quorum']
+KAFKA-14311,['cluster']
 KAFKA-10386,['consistent']
-KAFKA-9981,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'group']"
-KAFKA-9645,"['node', 'node', 'group', 'group', 'group', 'group']"
-KAFKA-9219,"['remote', 'remote', 'remote', 'remote', 'remote', 'group', 'group', 'group']"
+KAFKA-9981,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'cluster']"
+KAFKA-9645,"['node', 'node']"
+KAFKA-9219,"['remote', 'remote', 'remote', 'remote', 'remote']"
 KAFKA-10515,"['node', 'node']"
-KAFKA-8571,"['leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+KAFKA-8571,"['leader', 'leader', 'leader', 'leader', 'leader', 'delay', 'delay', 'delay', 'delay', 'delay', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 KAFKA-9503,['node']
-KAFKA-13563,"['cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-13586,"['leader', 'cluster', 'cluster', 'cluster', 'consistent', 'consistent', 'group']"
+KAFKA-13563,['cluster']
+KAFKA-13586,"['leader', 'cluster', 'cluster', 'cluster', 'consistent', 'consistent']"
 KAFKA-8418,"['node', 'node']"
-KAFKA-14149,"['quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum']"
-KAFKA-10678,"['replica', 'group']"
+KAFKA-10678,['replica']
 KAFKA-9002,"['remote', 'remote', 'remote']"
 KAFKA-13737,['node']
-KAFKA-8114,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-KAFKA-8344,"['node', 'replica', 'group']"
-KAFKA-8723,"['elect', 'elect']"
-KAFKA-9942,"['leader', 'leader', 'elect', 'elect']"
+KAFKA-8114,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+KAFKA-8344,"['node', 'replica']"
+KAFKA-8723,['election']
+KAFKA-9942,"['leader', 'leader', 'election', 'election']"
 KAFKA-12270,"['replica', 'replica']"
 KAFKA-10638,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 KAFKA-10050,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-KAFKA-2739,['failure']
 KAFKA-691,['replica']
-KAFKA-145,['shutdown']
-KAFKA-350,"['failure', 'replica']"
-KAFKA-2198,['failure']
-KAFKA-1377,['failure']
-KAFKA-911,['shutdown']
-KAFKA-3256,['failure']
-KAFKA-1663,"['failure', 'shutdown']"
-KAFKA-306,"['failure', 'replica']"
-KAFKA-1533,['failure']
-KAFKA-1976,['failure']
-KAFKA-3228,"['failure', 'cluster']"
-KAFKA-1400,['failure']
-KAFKA-1383,['failure']
-KAFKA-589,"['failure', 'shutdown']"
-KAFKA-2549,"['failure', 'elect']"
-KAFKA-1412,['failure']
-KAFKA-1439,['failure']
-KAFKA-1759,['failure']
-KAFKA-3195,['failure']
-KAFKA-2815,['failure']
-KAFKA-974,['failure']
-KAFKA-1098,['failure']
+KAFKA-350,['replica']
+KAFKA-306,['replica']
+KAFKA-3228,['cluster']
 KAFKA-862,['leader']
-KAFKA-1376,['failure']
 KAFKA-2300,['cluster']
 KAFKA-1806,"['leader', 'leader']"
-KAFKA-2564,['failure']
-KAFKA-1381,['failure']
-KAFKA-1424,['failure']
-KAFKA-1378,['failure']
-KAFKA-1433,['failure']
-KAFKA-1529,['failure']
-KAFKA-1473,['failure']
-KAFKA-1389,['failure']
 KAFKA-2872,['node']
-KAFKA-562,['failure']
-KAFKA-3083,"['failure', 'consistent']"
-KAFKA-2628,['failure']
-KAFKA-384,['failure']
-KAFKA-572,['failure']
-KAFKA-2928,['failure']
-KAFKA-1881,['failure']
-KAFKA-1391,['failure']
-KAFKA-1010,['failure']
-KAFKA-1019,"['elect', 'replica']"
-KAFKA-1637,['group']
-KAFKA-55,['shutdown']
-KAFKA-908,['failure']
-KAFKA-1366,['failure']
-KAFKA-2303,['failure']
-KAFKA-1608,['quorum']
-KAFKA-905,"['failure', 'recovery']"
+KAFKA-3083,['consistent']
+KAFKA-1019,"['election', 'replica']"
+KAFKA-905,['recovery']
 KAFKA-1724,['node']
-KAFKA-1959,['group']
 KAFKA-1804,['network']
 KAFKA-3068,['cluster']
-KAFKA-1738,['shutdown']
 KAFKA-3251,['consistent']
 KAFKA-1642,['network']
-KAFKA-999,['shutdown']
 KAFKA-1788,['leader']
-KAFKA-1029,"['node', 'leader', 'elect']"
-KAFKA-2241,['shutdown']
+KAFKA-1029,"['node', 'leader', 'election']"
 KAFKA-2036,['network']
-KAFKA-1282,['elect']
 KAFKA-1664,['node']
 KAFKA-2143,['leader']
 KAFKA-46,"['cluster', 'replica']"
-KAFKA-1305,"['leader', 'shutdown']"
+KAFKA-1305,['leader']
 KAFKA-1387,['node']
-KAFKA-126,['shutdown']
 KAFKA-955,['leader']
-KAFKA-2944,['shutdown']
-KAFKA-927,"['shutdown', 'shutdown']"
 KAFKA-1923,['replica']
 KAFKA-1036,['replica']
 KAFKA-351,['replica']
 KAFKA-861,['leader']
-KAFKA-2334,"['leader', 'failover']"
-KAFKA-3096,"['follower', 'shutdown']"
-KAFKA-1447,['shutdown']
-KAFKA-1429,['shutdown']
-KAFKA-1451,"['leader', 'elect']"
-KAFKA-2298,['elect']
-KAFKA-1342,"['shutdown', 'shutdown']"
-KAFKA-2978,['group']
+KAFKA-2334,['leader']
+KAFKA-3096,['follower']
+KAFKA-1379,['clock']
+KAFKA-1451,"['leader', 'election']"
 KAFKA-980,"['recovery', 'recovery']"
 KAFKA-1503,['leader']
 KAFKA-1200,['consistent']
-KAFKA-1764,['shutdown']
 KAFKA-1070,['node']
-KAFKA-2857,['group']
 KAFKA-1758,['recovery']
 KAFKA-620,['node']
-KAFKA-2936,['elect']
 KAFKA-1911,['replica']
 KAFKA-2193,"['network', 'cluster']"
 KAFKA-1211,['replica']
 KAFKA-1150,['replica']
 KAFKA-2960,['leader']
-KAFKA-1108,['shutdown']
-KAFKA-2118,['shutdown']
-KAFKA-3059,['group']
-KAFKA-2648,['group']
 KAFKA-44,"['cluster', 'replica']"
-KAFKA-3231,"['group', 'group']"
-KAFKA-2864,['shutdown']
-KAFKA-1652,['shutdown']
 KAFKA-2801,['network']
-KAFKA-116,['shutdown']
 KAFKA-2243,['replica']
 KAFKA-3014,['node']
+KAFKA-703,['delay']
 KAFKA-2850,['consistent']
 KAFKA-1169,['leader']
 KAFKA-3037,"['node', 'cluster']"
 KAFKA-2519,['node']
-KAFKA-2551,"['leader', 'elect']"
-KAFKA-1681,['elect']
+KAFKA-2551,"['leader', 'election']"
 KAFKA-2114,['replica']
 KAFKA-1712,['node']
-KAFKA-1235,['shutdown']
-KAFKA-1600,['failover']
-KAFKA-2986,['group']
 KAFKA-977,['leader']
 KAFKA-47,"['cluster', 'replica']"
-KAFKA-2792,['group']
-KAFKA-2874,['shutdown']
-KAFKA-2819,['shutdown']
 KAFKA-3080,['consistent']
-KAFKA-45,"['leader', 'leader', 'follower', 'cluster', 'elect', 'replica']"
-KAFKA-2755,['group']
-KAFKA-2813,['elect']
+KAFKA-45,"['leader', 'leader', 'follower', 'election', 'cluster', 'replica']"
 KAFKA-1148,['leader']
 KAFKA-1505,['replica']
-KAFKA-2010,['shutdown']
-KAFKA-1279,['shutdown']
-KAFKA-2596,['group']
-KAFKA-2283,"['node', 'shutdown']"
-KAFKA-900,['shutdown']
-KAFKA-2770,['shutdown']
-KAFKA-7119,"['failure', 'failure']"
-KAFKA-4526,['failure']
-KAFKA-3513,['failure']
-KAFKA-6897,"['failure', 'failure']"
-KAFKA-6331,['failure']
-KAFKA-3694,"['failure', 'failure', 'replica']"
-KAFKA-4037,['failure']
-KAFKA-4897,['failure']
-KAFKA-5141,['failure']
-KAFKA-7288,"['failure', 'elect']"
-KAFKA-7866,['failure']
-KAFKA-7987,['failure']
-KAFKA-7312,['failure']
-KAFKA-6078,['failure']
-KAFKA-7579,['failure']
-KAFKA-4166,['failure']
-KAFKA-6823,['failure']
-KAFKA-6010,['failure']
-KAFKA-5978,['failure']
-KAFKA-6296,['failure']
-KAFKA-5769,['failure']
-KAFKA-3808,['failure']
-KAFKA-6136,['failure']
-KAFKA-5872,"['failure', 'elect']"
-KAFKA-5119,['failure']
-KAFKA-6027,['failure']
-KAFKA-6528,['failure']
-KAFKA-5380,['failure']
-KAFKA-4708,['failure']
-KAFKA-5433,['failure']
-KAFKA-5139,['failure']
-KAFKA-6234,['failure']
-KAFKA-7403,['failure']
-KAFKA-4265,['failure']
-KAFKA-3782,['failure']
-KAFKA-4551,['failure']
-KAFKA-4980,['failure']
-KAFKA-3453,['failure']
-KAFKA-7168,"['failure', 'shutdown']"
+KAFKA-2283,['node']
+KAFKA-3694,['replica']
 KAFKA-7347,['replica']
-KAFKA-4627,['failure']
-KAFKA-7915,['failure']
-KAFKA-5422,['failure']
-KAFKA-6061,"['leader', 'elect']"
-KAFKA-5644,['failure']
-KAFKA-6741,['failure']
-KAFKA-6765,['failure']
-KAFKA-5774,['failure']
-KAFKA-4157,"['failure', 'replica', 'replica']"
-KAFKA-4719,['failure']
-KAFKA-5721,"['failure', 'network']"
-KAFKA-3807,['failure']
-KAFKA-4482,['failure']
-KAFKA-4974,['failure']
+KAFKA-6061,['leader']
+KAFKA-4157,"['replica', 'replica']"
+KAFKA-5721,['network']
 KAFKA-6796,['replica']
-KAFKA-5608,['failure']
-KAFKA-4527,['failure']
-KAFKA-5767,['failure']
 KAFKA-3766,['replica']
-KAFKA-6164,['shutdown']
-KAFKA-5704,"['failure', 'cluster']"
-KAFKA-4139,['failure']
-KAFKA-4949,['group']
-KAFKA-7044,['group']
-KAFKA-3885,['failover']
+KAFKA-5704,['cluster']
 KAFKA-5877,['node']
-KAFKA-5506,['group']
-KAFKA-3410,"['leader', 'elect']"
+KAFKA-3410,"['leader', 'election']"
 KAFKA-7968,['leader']
 KAFKA-4277,['node']
 KAFKA-3587,['replica']
 KAFKA-4477,"['node', 'node', 'leader', 'cluster']"
-KAFKA-7263,['elect']
-KAFKA-3919,['shutdown']
 KAFKA-6582,['replica']
 KAFKA-6720,['consistent']
 KAFKA-6249,"['node', 'replica']"
 KAFKA-6268,['network']
+KAFKA-3627,['delay']
 KAFKA-7786,['leader']
-KAFKA-5697,['shutdown']
 KAFKA-6666,['replica']
-KAFKA-6681,['group']
 KAFKA-3924,['leader']
-KAFKA-7970,['shutdown']
-KAFKA-5212,['group']
 KAFKA-7697,['cluster']
 KAFKA-4084,"['leader', 'cluster', 'replica']"
-KAFKA-4349,"['group', 'group']"
-KAFKA-5638,['group']
+KAFKA-6906,['clock']
 KAFKA-8001,"['leader', 'replica', 'replica']"
-KAFKA-7464,"['shutdown', 'shutdown']"
-KAFKA-3918,['shutdown']
-KAFKA-6185,['elect']
 KAFKA-6361,"['leader', 'leader', 'follower']"
 KAFKA-6042,['cluster']
-KAFKA-4711,"['leader', 'elect']"
-KAFKA-6758,"['group', 'group']"
-KAFKA-7304,"['network', 'elect']"
+KAFKA-4711,"['leader', 'election']"
+KAFKA-7304,['network']
 KAFKA-4446,"['replica', 'replica']"
-KAFKA-7141,"['group', 'group']"
-KAFKA-5611,['group']
 KAFKA-6554,['consistent']
-KAFKA-5571,['shutdown']
-KAFKA-6328,"['node', 'group']"
-KAFKA-3822,['shutdown']
+KAFKA-6328,['node']
 KAFKA-3959,['replica']
-KAFKA-6773,['group']
-KAFKA-6868,['group']
-KAFKA-4443,['failover']
 KAFKA-6103,['cluster']
 KAFKA-6949,['replica']
 KAFKA-7164,['leader']
-KAFKA-4101,"['network', 'elect']"
+KAFKA-4101,['network']
 KAFKA-4867,['node']
-KAFKA-6051,['shutdown']
-KAFKA-3335,['shutdown']
 KAFKA-3590,['replica']
-KAFKA-6717,['group']
 KAFKA-7104,['consistent']
 KAFKA-4285,"['replica', 'replica']"
 KAFKA-3577,['cluster']
-KAFKA-3839,['group']
 KAFKA-6975,['replica']
-KAFKA-6383,['shutdown']
 KAFKA-7886,['recovery']
-KAFKA-7170,['group']
 KAFKA-3593,['network']
-KAFKA-6537,['group']
 KAFKA-3810,"['replica', 'replica']"
 KAFKA-5263,['network']
 KAFKA-5382,['recovery']
-KAFKA-4735,['shutdown']
 KAFKA-6790,['node']
-KAFKA-6075,['shutdown']
 KAFKA-8002,['replica']
-KAFKA-4176,"['node', 'group']"
-KAFKA-5968,['shutdown']
+KAFKA-4176,['node']
 KAFKA-6046,['leader']
-KAFKA-4478,['group']
 KAFKA-7452,"['replica', 'recovery']"
-KAFKA-4704,"['group', 'group']"
-KAFKA-6287,"['consistent', 'group']"
+KAFKA-7196,['delay']
+KAFKA-4051,['clock']
+KAFKA-6287,['consistent']
 KAFKA-8012,['replica']
 KAFKA-7763,['network']
-KAFKA-5970,['group']
-KAFKA-3850,['shutdown']
-KAFKA-4461,['group']
 KAFKA-5879,['node']
-KAFKA-6421,"['leader', 'group', 'group', 'group']"
+KAFKA-6421,['leader']
 KAFKA-4485,['leader']
-KAFKA-5152,['shutdown']
 KAFKA-4298,['consistent']
 KAFKA-6415,['network']
 KAFKA-5731,['consistent']
-KAFKA-5679,['shutdown']
-KAFKA-4357,['group']
 KAFKA-7576,['replica']
 KAFKA-5424,['cluster']
 KAFKA-5745,['leader']
 KAFKA-6093,['replica']
 KAFKA-4135,['consistent']
 KAFKA-6859,['leader']
-KAFKA-6710,['shutdown']
 KAFKA-4129,['remote']
-KAFKA-4523,"['shutdown', 'shutdown', 'group']"
-KAFKA-6517,['shutdown']
-KAFKA-7286,"['group', 'group']"

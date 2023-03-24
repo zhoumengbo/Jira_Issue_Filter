@@ -1,199 +1,151 @@
 Issue_key,keyword
 ZOOKEEPER-1262,"['node', 'node']"
-ZOOKEEPER-2926,"['node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'shutdown', 'shutdown', 'quorum', 'quorum']"
+ZOOKEEPER-2926,"['node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower']"
 ZOOKEEPER-1340,['node']
-ZOOKEEPER-313,"['failure', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'elect', 'elect']"
-ZOOKEEPER-4269,['failure']
-ZOOKEEPER-2173,"['failure', 'failure', 'failure']"
-ZOOKEEPER-2684,"['quorum', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-4311,"['failure', 'leader', 'leader', 'elect', 'elect']"
+ZOOKEEPER-313,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'cluster']"
+ZOOKEEPER-4311,"['leader', 'leader', 'election']"
 ZOOKEEPER-4305,"['network', 'remote']"
 ZOOKEEPER-2775,"['network', 'network', 'cluster']"
-ZOOKEEPER-2108,['failure']
-ZOOKEEPER-2989,"['quorum', 'quorum']"
-ZOOKEEPER-1712,['failure']
-ZOOKEEPER-2049,['failure']
 ZOOKEEPER-1695,['consistent']
-ZOOKEEPER-653,['failure']
-ZOOKEEPER-1883,"['failure', 'failure', 'failure', 'consistent']"
+ZOOKEEPER-1883,['consistent']
 ZOOKEEPER-2886,"['leader', 'follower']"
 ZOOKEEPER-3128,['node']
 ZOOKEEPER-1521,"['leader', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1440,"['shutdown', 'shutdown']"
-ZOOKEEPER-1237,"['quorum', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-4008,['quorum']
-ZOOKEEPER-3531,"['node', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-1451,['failure']
-ZOOKEEPER-1522,"['failure', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-914,"['failure', 'leader', 'follower', 'follower', 'cluster', 'quorum', 'quorum']"
-ZOOKEEPER-2355,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'leader', 'follower', 'follower', 'follower', 'cluster', 'quorum']"
-ZOOKEEPER-1594,"['failure', 'failure']"
-ZOOKEEPER-1465,"['failure', 'failure', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect']"
-ZOOKEEPER-1366,['failure']
+ZOOKEEPER-1237,"['election', 'election', 'election', 'election']"
+ZOOKEEPER-3531,"['node', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'follower', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+ZOOKEEPER-914,"['leader', 'follower', 'follower', 'cluster']"
+ZOOKEEPER-2355,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'leader', 'follower', 'follower', 'follower', 'cluster']"
+ZOOKEEPER-1465,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+ZOOKEEPER-1366,"['clock', 'clock']"
 ZOOKEEPER-3145,"['node', 'node', 'node', 'node', 'node', 'consistent']"
-ZOOKEEPER-2212,"['leader', 'leader', 'follower', 'follower', 'follower', 'shutdown', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-3479,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'cluster', 'quorum', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-2982,"['leader', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum']"
+ZOOKEEPER-2212,"['leader', 'leader', 'follower', 'follower', 'follower']"
+ZOOKEEPER-3479,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster']"
+ZOOKEEPER-2982,"['leader', 'cluster', 'cluster']"
+ZOOKEEPER-1933,"['delay', 'delay', 'delay']"
 ZOOKEEPER-2006,['leader']
-ZOOKEEPER-1835,['quorum']
 ZOOKEEPER-2893,"['network', 'network']"
-ZOOKEEPER-1936,"['quorum', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1294,"['node', 'node', 'leader', 'cluster', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1700,"['failure', 'leader', 'leader', 'leader', 'follower', 'follower', 'shutdown', 'shutdown', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'consistent', 'consistent', 'consistent']"
+ZOOKEEPER-1294,"['node', 'node', 'leader', 'cluster']"
+ZOOKEEPER-1700,"['leader', 'leader', 'leader', 'follower', 'follower', 'election', 'consistent', 'consistent', 'consistent']"
 ZOOKEEPER-2418,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'cluster', 'cluster']"
 ZOOKEEPER-2052,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-1870,"['failure', 'leader', 'shutdown', 'quorum', 'quorum', 'elect']"
-ZOOKEEPER-1367,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'consistent']"
-ZOOKEEPER-2323,"['network', 'network', 'quorum', 'quorum']"
-ZOOKEEPER-1620,"['quorum', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-2845,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'shutdown', 'quorum', 'elect', 'elect', 'elect', 'elect', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-3803,"['shutdown', 'shutdown', 'shutdown']"
+ZOOKEEPER-1870,"['leader', 'election']"
+ZOOKEEPER-1367,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'consistent']"
+ZOOKEEPER-2323,"['network', 'network']"
+ZOOKEEPER-2845,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'consistent', 'consistent', 'consistent']"
 ZOOKEEPER-4325,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-2412,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'quorum']"
+ZOOKEEPER-2412,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
 ZOOKEEPER-2224,"['network', 'network', 'network']"
-ZOOKEEPER-3758,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'cluster', 'quorum', 'quorum', 'quorum', 'elect']"
+ZOOKEEPER-3758,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster']"
 ZOOKEEPER-1576,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-2213,"['quorum', 'quorum']"
 ZOOKEEPER-3104,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'consistent']"
-ZOOKEEPER-1514,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect']"
-ZOOKEEPER-4275,"['consistent', 'recovery', 'recovery']"
-ZOOKEEPER-1937,['failure']
-ZOOKEEPER-2934,['elect']
-ZOOKEEPER-1846,"['node', 'quorum', 'elect']"
+ZOOKEEPER-1514,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'election', 'election']"
+ZOOKEEPER-4275,"['delay', 'delay', 'delay', 'consistent', 'recovery', 'recovery']"
+ZOOKEEPER-2934,['election']
+ZOOKEEPER-1846,"['node', 'election']"
 ZOOKEEPER-2804,['node']
 ZOOKEEPER-3706,"['network', 'network', 'network', 'network']"
-ZOOKEEPER-3725,"['failure', 'cluster', 'quorum', 'quorum']"
+ZOOKEEPER-3725,['cluster']
 ZOOKEEPER-2009,['node']
 ZOOKEEPER-4475,['node']
-ZOOKEEPER-1789,"['cluster', 'quorum', 'quorum', 'elect', 'elect']"
+ZOOKEEPER-1789,"['election', 'election', 'cluster']"
 ZOOKEEPER-876,"['leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1361,"['follower', 'follower', 'follower', 'follower', 'quorum', 'quorum']"
-ZOOKEEPER-2743,"['failure', 'shutdown']"
+ZOOKEEPER-1361,"['follower', 'follower', 'follower', 'follower']"
 ZOOKEEPER-1894,"['leader', 'follower', 'consistent', 'consistent']"
-ZOOKEEPER-1807,"['elect', 'elect']"
+ZOOKEEPER-1807,"['election', 'election']"
 ZOOKEEPER-4565,['node']
-ZOOKEEPER-2056,"['quorum', 'group']"
-ZOOKEEPER-1932,['failure']
-ZOOKEEPER-3988,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
+ZOOKEEPER-2210,"['clock', 'clock', 'clock', 'clock']"
+ZOOKEEPER-3988,['cluster']
 ZOOKEEPER-3306,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'consistent']"
-ZOOKEEPER-1878,"['quorum', 'quorum', 'quorum', 'quorum', 'consistent']"
-ZOOKEEPER-2808,"['node', 'node', 'node', 'node', 'node', 'node', 'leader', 'follower', 'quorum']"
+ZOOKEEPER-1878,['consistent']
+ZOOKEEPER-2808,"['node', 'node', 'node', 'node', 'node', 'node', 'leader', 'follower']"
 ZOOKEEPER-1906,"['node', 'node']"
-ZOOKEEPER-1966,['elect']
 ZOOKEEPER-1560,"['node', 'node']"
-ZOOKEEPER-3776,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'elect']"
+ZOOKEEPER-3776,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'delay', 'delay', 'delay', 'cluster']"
+ZOOKEEPER-1616,['clock']
 ZOOKEEPER-1277,"['follower', 'follower']"
-ZOOKEEPER-1840,"['quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-2948,['group']
-ZOOKEEPER-978,['shutdown']
+ZOOKEEPER-1840,"['election', 'election', 'election', 'election']"
 ZOOKEEPER-1910,"['node', 'node']"
-ZOOKEEPER-2783,"['node', 'node', 'leader', 'follower', 'follower', 'cluster', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1864,"['quorum', 'quorum', 'quorum', 'quorum', 'elect']"
+ZOOKEEPER-2783,"['node', 'node', 'leader', 'follower', 'follower', 'cluster']"
+ZOOKEEPER-1864,['election']
 ZOOKEEPER-2547,"['node', 'node', 'node']"
-ZOOKEEPER-1357,"['leader', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1214,"['shutdown', 'shutdown']"
-ZOOKEEPER-2347,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
-ZOOKEEPER-366,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect']"
-ZOOKEEPER-2691,"['network', 'network', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-4247,"['cluster', 'quorum', 'elect', 'elect', 'elect']"
-ZOOKEEPER-4445,"['failure', 'failure']"
-ZOOKEEPER-2376,"['quorum', 'quorum']"
-ZOOKEEPER-1747,"['quorum', 'quorum', 'consistent']"
-ZOOKEEPER-4465,"['group', 'group', 'group']"
-ZOOKEEPER-1496,"['node', 'node', 'node', 'node', 'node', 'failover', 'failover', 'cluster', 'cluster', 'cluster', 'cluster']"
+ZOOKEEPER-1357,['leader']
+ZOOKEEPER-366,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'clock', 'clock']"
+ZOOKEEPER-2691,"['network', 'network', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election']"
+ZOOKEEPER-4247,['cluster']
+ZOOKEEPER-1747,['consistent']
+ZOOKEEPER-1496,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
 ZOOKEEPER-3471,"['node', 'node', 'node']"
 ZOOKEEPER-786,['cluster']
-ZOOKEEPER-1309,"['elect', 'elect', 'elect', 'elect', 'elect']"
 ZOOKEEPER-1304,"['node', 'node']"
 ZOOKEEPER-1813,['node']
-ZOOKEEPER-2319,"['node', 'node', 'node', 'leader', 'shutdown', 'shutdown']"
+ZOOKEEPER-2319,"['node', 'node', 'node', 'leader']"
 ZOOKEEPER-1851,['leader']
 ZOOKEEPER-2978,['node']
 ZOOKEEPER-1412,"['node', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent', 'consistent']"
 ZOOKEEPER-2325,"['node', 'node', 'node', 'node', 'cluster']"
 ZOOKEEPER-2931,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-2054,['failure']
-ZOOKEEPER-2193,"['node', 'node', 'elect']"
+ZOOKEEPER-2193,"['node', 'node', 'election']"
 ZOOKEEPER-2338,['leader']
-ZOOKEEPER-1489,"['node', 'node', 'node', 'node', 'network', 'quorum']"
+ZOOKEEPER-1489,"['node', 'node', 'node', 'node', 'network']"
 ZOOKEEPER-1118,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent']"
-ZOOKEEPER-4011,"['quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum']"
 ZOOKEEPER-3001,"['node', 'node']"
-ZOOKEEPER-3778,"['leader', 'leader', 'leader', 'leader', 'shutdown', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'elect']"
-ZOOKEEPER-3280,['failure']
+ZOOKEEPER-3778,"['leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster', 'cluster', 'cluster']"
 ZOOKEEPER-1211,['consistent']
 ZOOKEEPER-2819,['node']
-ZOOKEEPER-1862,"['failure', 'failure', 'shutdown', 'shutdown']"
-ZOOKEEPER-2872,"['failure', 'leader', 'leader']"
-ZOOKEEPER-4446,"['failure', 'failure']"
+ZOOKEEPER-2872,"['leader', 'leader']"
 ZOOKEEPER-2774,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-ZOOKEEPER-1900,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'elect', 'elect']"
-ZOOKEEPER-3072,"['failure', 'elect']"
+ZOOKEEPER-1900,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election']"
 ZOOKEEPER-4194,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-ZOOKEEPER-4316,"['node', 'node', 'network', 'leader', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'elect', 'elect', 'elect']"
+ZOOKEEPER-4316,"['node', 'node', 'network', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster']"
 ZOOKEEPER-1740,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'cluster']"
-ZOOKEEPER-1987,"['node', 'node', 'leader', 'cluster', 'cluster', 'elect']"
-ZOOKEEPER-2806,['quorum']
-ZOOKEEPER-2310,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'follower', 'quorum', 'elect', 'recovery', 'recovery', 'recovery']"
-ZOOKEEPER-1332,"['node', 'node', 'leader', 'leader', 'leader', 'quorum', 'quorum']"
-ZOOKEEPER-3513,"['node', 'quorum', 'quorum']"
+ZOOKEEPER-1987,"['node', 'node', 'leader', 'cluster', 'cluster']"
+ZOOKEEPER-2310,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'follower', 'election', 'recovery', 'recovery', 'recovery']"
+ZOOKEEPER-1332,"['node', 'node', 'leader', 'leader', 'leader']"
+ZOOKEEPER-3513,['node']
 ZOOKEEPER-1295,['node']
 ZOOKEEPER-1650,"['consistent', 'consistent']"
 ZOOKEEPER-1782,"['node', 'node', 'node']"
-ZOOKEEPER-1939,"['failure', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1997,"['cluster', 'quorum']"
-ZOOKEEPER-3524,"['failure', 'quorum', 'quorum']"
-ZOOKEEPER-1950,"['group', 'group']"
+ZOOKEEPER-1997,['cluster']
 ZOOKEEPER-2901,"['node', 'node', 'node']"
 ZOOKEEPER-995,['node']
-ZOOKEEPER-2151,"['node', 'leader', 'follower', 'follower', 'quorum', 'quorum', 'quorum', 'elect']"
-ZOOKEEPER-4367,"['shutdown', 'cluster']"
-ZOOKEEPER-1492,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-2316,"['follower', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-1996,['elect']
-ZOOKEEPER-1612,"['quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum']"
+ZOOKEEPER-2151,"['node', 'leader', 'follower', 'follower', 'election']"
+ZOOKEEPER-4367,['cluster']
+ZOOKEEPER-1492,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster']"
+ZOOKEEPER-2316,['follower']
 ZOOKEEPER-3199,"['cluster', 'cluster']"
-ZOOKEEPER-3399,"['leader', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum']"
-ZOOKEEPER-1984,"['failure', 'failure']"
+ZOOKEEPER-3399,"['leader', 'follower', 'cluster', 'cluster', 'cluster', 'cluster']"
 ZOOKEEPER-1779,"['replica', 'replica']"
-ZOOKEEPER-1769,"['node', 'node', 'node', 'elect']"
-ZOOKEEPER-1483,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect', 'elect']"
+ZOOKEEPER-1769,"['node', 'node', 'node']"
+ZOOKEEPER-1483,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election']"
 ZOOKEEPER-1380,['consistent']
-ZOOKEEPER-1419,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
+ZOOKEEPER-1419,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 ZOOKEEPER-2852,['leader']
 ZOOKEEPER-1353,['consistent']
 ZOOKEEPER-1048,['node']
-ZOOKEEPER-1699,"['leader', 'leader', 'leader', 'leader', 'quorum', 'quorum', 'quorum']"
+ZOOKEEPER-1699,"['leader', 'leader', 'leader', 'leader']"
 ZOOKEEPER-3373,"['follower', 'follower', 'cluster']"
 ZOOKEEPER-1891,['consistent']
 ZOOKEEPER-1128,['node']
-ZOOKEEPER-2198,"['failure', 'consistent']"
-ZOOKEEPER-939,"['network', 'leader', 'cluster', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'group', 'group']"
-ZOOKEEPER-1580,['shutdown']
-ZOOKEEPER-1352,['failure']
+ZOOKEEPER-2198,['consistent']
+ZOOKEEPER-939,"['network', 'leader', 'cluster']"
 ZOOKEEPER-2949,"['cluster', 'cluster']"
 ZOOKEEPER-2923,['leader']
-ZOOKEEPER-2924,['shutdown']
-ZOOKEEPER-1949,"['elect', 'elect']"
-ZOOKEEPER-1930,['elect']
-ZOOKEEPER-1404,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'elect', 'elect']"
+ZOOKEEPER-1949,"['election', 'election']"
+ZOOKEEPER-1930,['election']
+ZOOKEEPER-1404,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'election', 'election']"
 ZOOKEEPER-1819,['node']
 ZOOKEEPER-2725,['node']
-ZOOKEEPER-1336,['failure']
-ZOOKEEPER-1351,['failure']
-ZOOKEEPER-1354,['failure']
+ZOOKEEPER-2178,"['clock', 'clock']"
 ZOOKEEPER-2556,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
-ZOOKEEPER-2759,['quorum']
-ZOOKEEPER-3296,"['network', 'network', 'leader', 'quorum', 'quorum', 'quorum', 'quorum', 'quorum', 'elect']"
+ZOOKEEPER-3296,"['network', 'network', 'leader', 'election']"
 ZOOKEEPER-3117,"['follower', 'follower', 'follower', 'follower']"
 ZOOKEEPER-1395,['node']
-ZOOKEEPER-2186,"['cluster', 'elect']"
+ZOOKEEPER-2186,"['election', 'cluster']"
 ZOOKEEPER-3144,"['node', 'leader', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-2953,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'shutdown', 'quorum', 'quorum', 'quorum', 'quorum', 'elect']"
-ZOOKEEPER-4360,"['node', 'node', 'leader', 'follower', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-2581,"['quorum', 'quorum']"
+ZOOKEEPER-2953,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower']"
+ZOOKEEPER-4360,"['node', 'node', 'leader', 'follower']"
 ZOOKEEPER-1220,"['node', 'node', 'node', 'node']"
 ZOOKEEPER-2249,"['node', 'node']"
-ZOOKEEPER-3016,"['node', 'node', 'quorum', 'quorum', 'quorum']"
-ZOOKEEPER-2082,"['quorum', 'elect', 'elect', 'elect']"
+ZOOKEEPER-3016,"['node', 'node']"
+ZOOKEEPER-2082,"['election', 'election', 'election']"
 ZOOKEEPER-1628,['node']

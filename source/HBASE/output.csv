@@ -1,90 +1,58 @@
 Issue_key,keyword
-HBASE-26755,['failure']
-HBASE-23904,"['failure', 'shutdown', 'shutdown', 'shutdown']"
-HBASE-27246,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-23566,"['network', 'network']"
-HBASE-26088,['failure']
-HBASE-24661,['failure']
-HBASE-24958,"['failure', 'recovery']"
-HBASE-24280,"['failure', 'failure']"
-HBASE-26938,"['failure', 'failure', 'cluster']"
-HBASE-27151,['failure']
-HBASE-22106,"['failure', 'group']"
-HBASE-22370,['failover']
-HBASE-22856,['failure']
+HBASE-24958,['recovery']
+HBASE-26938,['cluster']
 HBASE-25692,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HBASE-27554,"['failure', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-27554,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-25429,['recovery']
 HBASE-24454,['cluster']
-HBASE-23881,['failure']
-HBASE-25341,['failure']
-HBASE-27589,['failure']
-HBASE-24197,['failure']
-HBASE-24768,"['failure', 'failure', 'failure']"
 HBASE-25447,['remote']
-HBASE-25900,"['failure', 'failure']"
-HBASE-23222,['failure']
 HBASE-25366,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica']"
-HBASE-24755,['group']
 HBASE-23243,['cluster']
 HBASE-26787,"['replica', 'replica']"
-HBASE-22838,"['failure', 'group', 'group']"
-HBASE-23693,"['failure', 'node', 'group', 'group']"
+HBASE-23693,['node']
 HBASE-25355,"['cluster', 'cluster', 'replica']"
-HBASE-26436,"['group', 'group']"
-HBASE-27027,"['failure', 'cluster']"
-HBASE-24593,['failure']
+HBASE-27027,['cluster']
 HBASE-26753,"['replica', 'replica']"
-HBASE-27292,['failure']
-HBASE-27211,['failure']
 HBASE-25710,['recovery']
 HBASE-26297,['replica']
-HBASE-24719,"['cluster', 'group', 'group', 'group', 'group', 'group']"
+HBASE-24719,['cluster']
 HBASE-23171,['network']
-HBASE-26776,['failure']
-HBASE-27579,"['failover', 'failover']"
 HBASE-22646,['cluster']
 HBASE-23079,"['node', 'node']"
-HBASE-23833,"['failure', 'failure']"
 HBASE-25596,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HBASE-22289,['failure']
-HBASE-23205,"['failure', 'node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery']"
+HBASE-22289,['delay']
+HBASE-23205,"['node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'recovery', 'recovery', 'recovery']"
 HBASE-26384,['consistent']
-HBASE-27097,"['cluster', 'group', 'group']"
-HBASE-25888,['failure']
+HBASE-27097,['cluster']
 HBASE-25980,"['replica', 'replica']"
-HBASE-22601,"['node', 'node', 'node', 'node', 'node', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum', 'quorum', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group']"
+HBASE-22601,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-25735,['remote']
 HBASE-24437,"['cluster', 'cluster', 'cluster', 'cluster']"
-HBASE-26195,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica']"
+HBASE-26195,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica']"
 HBASE-22057,['replica']
 HBASE-25875,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
-HBASE-24135,"['group', 'group', 'group']"
-HBASE-26537,['failure']
 HBASE-25709,['cluster']
 HBASE-22492,"['network', 'network']"
 HBASE-26021,['cluster']
 HBASE-21991,['cluster']
-HBASE-25023,"['node', 'node', 'shutdown', 'shutdown']"
+HBASE-25023,"['node', 'node']"
 HBASE-22835,['cluster']
 HBASE-25861,['consistent']
-HBASE-25774,"['failure', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-25774,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-25924,"['cluster', 'replica']"
 HBASE-27004,"['cluster', 'cluster']"
-HBASE-26120,"['node', 'failover', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-26120,"['node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-24813,['consistent']
 HBASE-26670,['cluster']
 HBASE-25898,"['node', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-22761,['cluster']
-HBASE-26054,"['failure', 'failure']"
 HBASE-26783,['cluster']
-HBASE-27599,['failure']
-HBASE-25186,['failure']
 HBASE-23078,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-22477,['replica']
 HBASE-27321,['replica']
 HBASE-25984,['cluster']
-HBASE-26533,"['node', 'node', 'elect']"
+HBASE-26533,"['node', 'node']"
 HBASE-23679,"['node', 'cluster']"
 HBASE-27021,"['consistent', 'consistent']"
 HBASE-22537,"['replica', 'replica', 'replica', 'replica']"
@@ -94,76 +62,55 @@ HBASE-23345,"['cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 
 HBASE-25717,['cluster']
 HBASE-22072,['recovery']
 HBASE-22607,['cluster']
-HBASE-22981,['failure']
 HBASE-24117,"['node', 'remote']"
-HBASE-25255,['group']
 HBASE-22784,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-22852,['node']
 HBASE-23895,['node']
-HBASE-27038,"['failure', 'failure']"
-HBASE-25473,['failure']
-HBASE-26768,"['failure', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-26768,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-23369,"['cluster', 'cluster']"
 HBASE-22169,['cluster']
-HBASE-22194,['shutdown']
-HBASE-22424,"['group', 'group', 'group', 'group']"
 HBASE-22693,['cluster']
-HBASE-25932,"['failure', 'failure', 'replica']"
+HBASE-25932,['replica']
 HBASE-23173,['node']
-HBASE-24211,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
-HBASE-25698,"['failure', 'cluster', 'cluster', 'cluster', 'elect', 'replica']"
-HBASE-25472,['failure']
-HBASE-26643,['failover']
+HBASE-24211,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'delay', 'delay', 'delay', 'cluster', 'cluster']"
+HBASE-25698,"['cluster', 'cluster', 'cluster', 'replica']"
 HBASE-26062,"['cluster', 'replica', 'replica', 'replica']"
 HBASE-23709,['consistent']
 HBASE-24896,['replica']
-HBASE-26967,"['elect', 'elect']"
-HBASE-24372,"['group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-26036,['cluster']
 HBASE-23045,['replica']
-HBASE-24277,['shutdown']
 HBASE-22867,['cluster']
-HBASE-22686,"['failure', 'node', 'node', 'shutdown', 'cluster', 'cluster', 'cluster']"
+HBASE-22686,"['node', 'node', 'cluster', 'cluster', 'cluster']"
 HBASE-25741,"['replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-24552,"['replica', 'replica', 'replica', 'replica']"
-HBASE-26722,['failure']
 HBASE-22632,['cluster']
-HBASE-25385,['failure']
 HBASE-27053,"['cluster', 'cluster']"
-HBASE-22774,['group']
 HBASE-23117,"['cluster', 'cluster']"
-HBASE-23051,"['failure', 'failure']"
-HBASE-22323,"['failure', 'failure']"
 HBASE-26815,"['node', 'node', 'node']"
 HBASE-23737,"['node', 'node', 'cluster']"
-HBASE-26074,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'consistent', 'consistent']"
+HBASE-26074,"['consistent', 'consistent']"
 HBASE-26437,"['node', 'node', 'node', 'node', 'node', 'cluster']"
 HBASE-22003,"['replica', 'replica', 'replica']"
 HBASE-25590,"['cluster', 'replica', 'replica', 'replica', 'replica', 'remote']"
 HBASE-22661,['cluster']
-HBASE-24480,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-22793,"['remote', 'remote', 'remote']"
 HBASE-23040,"['cluster', 'cluster', 'cluster']"
-HBASE-22404,"['shutdown', 'remote', 'remote']"
-HBASE-25905,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'cluster']"
+HBASE-22404,"['remote', 'remote']"
+HBASE-25905,['cluster']
 HBASE-22509,['consistent']
 HBASE-26679,['node']
 HBASE-23247,"['cluster', 'cluster', 'cluster']"
 HBASE-22067,['cluster']
-HBASE-25238,"['node', 'node', 'node', 'node', 'shutdown', 'shutdown', 'shutdown', 'cluster', 'cluster', 'cluster']"
-HBASE-23033,['failure']
+HBASE-25238,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster']"
 HBASE-26467,['cluster']
 HBASE-22121,"['replica', 'replica', 'replica']"
-HBASE-27106,"['failure', 'consistent']"
+HBASE-27106,['consistent']
 HBASE-23376,"['replica', 'replica', 'replica']"
-HBASE-22923,"['group', 'group', 'group', 'group', 'group']"
-HBASE-23203,"['group', 'group', 'group', 'group']"
-HBASE-26761,['failure']
 HBASE-22490,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'consistent', 'consistent']"
 HBASE-24027,"['node', 'node']"
-HBASE-23262,"['replica', 'group', 'group', 'group']"
-HBASE-26383,"['failover', 'failover', 'consistent']"
-HBASE-26468,"['shutdown', 'cluster', 'cluster']"
+HBASE-23262,['replica']
+HBASE-26383,['consistent']
+HBASE-26468,"['cluster', 'cluster']"
 HBASE-23006,"['replica', 'replica']"
 HBASE-23601,"['replica', 'replica', 'replica']"
 HBASE-25994,['replica']
@@ -171,93 +118,72 @@ HBASE-25178,['node']
 HBASE-26960,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-27170,"['cluster', 'cluster']"
 HBASE-26866,['replica']
-HBASE-24322,['failure']
 HBASE-25902,['cluster']
 HBASE-27564,"['node', 'node', 'node', 'node', 'node', 'node']"
 HBASE-27193,['node']
-HBASE-22292,['failure']
 HBASE-22649,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HBASE-22441,['cluster']
-HBASE-23149,['elect']
 HBASE-23294,['replica']
 HBASE-22191,['cluster']
 HBASE-22287,['cluster']
 HBASE-24506,['cluster']
 HBASE-24189,['consistent']
-HBASE-24399,"['group', 'group', 'group', 'group', 'group', 'group']"
-HBASE-23005,"['elect', 'elect']"
 HBASE-26311,"['replica', 'replica']"
 HBASE-27160,['node']
 HBASE-23561,"['node', 'node', 'node']"
-HBASE-26396,"['group', 'group', 'group']"
 HBASE-25848,"['replica', 'replica', 'replica']"
 HBASE-25611,['cluster']
 HBASE-25901,['replica']
 HBASE-23659,"['replica', 'replica', 'replica']"
+HBASE-26281,['delay']
 HBASE-26075,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HBASE-27075,['group']
 HBASE-25583,"['node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-24074,"['replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-23202,['cluster']
 HBASE-23181,['cluster']
 HBASE-27485,['cluster']
-HBASE-27600,"['failure', 'consistent']"
+HBASE-27600,['consistent']
 HBASE-27547,['cluster']
 HBASE-24376,['cluster']
 HBASE-27621,"['replica', 'replica']"
-HBASE-22860,"['elect', 'elect']"
 HBASE-24588,"['consistent', 'consistent']"
-HBASE-26674,"['elect', 'elect']"
 HBASE-23328,"['cluster', 'replica', 'replica', 'replica', 'replica']"
 HBASE-26204,"['cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-26155,['cluster']
 HBASE-23744,['cluster']
-HBASE-26480,"['shutdown', 'cluster']"
-HBASE-26977,['shutdown']
-HBASE-25216,"['failure', 'node', 'replica', 'replica', 'replica']"
-HBASE-22767,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HBASE-26480,['cluster']
+HBASE-25216,"['node', 'replica', 'replica', 'replica']"
 HBASE-23594,['remote']
-HBASE-27230,['failure']
 HBASE-25311,['node']
-HBASE-26988,['failure']
 HBASE-26615,['cluster']
 HBASE-24545,"['cluster', 'recovery']"
-HBASE-27362,"['shutdown', 'elect', 'elect', 'elect']"
 HBASE-26433,"['cluster', 'consistent', 'consistent', 'consistent']"
 HBASE-25230,['cluster']
 HBASE-26406,"['cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+HBASE-22408,['delay']
 HBASE-26026,['cluster']
 HBASE-26811,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-26029,"['node', 'node', 'replica', 'replica', 'replica']"
 HBASE-23282,['cluster']
 HBASE-27335,['cluster']
 HBASE-24190,"['network', 'consistent']"
-HBASE-26546,['failure']
-HBASE-26300,['failure']
 HBASE-27628,"['cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica']"
 HBASE-25594,"['cluster', 'remote']"
-HBASE-25287,"['cluster', 'cluster', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-HBASE-24794,"['failure', 'cluster']"
+HBASE-25287,"['cluster', 'cluster']"
+HBASE-24794,['cluster']
 HBASE-27528,"['remote', 'remote', 'remote', 'remote']"
-HBASE-24844,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
-HBASE-24151,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-27119,['replica']
 HBASE-25280,"['replica', 'replica', 'replica']"
-HBASE-26496,['failure']
-HBASE-23998,"['group', 'group']"
-HBASE-26114,['shutdown']
 HBASE-26106,['replica']
 HBASE-25562,['replica']
-HBASE-24721,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-23351,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HBASE-27484,"['cluster', 'cluster', 'cluster', 'cluster', 'elect']"
+HBASE-27484,"['election', 'delay', 'cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-26238,"['consistent', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-22349,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-23261,"['node', 'node', 'node', 'node']"
 HBASE-22733,['cluster']
 HBASE-23694,"['cluster', 'recovery']"
 HBASE-26385,['replica']
-HBASE-24040,['group']
 HBASE-23909,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-22546,['cluster']
 HBASE-22935,['remote']
@@ -269,122 +195,76 @@ HBASE-22952,"['cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 
 HBASE-25166,"['cluster', 'remote']"
 HBASE-23098,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-22487,['replica']
-HBASE-22360,"['shutdown', 'shutdown']"
-HBASE-23193,['group']
-HBASE-23125,"['group', 'group', 'group']"
 HBASE-22440,['replica']
 HBASE-25556,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
 HBASE-24897,"['replica', 'replica', 'replica', 'replica', 'replica']"
-HBASE-24019,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HBASE-23589,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HBASE-27426,"['node', 'node', 'shutdown', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'quorum']"
+HBASE-27426,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
 HBASE-25501,"['cluster', 'cluster']"
-HBASE-27192,"['shutdown', 'quorum', 'quorum']"
-HBASE-24675,"['cluster', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-HBASE-24564,['quorum']
-HBASE-22902,"['group', 'group']"
+HBASE-24675,['cluster']
 HBASE-25292,"['node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'remote', 'remote', 'remote']"
 HBASE-20855,['replica']
-HBASE-21059,['failure']
 HBASE-20290,['replica']
-HBASE-21866,['group']
 HBASE-20741,"['replica', 'replica']"
-HBASE-20169,['shutdown']
-HBASE-21102,"['elect', 'replica']"
+HBASE-21102,['replica']
 HBASE-21614,['recovery']
 HBASE-20106,['remote']
-HBASE-20114,['group']
 HBASE-20859,['cluster']
-HBASE-20368,['group']
 HBASE-21505,['replica']
 HBASE-20485,['replica']
-HBASE-20531,['shutdown']
-HBASE-20777,['shutdown']
-HBASE-20566,['group']
 HBASE-20648,['replica']
 HBASE-21259,['node']
 HBASE-20903,['consistent']
 HBASE-21166,['cluster']
-HBASE-20653,['group']
-HBASE-20666,['group']
 HBASE-20861,['replica']
 HBASE-21131,"['replica', 'replica', 'recovery']"
 HBASE-20901,['replica']
-HBASE-20606,['group']
-HBASE-20500,"['group', 'group']"
 HBASE-20908,['replica']
-HBASE-21740,['shutdown']
-HBASE-21452,['group']
 HBASE-20293,['replica']
 HBASE-20766,['cluster']
-HBASE-20144,['shutdown']
 HBASE-20229,['replica']
-HBASE-20220,"['cluster', 'group']"
+HBASE-20220,['cluster']
 HBASE-20524,['replica']
 HBASE-20842,['remote']
-HBASE-20772,['shutdown']
 HBASE-21749,['replica']
-HBASE-21707,['group']
 HBASE-20612,['cluster']
-HBASE-20808,['shutdown']
-HBASE-20382,['group']
-HBASE-19490,['failure']
-HBASE-19138,['failure']
-HBASE-18771,['failure']
-HBASE-18759,['failure']
-HBASE-19991,['failure']
-HBASE-19392,['failure']
-HBASE-18851,['failure']
-HBASE-19825,['failure']
-HBASE-20090,['failure']
-HBASE-19422,['failure']
-HBASE-17987,['failure']
-HBASE-19317,"['failure', 'node']"
+HBASE-19317,['node']
 HBASE-18362,['replica']
 HBASE-19619,['replica']
 HBASE-18946,['replica']
 HBASE-18943,['cluster']
 HBASE-18864,"['cluster', 'replica']"
 HBASE-19694,['cluster']
-HBASE-19838,['shutdown']
-HBASE-19666,['elect']
+HBASE-19666,['election']
 HBASE-18132,"['node', 'replica']"
 HBASE-18626,['replica']
 HBASE-17718,['node']
 HBASE-18111,['cluster']
-HBASE-18545,['group']
 HBASE-19796,['replica']
-HBASE-19974,['group']
-HBASE-19822,['shutdown']
 HBASE-20004,['cluster']
 HBASE-20054,['replica']
-HBASE-19757,"['cluster', 'group']"
+HBASE-19757,['cluster']
 HBASE-19321,['cluster']
 HBASE-18282,['replica']
 HBASE-19884,['consistent']
-HBASE-19144,"['cluster', 'group']"
+HBASE-19144,['cluster']
 HBASE-18490,"['replica', 'replica']"
 HBASE-18549,['replica']
 HBASE-17713,['cluster']
 HBASE-20049,['replica']
 HBASE-19934,['replica']
-HBASE-20104,['group']
 HBASE-17779,"['replica', 'replica']"
 HBASE-18036,['cluster']
-HBASE-19088,['group']
 HBASE-18149,['consistent']
 HBASE-19173,['cluster']
 HBASE-18247,['replica']
 HBASE-19553,['replica']
 HBASE-19281,['replica']
+HBASE-18451,['delay']
 HBASE-19364,['replica']
-HBASE-20102,['shutdown']
-HBASE-18890,['shutdown']
-HBASE-19752,['group']
 HBASE-19923,['replica']
 HBASE-19391,['replica']
 HBASE-19905,['replica']
-HBASE-18141,['shutdown']
 HBASE-19783,"['cluster', 'replica']"
 HBASE-19734,['cluster']
 HBASE-18005,"['replica', 'replica']"
@@ -392,70 +272,51 @@ HBASE-17957,['replica']
 HBASE-18480,['cluster']
 HBASE-18625,['replica']
 HBASE-18484,['cluster']
-HBASE-18051,['group']
-HBASE-18492,['elect']
 HBASE-17934,"['replica', 'replica']"
 HBASE-18035,['replica']
-HBASE-18192,['shutdown']
 HBASE-19098,['remote']
 HBASE-19559,['node']
 HBASE-19829,['cluster']
-HBASE-18244,['group']
-HBASE-15310,['failure']
-HBASE-17079,['failure']
-HBASE-15976,['failure']
-HBASE-16752,"['failure', 'replica']"
-HBASE-16201,['failure']
+HBASE-16752,['replica']
 HBASE-17636,['replica']
-HBASE-15636,['failure']
 HBASE-17125,['consistent']
 HBASE-17617,['consistent']
 HBASE-15236,['consistent']
-HBASE-15251,"['failover', 'cluster']"
+HBASE-15251,['cluster']
 HBASE-15259,['replica']
 HBASE-16375,['cluster']
 HBASE-17501,['node']
-HBASE-17624,['group']
 HBASE-16093,['consistent']
 HBASE-16294,['replica']
 HBASE-15190,['cluster']
-HBASE-14802,"['failover', 'recovery']"
+HBASE-14802,['recovery']
 HBASE-16234,['replica']
 HBASE-17460,"['replica', 'replica']"
 HBASE-16270,['replica']
-HBASE-15465,['elect']
-HBASE-15805,"['node', 'shutdown', 'quorum']"
+HBASE-15805,['node']
 HBASE-16200,['consistent']
-HBASE-15858,['group']
 HBASE-15393,"['node', 'cluster', 'replica']"
 HBASE-16810,['node']
 HBASE-15189,['cluster']
 HBASE-15188,['cluster']
 HBASE-17648,['cluster']
 HBASE-16135,['node']
-HBASE-16853,['failover']
 HBASE-16576,['cluster']
 HBASE-14717,"['cluster', 'replica']"
-HBASE-14664,['failover']
 HBASE-17303,['replica']
 HBASE-16499,"['cluster', 'replica']"
-HBASE-15732,['group']
-HBASE-16284,"['shutdown', 'cluster']"
+HBASE-16284,['cluster']
 HBASE-17426,['consistent']
 HBASE-15769,['cluster']
 HBASE-15567,['replica']
 HBASE-15274,['consistent']
 HBASE-15200,['node']
-HBASE-16309,['elect']
-HBASE-16456,['group']
+HBASE-16309,['election']
 HBASE-17635,"['replica', 'replica']"
 HBASE-16768,['consistent']
 HBASE-16396,['replica']
 HBASE-16731,['consistent']
 HBASE-16031,['replica']
-HBASE-17496,['group']
 HBASE-15472,['replica']
-HBASE-16852,['elect']
-HBASE-16491,['group']
+HBASE-16852,['election']
 HBASE-16040,['replica']
-HBASE-17653,['group']

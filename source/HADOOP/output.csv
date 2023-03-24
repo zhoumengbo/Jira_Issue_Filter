@@ -1,314 +1,156 @@
 Issue_key,keyword
-HADOOP-13942,['failure']
-HADOOP-17120,['failure']
-HADOOP-14030,"['failure', 'failure', 'failure', 'failure']"
-HADOOP-17229,['failure']
-HADOOP-15129,"['failure', 'failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'remote']"
-HADOOP-14479,['failure']
-HADOOP-15819,"['failure', 'failure']"
-HADOOP-17203,"['failure', 'failure']"
-HADOOP-17965,['failure']
-HADOOP-16936,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
-HADOOP-18242,"['failure', 'node']"
-HADOOP-15781,"['failure', 'failure']"
-HADOOP-17916,"['failure', 'failure']"
-HADOOP-17608,['failure']
-HADOOP-14851,"['failure', 'failure']"
+HADOOP-15129,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'remote']"
+HADOOP-16936,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote']"
+HADOOP-18242,['node']
 HADOOP-14604,"['replica', 'replica', 'replica', 'replica', 'replica']"
-HADOOP-17457,['failure']
-HADOOP-17645,['failure']
-HADOOP-17574,"['failure', 'failure']"
-HADOOP-17812,['failure']
-HADOOP-14461,"['failure', 'failure']"
-HADOOP-18219,"['failure', 'failure', 'failure', 'failure', 'cluster', 'cluster']"
-HADOOP-14486,"['failure', 'consistent']"
-HADOOP-17040,"['failure', 'node']"
-HADOOP-17298,['failure']
-HADOOP-17219,['failure']
-HADOOP-17496,['failure']
-HADOOP-17573,['failure']
-HADOOP-17801,['shutdown']
-HADOOP-13961,['failure']
-HADOOP-14474,"['failure', 'failure']"
-HADOOP-18043,['failure']
-HADOOP-14028,['failure']
-HADOOP-13830,"['failure', 'failure']"
-HADOOP-17730,['failure']
-HADOOP-16689,['failure']
-HADOOP-16051,"['node', 'node', 'node', 'node', 'group']"
-HADOOP-18601,['failure']
-HADOOP-16934,['failure']
-HADOOP-17034,['failure']
-HADOOP-17427,['failure']
-HADOOP-18322,['failure']
-HADOOP-16869,['failure']
-HADOOP-14622,['failure']
+HADOOP-17457,['delay']
+HADOOP-18219,"['cluster', 'cluster']"
+HADOOP-14486,['consistent']
+HADOOP-17040,['node']
+HADOOP-16051,"['node', 'node', 'node', 'node']"
 HADOOP-13837,"['node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-12970,"['failure', 'failure']"
-HADOOP-15674,['failure']
-HADOOP-13215,"['cluster', 'elect', 'elect']"
-HADOOP-16311,"['failure', 'failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'group']"
-HADOOP-15331,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
-HADOOP-13526,['failure']
+HADOOP-13215,['cluster']
+HADOOP-16311,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-13831,['consistent']
-HADOOP-18375,['failure']
 HADOOP-14343,['node']
-HADOOP-13167,"['failure', 'failure']"
-HADOOP-16885,['failure']
-HADOOP-18251,['failure']
-HADOOP-18158,['failure']
-HADOOP-18217,"['network', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown', 'remote']"
-HADOOP-18340,['failure']
-HADOOP-14283,['failure']
+HADOOP-18217,"['network', 'delay', 'delay', 'remote']"
 HADOOP-12888,['cluster']
-HADOOP-17769,['failure']
-HADOOP-17764,"['failure', 'failure']"
-HADOOP-17007,['failure']
 HADOOP-17158,"['remote', 'remote']"
 HADOOP-16028,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-HADOOP-15548,"['elect', 'elect']"
-HADOOP-14658,['failure']
-HADOOP-17975,"['failure', 'node', 'node', 'cluster', 'cluster', 'cluster', 'replica']"
-HADOOP-16276,['failure']
+HADOOP-15548,['election']
+HADOOP-17975,"['node', 'node', 'cluster', 'cluster', 'cluster', 'replica']"
 HADOOP-13433,"['cluster', 'replica', 'replica', 'replica', 'replica']"
 HADOOP-15206,"['node', 'cluster']"
 HADOOP-15446,"['replica', 'replica']"
-HADOOP-13441,['group']
 HADOOP-17324,['cluster']
-HADOOP-17052,['failure']
-HADOOP-15850,"['failure', 'consistent']"
-HADOOP-14512,['failure']
-HADOOP-17398,"['network', 'group']"
+HADOOP-15850,['consistent']
+HADOOP-17398,"['network', 'delay']"
 HADOOP-14062,"['node', 'cluster']"
-HADOOP-18408,['failure']
 HADOOP-14044,['node']
-HADOOP-14636,"['failure', 'failure', 'network']"
-HADOOP-17258,"['failure', 'failure']"
-HADOOP-15478,['failure']
+HADOOP-14636,"['network', 'clock']"
 HADOOP-13989,['cluster']
 HADOOP-17011,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-14239,['failure']
 HADOOP-16457,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-15059,['cluster']
-HADOOP-14399,['failure']
-HADOOP-17694,['elect']
 HADOOP-17346,['cluster']
-HADOOP-13183,['failure']
-HADOOP-13279,['group']
 HADOOP-12884,"['recovery', 'recovery', 'recovery', 'recovery']"
-HADOOP-15450,['failure']
-HADOOP-13565,"['failure', 'node']"
+HADOOP-13565,['node']
 HADOOP-17151,"['node', 'node']"
-HADOOP-15098,"['failure', 'node', 'node']"
-HADOOP-16151,['failure']
+HADOOP-15098,"['node', 'node']"
 HADOOP-15317,"['node', 'node', 'node', 'node', 'node']"
 HADOOP-17925,['cluster']
-HADOOP-16900,['failure']
 HADOOP-13236,['node']
-HADOOP-12862,"['node', 'group', 'group']"
-HADOOP-16590,['failure']
+HADOOP-12862,['node']
 HADOOP-17934,['node']
-HADOOP-18120,['failure']
-HADOOP-15473,"['failure', 'network']"
-HADOOP-15273,"['failure', 'remote']"
+HADOOP-15473,['network']
+HADOOP-15273,['remote']
 HADOOP-18581,['node']
-HADOOP-15679,"['shutdown', 'shutdown', 'shutdown', 'shutdown']"
-HADOOP-17655,['failure']
-HADOOP-14501,['failure']
-HADOOP-15939,"['failure', 'cluster']"
-HADOOP-17971,['failure']
+HADOOP-15939,['cluster']
 HADOOP-15292,['node']
 HADOOP-15527,['node']
 HADOOP-17308,['cluster']
-HADOOP-18521,"['network', 'network', 'cluster', 'group']"
-HADOOP-18279,['shutdown']
-HADOOP-13137,"['node', 'cluster', 'elect']"
-HADOOP-16655,['failure']
+HADOOP-18521,"['network', 'network', 'cluster']"
+HADOOP-13137,"['node', 'cluster']"
 HADOOP-14966,['node']
-HADOOP-14563,"['consistent', 'group']"
+HADOOP-14563,['consistent']
 HADOOP-15008,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-15997,"['elect', 'elect']"
-HADOOP-17018,"['failure', 'failure']"
 HADOOP-15865,"['recovery', 'recovery', 'recovery']"
-HADOOP-15908,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'group', 'group', 'group', 'group']"
+HADOOP-15908,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
 HADOOP-13264,"['node', 'node', 'node']"
-HADOOP-16443,['group']
 HADOOP-15390,"['cluster', 'cluster', 'cluster']"
 HADOOP-15121,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-14278,"['failure', 'failure']"
-HADOOP-15873,"['group', 'group']"
-HADOOP-17068,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'failover']"
-HADOOP-13024,['failure']
-HADOOP-18612,['failure']
+HADOOP-17068,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-16107,"['replica', 'replica', 'replica']"
 HADOOP-15320,['remote']
 HADOOP-15519,['node']
-HADOOP-16385,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'shutdown']"
-HADOOP-13816,"['remote', 'remote', 'group']"
-HADOOP-17329,['failure']
-HADOOP-17300,['failure']
-HADOOP-15060,['group']
+HADOOP-16385,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
+HADOOP-13816,"['remote', 'remote']"
 HADOOP-16345,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-14416,"['cluster', 'cluster']"
 HADOOP-14855,['node']
 HADOOP-13897,"['consistent', 'consistent']"
-HADOOP-13638,"['cluster', 'cluster', 'consistent', 'group']"
-HADOOP-18074,"['group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
+HADOOP-13638,"['cluster', 'cluster', 'consistent']"
 HADOOP-13440,"['node', 'consistent']"
-HADOOP-14363,"['failure', 'consistent']"
+HADOOP-14363,['consistent']
 HADOOP-18528,['consistent']
-HADOOP-15644,"['failure', 'failure']"
-HADOOP-12962,['failure']
-HADOOP-13381,['failure']
 HADOOP-12919,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HADOOP-15696,['failure']
 HADOOP-15633,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-18398,['cluster']
 HADOOP-17689,['replica']
 HADOOP-17138,"['node', 'node', 'node', 'node']"
-HADOOP-17399,['failure']
 HADOOP-15180,"['node', 'node', 'node', 'cluster']"
-HADOOP-17438,['failure']
-HADOOP-18238,['shutdown']
-HADOOP-17505,['failure']
-HADOOP-17578,['failure']
+HADOOP-17438,['delay']
 HADOOP-17209,"['node', 'node', 'node', 'node', 'cluster']"
-HADOOP-15490,"['group', 'group']"
-HADOOP-17059,"['node', 'group', 'group']"
-HADOOP-14458,"['failure', 'failure']"
+HADOOP-17059,['node']
 HADOOP-15684,"['node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-14214,['node']
-HADOOP-14949,"['failure', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group', 'group']"
 HADOOP-17783,['cluster']
 HADOOP-16495,['node']
-HADOOP-15995,['group']
 HADOOP-16265,"['consistent', 'consistent']"
-HADOOP-15614,['group']
 HADOOP-15733,"['node', 'node']"
 HADOOP-13224,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-14859,['failure']
 HADOOP-14558,"['cluster', 'cluster', 'cluster']"
-HADOOP-16021,['group']
 HADOOP-16440,"['cluster', 'cluster', 'cluster']"
-HADOOP-15375,"['node', 'node', 'node', 'node', 'node', 'group']"
-HADOOP-15369,['elect']
-HADOOP-14982,"['failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover', 'failover']"
-HADOOP-15410,"['group', 'group', 'group', 'group']"
-HADOOP-17642,"['cluster', 'elect']"
-HADOOP-15655,"['failover', 'group']"
-HADOOP-15686,"['elect', 'elect']"
-HADOOP-13572,['failure']
+HADOOP-15375,"['node', 'node', 'node', 'node', 'node']"
+HADOOP-17642,['cluster']
 HADOOP-16011,['remote']
-HADOOP-16199,"['cluster', 'elect', 'elect']"
+HADOOP-16199,['cluster']
 HADOOP-16793,"['node', 'remote']"
-HADOOP-16435,"['shutdown', 'elect']"
-HADOOP-14198,"['failure', 'remote']"
-HADOOP-16773,['group']
-HADOOP-16789,"['failure', 'failure', 'failure', 'failure']"
+HADOOP-14198,['remote']
 HADOOP-16674,['network']
 HADOOP-12964,['remote']
-HADOOP-18386,"['elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect', 'elect']"
 HADOOP-14450,['consistent']
 HADOOP-18452,"['node', 'node']"
 HADOOP-15411,"['node', 'node', 'node', 'node', 'node']"
-HADOOP-14017,"['group', 'group', 'group']"
-HADOOP-14071,"['failure', 'consistent']"
+HADOOP-14071,['consistent']
 HADOOP-13864,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-16662,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'cluster']"
 HADOOP-17762,"['remote', 'remote', 'remote', 'remote']"
 HADOOP-13173,"['node', 'network', 'network', 'network', 'cluster', 'cluster', 'cluster', 'cluster']"
-HADOOP-17143,"['node', 'node', 'cluster', 'quorum']"
-HADOOP-14727,"['elect', 'elect', 'consistent']"
-HADOOP-16824,['failure']
+HADOOP-17143,"['node', 'node', 'cluster']"
+HADOOP-14727,['consistent']
 HADOOP-14540,"['node', 'node', 'node']"
-HADOOP-14377,['failure']
-HADOOP-15866,['group']
-HADOOP-14191,['group']
-HADOOP-16897,"['failure', 'failure']"
-HADOOP-14116,"['failover', 'failover']"
+HADOOP-14669,['clock']
 HADOOP-14207,['node']
-HADOOP-15265,"['group', 'group', 'group']"
 HADOOP-13663,['node']
-HADOOP-13924,"['failure', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'group', 'group']"
+HADOOP-13924,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
 HADOOP-14412,"['node', 'cluster', 'cluster', 'cluster']"
 HADOOP-14820,['consistent']
 HADOOP-13072,"['node', 'node', 'node', 'node']"
-HADOOP-12993,"['shutdown', 'shutdown']"
-HADOOP-16166,['failure']
 HADOOP-16765,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
 HADOOP-15169,['node']
 HADOOP-17850,['consistent']
-HADOOP-16341,['shutdown']
 HADOOP-17919,"['node', 'cluster', 'cluster', 'cluster']"
 HADOOP-18002,"['recovery', 'recovery']"
 HADOOP-17870,['consistent']
-HADOOP-18313,['shutdown']
 HADOOP-18100,['node']
 HADOOP-17360,"['remote', 'remote']"
 HADOOP-13132,"['node', 'node', 'node', 'node']"
+HADOOP-17999,['delay']
 HADOOP-14867,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-13102,"['group', 'group', 'group', 'group', 'group', 'group', 'group']"
-HADOOP-17142,"['node', 'node', 'node', 'cluster', 'quorum']"
+HADOOP-17142,"['node', 'node', 'node', 'cluster']"
 HADOOP-16755,"['node', 'cluster']"
 HADOOP-15166,['cluster']
 HADOOP-18633,['remote']
 HADOOP-16161,['remote']
-HADOOP-15122,"['group', 'group']"
-HADOOP-15366,"['shutdown', 'shutdown', 'shutdown', 'shutdown', 'shutdown']"
-HADOOP-16677,"['node', 'node', 'elect', 'elect', 'elect', 'elect', 'elect', 'remote', 'remote']"
+HADOOP-16677,"['node', 'node', 'remote', 'remote']"
 HADOOP-15594,['cluster']
-HADOOP-16067,['group']
-HADOOP-16840,"['elect', 'elect', 'elect']"
-HADOOP-15523,"['group', 'group']"
+HADOOP-16013,['delay']
+HADOOP-15316,['delay']
 HADOOP-15772,['node']
-HADOOP-17116,"['failover', 'failover', 'failover']"
 HADOOP-15571,['replica']
 HADOOP-15396,"['node', 'node', 'node', 'node']"
-HADOOP-12267,['failure']
-HADOOP-8953,['failure']
-HADOOP-12605,['failure']
-HADOOP-12033,['failure']
-HADOOP-9007,['failure']
-HADOOP-7290,['failure']
-HADOOP-8977,['failure']
-HADOOP-8220,['failure']
 HADOOP-10318,['node']
-HADOOP-7256,['failure']
-HADOOP-8732,['failure']
-HADOOP-12181,['failure']
-HADOOP-12468,"['failure', 'group']"
-HADOOP-7950,['failure']
-HADOOP-9058,['failure']
-HADOOP-12609,['failure']
-HADOOP-8714,['failure']
-HADOOP-8956,['failure']
-HADOOP-9583,['failure']
-HADOOP-10837,['failure']
-HADOOP-9186,['failure']
-HADOOP-11611,['failure']
-HADOOP-12423,"['failure', 'shutdown']"
-HADOOP-12479,['failure']
-HADOOP-9249,['failure']
-HADOOP-8961,['failure']
-HADOOP-12152,['failure']
-HADOOP-8534,['failure']
-HADOOP-8603,['failure']
 HADOOP-4773,"['node', 'node']"
-HADOOP-9085,"['failure', 'node', 'node', 'node']"
-HADOOP-9309,['failure']
-HADOOP-12697,['failure']
-HADOOP-9146,['failure']
-HADOOP-9505,['failure']
-HADOOP-11951,['failure']
-HADOOP-7822,"['failure', 'node']"
+HADOOP-9085,"['node', 'node', 'node']"
+HADOOP-7822,['node']
 HADOOP-7488,"['node', 'network']"
+HADOOP-9126,['delay']
 HADOOP-5983,['node']
 HADOOP-12317,['recovery']
 HADOOP-10718,['remote']
-HADOOP-10219,['shutdown']
 HADOOP-10941,['remote']
 HADOOP-8564,['node']
-HADOOP-8763,['group']
 HADOOP-6460,['node']
 HADOOP-12449,['network']
 HADOOP-5311,['recovery']
@@ -317,22 +159,15 @@ HADOOP-2159,['node']
 HADOOP-3395,['node']
 HADOOP-6554,['consistent']
 HADOOP-4019,['node']
-HADOOP-8457,['group']
-HADOOP-8456,['group']
 HADOOP-11955,['cluster']
-HADOOP-10227,"['shutdown', 'remote']"
+HADOOP-10227,['remote']
 HADOOP-4264,"['node', 'cluster']"
 HADOOP-9633,"['node', 'network']"
-HADOOP-7050,['group']
 HADOOP-6028,['node']
 HADOOP-10069,['node']
-HADOOP-12765,['elect']
 HADOOP-6774,['node']
-HADOOP-5349,['elect']
-HADOOP-8208,['failover']
 HADOOP-8082,['cluster']
 HADOOP-9782,['node']
-HADOOP-8936,['group']
 HADOOP-12017,['replica']
 HADOOP-5665,['node']
 HADOOP-6710,['consistent']
