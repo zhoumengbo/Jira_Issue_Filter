@@ -4,7 +4,9 @@ import re
 
 csv.field_size_limit(500 * 1024 * 1024)
 keyword_list = ['node', 'network', 'leader', 'follower', 'election','delay',
-                'cluster', 'consistent', 'replica', 'remote', 'recovery','clock']
+                'cluster', 'consistent', 'replica', 'remote', 'recovery','clock','assign','block','broker','client',
+                'connection','crash','corrupt','distributed','fail','lock','message','meta','parallel','region','partition',
+                'race','assign','server','restart']
 
 
 def issue_filter(source):
@@ -51,5 +53,5 @@ def issue_filter(source):
 
 if __name__ == '__main__':
     source_list = ['CAS', 'HADOOP', 'HBASE', 'HDFS', 'KAFKA', 'ZK']
-    source = '../source/ZK'
+    source = '../source/CAS'
     issue_filter(source)
