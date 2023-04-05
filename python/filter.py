@@ -3,10 +3,9 @@ import os
 import re
 
 csv.field_size_limit(500 * 1024 * 1024)
-keyword_list = ['node', 'network', 'leader', 'follower', 'election','delay',
-                'cluster', 'consistent', 'replica', 'remote', 'recovery','clock','assign','block','broker','client',
-                'connection','crash','corrupt','distributed','fail','lock','message','meta','parallel','region','partition',
-                'race','assign','server','restart']
+keyword_list = ['node', 'network', 'leader', 'follower', 'election', 'delay', 'cluster', 'consistent', 'replica',
+                'remote', 'recovery', 'clock', 'assign', 'block', 'broker', 'connection', 'crash', 'corrupt',
+                'distributed', 'meta', 'parallel', 'region', 'partition', 'race', 'assign', 'server', 'restart']
 
 
 def issue_filter(source):
