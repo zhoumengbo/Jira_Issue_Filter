@@ -15,7 +15,7 @@ def issue_filter(source):
     Description_index = -1
     with open(source + '/output.csv', 'w', encoding='utf-8', newline='') as f:
         writer = csv.writer(f)
-        header = ["Issue_key", "keyword"]
+        header = ["Issue_key", "Summary", "keyword"]
         writer.writerow(header)
 
         for _, _, files in os.walk(''r'' + source):
@@ -45,7 +45,7 @@ def issue_filter(source):
                     print("keyword : {0}, count: {1}".format(key_res, count))
                     if count > 0:
                         filter_index += 1
-                        writer.writerow([Issue_key, key_res])
+                        writer.writerow([Issue_key, Summary, key_res])
                 print("index: {0}, filter_index: {1}".format(index, filter_index))
                 csv_file.close()
     f.close()

@@ -3,6 +3,13 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
+        <entry key="\source\CAS\CAS3.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\source\CAS\output.csv">
           <value>
             <Attribute>
@@ -46,13 +53,6 @@
           </value>
         </entry>
         <entry key="\source\ZK\output.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\source\ZK\output_no_failure.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
