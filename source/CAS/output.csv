@@ -1,0 +1,1177 @@
+Issue_key,Summary,keyword
+CASSANDRA-13873,Ref bug in Scrub,"['node', 'node', 'node', 'node', 'node']"
+CASSANDRA-16334,Replica failure causes timeout on multi-DC write,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'server', 'server']"
+CASSANDRA-16254,Make sure OOM errors are rethrown on truncation failure,"['fail', 'fail', 'fail', 'message']"
+CASSANDRA-15191,stop_paranoid disk failure policy is ignored on CorruptSSTableException after node is up,"['node', 'fail', 'fail', 'fail', 'server']"
+CASSANDRA-17116,When streaming sees a ClosedChannelException this triggers the disk failure policy,"['fail', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message']"
+CASSANDRA-17456,Test Failures: write_failures_test.TestMultiDCWriteFailures.test_oversized_mutation,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-17928,Test Failure: org.apache.cassandra.db.commitlog.CommitLogInitWithExceptionTest.testCommitLogInitWithException-compression,['race']
+CASSANDRA-18086,Bug fix for 'wait' time to be in nanoseconds for consistency instead of microseconds,['consistent']
+CASSANDRA-14525,streaming failure during bootstrap makes new node into inconsistent state,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'consistent', 'consistent', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message']"
+CASSANDRA-17658,Test Failures: org.apache.cassandra.metrics.KeyspaceMetricsTest.testMetricsCleanupOnDrop,"['fail', 'fail', 'fail']"
+CASSANDRA-17314,Test Failure: org.apache.cassandra.db.ScrubTest.testScrubCorruptedCounterRow,['race']
+CASSANDRA-17458,Test Failure: org.apache.cassandra.db.SinglePartitionSliceCommandTest.testPartitionDeletionRangeDeletionTie,"['replica', 'fail', 'fail', 'race']"
+CASSANDRA-15709,SEPExecutorTest changingMaxWorkersMeetsConcurrencyGoalsTest failure,['fail']
+CASSANDRA-17342,Performance problem for node restart with incremental range repairs,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'consistent', 'consistent', 'restart', 'restart', 'restart']"
+CASSANDRA-17849,Test failure: org.apache.cassandra.tools.StandaloneUpgraderOnSStablesTest.testUpgradeSnapshot,"['fail', 'fail', 'race']"
+CASSANDRA-17701,Failing test: TestRepair.test_failure_during_validation ,"['node', 'node', 'fail', 'fail']"
+CASSANDRA-15672," Testsuite: org.apache.cassandra.repair.consistent.CoordinatorMessagingTest Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.878 sec","['consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'fail']"
+CASSANDRA-17801,NPE bug in streaming checking if SSTable is being repaired,['race']
+CASSANDRA-17416,Test Failure: org.apache.cassandra.db.commitlog.CommitLogSegmentManagerCDCTest.testCDCIndexFileWriteOnSync,"['replica', 'race']"
+CASSANDRA-17463,Test Failure: org.apache.cassandra.db.SinglePartitionSliceCommandTest.testPartitionDeletionRowDeletionTie,"['replica', 'fail', 'fail', 'race']"
+CASSANDRA-15014,Unit tests failure on trunk,"['crash', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail', 'fail', 'fail']"
+CASSANDRA-16381,nodetool removenode error “Conflicting replica added”,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'replica', 'replica', 'replica', 'replica', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-15679,"cqlsh COPY FROM of map of blobs fails with parse error ""unhashable type: 'bytearray'""","['replica', 'fail', 'fail']"
+CASSANDRA-16628,Logging bug during the node replacement and token assignment,"['node', 'node', 'node', 'assign', 'message', 'assign']"
+CASSANDRA-15212,CassandraInputStream Bugs,"['lock', 'partition']"
+CASSANDRA-15922,High CAS failures in NativeAllocator.Region.allocate(..) ,"['node', 'node', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'region', 'region', 'region', 'race']"
+CASSANDRA-15088,PagingTest failure on trunk,"['connection', 'connection', 'fail', 'fail', 'parallel']"
+CASSANDRA-17286,Test Failure: org.apache.cassandra.db.lifecycle.LogTransactionTest.testGetTemporaryFilesSafeAfterObsoletion-cdc,['race']
+CASSANDRA-14504,fqltool should open chronicle queue read only and a GC bug,"['consistent', 'server']"
+CASSANDRA-16960,Improve MV TTL error message,"['message', 'message', 'race']"
+CASSANDRA-13402,testall failure in org.apache.cassandra.dht.StreamStateStoreTest.testUpdateAndQueryAvailableRanges,"['fail', 'fail', 'fail', 'race']"
+CASSANDRA-15182,cqlsh syntax error output fails with UnicodeEncodeError,"['fail', 'message', 'message', 'race']"
+CASSANDRA-17469,Test Failure: org.apache.cassandra.db.commitlog.GroupCommitLogTest,"['fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-17482,Intermittent failure on org.apache.cassandra.io.sstable.LegacySSTableTest.testStreamLegacyCqlTables,"['fail', 'fail', 'race']"
+CASSANDRA-17020,Cqlshlib failure,['fail']
+CASSANDRA-16883,Weak visibility guarantees of Accumulator can lead to failure to recognize digest mismatches,['fail']
+CASSANDRA-17136,FQL: Enabling via nodetool can trigger disk_failure_mode,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'client', 'fail', 'fail', 'fail', 'lock', 'parallel', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+CASSANDRA-17492,OWASP failures on lower branches 3/2022,['fail']
+CASSANDRA-17459,"OWASP failures, 3/2022","['fail', 'fail']"
+CASSANDRA-17386,Test failure: TestCqlshOutput failing tests ,"['consistent', 'fail', 'fail', 'fail']"
+CASSANDRA-13640,CQLSH error when using 'login' to switch users,"['cluster', 'fail']"
+CASSANDRA-16349,SSTableLoader reports error when SSTable(s) do not have data for some nodes,"['node', 'node', 'node', 'node', 'node', 'cluster', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'race', 'race']"
+CASSANDRA-14842,SSL connection problems when upgrading to 4.0 when upgrading from 3.0.x,"['node', 'node', 'node', 'node', 'connection', 'connection', 'fail', 'server']"
+CASSANDRA-15861,Mutating sstable component may race with entire-sstable-streaming(ZCS) causing checksum validation failure,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'race', 'race']"
+CASSANDRA-17301,Test Failure: org.apache.cassandra.net.ProxyHandlerConnectionsTest.suddenDisconnect-cdc,"['fail', 'race']"
+CASSANDRA-13897,"nodetool compact and flush fail with ""error: null""","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'message', 'message', 'race']"
+CASSANDRA-14193,Two TTLTest failures caused by CASSANDRA-14071,['fail']
+CASSANDRA-15623,"When running CQLSH with STDIN input, exit with error status code if script fails",['fail']
+CASSANDRA-13847,test failure in cqlsh_tests.cqlsh_tests.CqlLoginTest.test_list_roles_after_login,"['fail', 'fail']"
+CASSANDRA-15027,Handle IR prepare phase failures less race prone by waiting for all results,"['node', 'node', 'node', 'block', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'message', 'message', 'message', 'race']"
+CASSANDRA-17284,Test Failure: UNIT org.apache.cassandra.distributed.test.ring.BootstrapTest.bootstrapTest,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'race']"
+CASSANDRA-16491,nodetool bootstrap resume returns success even if there is an error during bootstrap,"['node', 'node', 'connection', 'fail', 'fail', 'message', 'message']"
+CASSANDRA-17397,cleanup cqlshlib unit test failures and warnings,"['fail', 'fail', 'fail', 'fail']"
+CASSANDRA-13669,Error when starting cassandra: Unable to make UUID from 'aa' (SASI index),"['node', 'node', 'node', 'cluster', 'replica', 'replica', 'block', 'block', 'crash', 'lock', 'lock', 'race', 'restart', 'restart']"
+CASSANDRA-16668,Intermittent failure of SEPExecutorTest.changingMaxWorkersMeetsConcurrencyGoalsTest caused by race condition when shrinking maximum pool size to zero,"['fail', 'fail', 'fail', 'race', 'race']"
+CASSANDRA-16148,Test failures caused by merging CASSANDRA-15833,"['block', 'fail', 'fail', 'fail', 'lock']"
+CASSANDRA-14460,ERROR : java.lang.AssertionError: null,"['partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-14657,Handle failures in upgradesstables/cleanup/relocate,"['fail', 'message', 'parallel', 'parallel']"
+CASSANDRA-17927,Test Failure: org.apache.cassandra.transport.RateLimitingTest.shouldThrowOnOverloadSmallMessages[4/v4]-cdc ,['race']
+CASSANDRA-14921,thrift_test.py failures on 3.0 and 3.x branches,"['fail', 'fail']"
+CASSANDRA-13316,Build error because of dependent jar (byteman-install-3.0.3.jar) currupted ,"['replica', 'corrupt']"
+CASSANDRA-16817,Fix ERROR message which prints data information in the logs,"['message', 'message', 'message', 'partition', 'partition']"
+CASSANDRA-14912,LegacyLayout errors on collection tombstones from dropped columns,"['recovery', 'meta']"
+CASSANDRA-17368,Investigate OWASP failure report,['fail']
+CASSANDRA-13483,test failure in snapshot_test.TestSnapshot.test_snapshot_and_restore_dropping_a_column,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'race']"
+CASSANDRA-13878,Provide error message for invalid token() parameters,"['crash', 'message', 'message', 'partition', 'server']"
+CASSANDRA-16874,Ensure off-heap Merkle trees are release on remote validation failures,"['remote', 'remote', 'fail', 'fail']"
+CASSANDRA-14041,"test_dead_sync_initiator - repair_tests.repair_test.TestRepair fails: Unexpected error in log, see stdout","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connection', 'connection', 'fail', 'fail']"
+CASSANDRA-14889,fix 14861 related test failures,['fail']
+CASSANDRA-17489,Test Failures: org.apache.cassandra.metrics and a few others failing (utests_system_keyspace_directory on circleci),"['fail', 'fail', 'fail', 'fail', 'meta', 'meta']"
+CASSANDRA-16492,nodetool bootstrap resume completes successfully even if there is an error during bootstrap,"['node', 'node', 'connection', 'fail', 'fail', 'message', 'message']"
+CASSANDRA-16490,nodetool bootstrap resume completes successfully even if there is an error during bootstrap,"['node', 'node', 'connection', 'fail', 'fail', 'message', 'message']"
+CASSANDRA-16581,Failure to execute queries should emit a KPI other than read timeout/unavailable so it can be alerted/tracked,"['client', 'message']"
+CASSANDRA-15143,Remove assertion on file deletion to trigger failure policy,"['fail', 'fail']"
+CASSANDRA-14757,"GCInspector ""Error accessing field of java.nio.Bits"" under java11",['fail']
+CASSANDRA-16539,cqlsh encoding error with unicode in multi-line statement,['fail']
+CASSANDRA-15136,Incorrect error message in legacy reader,"['message', 'message']"
+CASSANDRA-14365,Commit log replay failure for static columns with collections in clustering keys,"['cluster', 'cluster', 'fail', 'fail', 'fail']"
+CASSANDRA-16616,Harden internode message resource limit accounting against serialization failures,"['node', 'node', 'recovery', 'recovery', 'recovery', 'recovery', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'message', 'message', 'message', 'message', 'restart']"
+CASSANDRA-14029,counter_leader_with_partial_view_test-novnodes - counter_tests.TestCounters fails: Error starting node2,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'cluster', 'cluster', 'cluster', 'cluster', 'fail', 'fail']"
+CASSANDRA-15572,`object of type 'NoneType' has no len()` error in cqlsh with python 3,['race']
+CASSANDRA-16474,Multiple python dtest failures after promoting protocol v5 from beta,"['client', 'connection', 'fail', 'fail']"
+CASSANDRA-17929,Test Failure: dtest-offheap.client_request_metrics_local_remote_test.TestClientRequestMetricsLocalRemote.test_batch_and_slice,"['remote', 'remote', 'client', 'client', 'client', 'client', 'race']"
+CASSANDRA-15060,Bad error message when non-existing keyspace is passed to cfhistograms,['message']
+CASSANDRA-13485,Better handle IO errors on 3.0+ flat files ,['fail']
+CASSANDRA-15928,Throw FSWriteError upon write failures in order to apply DiskFailurePolicy,['fail']
+CASSANDRA-16508,Running cqlsh against cassandra 3 throws error about beta flag not set,"['message', 'race', 'server', 'server']"
+CASSANDRA-15696,Only track ideal CL failure when request CL is met,"['consistent', 'fail', 'fail', 'fail']"
+CASSANDRA-14546,OffsetAwareConfigurationLoader doesn't set ssl storage port causing bind errors in CircleCI,['fail']
+CASSANDRA-15142,Fix errors on repairing empty keyspace,['fail']
+CASSANDRA-15053,Fix handling FS errors on writing and reading flat files - LogTransaction and hints,"['fail', 'fail']"
+CASSANDRA-15358,LARGE_MESSAGE connection allocates heap buffer when BufferPool exhausted,"['node', 'node', 'network', 'network', 'client', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'race']"
+CASSANDRA-13944,Throw descriptive errors for mixed mode repair attempts,"['cluster', 'cluster', 'connection', 'message', 'message']"
+CASSANDRA-14025,"test_simple_strategy_counters - consistency_test.TestAccuracy always fails code=2000 [Syntax error in CQL query] message=""line 7:14 mismatched input 'AND' expecting EOF (... text, age int ) [AND]...)","['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'fail', 'fail', 'message', 'message', 'message', 'message', 'parallel', 'parallel', 'race', 'server', 'server']"
+CASSANDRA-17466,Shut repair task executor down without interruption to avoid compromising shared channel proxies,"['node', 'node', 'node', 'remote', 'block', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'message', 'partition']"
+CASSANDRA-17530,Paxos v2 Linearizability Violation,['node']
+CASSANDRA-16296,Join new node to cluster failing on C* version 4,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-15234,Standardise config and JVM parameters,"['node', 'consistent']"
+CASSANDRA-16601,Flaky CassandraIndexTest,"['fail', 'race']"
+CASSANDRA-14358,Partitioned outbound internode TCP connections can occur when nodes restart,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'cluster', 'cluster', 'recovery', 'block', 'block', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'lock', 'lock', 'partition', 'race', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart', 'restart']"
+CASSANDRA-14812,Multiget Thrift query returns null records after digest mismatch,"['node', 'cluster', 'client', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-17668,Fix leak of non-standard Java types in our Exceptions as clients using JMX are unable to handle them,['client']
+CASSANDRA-13999,Segfault during memtable flush,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'replica']"
+CASSANDRA-15273,cassandra does not start with new systemd version,"['distributed', 'distributed', 'distributed', 'fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15013,Prevent client requests from blocking on executor task queue,"['cluster', 'block', 'client', 'lock']"
+CASSANDRA-16418,Unsafe to run nodetool cleanup during bootstrap or decommission,"['node', 'cluster', 'fail']"
+CASSANDRA-16226,COMPACT STORAGE SSTables created before 3.0 are not correctly skipped by timestamp due to missing primary key liveness info,"['cluster', 'partition']"
+CASSANDRA-14772,Fix issues in audit / full query log interactions,['crash']
+CASSANDRA-16283,"Incorrect output in ""nodetool status -r""","['node', 'node', 'node', 'node', 'node']"
+CASSANDRA-16358,Minor Flakiness in ProxyHandlerConnectionsTest#testExpireSomeFromBatch,"['fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-17828,"Read/Write/Truncate throw RequestFailure in a race condition with callback timeouts, should return Timeout instead",['race']
+CASSANDRA-17072,DebuggableThreadPoolExecutor does not propagate client warnings,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client']"
+CASSANDRA-15677,Topology events are not sent to clients if the nodes use the same network interface,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'client', 'client', 'meta', 'meta', 'meta']"
+CASSANDRA-17848,Fix incorrect resource name in LIST PERMISSION output,['fail']
+CASSANDRA-17587,Flaky compaction_test.py::TestCompaction:: test_user_defined_compaction,"['node', 'assign', 'fail', 'message', 'message', 'assign']"
+CASSANDRA-18144,org.apache.cassandra.db.compaction.CompactionStrategyManagerBoundaryReloadTest.testReload fails when running with TrieMemtables,['fail']
+CASSANDRA-17493,Shutdown all ScheduledExecutors as part of node drainage,['node']
+CASSANDRA-15332,"When repair is running with tracing, if a CorruptSSTableException is thrown while building Merkle Trees the DiskFailurePolicy does not get applied","['corrupt', 'fail']"
+CASSANDRA-15976,Incorrect parsing of the timestamp with less than 3 digits in the milliseconds,"['message', 'server']"
+CASSANDRA-15565,Fix flaky test org.apache.cassandra.index.internal.CassandraIndexTest indexCorrectlyMarkedAsBuildAndRemoved,['fail']
+CASSANDRA-16588,NPE getting host_id in Gossiper.isSafeForStartup,"['node', 'node', 'node', 'distributed', 'distributed', 'restart']"
+CASSANDRA-16524,Upgrading SSL enabled Cassandra cluster from 3.11.10 to 4.0-beta4 failing with javax.net.ssl.SSLException: java.lang.IndexOutOfBoundsException,"['node', 'node', 'cluster', 'cluster', 'fail', 'server', 'server']"
+CASSANDRA-17882,Fix flaky test_no_base_column_in_view_pk_complex_timestamp_with_flush,"['fail', 'race']"
+CASSANDRA-17729,Raise test timeouts,"['fail', 'fail', 'fail']"
+CASSANDRA-15164,Overflowed Partition Cell Histograms Can Prevent Compactions from Executing,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'message', 'server']"
+CASSANDRA-16516,ValueAccessorTest.testSlice is flaky,['race']
+CASSANDRA-17232,org.apache.cassandra.db.commitlog.GroupCommitLogTest tests failing on trunk,"['fail', 'fail', 'fail', 'race']"
+CASSANDRA-17663,Ensure FileStreamTask cannot compromise shared channel proxy for system table when interrupted,['fail']
+CASSANDRA-14793,Improve system table handling when losing a disk when using JBOD,['fail']
+CASSANDRA-15663,DESCRIBE KEYSPACE does not properly quote table names,"['replica', 'replica']"
+CASSANDRA-14801,calculatePendingRanges no longer safe for multiple adjacent range movements,"['cluster', 'fail', 'fail']"
+CASSANDRA-13559,Schema version id mismatch while upgrading to 3.0.13,"['node', 'fail', 'fail']"
+CASSANDRA-15059,Gossiper#markAlive can race with Gossiper#markDead,"['corrupt', 'race', 'race', 'server']"
+CASSANDRA-15790,EmptyType doesn't override writeValue so could attempt to write bytes when expected not to,['corrupt']
+CASSANDRA-17083,testsome target doesn't work with wildcards,['fail']
+CASSANDRA-15214,Internode messaging catches OOMs and does not rethrow,"['node', 'consistent', 'crash']"
+CASSANDRA-13785,Compaction fails for SSTables with large number of keys,"['fail', 'fail', 'fail', 'fail', 'fail', 'message']"
+CASSANDRA-14762,Transient node receives full data requests in dtests,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'fail', 'fail', 'message', 'message', 'message', 'race', 'race', 'race']"
+CASSANDRA-15630,Fix flakey testSerializeError - org.apache.cassandra.net.ConnectionTest,"['fail', 'message', 'race']"
+CASSANDRA-16634,Garbagecollect should not output all tables to L0 with LeveledCompactionStrategy,"['node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-17451,Flaky upgrade_tests.cql_tests.TestCQLNodes2RF1_Upgrade_current_4_0_x_To_indev_trunk.test_noncomposite_static_cf,"['node', 'cluster', 'fail', 'fail', 'fail', 'fail', 'message', 'race', 'race', 'server']"
+CASSANDRA-17602,sstableloader not respecting conf-path flag,"['cluster', 'client', 'server']"
+CASSANDRA-17725,"Add a flag for throughput in MiB/s for nodetool setstreamthroughput, getstreamthroughput, setinterdcstreamthroughput and getinterdcstreamthroughput ","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-13938,"Default repair is broken, crashes other nodes participating in repair (in trunk)","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'consistent', 'consistent', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'client', 'client', 'connection', 'crash', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'parallel', 'parallel', 'partition', 'partition', 'partition', 'partition', 'partition', 'race', 'race']"
+CASSANDRA-15081,LegacyLayout does not have same behavior as 2.x when handling unknown column names,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'fail', 'fail', 'fail', 'fail', 'message', 'server']"
+CASSANDRA-14522,sstableloader should use discovered broadcast address to connect intra-cluster,"['node', 'cluster', 'cluster', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15666,Race condition when completing stream sessions,"['node', 'follower', 'fail', 'message', 'message', 'message', 'race']"
+CASSANDRA-16261,Prevent unbounded number of flushing tasks,"['block', 'lock']"
+CASSANDRA-16384,test case AuditLoggerTest  fail on aarch64 platform,"['crash', 'crash', 'fail', 'fail']"
+CASSANDRA-13652,Deadlock in AbstractCommitLogSegmentManager,"['lock', 'lock', 'lock', 'lock', 'lock', 'race']"
+CASSANDRA-17527,Clients using JMX are unable to handle non-standard java types but we leak this into our interfaces,"['block', 'client', 'lock']"
+CASSANDRA-16143,Streaming fails when s SSTable writer finish() exceeds internode_tcp_user_timeout,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'follower', 'follower', 'cluster', 'connection', 'connection', 'crash', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'race']"
+CASSANDRA-17980,Fix flaky Python DTest materialized_views_test.TestMaterializedViews.test_resume_stopped_build,"['node', 'node', 'fail']"
+CASSANDRA-15308,Fix flakey testAcquireReleaseOutbound - org.apache.cassandra.net.ConnectionTest,"['fail', 'fail']"
+CASSANDRA-15266,java internal exception on attempt to UPDATE a row using CONTAINS operator,"['replica', 'replica', 'message', 'message']"
+CASSANDRA-17366,Fix flaky test - gossip_test.TestGossip,"['node', 'node', 'node', 'fail', 'parallel', 'parallel', 'parallel']"
+CASSANDRA-16577,Node waits for schema agreement on removed nodes,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'replica', 'replica']"
+CASSANDRA-17623,"Frozen maps may be serialized unsorted, causing inability to query later","['election', 'client', 'fail']"
+CASSANDRA-16518,Node restart during joining sets protocol version to V3,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'client', 'crash', 'fail', 'fail', 'message', 'restart', 'restart']"
+CASSANDRA-16450,MigrationCoordinatorTest#testWeKeepSendingRequests() Failing Sporadically,['fail']
+CASSANDRA-16807,Weak visibility guarantees of Accumulator lead to failed assertions during digest comparison,"['replica', 'block', 'fail', 'lock', 'partition']"
+CASSANDRA-17695,Fix AbstractCell#toString throws MarshalException for cell in collection,['fail']
+CASSANDRA-14423,SSTables stop being compacted,"['node', 'node', 'cluster', 'fail', 'meta', 'meta', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'restart']"
+CASSANDRA-16286,Make TokenMetadata's ring version increments atomic,"['lock', 'lock']"
+CASSANDRA-17140,Broken test_rolling_upgrade - upgrade_tests.upgrade_through_versions_test.TestUpgrade_indev_3_0_x_To_indev_4_0_x,"['election', 'fail', 'fail', 'message', 'message', 'message', 'message']"
+CASSANDRA-16684,Flaky MemtableSizeTest,['race']
+CASSANDRA-15981,jvm-dtests crash on java 11,"['crash', 'crash', 'crash', 'race']"
+CASSANDRA-14773,Overflow of 32-bit integer during compaction.,"['crash', 'lock', 'lock', 'lock', 'lock', 'race', 'race']"
+CASSANDRA-18125,Improve memtable allocator accounting when updating AtomicBTreePartition,"['node', 'node', 'node', 'node', 'cluster', 'cluster']"
+CASSANDRA-13339,java.nio.BufferOverflowException: null,"['node', 'cluster', 'partition', 'partition']"
+CASSANDRA-17581,"nodetool with Java 8u331 returns ""URISyntaxException: 'Malformed IPv6 address at index 7: rmi://[127.0.0.1]:7199'""","['node', 'node', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'fail', 'meta', 'meta', 'meta', 'meta', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+CASSANDRA-13929,BTree$Builder / io.netty.util.Recycler$Stack leaking memory,"['node', 'cluster', 'restart']"
+CASSANDRA-16307,GROUP BY queries with paging can return deleted data,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'partition', 'partition', 'partition']"
+CASSANDRA-17650,Check startup and setter validations for batch_size_fail_threshold,"['fail', 'fail']"
+CASSANDRA-16670,"Flaky ViewComplexTest, ViewFilteringTest and InsertUpdateIfConditionTest",['cluster']
+CASSANDRA-16659,"cqlsh 6.0.0 treats ""config"" as a reserved keyword","['cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
+CASSANDRA-13747,Fix AssertionError in short read protection,"['node', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-15172,LegacyLayout RangeTombstoneList throws IndexOutOfBoundsException,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'block', 'client', 'client', 'fail', 'lock', 'lock', 'server']"
+CASSANDRA-16843,List snapshots of dropped tables,"['node', 'node']"
+CASSANDRA-13400,java.lang.ArithmeticException: / by zero when index is created on table with clustering columns only,"['cluster', 'cluster', 'replica', 'replica', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'message', 'server']"
+CASSANDRA-15313,Fix flaky - ChecksummingTransformerTest - org.apache.cassandra.transport.frame.checksum.ChecksummingTransformerTest,"['corrupt', 'corrupt', 'fail']"
+CASSANDRA-17132,Fix startup issue with internode_application_timeout_in_ms,"['node', 'node']"
+CASSANDRA-14013,"Keyspace named ""snapshots"" is empty after service restart","['replica', 'replica', 'restart', 'restart', 'restart', 'restart']"
+CASSANDRA-17411,Network partition causes write ONE timeouts when using counters in Cassandra 4,"['node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'client', 'fail', 'message', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-14113,AssertionError while trying to upgrade 2.2.11 -> 3.11.1,"['node', 'cluster', 'partition', 'partition', 'race']"
+CASSANDRA-14096,Cassandra 3.11.1 Repair Causes Out of Memory,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'recovery', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'race', 'race', 'race', 'race', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+CASSANDRA-16097,DigestResolver.getData throws AssertionError since dataResponse is null,['message']
+CASSANDRA-17706,Fix testRemoteStreamFailure,"['distributed', 'distributed', 'race']"
+CASSANDRA-16259,tablehistograms cause ArrayIndexOutOfBoundsException,"['node', 'node', 'node', 'node', 'node', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'fail', 'fail', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+CASSANDRA-14672,"After deleting data in 3.11.3, reads fail with ""open marker and close marker have different deletion times""","['node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'partition', 'partition', 'partition', 'race', 'server']"
+CASSANDRA-16144,TLS connections to the storage port on a node without server encryption configured causes java.io.IOException accessing missing keystore,"['node', 'node', 'node', 'node', 'node', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'message', 'message', 'server', 'server', 'server']"
+CASSANDRA-13949,java.lang.ArrayIndexOutOfBoundsException while executing query,"['election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'fail', 'fail', 'message']"
+CASSANDRA-16241,ArrayClustering does not properly handle null clustering key elements left over from tables created WITH COMPACT STORAGE,"['cluster', 'cluster', 'cluster', 'meta']"
+CASSANDRA-17611,Fix replace_address_test.TestReplaceAddress.test_fail_when_seed,"['node', 'node', 'node', 'fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-14245,SELECT JSON prints null on empty strings,"['message', 'server']"
+CASSANDRA-17244,Fix org.apache.cassandra.distributed.test.trackwarnings.TombstoneCountWarningTest.failThresholdSinglePartition,"['distributed', 'distributed', 'distributed', 'fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-16852,testsome fails in the CircleCI multiplexer because the class JStackJUnitTask can't be found,"['fail', 'fail']"
+CASSANDRA-14574,Incomplete handling of exceptions when decoding incoming messages,"['message', 'message', 'race']"
+CASSANDRA-16495,Scheduled (Delayed) Schema Pull Tasks May Run After MIGRATION Stage Shutdown During Decommission,"['node', 'node', 'node', 'node', 'delay', 'consistent', 'fail']"
+CASSANDRA-13948,Reload compaction strategies when JBOD disk boundary changes,"['node', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race']"
+CASSANDRA-17922,Jolokia agent fails to connect though port is available,"['node', 'client', 'fail', 'fail']"
+CASSANDRA-14434,ant eclipse-warnings failing on trunk,"['assign', 'assign', 'fail', 'fail', 'assign', 'assign']"
+CASSANDRA-13370,unittest CipherFactoryTest failed on MacOS,"['fail', 'fail', 'fail', 'fail']"
+CASSANDRA-17507,IllegalArgumentException in query code path during 3.11.12 => 4.0.3 rolling upgrade,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'message']"
+CASSANDRA-15938,Fix support for adding UDT fields to clustering keys,"['node', 'cluster', 'cluster', 'message']"
+CASSANDRA-16836,Materialized views incorrect quoting of UDF,"['node', 'replica', 'replica', 'fail', 'fail', 'fail', 'fail', 'message', 'server', 'restart', 'restart']"
+CASSANDRA-17133,Broken test_timeuuid - upgrade_tests.cql_tests,"['fail', 'fail', 'message', 'server']"
+CASSANDRA-14071,Materialized view on table with TTL issue,['cluster']
+CASSANDRA-15670,Transient Replication: unable to insert data when the keyspace is configured with the SimpleStrategy,"['replica', 'replica', 'replica', 'message', 'race']"
+CASSANDRA-17732,Update Jolokia agent for Python DTests,"['fail', 'message']"
+CASSANDRA-15766,NoSpamLogger arguments building objects on hot paths,['node']
+CASSANDRA-15508,Failing jvm dtest: FailingRepairTest.testFailingMessage,"['distributed', 'distributed', 'distributed']"
+CASSANDRA-14394,Streaming fails with AssertionError,"['fail', 'fail', 'fail', 'message', 'message', 'message']"
+CASSANDRA-14325,Java executable check succeeds despite no java on PATH,"['consistent', 'fail', 'message']"
+CASSANDRA-13813,Don't let user drop (or generally break) tables in system_distributed,"['distributed', 'distributed', 'distributed']"
+CASSANDRA-17605,Fix dtest-offheap.materialized_views_test.TestMaterializedViews.test_mv_with_default_ttl_with_flush,"['cluster', 'race']"
+CASSANDRA-14061,trunk eclipse-warnings,"['partition', 'partition']"
+CASSANDRA-14898,Key cache loading is very slow when there are many SSTables,"['node', 'node', 'cluster', 'crash']"
+CASSANDRA-14106,utest failed: DistributionSequenceTest.setSeed() and simpleSequence(),['fail']
+CASSANDRA-14841,"Don't write to system_distributed.repair_history, system_traces.sessions, system_traces.events in mixed version 3.X/4.0 clusters","['node', 'node', 'cluster', 'distributed', 'race', 'race']"
+CASSANDRA-16582,Groupby queries trigger ArrayIndexOutOfBoundsException on mixed version cluster,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'message']"
+CASSANDRA-15050,JDK7 compatibility broken in cassandra-2.2 by CASSANDRA-14821,"['fail', 'fail']"
+CASSANDRA-16572,j8_dtest_jars_build is broken in CI,['fail']
+CASSANDRA-15667,"StreamResultFuture check for completeness is inconsistent, leading to races","['consistent', 'consistent', 'fail', 'race', 'race']"
+CASSANDRA-16655,cassandra-cqlsh-tests.sh should return different return codes on circle vs jenkins,"['fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15459,Short read protection doesn't work on group-by queries,"['node', 'cluster']"
+CASSANDRA-15879,Flaky unit test: CorruptedSSTablesCompactionsTest,"['fail', 'fail']"
+CASSANDRA-14088,Forward slash in role name breaks CassandraAuthorizer,"['message', 'message', 'race', 'server']"
+CASSANDRA-15912,Occasional NEW_NODE event sent instead of NODE_UP in dTest,['fail']
+CASSANDRA-14173,JDK 8u161 breaks JMX integration,"['node', 'remote', 'remote', 'remote', 'server', 'server', 'server']"
+CASSANDRA-18218,OOM while running ShortAccordSimulationTest,"['node', 'node', 'delay', 'cluster', 'consistent', 'connection', 'fail']"
+CASSANDRA-15193,Add ability to cap max negotiable protocol version,"['node', 'node', 'node', 'node', 'node', 'client', 'client', 'client', 'connection', 'fail']"
+CASSANDRA-17733,min_tracked_partition_size_bytes should not have the unit suffix,"['partition', 'partition']"
+CASSANDRA-15153,Ensure Caffeine cache does not return stale entries,"['fail', 'fail']"
+CASSANDRA-16071,max_compaction_flush_memory_in_mb is interpreted as bytes,"['node', 'cluster', 'crash']"
+CASSANDRA-14444,Got NPE when querying Cassandra 3.11.2,"['cluster', 'message', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-15310,Fix flakey - testIdleDisconnect - org.apache.cassandra.transport.IdleDisconnectTest,['fail']
+CASSANDRA-13696,Digest mismatch Exception if hints file has UnknownColumnFamily,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'corrupt', 'corrupt']"
+CASSANDRA-13346,Failed unregistering mbean during drop keyspace,['node']
+CASSANDRA-15385,Ensure that tracing doesn't break connections in 3.x/4.0 mixed mode by default,['connection']
+CASSANDRA-17612,Cassandra latest (3.0.26) image fails to start with health check,"['node', 'node', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'server', 'restart']"
+CASSANDRA-17039,RepairJobTest.testNoTreesRetainedAfterDifference fails consistently on Java 11,"['consistent', 'fail', 'fail', 'fail']"
+CASSANDRA-16280,SSTableLoader will fail if encryption parameters are used due to CASSANDRA-16144,"['consistent', 'remote', 'client', 'client', 'fail', 'fail']"
+CASSANDRA-17619,Expired snapshots of dropped tables are not removed after node restart,"['node', 'node', 'node', 'restart', 'restart']"
+CASSANDRA-14057,The size of a byte is not 2,['message']
+CASSANDRA-13740,Orphan hint file gets created while node is being removed from cluster,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'fail', 'race', 'race']"
+CASSANDRA-14422,Missing dependencies airline and ohc-core-j8 for pom-all,"['node', 'fail']"
+CASSANDRA-15295,Running into deadlock when do CommitLog initialization,"['node', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-17084,startup fails if directories do not exist,['fail']
+CASSANDRA-17630,Fix flaky test - org.apache.cassandra.transport.CQLConnectionTest.handleCorruptionOfLargeMessageFrame,['race']
+CASSANDRA-15432,"The ""read defragmentation"" optimization does not work","['node', 'meta']"
+CASSANDRA-15041,UncheckedExecutionException if authentication/authorization query fails,"['client', 'fail', 'fail', 'fail', 'lock', 'lock', 'message', 'race', 'server']"
+CASSANDRA-14554,Streaming needs to synchronise access to LifecycleTransaction,"['fail', 'fail', 'parallel', 'parallel']"
+CASSANDRA-17885,Add solution for CASSANDRA-17581 to older branches for tests,"['node', 'fail']"
+CASSANDRA-15499,Internode message builder does not add trace header,"['node', 'node', 'consistent', 'message', 'message', 'message', 'race', 'race', 'race']"
+CASSANDRA-14647,Reading cardinality from Statistics.db failed,"['node', 'client', 'fail', 'fail', 'message', 'message', 'meta', 'meta', 'region', 'region', 'region']"
+CASSANDRA-18113,fqltool dump results NPE when null value inserted using prepared query,"['cluster', 'race', 'race']"
+CASSANDRA-16359,mvn-install fails if no repo mirror is defined in settings.xml,"['remote', 'remote', 'fail', 'fail']"
+CASSANDRA-17454,flaky dtest-upgrade.upgrade_tests.cql_tests TestCQLNodes2RF1_Upgrade_indev_4_0_x_To_indev_trunk test_static_cf,"['node', 'cluster', 'fail', 'fail', 'fail', 'fail', 'message', 'race', 'race', 'server']"
+CASSANDRA-14415,Performance regression in queries for distinct keys,"['node', 'cluster']"
+CASSANDRA-17563,Fix CircleCI Midres config,"['node', 'fail', 'parallel']"
+CASSANDRA-17912,Fix CircleCI config for running Python upgrade tests on 3.0 and 3.11,"['node', 'fail', 'parallel']"
+CASSANDRA-13592,Null Pointer exception at SELECT JSON statement,"['message', 'partition', 'race', 'server']"
+CASSANDRA-16713,Fix org.apache.cassandra.utils.SlidingTimeRateTest.testConcurrentUpdateAndGet,"['fail', 'fail']"
+CASSANDRA-15072,Incomplete range results during 2.X -> 3.11.4 upgrade,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'partition', 'partition']"
+CASSANDRA-17217,LocalReadSizeWarningTest#failThresholdSinglePartition is flaky,"['distributed', 'fail', 'fail', 'fail']"
+CASSANDRA-18046,A few large DTests failing on trunk after  CASSANDRA-17679,"['node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'network', 'network', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-17908,IllegalArgumentException in Gossiper#order due to concurrent mutations to elements being applied,['fail']
+CASSANDRA-16619,Loss of commit log data possible after sstable ingest,"['node', 'node', 'node', 'node', 'node', 'meta', 'meta', 'region', 'restart']"
+CASSANDRA-14919,Regression in paging queries in mixed version clusters ,"['node', 'node', 'cluster', 'cluster', 'replica', 'replica']"
+CASSANDRA-15269,Cassandra fails to process OperationExecutionException which causes ClassCastException,"['fail', 'fail', 'message']"
+CASSANDRA-13717,INSERT statement fails when Tuple type is used as clustering column with default DESC order,"['cluster', 'cluster', 'cluster', 'cluster', 'fail', 'fail', 'fail', 'message']"
+CASSANDRA-17349,Fix flaky test - dtest-novnode.repair_tests.repair_test.TestRepair.test_simple_sequential_repair,"['node', 'race']"
+CASSANDRA-14050,Many cqlsh_copy_tests are busted,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'connection', 'partition', 'partition']"
+CASSANDRA-13719,Potential AssertionError during ReadRepair of range tombstone and partition deletions,"['partition', 'partition']"
+CASSANDRA-17474,Failed to instantiate SLF4J LoggerFactory in Cassandra 3.11.12,['crash']
+CASSANDRA-14956,Paged Range Slice queries with DISTINCT can drop rows from results,"['partition', 'partition', 'partition']"
+CASSANDRA-14988,Building javadoc with Java11 fails,"['fail', 'fail']"
+CASSANDRA-16511,Running tests in parallel can sometimes result in port collision,"['fail', 'parallel', 'parallel']"
+CASSANDRA-16095,"When a table attempts to clean up metrics, it was cleaning up all global table metrics","['node', 'node', 'race', 'restart']"
+CASSANDRA-15367,Memtable memory allocations may deadlock,"['block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'partition', 'partition', 'partition']"
+CASSANDRA-18088,cqlsh - module 're' has no attribute 'sre_parse' - with Python 3.11,['race']
+CASSANDRA-15937,JMX output inconsistencies from CASSANDRA-7544 storage-port-configurable-per-node,"['node', 'node', 'client', 'fail', 'message']"
+CASSANDRA-13384,Legacy caching options can prevent 3.0 upgrade,"['node', 'fail']"
+CASSANDRA-16443,Fix flaky test org.apache.cassandra.db.SinglePartitionSliceCommandTest testPartitionDeletionRowDeletionTie,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'network', 'delay', 'delay', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'block', 'block', 'block', 'block', 'block', 'client', 'connection', 'connection', 'connection', 'corrupt', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'message', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'race', 'race', 'race', 'server']"
+CASSANDRA-17847,Fix Python DTest replace_address_test.TestReplaceAddress.test_replace_active_node,"['node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'race']"
+CASSANDRA-14252,Use zero as default score in DynamicEndpointSnitch,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'remote', 'remote', 'client']"
+CASSANDRA-16972,Fix org.apache.cassandra.cql3.ViewTest.testTruncateWhileBuilding ,"['fail', 'race']"
+CASSANDRA-15833,Unresolvable false digest mismatch during upgrade due to CASSANDRA-10657,['node']
+CASSANDRA-15660,Unable to specify -e/--execute flag in cqlsh,['fail']
+CASSANDRA-15789,Rows can get duplicated in mixed major-version clusters and after full upgrade,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'distributed', 'distributed', 'distributed', 'distributed', 'partition']"
+CASSANDRA-14638,Column result order can change in 'SELECT *' results when upgrading from 2.1 to 3.0 causing response corruption for queries using prepared statements when static columns are used,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'client', 'client', 'client', 'client', 'client', 'client', 'corrupt', 'meta', 'race']"
+CASSANDRA-13917,COMPACT STORAGE queries on dense static tables accept hidden column1 and value columns,"['cluster', 'fail']"
+CASSANDRA-13308,"Gossip breaks, Hint files not being deleted on nodetool decommission","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'replica', 'block', 'lock', 'message', 'message', 'race']"
+CASSANDRA-14087,NPE when CAS encounters empty frozen collection,"['fail', 'message', 'race', 'server']"
+CASSANDRA-17254,nodetool toppartitions can fail because ByteBuffer.array() returns more bytes than would be considered valid by UTF8Serializer.validate,"['node', 'fail', 'partition', 'race']"
+CASSANDRA-18207,Nodetool documentation not working,"['node', 'node']"
+CASSANDRA-16063,Fix user experience when upgrading to 4.0 with compact tables,"['node', 'node', 'node', 'node', 'fail', 'message', 'message', 'restart']"
+CASSANDRA-17933,"Zero length file in Audit log folder, prevents a node from starting","['node', 'node', 'node', 'node', 'node', 'cluster', 'lock', 'lock', 'meta', 'race', 'race', 'restart']"
+CASSANDRA-16213,Cannot replace_address /X because it doesn't exist in gossip,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'crash', 'fail', 'fail', 'fail']"
+CASSANDRA-13738,Load is over calculated after each IndexSummaryRedistribution,"['node', 'node', 'cluster', 'distributed', 'restart']"
+CASSANDRA-16228,TableMetrics are exposed before ColumnFamilyStore is fully initialized,['race']
+CASSANDRA-14989,NullPointerException when SELECTing token() on only one part of a two-part partition key,"['election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'message', 'message', 'partition', 'partition', 'race', 'server']"
+CASSANDRA-14167,IndexOutOfBoundsException when selecting column counter and consistency quorum,"['cluster', 'partition']"
+CASSANDRA-15442,Read repair implicitly increases read timeout value,"['block', 'block', 'client', 'client', 'client', 'client', 'lock', 'lock', 'lock', 'server']"
+CASSANDRA-15592,IllegalStateException in gossip after removing node,"['node', 'lock']"
+CASSANDRA-17019,JNA 5.6.0 does not support arm64,['fail']
+CASSANDRA-17213,CompactStorageUpgradeTest.compactStorageUpgradeTest fails w/OOM,"['consistent', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail', 'race']"
+CASSANDRA-13851,Allow existing nodes to use all peers in shadow round,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail']"
+CASSANDRA-17584,Fix flaky test - org.apache.cassandra.db.virtual.GossipInfoTableTest.testSelectAllWithStateTransitions,['race']
+CASSANDRA-17078,Fix failing test: SSTableReaderTest.testPersistentStatistics,"['fail', 'fail']"
+CASSANDRA-13900,Massive GC suspension increase after updating to 3.0.14 from 2.1.18,"['node', 'node', 'cluster', 'cluster', 'client', 'race']"
+CASSANDRA-17629,Fix flaky dtest - upgrade.upgrade_tests.upgrade_through_versions_test.TestProtoV3Upgrade_AllVersions_EndsAt_3_11_X.test_rolling_upgrade,"['node', 'node', 'fail', 'race']"
+CASSANDRA-15553,Preview repair should include sstables from finalized incremental repair sessions,"['node', 'node', 'fail']"
+CASSANDRA-13547,Filtered materialized views missing data,"['cluster', 'replica']"
+CASSANDRA-16545,Cluster topology change may produce false unavailable for queries,"['node', 'election', 'cluster', 'cluster', 'consistent', 'client']"
+CASSANDRA-13963,SecondaryIndexManagerTest.indexWithfailedInitializationIsNotQueryableAfterPartialRebuild is flaky,"['fail', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-17583,Fix flaky test - org.apache.cassandra.distributed.test.MessageForwardingTest.mutationsForwardedToAllReplicasTest,"['distributed', 'distributed', 'distributed', 'race', 'race', 'race']"
+CASSANDRA-14570,Improper default value of cdc_total_space_in_mb,"['fail', 'fail']"
+CASSANDRA-17606,Fix dtest-upgrade.upgrade_tests.upgrade_through_versions_test.TestProtoV3Upgrade_AllVersions_RandomPartitioner_EndsAt_3_11_X_HEAD.test_rolling_upgrade_with_internode_ssl,"['node', 'node', 'node', 'fail', 'race']"
+CASSANDRA-16586,Fix flaky test testAvailabilityV30ToV4 - org.apache.cassandra.distributed.upgrade.MixedModeAvailabilityV30Test,"['node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16379,do not use http maven repo defined by MAT,['fail']
+CASSANDRA-13787,RangeTombstoneMarker and PartitionDeletion is not properly included in MV,"['cluster', 'lock', 'partition', 'partition']"
+CASSANDRA-13714,response to EchoMessage is sent on wrong connection,"['node', 'node', 'node', 'connection', 'connection', 'connection', 'message', 'message', 'message']"
+CASSANDRA-16479,Materialized Views: incorrect where clause reported for quoted identifiers,['client']
+CASSANDRA-13364,"Cqlsh COPY fails importing Map<String,List<String>>, ParseError unhashable type list","['fail', 'fail']"
+CASSANDRA-13412,Update of column with TTL results in secondary index not returning row,"['partition', 'race', 'server']"
+CASSANDRA-14195,CommitLogSegmentManagerCDCTest is flaky,"['fail', 'fail']"
+CASSANDRA-13939,Mishandling of cells for removed/dropped columns when reading legacy files,"['block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'partition', 'race']"
+CASSANDRA-13831,NettyFactoryTest is failing in trunk on MacOS,"['fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15363,Read repair in mixed mode between 2.1 and 3.0 on COMPACT STORAGE tables causes unreadable sstables after upgrade,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'meta', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-16127,NullPointerException when calling nodetool enablethrift,"['node', 'node', 'node', 'node', 'remote', 'remote', 'remote', 'remote', 'remote', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+CASSANDRA-16483,ColumnFilter::toString doesn't return a valid CQL fragment,"['remote', 'fail', 'fail']"
+CASSANDRA-13395,Expired rows without regular column data can crash upgradesstables,"['crash', 'crash']"
+CASSANDRA-16607,Fix flaky test testRequestResponse – org.apache.cassandra.net.MockMessagingServiceTest,"['node', 'race']"
+CASSANDRA-15878,Ec2Snitch fails on upgrade in legacy mode,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'fail', 'fail', 'region', 'region', 'region']"
+CASSANDRA-15229,Segregate Network and Chunk Cache BufferPools and Recirculate Partially Freed Chunks,"['node', 'node', 'block', 'connection', 'lock']"
+CASSANDRA-13337,"Dropping column results in ""corrupt"" SSTable","['node', 'node', 'node', 'replica', 'replica', 'corrupt', 'partition', 'partition', 'partition', 'partition', 'race', 'race']"
+CASSANDRA-16365,Cannot run tests on Java 11 with coverage analysis,"['fail', 'fail', 'fail', 'message']"
+CASSANDRA-17367,sstableloader ignores streaming encryption settings,"['node', 'node', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'server', 'server']"
+CASSANDRA-13464,Failed to create Materialized view with a specific token range,"['node', 'node', 'node', 'node', 'node', 'node', 'replica', 'replica', 'message', 'message', 'race']"
+CASSANDRA-15158,Wait for schema agreement rather than in flight schema requests when bootstrapping,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
+CASSANDRA-15629,Fix flakey testSendSmall - org.apache.cassandra.net.ConnectionTest,"['fail', 'message', 'race']"
+CASSANDRA-15628,Fix flakey testSendLarge - org.apache.cassandra.net.ConnectionTest,"['fail', 'message', 'race']"
+CASSANDRA-14381,nodetool listsnapshots is missing local system keyspace snapshots,"['node', 'node', 'node', 'node', 'node', 'node', 'consistent']"
+CASSANDRA-17780,libjemalloc2 is not detected by cassandra script,"['node', 'message']"
+CASSANDRA-17680,Fix flaky topology_test.py::TestTopology::test_simple_decommission,"['node', 'node', 'fail']"
+CASSANDRA-15297,nodetool can not create snapshot with snapshot name that have special character,"['node', 'node', 'node', 'node', 'node']"
+CASSANDRA-16592,The token function in where clause return incorrect data when using token equal condition and Specified a non-exist token value,"['consistent', 'partition', 'race']"
+CASSANDRA-14848,When upgrading 3.11.3->4.0 using SSL 4.0 nodes does not connect to old non seed nodes,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'connection', 'connection', 'connection', 'connection', 'server']"
+CASSANDRA-17210,Not able to override default transport port in cassandra 4.0,['cluster']
+CASSANDRA-17792,Fix race condition on updating cdc size and advancing to next segment,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail', 'race']"
+CASSANDRA-15980,Improve log messages for socket connection/disconnection,"['client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'message', 'message']"
+CASSANDRA-17115,"When data dir is not present, we fail as FileNotFound causes org.apache.cassandra.config.DatabaseDescriptor#tryGetSpace to fail","['fail', 'fail', 'fail', 'fail']"
+CASSANDRA-14384,If fsync fails it's always an issue and continuing execution is suspect,"['consistent', 'fail', 'meta']"
+CASSANDRA-15551,Fix flaky tests org.apache.cassandra.service.MoveTest testStateJumpToNormal and testMoveWithPendingRangesNetworkStrategyRackAwareThirtyNodes,"['fail', 'fail']"
+CASSANDRA-15671,Testcase: testSubrangeCompaction(org.apache.cassandra.db.compaction.CancelCompactionsTest):	FAILED,['fail']
+CASSANDRA-15287,Inaccurate exception message with nodetool snapshot ,"['node', 'node', 'node', 'message', 'message', 'message']"
+CASSANDRA-16311,Extend the exclusion of replica filtering protection to other indices instead of just SASI,"['replica', 'replica']"
+CASSANDRA-15693,Generating nodetool docs fails with python 3,"['node', 'node', 'node', 'node', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-16124,nodetool enablebinary throws exception,"['node', 'node', 'node', 'node', 'node', 'remote', 'remote', 'remote', 'remote', 'remote', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+CASSANDRA-14008,RTs at index boundaries in 2.x sstables can create unexpected CQL row in 3.x,"['cluster', 'cluster']"
+CASSANDRA-16653,Multinode counters don't get updated,"['node', 'node', 'node', 'node']"
+CASSANDRA-15896,NullPointerException in SELECT JSON statement when a UUID field contains an empty string,"['node', 'node', 'node', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'replica', 'replica', 'crash', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'race', 'race', 'server', 'server', 'server']"
+CASSANDRA-14297,Startup checker should wait for count rather than percentage,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-16210,Synchronize Keyspace instance store/clear,"['node', 'fail', 'fail', 'race']"
+CASSANDRA-15694,Statistics upon streaming of entire SSTables in Netstats is wrong,"['node', 'distributed']"
+CASSANDRA-14763,Fail incremental repair prepare phase if it encounters sstables from un-finalized sessions,"['consistent', 'fail', 'fail', 'lock', 'lock']"
+CASSANDRA-16721,Repaired data tracking on a read coordinator is susceptible to races between local and remote requests,"['replica', 'remote', 'remote', 'remote', 'remote', 'race', 'race']"
+CASSANDRA-14540,Internode messaging handshake sends wrong messaging version number,"['node', 'node', 'node', 'connection', 'message', 'message']"
+CASSANDRA-14748,Recycler$WeakOrderQueue occupies Heap,"['node', 'cluster']"
+CASSANDRA-14759,Transient->Full movements mishandle consistency level upgrade,"['node', 'node']"
+CASSANDRA-16435,Reverse iteration with paging may throw if the page boundary coincides with open tombstone boundary,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'partition', 'partition', 'race']"
+CASSANDRA-13620,Don't skip corrupt sstables on startup,['corrupt']
+CASSANDRA-17439,Missing TRUNCATE_EXISTING in write options,['fail']
+CASSANDRA-17070,ViewComplexTest hardening,['fail']
+CASSANDRA-17267,Snapshot true size is miscalculated,"['node', 'node']"
+CASSANDRA-14802,calculatePendingRanges assigns more pending ranges than necessary ,"['node', 'node', 'node', 'node', 'cluster', 'consistent', 'consistent', 'consistent', 'assign', 'assign', 'fail', 'assign', 'assign']"
+CASSANDRA-16376,Response headers to OPTION messages always have Stream ID of zero ,"['client', 'connection', 'connection', 'fail', 'message', 'message']"
+CASSANDRA-15778,"CorruptSSTableException after a 2.1 SSTable is upgraded to 3.0, failing reads","['consistent', 'fail', 'partition', 'partition', 'race', 'race']"
+CASSANDRA-15400,Cassandra 3.0.18 went OOM several hours after joining a cluster,"['node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'meta']"
+CASSANDRA-17383,Fix user_functions_test.py::TestUserFunctions::test_udf_overload,['fail']
+CASSANDRA-16938,Missed wait latencies in the output of `nodetool tpstats -F`,"['node', 'node', 'node', 'node', 'node', 'node', 'block', 'fail', 'lock']"
+CASSANDRA-15695,Fix NoSuchMethodError: 'org.apache.cassandra.distributed.api.NodeToolResult$Asserts ,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail']"
+CASSANDRA-13935,Indexes and UDTs creation should have IF NOT EXISTS on its String representation,"['cluster', 'recovery', 'fail', 'partition', 'race']"
+CASSANDRA-13711,Invalid writetime for null columns in cqlsh,"['node', 'node', 'cluster', 'replica', 'replica', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-15507,Test org.apache.cassandra.distributed.test.DistributedReadWritePathTest#failingReadRepairTest does not test a failing read repair and should be updated to actually trigger a failed read repair,"['node', 'node', 'node', 'node', 'node', 'distributed', 'distributed', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15674,liveDiskSpaceUsed and totalDiskSpaceUsed get corrupted if IndexSummaryRedistribution gets interrupted,"['corrupt', 'corrupt']"
+CASSANDRA-17609,Fix org.apache.cassandra.db.compaction.CompactionsCQLTest.testLCSThresholdParams-cdc (from org.apache.cassandra.db.compaction.CompactionsCQLTest-cdc),['race']
+CASSANDRA-14568,"Static collection deletions are corrupted in 3.0 -> 2.{1,2} messages","['node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'corrupt', 'corrupt', 'message', 'partition']"
+CASSANDRA-14871,"Severe concurrency issues in STCS,DTCS,TWCS,TMD.Topology,TypeParser",['fail']
+CASSANDRA-16969,Scrub does not detect invalid partition keys,"['corrupt', 'partition']"
+CASSANDRA-15760,Javadoc fails on java 11: unexported package,"['fail', 'fail']"
+CASSANDRA-13409,Materialized Views: View cells are resurrected,"['node', 'node', 'node', 'replica', 'replica', 'race']"
+CASSANDRA-16839,Truncation snapshots unnecessarily created on node startup,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'restart']"
+CASSANDRA-18032,When generate.sh fails its rc=0,['fail']
+CASSANDRA-16888,SSTableReaderTest#testGetPositionsKeyCacheStats failing sporadically on unexpected key cache hit for non-cached key,"['consistent', 'fail', 'fail', 'fail']"
+CASSANDRA-16146,Node state incorrectly set to NORMAL after nodetool disablegossip and enablegossip during bootstrap,"['node', 'node', 'fail']"
+CASSANDRA-16835,"Scrub still uses ""row"" to mean ""partitions"", and has broken code","['message', 'message', 'partition', 'partition', 'partition']"
+CASSANDRA-14740,BlockingReadRepair does not maintain monotonicity during range movements,"['node', 'node', 'lock', 'lock']"
+CASSANDRA-17651,Fix flaky dtest - org.apache.cassandra.distributed.upgrade.BatchUpgradeTest.batchTest ,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16877,High priority internode messages which exceed the large message threshold are dropped,"['node', 'node', 'cluster', 'connection', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message', 'message']"
+CASSANDRA-18116,Denylist can load perpetually and too frequently if it fails persistently ,"['fail', 'fail']"
+CASSANDRA-14701,Cleanup (and other) compaction type(s) not counted in compaction remaining time,['node']
+CASSANDRA-15727,Internode messaging connection setup between 4.0 and legacy SSL 3.0 fails if initial connection version incorrect,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'message', 'message']"
+CASSANDRA-14952,NPE when using allocate_tokens_for_keyspace and add new DC,"['node', 'node', 'node', 'node', 'node', 'replica', 'replica']"
+CASSANDRA-14991,SSL Cert Hot Reloading should check for sanity of the new keystore/truststore before loading it,"['connection', 'corrupt', 'fail']"
+CASSANDRA-15957,org.apache.cassandra.repair.RepairJobTest testOptimizedCreateStandardSyncTasks,['fail']
+CASSANDRA-17782,`DatabaseDescriptor#clientInitialization` should set the `newFailureDetector` (maybe to a NoOpFailureDetector?),"['client', 'client', 'client', 'client', 'fail']"
+CASSANDRA-13324,Outbound TCP connections ignore internode authenticator,"['node', 'node', 'connection', 'connection', 'connection', 'connection']"
+CASSANDRA-15854,Truncation should fail any ongoing repairs,"['node', 'node', 'fail', 'race']"
+CASSANDRA-16777,Flaky ViewTest,"['fail', 'fail']"
+CASSANDRA-16862,Fix flaky test DatabaseDescriptorRefTest,"['consistent', 'client', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-17565,Fix test_parallel_upgrade_with_internode_ssl,"['node', 'fail', 'fail', 'parallel']"
+CASSANDRA-15338,Fix flakey testMessagePurging - org.apache.cassandra.net.ConnectionTest,"['fail', 'race']"
+CASSANDRA-15135,SASI tokenizer options not validated before being added to schema,['fail']
+CASSANDRA-13480,nodetool repair can hang forever if we lose the notification for the repair completing/failing,"['node', 'node', 'node', 'remote', 'client', 'fail', 'server']"
+CASSANDRA-15409,nodetool compactionstats showing extra pending task for TWCS,"['node', 'node', 'node', 'node', 'consistent', 'consistent']"
+CASSANDRA-17352,CVE-2021-44521: Apache Cassandra: Remote code execution for scripted UDFs,['cluster']
+CASSANDRA-15970,3.x fails to start if commit log has range tombstones from a column which is also deleted,"['node', 'node', 'node', 'node', 'cluster', 'crash', 'distributed', 'fail', 'partition']"
+CASSANDRA-13307,The specification of protocol version in cqlsh means the python driver doesn't automatically downgrade protocol version.,"['client', 'client', 'client', 'race', 'server']"
+CASSANDRA-18183,rat targets do not adhere to build.dir property,['fail']
+CASSANDRA-15242,Race condition between flushing and compaction stalls compaction indefinitely,"['race', 'restart']"
+CASSANDRA-16596,Test org.apache.cassandra.net.AsyncPromiseTest FAILED,"['fail', 'parallel']"
+CASSANDRA-13441,"Schema version changes for each upgraded node in a rolling upgrade, causing migration storms","['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster']"
+CASSANDRA-16003,ToolRunner added in CASSANDRA-15942 stdErr checks improvements,"['fail', 'fail', 'fail']"
+CASSANDRA-13849,GossipStage blocks because of race in ActiveRepairService,"['node', 'node', 'node', 'cluster', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race', 'race']"
+CASSANDRA-18264,CustomClassLoader does not load jars rendering triggers from JARs broken,['fail']
+CASSANDRA-14861,sstable min/max metadata can cause data loss,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'meta']"
+CASSANDRA-18024,Circle repeated jobs shouldn't appear on default config files,['node']
+CASSANDRA-18211, NoSuchFileException when removing a snapshot,"['race', 'race']"
+CASSANDRA-14878,Race condition when setting bootstrap flags,['race']
+CASSANDRA-15649,test.distributed.timeout no longer respected in CircleCI,['distributed']
+CASSANDRA-13801,CompactionManager sometimes wrongly determines that a background compaction is running for a particular table,"['block', 'lock']"
+CASSANDRA-15665,"StreamManager should clearly differentiate between ""initiator"" and ""receiver"" sessions","['follower', 'follower', 'message']"
+CASSANDRA-14513,Reverse order queries in presence of range tombstones may cause permanent data loss,['replica']
+CASSANDRA-14855,"Message Flusher scheduling fell off the event loop, resulting in out of memory","['node', 'node', 'cluster', 'fail']"
+CASSANDRA-13545,Exception in CompactionExecutor leading to tmplink files not being removed,"['node', 'node', 'block', 'block', 'distributed', 'distributed', 'fail', 'lock', 'lock', 'message']"
+CASSANDRA-15176,Fix PagingState deserialization when the state was serialized using protocol version different from current session's,"['node', 'node', 'block', 'client', 'fail', 'fail', 'lock']"
+CASSANDRA-13911,IllegalStateException thrown by UPI.Serializer.hasNext() for some SELECT queries,"['node', 'node', 'node', 'node', 'node', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-14781,Log message when mutation passed to CommitLog#add(Mutation) is too large is not descriptive enough,"['message', 'message']"
+CASSANDRA-15962,Digest for some queries is different depending whether the data are retrieved from sstable or memtable,"['assign', 'assign']"
+CASSANDRA-13797,RepairJob blocks on syncTasks,"['block', 'block', 'block', 'lock', 'lock', 'lock']"
+CASSANDRA-13866,Clock-dependent integer overflow in tests CellTest and RowsTest,"['fail', 'lock']"
+CASSANDRA-17805,"When doing a host replacement, we need to check that the node is a live node before failing with ""Cannot replace a live node...""","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'delay', 'fail', 'message']"
+CASSANDRA-15369,"Fake row deletions and range tombstones, causing digest mismatch and sstable growth","['node', 'node', 'cluster', 'cluster', 'cluster', 'fail', 'fail', 'partition']"
+CASSANDRA-14242,Indexed static column returns inconsistent results,"['consistent', 'replica', 'replica', 'connection']"
+CASSANDRA-16686,Queries returning static content when the partition has no rows might fail to return some rows,"['fail', 'partition']"
+CASSANDRA-15814,order by descending on frozen list not working,"['message', 'server']"
+CASSANDRA-13713,Move processing of EchoMessage response to gossip stage,"['node', 'connection', 'message']"
+CASSANDRA-15906,Queries on KEYS 2i are broken by DROP COMPACT STORAGE on 3.0,['fail']
+CASSANDRA-17809,Flaky DescribeStatementTest,['race']
+CASSANDRA-17955,Race condition on repair snapshots,['race']
+CASSANDRA-15262,Update defaults for server and client TLS settings,"['node', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'server', 'server', 'server', 'server']"
+CASSANDRA-14896,3.0 schema migration pulls from later version incompatible nodes,"['node', 'node', 'node', 'partition', 'partition']"
+CASSANDRA-14410,tablehistograms with non-existent table gives an exception,"['node', 'node', 'node', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'message', 'race', 'server', 'server', 'server']"
+CASSANDRA-15252,Don't consider current keyspace in prepared statement id when the query is qualified,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'block', 'client', 'fail', 'lock', 'message', 'server', 'server']"
+CASSANDRA-16206,Eliminate gen-doc template warning and unused (problematic) import,"['fail', 'fail']"
+CASSANDRA-18240,Using SELECT COUNT(*) FROM... LIMIT 1 in the returning section results in ClassCastException,"['message', 'server']"
+CASSANDRA-16944,Single partition reads can read more SSTables than required ,['partition']
+CASSANDRA-13798,Disallow filtering on non-primary-key base column for MV,['cluster']
+CASSANDRA-17328,Fix flaky test - dtest.repair_tests.repair_test.TestRepair.test_dc_parallel_repair,['parallel']
+CASSANDRA-15830,Invalid version value: 4.0~alpha4 during startup,"['node', 'restart']"
+CASSANDRA-14103,Fix potential race during compaction strategy reload,['race']
+CASSANDRA-14137,Cassandra crashes on startup.  Crash Problematic frame: # C  [sigar-amd64-winnt.dll+0x14ed4] using JRE version: Java(TM) SE Runtime Environment (9.0+11),"['client', 'crash', 'crash', 'crash', 'crash']"
+CASSANDRA-18118,Do not leak 2015 memtable synthetic Epoch,"['replica', 'replica', 'partition', 'race', 'race', 'race', 'race']"
+CASSANDRA-13812,Missing system keyspace tables are not created,"['node', 'node', 'node', 'distributed', 'distributed', 'message', 'message', 'race']"
+CASSANDRA-17974,running Ant rat targets without git fails,"['fail', 'fail']"
+CASSANDRA-13562,Cassandra removenode makes Gossiper Thread hang forever,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
+CASSANDRA-14843,Drop/add column name with different Kind can result in corruption,"['consistent', 'corrupt', 'corrupt', 'corrupt', 'corrupt', 'corrupt', 'meta', 'meta']"
+CASSANDRA-16279,Incorrect check for -Xlog in cassandra-env.sh ,"['race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'server', 'server', 'server']"
+CASSANDRA-16771,Flaky MessageFiltersTest,"['distributed', 'distributed', 'distributed', 'fail', 'fail', 'fail', 'fail', 'race']"
+CASSANDRA-17283,Failing test: UNIT org.apache.cassandra.tools.BulkLoaderTest.testBulkLoader_WithArgs1,"['cluster', 'cluster', 'connection', 'connection', 'fail', 'fail', 'race']"
+CASSANDRA-17576,Make GuardrailDiskUsageTest deterministic,['fail']
+CASSANDRA-16679,HintedHandoffAddRemoveNodesTest is failing,"['distributed', 'fail']"
+CASSANDRA-14791,[utest] tests unable to write system tmp directory,['fail']
+CASSANDRA-15335,Node can corrupt gossip state and become unreplaceable,"['node', 'node', 'node', 'node', 'node', 'corrupt', 'restart']"
+CASSANDRA-17054,"v4+ protocol did not clean up client warnings, which caused leaking the state","['client', 'client', 'client', 'message', 'server']"
+CASSANDRA-17628,CQL writetime and ttl functions should be forbidden for multicell columns,"['election', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-17768,Restore streaming_keep_alive_period functionality on the netty control streaming channel,"['message', 'message']"
+CASSANDRA-16818,Fix usage instructions about sstabledump -k and -x options,"['fail', 'fail', 'message', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-14069,Node stopped serving write requests when a table has a lot of sstables,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-13739,Cassandra can't start because of unknown type <usertype> exception,"['node', 'restart']"
+CASSANDRA-16482,CQL schema generated by DESCRIBE KEYSPACE fails to import with custom indexes,"['replica', 'replica', 'fail', 'fail', 'fail', 'message', 'server']"
+CASSANDRA-17618,Fix flaky org.apache.cassandra.distributed.test.InternodeEncryptionEnforcementTest,"['node', 'node', 'node', 'distributed', 'distributed']"
+CASSANDRA-13413,Run more test targets on CircleCI,['parallel']
+CASSANDRA-15810,Default StringTableSize parameter causes GC slowdown,"['node', 'node', 'cluster', 'cluster']"
+CASSANDRA-17467,Timestamp issue with Cassandra 4.0.3 with Timezone value,"['fail', 'message', 'message', 'server', 'server']"
+CASSANDRA-15426,Cassandra 3.11.5 fails to start on Windows ,"['replica', 'fail', 'fail', 'fail', 'race', 'server']"
+CASSANDRA-17620,Incremental repair leaks SomeRepairFailedException after switch away from flatMap,"['fail', 'fail']"
+CASSANDRA-16688,CircleCI - python dtests failing because of ccm issue,"['fail', 'fail']"
+CASSANDRA-17516,Official Cassandra packages are missing runtime dependency procps-ng,"['node', 'node']"
+CASSANDRA-16722,ClientMetrics should be initialised in CQLConnectionTest,"['client', 'server']"
+CASSANDRA-15700,Performance regression on internode messaging,"['node', 'node', 'node', 'lock', 'message', 'message', 'message', 'message']"
+CASSANDRA-13375,Cassandra v3.10 - UDA throws AssertionError when no records in select ,['replica']
+CASSANDRA-15099,Debian 10 buster: init file require PID file to be owned by root,['fail']
+CASSANDRA-15500,Slow query logging emits incomplete predicates,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-15300,4.0 rpmbuild spec file is missing auditlogviewer and fqltool,"['cluster', 'fail']"
+CASSANDRA-15730,Batch statement preparation fails if multiple tables and parameters are used,"['fail', 'fail', 'fail']"
+CASSANDRA-16412,nodetool status doesn't work without system_traces,"['node', 'node', 'race', 'race']"
+CASSANDRA-17889,Fix flaky test_archive_commitlog_point_in_time,"['fail', 'race']"
+CASSANDRA-16703,Exception thrown by custom QueryHandler constructor is ignored,"['message', 'message', 'message']"
+CASSANDRA-17641,Fix flaky dtest - org.apache.cassandra.distributed.test.SchemaTest.readRepair,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-17760,upgrade_tests/upgrade_udtfix_test.py failing in Circle CI for Cassandra 3.0 and 3.11,"['fail', 'fail']"
+CASSANDRA-13833,Failed compaction is not captured,"['fail', 'fail', 'message']"
+CASSANDRA-18110,Streaming progress virtual table lock contention can trigger TCP_USER_TIMEOUT and fail streaming,"['follower', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'block', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'message', 'message', 'message', 'message', 'message', 'restart']"
+CASSANDRA-17724,Remove commons-lang dependency during build runtime,['fail']
+CASSANDRA-14804,Running repair on multiple nodes in parallel could halt entire repair ,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'parallel', 'restart']"
+CASSANDRA-16217,Minimal 4.0 COMPACT STORAGE backport,"['cluster', 'cluster']"
+CASSANDRA-16758,Flaky ClientResourceLimitsTest,"['client', 'connection', 'connection', 'race']"
+CASSANDRA-13700,Heartbeats can cause gossip information to go permanently missing on certain nodes,"['node', 'node', 'node', 'message', 'message']"
+CASSANDRA-16053,cqlsh COPY functions broken in Python 3.8 on Mac,"['fail', 'lock', 'race']"
+CASSANDRA-14959,ReadCommandVerbHandler validateTransientStatus class cast exception ,"['node', 'node', 'cluster', 'cluster', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'race', 'race', 'race']"
+CASSANDRA-15637,CqlInputFormat regression going from 2.1 to 3.x caused by semantic difference between thrift and the new system.size_estimates table when dealing with multiple dc deployments,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-16692,Unable to replace node with stale schema,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
+CASSANDRA-16277,'SSLEngine closed already' exception on failed outbound connection,"['connection', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-14023,add_dc_after_mv_network_replication_test - materialized_views_test.TestMaterializedViews fails due to invalid datacenter,"['network', 'network', 'replica', 'replica', 'fail', 'fail', 'message', 'server']"
+CASSANDRA-14826,cassandra spinning forever on 1 thread while initializing keyspace,"['lock', 'lock', 'lock', 'lock']"
+CASSANDRA-15430,Cassandra 3.0.18: BatchMessage.execute - 10x more on-heap allocations compared to 2.1.18,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'lock', 'lock', 'message', 'message', 'message', 'meta']"
+CASSANDRA-17669,CentOS/RHEL installation requires JRE not available in Java 11,"['node', 'node']"
+CASSANDRA-16224,InvalidQueryException: Order by on unknown column From cassandra-diff,"['client', 'fail', 'server']"
+CASSANDRA-18013,Splitter sometimes creates different number of splits than requested,['fail']
+CASSANDRA-18223,Byteman rule in stop_data_reads.btm cannot compile against accord.messages.ReplyContext,"['fail', 'message', 'message', 'message']"
+CASSANDRA-16690,Flaky NativeAllocatorTest.testBookKeeping,['race']
+CASSANDRA-16750,Flaky AlibabaCloudSnitchTest,"['fail', 'race']"
+CASSANDRA-16085,Cassandra fails to start using Java SE 8 Update 261,"['fail', 'fail']"
+CASSANDRA-17700,Fix TestGossipingPropertyFileSnitch.test_prefer_local_reconnect_on_listen_address,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'consistent', 'connection', 'fail', 'message', 'race']"
+CASSANDRA-14419,Resume compresed hints delivery broken,"['client', 'fail']"
+CASSANDRA-16068,SSL connection to storage port when internode encryption is disabled still try to load keystore,"['node', 'node', 'node', 'cluster', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'race', 'server']"
+CASSANDRA-15427,2.2 eclipse-warnings,"['assign', 'fail', 'assign']"
+CASSANDRA-16856,Prevent broken concurrent schema pulls,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'delay', 'race']"
+CASSANDRA-15797,Fix flaky BinLogTest - org.apache.cassandra.utils.binlog.BinLogTest,"['fail', 'fail']"
+CASSANDRA-16685,Flaky ActiveRepairServiceTest.testRejectWhenPoolFullStrategy,['race']
+CASSANDRA-13923,Flushers blocked due to many SSTables,"['node', 'node', 'node', 'consistent', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-17615,Flaky org.apache.cassandra.cql3.KeywordTest,"['fail', 'fail', 'race']"
+CASSANDRA-15899,Dropping a column can break queries until the schema is fully propagated,"['node', 'node', 'replica']"
+CASSANDRA-15874,Bootstrap completes Successfully without streaming all the data,"['node', 'cluster', 'fail', 'race']"
+CASSANDRA-16580,Unable to connect to any servers,"['server', 'server']"
+CASSANDRA-13691,Fix incorrect [2.1 <— 3.0] serialization of counter cells with pre-2.1 local shards,"['node', 'node', 'node', 'node', 'network', 'leader', 'cluster', 'cluster', 'clock', 'lock']"
+CASSANDRA-14475,"nodetool - Occasional high CPU on large, CPU capable machines","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'parallel', 'parallel', 'parallel']"
+CASSANDRA-16530,Fix flaky test_ttl_deletions,['node']
+CASSANDRA-16638,compactions/repairs hangs (backport CASSANDRA-16552),"['node', 'node', 'node', 'node', 'cluster', 'block', 'lock', 'message', 'message', 'race', 'restart']"
+CASSANDRA-13737,Node start can fail if the base table of a materialized view is not found,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connection', 'connection', 'fail', 'fail']"
+CASSANDRA-16798,Cassandra fails to start on aarch64 with Java8 due to too small a stack size,['fail']
+CASSANDRA-13379,SASI index returns duplicate rows,"['partition', 'partition']"
+CASSANDRA-16179,gen-doc depends on jar,"['node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'race']"
+CASSANDRA-16178,ByteBufferAccessor throws ClassCastException when trying to query system_views.local_read_latency,"['node', 'message']"
+CASSANDRA-14957,Rolling Restart Of Nodes Causes Dataloss Due To Schema Collision,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'message', 'partition', 'partition', 'restart', 'restart', 'restart', 'restart']"
+CASSANDRA-16106,BufferOverflow exception while writing response to buffer,"['message', 'message', 'message', 'message']"
+CASSANDRA-13721,"""ignore"" option is ignored in sstableloader",['node']
+CASSANDRA-17141,internode_send_buff_size_in_bytes and internode_recv_buff_size_in_bytes from cassandra.yaml ,"['node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-14189,unable to start cassandra in version 3.9,"['remote', 'remote', 'remote', 'server', 'server', 'restart']"
+CASSANDRA-14136,MemtableFlushWriter DecoratedKey Exception,"['cluster', 'restart']"
+CASSANDRA-14895,SSTable loader exception when loading 3.0/3.11 compact tables into 4.0,"['node', 'node', 'node', 'node', 'fail']"
+CASSANDRA-18241,Invalid result when a non existent row is assigned to a variable,"['assign', 'assign']"
+CASSANDRA-15819,nodetool enablefullquerylog doesn't allow caller to make non-blocking,"['node', 'node', 'node', 'node', 'node', 'block', 'block', 'block', 'lock', 'lock', 'lock']"
+CASSANDRA-16908,cqlsh broken after upgrade from 3.11.10 to 3.11.11,['race']
+CASSANDRA-14946,DistributedReadWritePathTest fails in circleci,"['distributed', 'distributed', 'fail', 'fail']"
+CASSANDRA-16554,Race between secondary index building and active compactions tracking,"['partition', 'race', 'race']"
+CASSANDRA-13869,AbstractTokenTreeBuilder#serializedSize returns wrong value when there is a single leaf and overflow collisions,['fail']
+CASSANDRA-18055,Nodetool Compact set the compaction type incorrectly,['node']
+CASSANDRA-17347,Instance failed to start up due to NPE in StartupClusterConnectivityChecker,"['crash', 'fail', 'race']"
+CASSANDRA-16064,"Add test which validates that Message serializedSize(version) == serialize(out, version).length","['message', 'message', 'message']"
+CASSANDRA-15408,Cassandra throws SyntaxException for obsolete keywords that Thrift API permits,"['replica', 'fail']"
+CASSANDRA-16318,Memtable heap size is severely underestimated,"['meta', 'partition']"
+CASSANDRA-17455,Flaky org.apache.cassandra.tools TopPartitionsTest testServiceTopPartitionsSingleTable,"['replica', 'race']"
+CASSANDRA-13595,Implement short read protection on partition boundaries,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connection', 'connection', 'connection', 'connection', 'fail', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-14958,Counters fail to increment in 2.1/2.2 to 3.X mixed version clusters,"['cluster', 'cluster', 'replica', 'replica', 'fail', 'fail', 'partition', 'race']"
+CASSANDRA-13526,"nodetool cleanup on KS with no replicas should remove old data, not silently complete","['node', 'cluster', 'replica', 'replica']"
+CASSANDRA-15770,stop and restart fail in Debian 10 buster,"['fail', 'fail', 'fail', 'restart', 'restart', 'restart']"
+CASSANDRA-13619,java.nio.BufferOverflowException: null while flushing hints,"['node', 'node', 'node', 'cluster', 'region', 'region', 'partition']"
+CASSANDRA-16114,Fix tests CQLTester.assertLastSchemaChange causes ClassCastException,"['message', 'message']"
+CASSANDRA-13920,Adding regular column to COMPACT STORAGE with w/o clustering keys table causes an exception,"['node', 'cluster', 'cluster', 'fail', 'message', 'message']"
+CASSANDRA-15323,MessagingServiceTest failed with method listenRequiredSecureConnectionWithBroadcastAddr    ON MAC OS  ,"['assign', 'fail', 'fail', 'assign']"
+CASSANDRA-17247,Remove unused dependencies from pylib/requirements.txt,['client']
+CASSANDRA-17705,Fix testBatchCLShutdownImmediately ,"['race', 'race']"
+CASSANDRA-16406,Debug logging affects repair performance,"['node', 'node', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'message']"
+CASSANDRA-15757,CustomIndexTest.indexBuildingPagesLargePartitions is flaky,"['fail', 'fail', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-15744,FBUtilitities.testWaitFirstFuture is flaky,"['fail', 'message']"
+CASSANDRA-14109,Prevent continuous schema exchange between 3.0 and 3.11 nodes,"['node', 'node', 'node', 'cluster', 'cluster', 'message']"
+CASSANDRA-17239,Race in CompactionExecutorTest,['race']
+CASSANDRA-15902,OOM because repair session thread not closed when terminating repair,"['node', 'node', 'cluster', 'cluster', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-14955,Website can be built without nodetool documentation by accident,"['node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'fail']"
+CASSANDRA-17906,Test splits generated with --only-resource-intensive-tests only work on hosts with >= 27GB memory,['fail']
+CASSANDRA-16808,Pre-4.0 FWD_FRM message parameter serialization and message-id forwarding is incorrect,"['node', 'node', 'node', 'cluster', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message']"
+CASSANDRA-17414,Block usage of Instant.now(),['lock']
+CASSANDRA-14571,Fix race condition in MV build/propagate when there is existing data in the base table,"['consistent', 'race', 'race']"
+CASSANDRA-16175,Avoid removing batch when it's not created during view replication,"['replica', 'replica', 'replica']"
+CASSANDRA-16086,MessageSerializationPropertyTest fails with bytes should not be empty for type org.apache.cassandra.db.marshal.BytesType,"['election', 'fail']"
+CASSANDRA-15848,Fully purged static row causes NPE in repaired data tracking,"['replica', 'replica']"
+CASSANDRA-16945, Multiple full sources can be select unexpectedly for bootstrap streaming,"['node', 'node', 'consistent', 'fail']"
+CASSANDRA-14286,IndexOutOfBoundsException with SELECT JSON using IN and ORDER BY,"['race', 'server']"
+CASSANDRA-17754,"When bootstrap fails, CassandraRoleManager may attempt to do read queries that fail with ""Cannot read from a bootstrapping node"", and increments unavailables counters","['node', 'fail', 'fail', 'fail', 'fail']"
+CASSANDRA-15002,Avoid leaking threads when anticompaction fails,"['node', 'fail', 'fail', 'fail', 'message']"
+CASSANDRA-14803,Rows that cross index block boundaries can cause incomplete reverse reads in some cases.,"['block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock']"
+CASSANDRA-14356,LWTs keep failing in trunk after immutable refactor,"['fail', 'fail', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta']"
+CASSANDRA-16523,Improve handling of unflushed hint files,['fail']
+CASSANDRA-14589,CommitLogReplayer.handleReplayError should print stack traces ,"['message', 'race']"
+CASSANDRA-18184,'Maximum memory usage reached' chunk cache log message doesn't specify which cache is exhausted,"['network', 'network', 'cluster', 'cluster', 'message', 'message', 'message', 'message']"
+CASSANDRA-16797,Incompatible constants related to forwarded writes,['fail']
+CASSANDRA-16533,The two tests in  NetstatsBootstrapWithEntireSSTablesCompressionStreamingTest are flaky,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'lock', 'message', 'message', 'message']"
+CASSANDRA-15702,copyutil.py uses Exception.message which doesn't exist in Python 3,"['message', 'message', 'message']"
+CASSANDRA-18141,Cqlsh incorrectly formats duration,['replica']
+CASSANDRA-14215,Cassandra does not respect hint window for CAS,"['node', 'node', 'node', 'node', 'node', 'message', 'message', 'race', 'race', 'race', 'race', 'restart', 'restart']"
+CASSANDRA-14749,Collection Deletions for Dropped Columns in 2.1/3.0 mixed-mode can delete rows,"['node', 'node', 'cluster']"
+CASSANDRA-15607,Incorrect Outcome returned when acquiring capacity for incoming message,"['node', 'fail', 'message', 'message']"
+CASSANDRA-16400,cqlsh cannot DESC TYPE with non-ascii character in the identifier,"['fail', 'race']"
+CASSANDRA-13730,Dropping a table doesn't drop its dropped columns,"['replica', 'replica']"
+CASSANDRA-16284,Too defensive check when picking sstables for preview repair,['fail']
+CASSANDRA-16034,testQueueWhenPoolFullStrategy - org.apache.cassandra.service.ActiveRepairServiceTest,['fail']
+CASSANDRA-15707,Fix cqlsh output test,"['fail', 'message']"
+CASSANDRA-15688,Invalid cdc_raw_directory prevents server startup,"['server', 'server']"
+CASSANDRA-17891,Fix hintedhandoff_test.py::TestHintedHandoff::test_hintedhandoff_window,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'client', 'client', 'connection', 'connection', 'connection', 'restart']"
+CASSANDRA-17033,MessagingServiceTest listenOptionalSecureConnection and listenRequiredSecureConnection fail sporadically,"['fail', 'fail']"
+CASSANDRA-13282,Commitlog replay may fail if last mutation is within 4 bytes of end of segment,"['corrupt', 'fail', 'fail', 'fail']"
+CASSANDRA-14515,Short read protection in presence of almost-purgeable range tombstones may cause permanent data loss,['node']
+CASSANDRA-14349,Untracked CDC segment files are not deleted after replay,['restart']
+CASSANDRA-17338,Fix flaky test - test_cqlsh_completion.TestCqlshCompletion,['fail']
+CASSANDRA-14876,Snapshot name merges with keyspace name shown by nodetool listsnapshots for snapshots with long names,"['node', 'node', 'node', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'race', 'race', 'race', 'race', 'race', 'race']"
+CASSANDRA-15177,Reloading of auth caches happens on the calling thread,"['replica', 'fail']"
+CASSANDRA-16446,Parent repair sessions leak may lead to node long pauses,"['node', 'node', 'node', 'node', 'node', 'cluster', 'message', 'restart']"
+CASSANDRA-17378,Revert removed old deprecated parameters and revert name change of user_defined_function_warn_timeout and user_defined_function_fail_timeout in Config,"['fail', 'fail']"
+CASSANDRA-15933,Forbid adding new fields to UDTs used in partition key columns,['partition']
+CASSANDRA-13764,SelectTest.testMixedTTLOnColumnsWide is flaky,['fail']
+CASSANDRA-17604,java.lang.IllegalArgumentException during Cassandra 4.x upgrade,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'fail', 'fail']"
+CASSANDRA-16733,Allow operators to disable 'ALTER ... DROP COMPACT STORAGE' statements,"['cluster', 'cluster']"
+CASSANDRA-15213,DecayingEstimatedHistogramReservoir Inefficiencies,"['network', 'partition']"
+CASSANDRA-17771,Fix flaky test: org.apache.cassandra.tools.nodetool.TpStatsTest,"['node', 'node']"
+CASSANDRA-13880,Fix short read protection for tables with no clustering columns,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'fail', 'meta', 'partition', 'partition']"
+CASSANDRA-17613,Avoid getting hanging repairs due to repair message timeouts,"['replica', 'message', 'message']"
+CASSANDRA-16208,Fail truncation requests when they fail on replica,"['replica', 'fail']"
+CASSANDRA-14904,SSTableloader doesn't understand listening for CQL connections on multiple ports,"['connection', 'connection', 'fail']"
+CASSANDRA-15075,SELECT JSON generates invalid JSON for the duration type,['replica']
+CASSANDRA-16608,Nodetool verify fixes,"['node', 'node', 'fail', 'partition']"
+CASSANDRA-16498,Python upgrade DTests fail in CircleCI,"['fail', 'fail', 'fail']"
+CASSANDRA-16525,Gossip STATUS can be either missing during upgrade or stale after upgrade,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-16425,Improve handling of repair sessions during startup/shutdown,"['fail', 'fail', 'message']"
+CASSANDRA-15739,dtests fix due to cqlsh behavior change,"['fail', 'fail']"
+CASSANDRA-15470,Potential Overflow in DatabaseDescriptor Functions That Convert Between KB/MB & Bytes,['lock']
+CASSANDRA-16036,Add flag to disable chunk cache and disable by default,['network']
+CASSANDRA-13626,Check hashed password matches expected bcrypt hash format before checking,['fail']
+CASSANDRA-15749,Make clear in the documentation that stress is not a secured tool,['server']
+CASSANDRA-17975,SSTableIdGenerationTest.testRestartWithUUIDDisabled fails on trunk after CASSANDRA-17948,"['consistent', 'fail', 'fail']"
+CASSANDRA-16398,Add access and datacenters to unreserved keywords,['fail']
+CASSANDRA-13965,SecondaryIndexManagerTest.assert[Not]MarkedAsBuilt produces flaky tests,['fail']
+CASSANDRA-15216,Cross node message creation times are disabled by default,"['node', 'cluster', 'clock', 'lock', 'message', 'message']"
+CASSANDRA-15405,Mixed mode reads on compact storage tables can return incomplete results,"['node', 'node', 'node', 'node']"
+CASSANDRA-17769,Fix org.apache.cassandra.simulator.test.ShortPaxosSimulationTest.simulationTest,"['fail', 'fail']"
+CASSANDRA-15024,Don't try to cancel 2i compactions when starting anticompaction,['fail']
+CASSANDRA-14823,Legacy sstables with range tombstones spanning multiple index blocks create invalid bound sequences on 3.0+,"['block', 'block', 'fail', 'lock', 'lock']"
+CASSANDRA-15990,Running CQL command with non-ASCII values raises UnicodeDecodeError,"['replica', 'race']"
+CASSANDRA-17233,Fix   org.apache.cassandra.db.commitlog.CommitLogSegmentManagerCDCTest.testNonblockingShouldMaintainSteadyDiskUsage,"['consistent', 'block', 'block', 'lock', 'lock']"
+CASSANDRA-14766,DESC order reads can fail to return the last Unfiltered in the partition in a legacy sstable,"['block', 'block', 'fail', 'lock', 'lock', 'partition']"
+CASSANDRA-15812,Submitting Validation requests can block ANTI_ENTROPY stage ,"['block', 'block', 'block', 'lock', 'lock', 'lock', 'message', 'parallel']"
+CASSANDRA-15056,SimpleClient should pass connection properties as options,"['connection', 'server', 'server']"
+CASSANDRA-17593,StorageService read threshold get methods throw NullPointerException due to not handling null configs,"['fail', 'fail', 'fail']"
+CASSANDRA-16225,Followup CASSANDRA-14554,['corrupt']
+CASSANDRA-15120,Nodes that join the ring while another node is MOVING build an invalid view of the token ring,"['node', 'node', 'node', 'node', 'node', 'node', 'delay', 'meta']"
+CASSANDRA-16303,ClassNotFoundException: com.googlecode.concurrenttrees.radix.node.NodeFactory,['node']
+CASSANDRA-14196,replace_address_test:TestReplaceAddress.test_multi_dc_replace_with_rf1 fails without vnodes,"['node', 'node', 'fail']"
+CASSANDRA-13666,Secondary index query on partition key columns might not return partitions with only static data,"['cluster', 'partition', 'partition', 'partition']"
+CASSANDRA-16682,Cassandra 4.0 RC1 ... Audit Logs going to wrong location,"['block', 'lock', 'restart']"
+CASSANDRA-17752,fix restarting of services on gossipping-only members,"['node', 'node', 'node', 'node', 'restart']"
+CASSANDRA-16673,Avoid race in AbstractReplicationStrategy endpoint caching,"['race', 'race']"
+CASSANDRA-17524,Schema mutations may not be completed on drain,"['node', 'lock', 'message', 'message', 'race']"
+CASSANDRA-17049,Fix rare NPE caused by batchlog replay / node decomission races,"['node', 'node', 'race']"
+CASSANDRA-13776,Adding a field to an UDT can corrupte the tables using it,"['corrupt', 'corrupt', 'corrupt', 'fail', 'meta']"
+CASSANDRA-15086,Illegal column names make legacy sstables unreadable in 3.0/3.x,['partition']
+CASSANDRA-15433,Pending ranges are not recalculated on keyspace creation,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
+CASSANDRA-14194,Chain commit log marker potential performance regression in batch commit mode,"['block', 'block', 'lock', 'lock']"
+CASSANDRA-13573,ColumnMetadata.cellValueType() doesn't return correct type for non-frozen collection,"['cluster', 'partition']"
+CASSANDRA-16759,Avoid memoizing the wrong min cluster version during upgrades,"['node', 'cluster', 'cluster', 'fail', 'message']"
+CASSANDRA-13964,Tracing interferes with digest requests when using RandomPartitioner,"['cluster', 'replica', 'corrupt', 'partition', 'partition']"
+CASSANDRA-14284,Chunk checksum test needs to occur before uncompress to avoid JVM crash,"['crash', 'crash', 'crash', 'corrupt']"
+CASSANDRA-17715,nodetool clientstats - client_options to be exposed by adding a new flag,"['node', 'client', 'client', 'client', 'client']"
+CASSANDRA-15123,Avoid keeping sstables marked compacting forever when user defined compaction gets interrupted,['node']
+CASSANDRA-14037,"sstableloader_with_failing_2i_test - sstable_generation_loading_test.TestSSTableGenerationAndLoading fails: Expected [['k', 'idx']] ... but got [[u'k', u'idx', None]]","['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race']"
+CASSANDRA-17810,Revise timeout handling on queries triggering timeout introduced by CASSANDRA-7392,"['replica', 'replica']"
+CASSANDRA-14588,Unfiltered.isEmpty conflicts with Row extends AbstractCollection.isEmpty,['fail']
+CASSANDRA-14707,Building deb packages fails on trunk,"['cluster', 'fail', 'fail', 'fail']"
+CASSANDRA-16796,Clear pending ranges for a SHUTDOWN peer,"['node', 'node', 'node', 'node', 'consistent', 'replica', 'client', 'crash', 'fail', 'fail', 'race']"
+CASSANDRA-14007,cqlshlib tests fail due to compact table,"['fail', 'fail', 'message', 'server']"
+CASSANDRA-15600,Algorithmic token allocation does not handle the racks = RF case well,"['node', 'node', 'node', 'replica', 'replica', 'distributed']"
+CASSANDRA-14075,"Many sslnodetonode_test.TestNodeToNodeSSLEncryption tests failing with ""Please remove properties [optional, enabled] from your cassandra.yaml""","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'client', 'client', 'fail', 'fail', 'server']"
+CASSANDRA-16199,cassandra.logdir undefined when CASSANDRA_LOG_DIR,"['node', 'node', 'fail']"
+CASSANDRA-17424,Performance and Semantic Concerns w/ Metrics for Local vs. Remote Requests in StorageProxy,"['election', 'remote', 'remote', 'remote', 'remote', 'client', 'client', 'client', 'partition', 'partition']"
+CASSANDRA-16578,NativeLibrary#getProcessID() does not handle `UnsatisfiedLinkError`,"['fail', 'race']"
+CASSANDRA-15325,Unable to compute ceiling for max when histogram overflowed,"['node', 'message']"
+CASSANDRA-16671,Cassandra can return no row when the row columns have been deleted.,"['node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+CASSANDRA-16004,When jvm dtest apis differ Circle CI's dtest_jars_build can fail to detect this and will use the jars from the older version,"['distributed', 'distributed', 'distributed', 'distributed', 'fail', 'fail', 'fail']"
+CASSANDRA-14028,counter_leader_with_partial_view_test-novnodes - counter_tests.TestCounters fails,"['node', 'leader', 'cluster', 'cluster', 'fail']"
+CASSANDRA-15924,Avoid emitting empty range tombstones from RangeTombstoneList,['partition']
+CASSANDRA-17857,upsert with adder support is not consistent with numbers and strings in LWT,"['consistent', 'consistent', 'fail']"
+CASSANDRA-14909,Netty IOExceptions caused by unclean client disconnects being logged at INFO instead of TRACE,"['cluster', 'client', 'client', 'connection', 'fail', 'fail', 'message']"
+CASSANDRA-15326,Unable to compute ceiling for max when histogram overflowed,"['node', 'message', 'meta']"
+CASSANDRA-13874,nodetool setcachecapacity behaves oddly when cache disabled,"['node', 'node']"
+CASSANDRA-16119,MockSchema's SSTableReader creation leaks FileHandle and Channel instances,"['block', 'lock', 'race', 'race']"
+CASSANDRA-16294,Potential NPE in JVMStabilityInspector,"['message', 'message']"
+CASSANDRA-17545,Fix Travis CI for Python DTests,"['remote', 'fail']"
+CASSANDRA-16478,Debian packages are broken since py3 migration,"['cluster', 'fail', 'fail']"
+CASSANDRA-16155,ByteBufferAccessor cast exceptions are thrown when trying to query a virtual table,['node']
+CASSANDRA-14180,cassandra.spec needs to require ant-junit,"['fail', 'message']"
+CASSANDRA-15501,Duplicate results with DISTINCT queries in mixed mode 2.1/3.0,"['node', 'node', 'node', 'client']"
+CASSANDRA-17173,Flaky GrantAndRevokeTest,['message']
+CASSANDRA-16151,Package tools/bin scripts as executable,['fail']
+CASSANDRA-15869,MemoryOutputStream overflow on large bloom filter,"['race', 'race']"
+CASSANDRA-15706,Fix cqlsh completion test,"['fail', 'fail', 'message']"
+CASSANDRA-14359,"CREATE TABLE fails if there is a column called ""default"" with Cassandra 3.11.2",['fail']
+CASSANDRA-14971,Website documentation search function returns broken links,"['node', 'node', 'message', 'server']"
+CASSANDRA-17453,flaky in jvm CasCriticalSectionTest.criticalSectionTest,"['distributed', 'distributed', 'distributed']"
+CASSANDRA-16973,Fix org.apache.cassandra.concurrent.LongSharedExecutorPoolTest.testPromptnessOfExecution,"['fail', 'race']"
+CASSANDRA-16276,Drain and/or shutdown might throw because of slow messaging service shutdown,"['node', 'fail', 'fail', 'message']"
+CASSANDRA-14564, Adding regular column to COMPACT tables without clustering columns should trigger an InvalidRequestException,"['cluster', 'cluster', 'cluster', 'message', 'message', 'partition', 'partition', 'race', 'race', 'server', 'server']"
+CASSANDRA-14066,unittest failed: CommitLogSegmentManagerCDCTest.testReplayLogic,['fail']
+CASSANDRA-18225,"CEP-15: (C*) Accord adds a accord.messages.Defer which isn't supported for persisting, causing the operation to fail","['node', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message']"
+CASSANDRA-16084,Avoid trying to keep track of RTs for endpoints we won't write to during read repair,"['distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-15165,Reference-Reaper detected leak while running FramingTest unit test cases,"['lock', 'lock', 'lock', 'lock', 'race', 'race']"
+CASSANDRA-16104,Wrong warning about data volumes capacity,"['node', 'cluster']"
+CASSANDRA-15929,Startup fails with NoClassDefFoundError after CASSANDRA-15884,"['network', 'fail']"
+CASSANDRA-18224,CEP-15 (C*) No commandsForKey in context for key PartitionKey,"['node', 'fail', 'fail', 'message', 'message', 'message']"
+CASSANDRA-14330,Handle repeat open bound from SRP in read repair,"['partition', 'partition']"
+CASSANDRA-16847,nodetool assassinate of a node that failed bootstrap may lead to IndexOutOfBoundsException,"['node', 'node', 'node', 'node', 'fail', 'fail']"
+CASSANDRA-15407,"Hint-dispatcher file-channel not closed, if ""open()"" fails with OOM",['fail']
+CASSANDRA-16643,ALTER TABLE: mixing counter and non-counter columns in one table ,"['message', 'server']"
+CASSANDRA-16008,2.2.17 fails to start up with ExceptionInInitializerError,"['remote', 'remote', 'remote', 'remote', 'connection', 'fail', 'fail', 'lock', 'race', 'server', 'server', 'server']"
+CASSANDRA-15035,C* 3.0 sstables w/ UDTs are corrupted in 3.11 + 4.0,"['node', 'corrupt']"
+CASSANDRA-14481,Using nodetool status after enabling Cassandra internal auth for JMX access fails with currently documented permissions,"['node', 'node', 'node', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'fail', 'fail', 'race', 'server', 'server']"
+CASSANDRA-13587,Deadlock during CommitLog replay when Cassandra restarts,"['recovery', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race', 'restart', 'restart', 'restart']"
+CASSANDRA-14824,Expand range tombstone validation checks to multiple interim request stages,['corrupt']
+CASSANDRA-17273,Lazy transaction log replica creation allows incorrect replica content divergence during compaction,"['replica', 'replica', 'replica', 'replica', 'fail']"
+CASSANDRA-14450,DelimiterAnalyzer: IllegalArgumentException: The key argument was zero-length,"['partition', 'partition', 'partition']"
+CASSANDRA-13399,UDA fails without input rows,"['election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'fail', 'message']"
+CASSANDRA-14897,In mixed 3.x/4 version clusters write tracing and repair history information without new columns,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'distributed', 'distributed', 'distributed', 'distributed']"
+CASSANDRA-15678,"Updates for 3.11.6 got overwritten for NEWS.txt, CHANGES.txt","['node', 'node', 'node', 'cluster', 'cluster', 'connection', 'corrupt', 'distributed', 'message', 'meta', 'meta', 'partition', 'race', 'race', 'race']"
+CASSANDRA-16453,NPE in Slice#make on RT + partition deletion reconciliation on timestamp tie,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'consistent', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition']"
+CASSANDRA-16473,cassandra-stress failed to connect over JMX,"['node', 'cluster', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'connection', 'connection', 'fail', 'partition', 'server', 'server']"
+CASSANDRA-14010,Fix SStable ordering by max timestamp in SinglePartitionReadCommand,"['node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'client', 'client', 'client', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'distributed', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'message', 'message', 'message', 'message', 'message', 'meta', 'meta', 'meta', 'meta', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'partition', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'server', 'server']"
+CASSANDRA-12457,dtest failure in upgrade_tests.cql_tests.TestCQLNodes2RF1_Upgrade_current_2_1_x_To_indev_2_2_x.bug_5732_test,['fail']
+CASSANDRA-12261,dtest failure in write_failures_test.TestWriteFailures.test_thrift,"['fail', 'fail']"
+CASSANDRA-12213,dtest failure in write_failures_test.TestWriteFailures.test_paxos_any,"['fail', 'fail']"
+CASSANDRA-13216,testall failure in org.apache.cassandra.net.MessagingServiceTest.testDroppedMessages,['fail']
+CASSANDRA-10448,"""Unknown type 0"" Stream failure on Repair",['fail']
+CASSANDRA-11273,Unknown column failure during bootstrap,['fail']
+CASSANDRA-13281,testall failure in org.apache.cassandra.io.sstable.metadata.MetadataSerializerTest.testSerialization,"['fail', 'meta']"
+CASSANDRA-11465,dtest failure in cql_tracing_test.TestCqlTracing.tracing_unknown_impl_test,['fail']
+CASSANDRA-12905,Retry acquire MV lock on failure instead of throwing WTE on streaming,"['fail', 'lock']"
+CASSANDRA-12812,testall failure in org.apache.cassandra.dht.tokenallocator.RandomReplicationAwareTokenAllocatorTest.testExistingCluster,['fail']
+CASSANDRA-9477,nodetool repair should exit with non-zero status on failure,"['node', 'fail']"
+CASSANDRA-10961,Not enough bytes error when add nodes to cluster,"['node', 'cluster']"
+CASSANDRA-10756,Timeout failures in NativeTransportService.testConcurrentDestroys unit test,['fail']
+CASSANDRA-12445,StreamingTransferTest.testTransferRangeTombstones failure,['fail']
+CASSANDRA-11317,dtest failure in repair_tests.incremental_repair_test.TestIncRepair.sstable_repairedset_test,['fail']
+CASSANDRA-13166,Build failures encountered on ppc64le,['fail']
+CASSANDRA-13161,testall failure in org.apache.cassandra.db.commitlog.CommitLogDescriptorTest.testVersions,['fail']
+CASSANDRA-10474,Streaming should tolerate secondary index build failure,['fail']
+CASSANDRA-11489,DynamicCompositeType failures during 2.1 to 3.0 upgrade.,['fail']
+CASSANDRA-13224,testall failure in org.apache.cassandra.db.compaction.CompactionStrategyManagerPendingRepairTest.cleanupCompactionFinalized,['fail']
+CASSANDRA-11393,dtest failure in upgrade_tests.upgrade_through_versions_test.ProtoV3Upgrade_2_1_UpTo_3_0_HEAD.rolling_upgrade_test,['fail']
+CASSANDRA-12249,dtest failure in upgrade_tests.paging_test.TestPagingDataNodes3RF3_Upgrade_current_3_0_x_To_indev_3_x.basic_paging_test,['fail']
+CASSANDRA-11884,dtest failure in secondary_indexes_test.TestSecondaryIndexesOnCollections.test_tuple_indexes,['fail']
+CASSANDRA-9489,Testcase failure: testExpiredTombstones(org.apache.cassandra.cql3.SliceQueryFilterWithTombstonesTest),['fail']
+CASSANDRA-13113,test failure in auth_test.TestAuth.system_auth_ks_is_alterable_test,['fail']
+CASSANDRA-12098,dtest failure in secondary_indexes_test.TestSecondaryIndexes.test_only_coordinator_chooses_index_for_query,['fail']
+CASSANDRA-8181,Intermittent failure of SSTableImportTest unit test,['fail']
+CASSANDRA-11919,Failure in nodetool decommission,['node']
+CASSANDRA-13191,test failure in org.apache.cassandra.hints.HintsBufferPoolTest.testBackpressure,['fail']
+CASSANDRA-12348,Flaky failures in SSTableRewriterTest.basicTest2/getPositionsTest,['fail']
+CASSANDRA-12810,testall failure in org.apache.cassandra.db.ColumnFamilyStoreCQLHelperTest.testDynamicComposite,['fail']
+CASSANDRA-13141,test failure in cql_tests.MiscellaneousCQLTester.prepared_statement_invalidation_test,['fail']
+CASSANDRA-10130,Node failure during 2i update after streaming can have incomplete 2i when restarted,"['fail', 'restart']"
+CASSANDRA-11598,dtest failure in cql_tracing_test.TestCqlTracing.tracing_simple_test,['fail']
+CASSANDRA-13248,testall failure in org.apache.cassandra.db.compaction.PendingRepairManagerTest.userDefinedTaskTest,['fail']
+CASSANDRA-13196,test failure in snitch_test.TestGossipingPropertyFileSnitch.test_prefer_local_reconnect_on_listen_address,['fail']
+CASSANDRA-10621,Error while bootstraping a new node with Materialized Views,['node']
+CASSANDRA-9884,Error on encrypted node communication upgrading from 2.1.6 to 2.2.0,['node']
+CASSANDRA-12072,dtest failure in auth_test.TestAuthRoles.udf_permissions_in_selection_test,"['election', 'fail']"
+CASSANDRA-11613,dtest failure in upgrade_tests.cql_tests.TestCQLNodes2RF1_2_2_HEAD_UpTo_Trunk.more_user_types_test,['fail']
+CASSANDRA-11760,dtest failure in TestCQLNodes3RF3_Upgrade_current_2_2_x_To_next_3_x.more_user_types_test,['fail']
+CASSANDRA-11765,dtest failure in upgrade_tests.upgrade_through_versions_test.ProtoV3Upgrade_AllVersions_Skips_3_0_x_EndsAt_Trunk_HEAD.rolling_upgrade_test,['fail']
+CASSANDRA-11287,Node Bootstrap fails due to Streaming error,['fail']
+CASSANDRA-7804,Confusing error message when condition is set on primary key column,['message']
+CASSANDRA-8208,Inconsistent failure handling with repair,"['consistent', 'fail']"
+CASSANDRA-10423,Paxos/LWT failures when moving node,"['node', 'fail']"
+CASSANDRA-10967,bootstrap fail with “Streaming error occurred”,['fail']
+CASSANDRA-13139,test failure in hintedhandoff_test.TestHintedHandoff.hintedhandoff_decom_test,['fail']
+CASSANDRA-10424,Altering base table column with materialized view causes unexpected server error.,['server']
+CASSANDRA-7508,nodetool prints error if dirs don't exist.,['node']
+CASSANDRA-9492,Error message changes based on jdk used,['message']
+CASSANDRA-10347,Bulk Loader API could not tolerate even node failure,"['node', 'fail']"
+CASSANDRA-12214,cqlshlib test failure: cqlshlib.test.remove_test_db,['fail']
+CASSANDRA-13194,test failure in repair_tests.incremental_repair_test.TestIncRepair.compaction_test,['fail']
+CASSANDRA-12067,dtest failure in cqlsh_tests.cqlsh_copy_tests.CqlshCopyTest.test_explicit_column_order_reading,['fail']
+CASSANDRA-12193,dtest failure in upgrade_tests.cql_tests.TestCQLNodes3RF3_Upgrade_current_2_1_x_To_indev_3_0_x.noncomposite_static_cf_test,['fail']
+CASSANDRA-13150,Error in DDL documentation clustering columns example,['cluster']
+CASSANDRA-13030,nodetool stopdaemon errors out,['node']
+CASSANDRA-7018,cqlsh failing to handle utf8 decode errors in certain cases,['fail']
+CASSANDRA-11959,Clarify error message for loading third party compaction jars,['message']
+CASSANDRA-10536,Batch statements with multiple updates to partition error when table is indexed,['partition']
+CASSANDRA-8179,No error message shown when starting Cassandra on Windows if Cassandra is already running,['message']
+CASSANDRA-10159,Incorrect last update time causes dtest to fail due to unexpected errors,['fail']
+CASSANDRA-12394,Node crashes during compaction with assertion error checking length of entries for IndexSummaryBuilder,['crash']
+CASSANDRA-12508,nodetool repair returns status code 0 for some errors,['node']
+CASSANDRA-10501,Failure to start up Cassandra when temporary compaction files are not all renamed after kill/crash (FSReadError),['crash']
+CASSANDRA-13072,Cassandra failed to run on Linux-aarch64,['fail']
+CASSANDRA-9669,"If sstable flushes complete out of order, on restart we can fail to replay necessary commit log records","['fail', 'restart']"
+CASSANDRA-9871,Cannot replace token does not exist - DN node removed as Fat Client,['node']
+CASSANDRA-10538,Assertion failed in LogFile when disk is full,['fail']
+CASSANDRA-13265,Expiration in OutboundTcpConnection can block the reader Thread,"['block', 'lock']"
+CASSANDRA-12867,Batch with multiple conditional updates for the same partition causes AssertionError,['partition']
+CASSANDRA-10254,3.0 paging states are incompatible with pre-3.0 nodes,['node']
+CASSANDRA-10969,long-running cluster sees bad gossip generation when a node restarts,"['node', 'cluster', 'restart']"
+CASSANDRA-9451,Startup message response for unsupported protocol versions is incorrect,['message']
+CASSANDRA-9841,trunk pig-test fails,['fail']
+CASSANDRA-12192,Retry all internode messages once after reopening connections,"['node', 'connection', 'message']"
+CASSANDRA-8280,Cassandra crashing on inserting data over 64K into indexed strings,['crash']
+CASSANDRA-9462,ViewTest.sstableInBounds is failing,['fail']
+CASSANDRA-8209,Cassandra crashes when running on JDK8 update 40,['crash']
+CASSANDRA-13121,repair progress message breaks legacy JMX support,['message']
+CASSANDRA-11332,nodes connect to themselves when NTS is used,['node']
+CASSANDRA-8999,Number of failing dtests running locally is different from running in Jenkins,['fail']
+CASSANDRA-11631,cqlsh COPY FROM fails for null values with non-prepared statements,['fail']
+CASSANDRA-7016,Allow mixing token and partition key restrictions,['partition']
+CASSANDRA-11021,Inserting static column fails with secondary index on clustering key,"['cluster', 'fail']"
+CASSANDRA-13247,index on udt built failed and no data could be inserted,['fail']
+CASSANDRA-11983,Migration task failed to complete,['fail']
+CASSANDRA-13043,UnavailabeException caused by counter writes forwarded to leaders without complete cluster view,"['leader', 'cluster']"
+CASSANDRA-10492,Fix failing upgrade tests on 2.1->2.2 path,['fail']
+CASSANDRA-10788,Upgrade from 2.2.1 to 3.0.0 fails with NullPointerException,['fail']
+CASSANDRA-8279,Geo-Red  : Streaming is working fine on two nodes but failing on one node repeatedly.,"['node', 'node', 'fail']"
+CASSANDRA-11127,index_summary_upgrade_test.py is failing,['fail']
+CASSANDRA-12796,Heap exhaustion when rebuilding secondary index over a table with wide partitions,['partition']
+CASSANDRA-7505,cassandra fails to start if WMI memory query fails on Windows,"['fail', 'fail']"
+CASSANDRA-12791,MessageIn logic to determine if the message is cross-node is wrong,"['node', 'message']"
+CASSANDRA-8020,nodetool repair on Cassandra 2.1.0 indexed tables returns java exception about creating snapshots,['node']
+CASSANDRA-12525,"When adding new nodes to a cluster which has authentication enabled, we end up losing cassandra user's current crendentials and they get reverted back to default cassandra/cassandra credentials","['node', 'cluster']"
+CASSANDRA-9097,Repeated incremental nodetool repair results in failed repairs due to running anticompaction,"['node', 'fail']"
+CASSANDRA-11889,LogRecord: file system race condition may cause verify() to fail,"['fail', 'race']"
+CASSANDRA-8366,"Repair grows data on nodes, causes load to become unbalanced",['node']
+CASSANDRA-13123,Draining a node might fail to delete all inactive commitlogs,"['node', 'fail']"
+CASSANDRA-11223,Queries with LIMIT filtering on clustering columns can return less rows than expected,['cluster']
+CASSANDRA-9687,Wrong partitioner after upgrading sstables (secondary indexes are not handled correctly after CASSANDRA-6962),['partition']
+CASSANDRA-9071,CQLSSTableWriter gives java.lang.AssertionError: Empty partition,['partition']
+CASSANDRA-10155,2i key cache load fails,['fail']
+CASSANDRA-12802,RecoveryManagerTruncateTest fails in 2.1,['fail']
+CASSANDRA-7397,BatchlogManagerTest unit test failing,['fail']
+CASSANDRA-10181,Deadlock flushing tables with CUSTOM indexes,['lock']
+CASSANDRA-8343,Secondary index creation causes moves/bootstraps to fail,['fail']
+CASSANDRA-11038,Is node being restarted treated as node joining?,"['node', 'node', 'restart']"
+CASSANDRA-11626,cqlsh fails and exits on non-ascii chars,['fail']
+CASSANDRA-6875,CQL3: select multiple CQL rows in a single partition using IN,['partition']
+CASSANDRA-13109,Lightweight transactions temporarily fail after upgrade from 2.1 to 3.0,['fail']
+CASSANDRA-7279,MultiSliceTest.test_with_overlap* unit tests failing in trunk,['fail']
+CASSANDRA-11057,move_single_node_localhost_test is failing,"['node', 'fail']"
+CASSANDRA-7585,cassandra sstableloader connection refused with inter_node_encryption,"['node', 'connection']"
+CASSANDRA-12781,Disable RPC_READY gossip flag when shutting down client servers,"['client', 'server']"
+CASSANDRA-12903,internode_encryption + bootstrapping a node fails due to calling an unsupported method on an SSL Socket,"['node', 'node', 'fail']"
+CASSANDRA-9787,Unit tests are failing on trunk after CASSANDRA-9650,['fail']
+CASSANDRA-12253,Fix exceptions when enabling gossip on proxy nodes.,['node']
+CASSANDRA-10973,disk_balance_decommission_test is failing on trunk,['fail']
+CASSANDRA-10991,Cleanup OpsCenter keyspace fails - node thinks that didn't joined the ring yet,"['node', 'fail']"
+CASSANDRA-12402,Cassandra 3.7 unable to connect to any server CQLSH,['server']
+CASSANDRA-7082,Nodetool status always displays the first token instead of the number of vnodes,['node']
+CASSANDRA-9631,Unnecessary required filtering for query on indexed clustering key,['cluster']
+CASSANDRA-9057,index validation fails for non-indexed column,['fail']
+CASSANDRA-7390,MoveTest fails intermittently,['fail']
+CASSANDRA-11618,"Removing an element from map<any type, tinyint/smallint> corrupts commitlog",['corrupt']
+CASSANDRA-12794,COPY FROM with NULL='' fails when inserting empty row in primary key,['fail']
+CASSANDRA-12689,"All MutationStage threads blocked, kills server","['block', 'lock', 'server']"
+CASSANDRA-9279,Gossip (and mutations) lock up on startup,['lock']
+CASSANDRA-11930,Range tombstone serialisation between 2.1 and 3.0 nodes (in 3.0 -> 2.1 direction) is broken for some Thrift deletions,['node']
+CASSANDRA-11866,nodetool repair does not obey the column family parameter when -st and -et are provided (subrange repair),['node']
+CASSANDRA-8514,ArrayIndexOutOfBoundsException in nodetool cfhistograms,['node']
+CASSANDRA-12060,Establish consistent distinction between non-existing partition and NULL value for LWTs on static columns,"['consistent', 'partition']"
+CASSANDRA-12901,Repair can hang if node dies during sync or anticompaction,['node']
+CASSANDRA-8455,IndexOutOfBoundsException when building SyntaxError message snippet,['message']
+CASSANDRA-11087,Queries on compact storage tables in mixed version clusters can return incorrect results,['cluster']
+CASSANDRA-11363,High Blocked NTR When Connecting,['lock']
+CASSANDRA-8623,sstablesplit fails *randomly* with Data component is missing,['fail']
+CASSANDRA-7398,Missing flexibility to have file://<server>/<etc> vs. file:/// when loading config file cassandra.yaml,['server']
+CASSANDRA-12177,sstabledump fails if sstable path includes dot,['fail']
+CASSANDRA-9530,SSTable corruption can trigger OOM,['corrupt']
+CASSANDRA-9636,Duplicate columns in selection causes AssertionError,['election']
+CASSANDRA-12673,"Nodes cannot see each other in multi-DC, non-EC2 environment with two-interface nodes due to outbound node-to-node connection binding to private interface","['node', 'node', 'node', 'connection']"
+CASSANDRA-10511,Index summary downsampling prevents mmap access of large files after restart,['restart']
+CASSANDRA-10987,MV add_node_after_mv_test is failing on trunk,"['node', 'fail']"
+CASSANDRA-7194,CliTest unit test fails on Windows,['fail']
+CASSANDRA-10413,Replaying materialized view updates from commitlog after node decommission crashes Cassandra,"['node', 'crash']"
+CASSANDRA-11750,Offline scrub should not abort when it hits corruption,['corrupt']
+CASSANDRA-11323,When node runs out of commitlog space you get poor log information,['node']
+CASSANDRA-8718,nodetool cleanup causes segfault,['node']
+CASSANDRA-7983,nodetool repair triggers OOM,['node']
+CASSANDRA-9411,Bound statement executions fail after adding a collection-type column,['fail']
+CASSANDRA-8290,archiving commitlogs after restart fails,"['fail', 'restart']"
+CASSANDRA-10674,Materialized View SSTable streaming/leaving status race on decommission,['race']
+CASSANDRA-11093,processs restarts are failing becase native port and jmx ports are in use,"['fail', 'restart']"
+CASSANDRA-8853,adding existing table at node startup,['node']
+CASSANDRA-6983,DirectoriesTest fails when run as root,['fail']
+CASSANDRA-8940,Inconsistent select count and select distinct,['consistent']
+CASSANDRA-9908,Potential race caused by async cleanup of transaction log files,['race']
+CASSANDRA-8530,Query on a secondary index creates huge CPU spike + unable to trace,['race']
+CASSANDRA-13120,Trace and Histogram output misleading,['race']
+CASSANDRA-7710,nodetool ring throws exception if run on machine without Cassandra,['node']
+CASSANDRA-12127,Queries with empty ByteBuffer values in clustering column restrictions fail for non-composite compact tables,"['cluster', 'fail']"
+CASSANDRA-12740,cqlsh copy tests hang in case of no answer from the server or driver,['server']
+CASSANDRA-8598,Windows - SSTableRewriterTest fails on trunk,['fail']
+CASSANDRA-10875,cqlsh fails to decode utf-8 characters for text typed columns.,['fail']
+CASSANDRA-10927,Stream failed during bootstrap,['fail']
+CASSANDRA-13069,Local batchlog for MV may not be correctly written on node movements,['node']
+CASSANDRA-11018,Drop column in results in corrupted table or tables state (reversible),['corrupt']
+CASSANDRA-11205,SASI OnDiskIndexTest.testSuperBlockRetrieval flaky on CassCI,['lock']
+CASSANDRA-7329,repair sessions not cleared out of nodetool netstats output on completion,['node']
+CASSANDRA-11615,cassandra-stress blocks when connecting to a big cluster,"['cluster', 'block', 'lock']"
+CASSANDRA-10797,Bootstrap new node fails with OOM when streaming nodes contains thousands of sstables,"['node', 'node', 'fail']"
+CASSANDRA-11540,The JVM should exit if jmx fails to bind,['fail']
+CASSANDRA-9630,Killing cassandra process results in unclosed connections,['connection']
+CASSANDRA-10986,MV add_node_after_mv_test is failing on trunk,"['node', 'fail']"
+CASSANDRA-8084,GossipFilePropertySnitch and EC2MultiRegionSnitch when used in AWS/GCE clusters doesnt use the PRIVATE IPS for Intra-DC communications - When running nodetool repair,"['node', 'cluster']"
+CASSANDRA-7524,cqlsh fails when version number parts are not int,['fail']
+CASSANDRA-12754,Change cassandra.wait_for_tracing_events_timeout_secs default to -1 so C* doesn't wait on trace events to be written before responding to request by default,['race']
+CASSANDRA-10231,Null status entries on nodes that crash during decommission of a different node,"['node', 'node', 'crash']"
+CASSANDRA-7295,BatchlogManagerTest unit test failing in 2.1 & trunk,['fail']
+CASSANDRA-10052,Misleading down-node push notifications when rpc_address is shared,['node']
+CASSANDRA-12667,CQLSSTableWriter can fail because DiskOptimizationStrategy is null,['fail']
+CASSANDRA-11019,UnsupportedOperationException on nodetool compact,['node']
+CASSANDRA-7661,org.apache.cassandra.utils.BitSetTest fails if you don't have /usr/share/dict/words,['fail']
+CASSANDRA-10963,Bootstrap stream fails with java.lang.InterruptedException ,['fail']
+CASSANDRA-13272,"""nodetool bootstrap resume"" does not exit",['node']
+CASSANDRA-11357,ClientWarningsTest fails after single partition batch warning changes,"['fail', 'partition']"
+CASSANDRA-10443,CQLSStableWriter example fails on 3.0rc1,['fail']
+CASSANDRA-7601,Data loss after nodetool taketoken,['node']
+CASSANDRA-6904,commitlog segments may not be archived after restart,['restart']
+CASSANDRA-10839,cqlsh failed to format value bytearray,['fail']
+CASSANDRA-7287,Pig CqlStorage test fails with IAE,['fail']
+CASSANDRA-9485,RangeTombstoneListTest.addAllRandomTest failed on trunk,['fail']
+CASSANDRA-10997,cqlsh_copy_tests failing en mass when vnodes are disabled,"['node', 'fail']"
+CASSANDRA-8579,sstablemetadata can't load org.apache.cassandra.tools.SSTableMetadataViewer,['meta']
+CASSANDRA-11934,System keyspace corruption ,['corrupt']
+CASSANDRA-12854,CommitLogTest.testDeleteIfNotDirty failed in 3.X,['fail']
+CASSANDRA-12044,Materialized view definition regression in clustering key,['cluster']
+CASSANDRA-11502,Fix denseness and column metadata updates coming from Thrift,['meta']
+CASSANDRA-11034,consistent_reads_after_move_test is failing on trunk,"['consistent', 'fail']"
+CASSANDRA-10132,sstablerepairedset throws exception while loading metadata,['meta']
+CASSANDRA-12509,Shutdown process triggered twice during if the node is drained,['node']
+CASSANDRA-9882,DTCS (maybe other strategies) can block flushing when there are lots of sstables,"['block', 'lock']"
+CASSANDRA-7885,Make native Server start() method block until the server is properly bound,"['block', 'lock', 'server']"
+CASSANDRA-10729,SELECT statement with IN restrictions on partition key + ORDER BY + LIMIT return wrong results,['partition']
+CASSANDRA-12801,"KeyCacheCqlTest fails on 3.0, 3.X and trunk",['fail']
+CASSANDRA-10014,Deletions using clustering keys not reflected in MV,['cluster']
+CASSANDRA-10604,Secondary index metadata is not reloaded when table is altered,['meta']
+CASSANDRA-6950,Secondary index query fails with tc range query when ordered by DESC,['fail']
+CASSANDRA-8516,NEW_NODE topology event emitted instead of MOVED_NODE by moving node,['node']
+CASSANDRA-8115,Windows install scripts fail to set logdir and datadir,['fail']
+CASSANDRA-10978,MV add_write_survey_node_after_mv_test is failing on trunk,"['node', 'fail']"
+CASSANDRA-10779,Mutations do not block for completion under view lock contention,"['block', 'lock', 'lock']"
+CASSANDRA-11534,cqlsh fails to format collections when using aliases,['fail']
+CASSANDRA-8841,single_file_split_test fails on 2.1,['fail']
+CASSANDRA-11156,AssertionError when listing sstable files on inconsistent disk state,['consistent']
+CASSANDRA-9842,Inconsistent behavior for '= null' conditions on static columns,['consistent']
+CASSANDRA-11991,"On clock skew, paxos may ""corrupt"" the node clock","['node', 'clock', 'clock', 'corrupt', 'lock', 'lock']"
+CASSANDRA-9572,DateTieredCompactionStrategy fails to combine SSTables correctly when TTL is used.,['fail']
+CASSANDRA-11157,"test_bulk_round_trip_blogposts_with_max_connections got ""Truncate timed out""",['connection']
+CASSANDRA-10607,Using reserved keyword for Type field crashes cqlsh,['crash']
+CASSANDRA-9696,nodetool stopdaemon exception,['node']
+CASSANDRA-11839,Active streams fail with SocketTimeoutException,['fail']
+CASSANDRA-11742,Failed bootstrap results in exception when node is restarted,"['node', 'restart']"
+CASSANDRA-13147,Secondary index query on partition key columns might not return all the rows.,['partition']
+CASSANDRA-9281,Index selection during rebuild fails with certain table layouts.,"['election', 'fail']"
+CASSANDRA-11375,COPY FROM fails when importing blob,['fail']
+CASSANDRA-8537,ConcurrentModificationException while executing 'nodetool cleanup',['node']
+CASSANDRA-11079,LeveledCompactionStrategyTest.testCompactionProgress unit test fails sometimes,['fail']
+CASSANDRA-9765,checkForEndpointCollision fails for legitimate collisions,['fail']
+CASSANDRA-7490,Static columns mess up selects with ordering and clustering column ranges,['cluster']
+CASSANDRA-11203,Improve 'nothing to repair' message when RF=1,['message']
+CASSANDRA-11167,NPE when creating serializing ErrorMessage for Exception with null message,['message']
+CASSANDRA-10974,disk_balance_bootstrap_test is failing on trunk,['fail']
+CASSANDRA-11803,"Creating a materialized view on a table with ""token"" column breaks the cluster",['cluster']
+CASSANDRA-11823,Creating a table leads to a race with GraphiteReporter,['race']
+CASSANDRA-10736,TestTopology.simple_decommission_test failing due to assertion triggered by SizeEstimatesRecorder,['fail']
+CASSANDRA-12863,cqlsh COPY FROM cannot parse timestamp in partition key if table contains a counter value,['partition']
+CASSANDRA-12003,Not filtering Data completely when where clause is applied to clustering column,['cluster']
+CASSANDRA-12769,An invalid insert request crashes the C* node,"['node', 'crash']"
+CASSANDRA-12281,Gossip blocks on startup when there are pending range movements,"['block', 'lock']"
+CASSANDRA-9135,testScrubCorruptedCounterRow is failing under test-compression target,['fail']
+CASSANDRA-11891,WriteTimeout during commit log replay due to MV lock,['lock']
+CASSANDRA-11830,"""nodetool flush"" not flushing system keyspace",['node']
+CASSANDRA-9586,ant eclipse-warnings fails in trunk,['fail']
+CASSANDRA-9917,MVs should validate gc grace seconds on the tables involved,['race']
+CASSANDRA-9355,RecoveryManagerTruncateTest fails in test-compression,['fail']
+CASSANDRA-12052,SSTableRewriterTest is failing,['fail']
+CASSANDRA-10587,sstablemetadata NPE on cassandra 2.2,['meta']
+CASSANDRA-10371,Decommissioned nodes can remain in gossip,['node']
+CASSANDRA-9898,cqlsh crashes if it load a utf-8 file.,['crash']
+CASSANDRA-7569,IndexOutOfBoundsException when building SyntaxError message snippet,['message']
+CASSANDRA-11025,Too many compactions on certain node when too many empty tables are created,['node']
+CASSANDRA-12043,Syncing most recent commit in CAS across replicas can cause all CAS queries in the CQL partition to fail,"['replica', 'fail', 'partition']"
+CASSANDRA-12413,CompactionsCQLTest.testTriggerMinorCompactionDTCS fails,['fail']
+CASSANDRA-13020,Hint delivery fails when prefer_local enabled,['fail']
+CASSANDRA-6797,compaction and scrub data directories race on startup,['race']
+CASSANDRA-6883,"stress read fails with IOException ""Data returned was not validated""",['fail']
+CASSANDRA-10375,nodetool repair fails,"['node', 'fail']"
+CASSANDRA-11826,Repairs failing for some of bigger tables,['fail']
+CASSANDRA-10878, Unable to read obsolete message version 1; The earliest version supported is 2.0.0,['message']
+CASSANDRA-8009,nodetools -h host status is showing wrong load,['node']
+CASSANDRA-11604,select on table fails after changing user defined type in map,['fail']
+CASSANDRA-9560,Changing durable_writes on a keyspace is only applied after restart of node,"['node', 'restart']"
+CASSANDRA-8411,Cassandra stress tool fails with NotStrictlyPositiveException on example profiles,['fail']
+CASSANDRA-8229,Aggregate functions do not return expected values or metadata,['meta']
+CASSANDRA-7044,LWT with SERIAL consistency gives misleading message on WriteTimeout,['message']
+CASSANDRA-10390,inconsistent quoted identifier handling in UDTs,['consistent']
+CASSANDRA-10382,nodetool info doesn't show the correct DC and RACK,['node']
+CASSANDRA-9151,Anti-compaction is blocking ANTI_ENTROPY stage ,"['block', 'lock']"
+CASSANDRA-11939,Make Read and Write Latency columns consistent for proxyhistograms and tablehistograms,['consistent']
+CASSANDRA-10530,NullPointerException on running nodetool compactionhistory,['node']
+CASSANDRA-12844,nodetool drain causing mutiple nodes crashing with hint file corruption in Cassandra 3.9,"['node', 'node', 'crash', 'corrupt']"
+CASSANDRA-12753,"Create MV can corrupt C*, blocking all further table actions and startup","['block', 'corrupt', 'lock']"
+CASSANDRA-10293,Re-populate token metadata after commit log replay,['meta']
+CASSANDRA-13228,SASI index on partition key part doesn't match,['partition']
+CASSANDRA-12954,"system_distributed.view_build_status uses gc_gs of 0, but issues distributed deletes","['distributed', 'distributed']"
+CASSANDRA-11058,largecolumn_test.TestLargeColumn.cleanup_test is failing,['fail']
+CASSANDRA-12198,Deadlock in CDC during segment flush,['lock']
+CASSANDRA-12205,nodetool tablestats sstable count missing.,['node']
+CASSANDRA-11226,nodetool tablestats' keyspace-level metrics are wrong/misleading,['node']
+CASSANDRA-7862,KeyspaceTest fails with heap_buffers,['fail']
+CASSANDRA-12765,SSTable ignored incorrectly with partition level tombstone,['partition']
+CASSANDRA-7572,cassandra-env.sh fails to find Java version if JAVA_TOOL_OPTIONS in environment,['fail']
+CASSANDRA-11121,cqlsh_copy_test failing on 2.1,['fail']
+CASSANDRA-6803,nodetool getsstables converts key from String incorrectly,['node']
+CASSANDRA-12109,Configuring SSL for JMX connections forces requirement of local truststore,['connection']
+CASSANDRA-12815,cqlsh may throw AttributeError due to no table metadata,['meta']
+CASSANDRA-10380,SELECT count within a partition does not respect LIMIT,['partition']
+CASSANDRA-11275,sstableloader fails with java.lang.IllegalArgumentException: flags is not a column defined in this metadata,"['fail', 'meta']"
+CASSANDRA-10928,SSTableExportTest.testExportColumnsWithMetadata randomly fails,['fail']
+CASSANDRA-11169,add SASI validation for partitioner and complex columns,['partition']
+CASSANDRA-8054,EXECUTE request with skipMetadata=false gets no metadata in response,['meta']
+CASSANDRA-10962,Cassandra should not create snapshot at restart for compactions_in_progress,['restart']
+CASSANDRA-12522,nodetool repair -pr and -local option rejected,['node']
+CASSANDRA-9465,No client warning on tombstone threshold,['client']
+CASSANDRA-13172,compaction_large_partition_warning_threshold_mb not working properly when set to high value,['partition']
+CASSANDRA-11711,testJsonThreadSafety is failing / flapping,['fail']
+CASSANDRA-11633,cqlsh COPY FROM fails with []{} chars in UDT/tuple fields/values,['fail']
+CASSANDRA-11297,AssertionError in nodetool cfstats in 3.0 (Back port CASSANDRA-10859),['node']
+CASSANDRA-12368,Background read repair not fixing replicas,['replica']
+CASSANDRA-9422,SystemKeyspaceTest fails with non-release version string,['fail']
+CASSANDRA-12554,updateJobs in PendingRangeCalculatorService should be decremented in finally block,"['block', 'lock']"
+CASSANDRA-12435,Cassandra timeout when using secondary index in cluster mode.,['cluster']
+CASSANDRA-10176,nodetool status says ' Non-system keyspaces don't have the same replication settings' when they do,"['node', 'replica']"
+CASSANDRA-8640,Paxos requires all nodes for CAS,['node']
+CASSANDRA-9643,Warn when an extra-large partition is compacted,['partition']
+CASSANDRA-11005,Split consistent range movement flag,['consistent']
+CASSANDRA-10953,Make all timeouts configurable via nodetool and jmx,['node']
+CASSANDRA-9733,InsertUpdateIfCondition.testConditionalDelete is failing on trunk,['fail']
+CASSANDRA-10977,MV view_tombstone_test is failing on trunk,['fail']
+CASSANDRA-12208,"Estimated droppable tombstones given by sstablemetadata counts tombstones that aren't actually ""droppable""",['meta']
+CASSANDRA-11307,Inappropriate WARN log message for commit log sync delay when using commitlog_sync: batch,"['delay', 'message']"
+CASSANDRA-12962,SASI: Index are rebuilt on restart,['restart']
+CASSANDRA-13017,DISTINCT queries on partition keys and static column might not return all the results,['partition']
+CASSANDRA-11523,server side exception on secondary index query through thrift,['server']
+CASSANDRA-10634,Materialized Views filter paired endpoints to local DC even when not using DC-aware replication,['replica']
+CASSANDRA-8206,Deleting columns breaks secondary index on clustering column,['cluster']
+CASSANDRA-10955,Multi-partitions queries with ORDER BY can result in a NPE,['partition']
+CASSANDRA-10079,"LEAK DETECTED, after nodetool drain",['node']
+CASSANDRA-7451,Launch scripts on Windows don't handle spaces gracefully,['race']
+CASSANDRA-9688,Wrong CQL version in cqlsh prevent the client to connect to the server,"['client', 'server']"
+CASSANDRA-10288,Incremental repair can hang if replica aren't all up (was: Inconsistent behaviours on repair when a node in RF is missing),"['node', 'consistent', 'replica']"
+CASSANDRA-7803,"When compaction is interrupted, it leaves locked, undeletable files",['lock']
+CASSANDRA-12914,"cqlsh describe fails with ""list[i] not a string for i in...""",['fail']
+CASSANDRA-10391,sstableloader fails with client SSL enabled with non-standard keystore/truststore location,"['client', 'fail']"
+CASSANDRA-8578,LeveledCompactionStrategyTest.testGrouperLevels failings,['fail']
+CASSANDRA-8044,stop-server.bat fails to call powershell if there's a space in the directory name,"['fail', 'server']"
+CASSANDRA-10851,deb file conflict on sstablemetadata,['meta']
+CASSANDRA-13108,Uncaught exeption stack traces not logged,['race']
+CASSANDRA-10946,jemalloc detection fails due to quoting issues in regex,['fail']
+CASSANDRA-11184,cqlsh_tests.py:TestCqlsh.test_sub_second_precision is failing,['fail']
+CASSANDRA-12418,sstabledump JSON fails after row tombstone,['fail']
+CASSANDRA-11185,cqlsh_copy_tests.py:CqlshCopyTest.test_round_trip_with_sub_second_precision is failing,['fail']
+CASSANDRA-10127,Make naming for secondary indexes consistent,['consistent']
+CASSANDRA-10071,Unable to start Thrift RPC server in cassandra deployment created using cassandra-all,['server']
+CASSANDRA-7603,cqlsh fails to decode blobs,['fail']
+CASSANDRA-11736,LegacySSTableTest::testStreamLegacyCqlTables fails,['fail']
+CASSANDRA-8950,NullPointerException in nodetool getendpoints with non-existent keyspace or table,['node']
+CASSANDRA-10700,2.1 sstableloader will fail if there are collections in the schema tables,['fail']
+CASSANDRA-9031,nodetool info -T throws ArrayOutOfBounds when the node has not joined the cluster,"['node', 'node', 'cluster']"
+CASSANDRA-7669,nodetool fails to connect when ipv6 host is specified,"['node', 'fail']"
+CASSANDRA-12378,Creating SASI index on clustering column in presence of static column breaks writes,['cluster']
+CASSANDRA-11007,Exception when running nodetool info during bootstrap,['node']
+CASSANDRA-8796,'nodetool info' prints exception against older node,"['node', 'node']"
+CASSANDRA-11120,Leak Detected while bringing nodes up and down when under stress.,['node']
+CASSANDRA-9859,IndexedReader updateBlock exception,['lock']
+CASSANDRA-3727,Fix unit tests failure,['fail']
+CASSANDRA-646,Fix few minor problems in nodeprobe cfstats,['node']
+CASSANDRA-6397,removenode outputs confusing non-error,['node']
+CASSANDRA-2613,CQL test failures,['fail']
+CASSANDRA-6365,Bisect unit test failures on 2.0 branch,['fail']
+CASSANDRA-3508,requiring --debug to see stack traces for failures in cassandra-cli is a terrible idea (aka silent failure is never a valid option),"['fail', 'fail', 'race']"
+CASSANDRA-3939,occasional failure of CliTest,['fail']
+CASSANDRA-3444,Secondary Index doesn't clean up indexed CFS on remove and Streaming test failure.,['fail']
+CASSANDRA-3525,"Uncaught exceptions in CLI can produce obtuse ""null"" error message",['message']
+CASSANDRA-6770,failure to decode multiple UDT,['fail']
+CASSANDRA-4093,schema_* CFs do not respect column comparator which leads to CLI commands failure.,['fail']
+CASSANDRA-4003,cqlsh still failing to handle decode errors in some column names,['fail']
+CASSANDRA-6133,Tracing should deal with write failure,['fail']
+CASSANDRA-5529,thrift_max_message_length_in_mb makes long-lived connections error out,"['connection', 'message']"
+CASSANDRA-6004,"Performing a ""Select count(*)"" when replication factor < node count causes assertion error and timeout","['node', 'replica']"
+CASSANDRA-2570,CQL: incorrect error message running truncate on CF that does not exist,['message']
+CASSANDRA-4353,no error propagated to client when updating a column family with an invalid column def,['client']
+CASSANDRA-5647,Typo in error message in cqlsh (CQL3) when using more than one relation with a IN,['message']
+CASSANDRA-5954,Make nodetool ring print an error message and suggest nodetool status when vnodes are enabled,"['node', 'node', 'node', 'message']"
+CASSANDRA-5447,Include fatal errors in trace events,['race']
+CASSANDRA-6631,cassandra-stress failing in trunk,['fail']
+CASSANDRA-2388,"ColumnFamilyRecordReader fails for a given split because a host is down, even if records could reasonably be read from other replica.","['replica', 'fail']"
+CASSANDRA-5450,cluster : Host ID collision,['cluster']
+CASSANDRA-6414,BlacklistingCompactionsTest fails in trunk,['fail']
+CASSANDRA-4720,cqlsh fails to format timeuuid values,['fail']
+CASSANDRA-6541,New versions of Hotspot create new Class objects on every JMX connection causing the heap to fill up with them if CMSClassUnloadingEnabled isn't set.,['connection']
+CASSANDRA-4794,cassandra 1.2.0 beta: atomic_batch_mutate fails with Default TException,['fail']
+CASSANDRA-2240,nodetool scrub hangs or throws an exception,['node']
+CASSANDRA-1562,Create keyspace example in the help menu of the command line client doesn't work,['client']
+CASSANDRA-4494,nodetool can't work at all !,['node']
+CASSANDRA-6705,ALTER TYPE <type> RENAME <field> fails sometime with java.lang.AssertionError: null,['fail']
+CASSANDRA-3415,show schema fails,['fail']
+CASSANDRA-2169,user created with debian packaging is unable to increase memlock,['lock']
+CASSANDRA-1692,gen-thrift-py can fail but claims success,['fail']
+CASSANDRA-4695,CompactionsTest fails with timeout,['fail']
+CASSANDRA-6458,nodetool getendpoints doesn't validate key arity,['node']
+CASSANDRA-3057,secondary index on a column that has a value of size > 64k will fail on flush,['fail']
+CASSANDRA-5975,"Filtering on Secondary Index Takes a Long Time Even with Limit 1, Trace Log Filled with Looping Messages",['race']
+CASSANDRA-6517,Loss of secondary index entries if nodetool cleanup called before compaction,['node']
+CASSANDRA-5338,scripts fail when paths contain space,['fail']
+CASSANDRA-2189,json2sstable fails due to OutOfMemory,['fail']
+CASSANDRA-2809,"In the Cli, update column family <cf> with comparator; create Column metadata",['meta']
+CASSANDRA-6032,shuffle fails with NumberFormatException,['fail']
+CASSANDRA-6416,MoveTest fails in 1.2+,['fail']
+CASSANDRA-2248,ant javadoc fails on windows,['fail']
+CASSANDRA-644,Provide way to remove nodes from gossip entirely,['node']
+CASSANDRA-4669,Empty .cqlsh_history file causes cqlsh to crash on startup.,['crash']
+CASSANDRA-3540,Wrong check of partitioner for secondary indexes,['partition']
+CASSANDRA-2619,secondary index not dropped until restart,['restart']
+CASSANDRA-1649,Queries on system keyspace over thrift api all fail,['fail']
+CASSANDRA-944,system.test_thrift_server.TestMutations.test_batch_mutate_standard_columns appears to be non deterministic,['server']
+CASSANDRA-4289,Secondary Indexes fail following a system restart,"['fail', 'restart']"
+CASSANDRA-1286,Nodetool ring crashes when no schema is loaded,['crash']
+CASSANDRA-2952,"cassandra.bat fails when CASSANDRA_HOME contains a whitespace, again",['fail']
+CASSANDRA-282,system tests fail straingely if an instance is running,['fail']
+CASSANDRA-4810,unit test failing under long-test,['fail']
+CASSANDRA-2959,long-test fails to build,['fail']
+CASSANDRA-3827,nosetests / system tests fail,['fail']
+CASSANDRA-4202,"CQL 3.0 prepare_cql_query fails on ""BEGIN BATCH""",['fail']
+CASSANDRA-4192,CQL3: fix index dropping and assign default name if none provided at index creation,"['assign', 'assign']"
+CASSANDRA-3109,nodetool repair consuming large disk when it ran after increasing replication factor on live cluster,"['node', 'cluster', 'replica']"
+CASSANDRA-2258,service.SerializationsTest failes under cobertura,['fail']
+CASSANDRA-6184,Need a nodetool command to purge hints,['node']
+CASSANDRA-4394,Secondary index data gone after restart ,['restart']
+CASSANDRA-3059,sstable2json on an index sstable failed with NPE,['fail']
+CASSANDRA-6499,Shuffle fails if PasswordAuthenticator is enabled,['fail']
+CASSANDRA-1648,CliTest crashing intermittently,['crash']
+CASSANDRA-5097,cassandra-shuffle fails as system keyspace is not user-modifiable,['fail']
+CASSANDRA-5189,compact storage metadata is broken,['meta']
+CASSANDRA-1605,RemoveToken waits for dead nodes,['node']
+CASSANDRA-3139,Prevent users from creating keyspaces with LocalStrategy replication,['replica']
+CASSANDRA-4717,cqlsh fails to format values of ReversedType-wrapped classes,['fail']
+CASSANDRA-6301,nodetool fails with java.lang.UnsatisfiedLinkError (cannot find libjemalloc.so) when JEMalloc is configured,"['node', 'fail']"
+CASSANDRA-3738,sstable2json doesn't work for secondary index sstable due to partitioner mismatch,['partition']
+CASSANDRA-1772,"debian initscript sometimes mistakenly thinks it failed, gives extraneous output",['fail']
+CASSANDRA-306,Make nosetest retrieve the stdout and stderr message when Cassandra fails to start,"['fail', 'message']"
+CASSANDRA-1640,NPE in StorageService when cluster is first being created,['cluster']
+CASSANDRA-6418,auto_snapshots are not removable via 'nodetool clearsnapshot',['node']
+CASSANDRA-4719,"binary protocol: when an invalid event type is watched via a REGISTER message, the response message does not have an associated stream id","['message', 'message']"
+CASSANDRA-4077,ScrubTest failing on current 1.1.0 branch,['fail']
+CASSANDRA-4257,CQL3 range query with secondary index fails,['fail']
+CASSANDRA-3126,unable to remove column metadata via CLI,['meta']
+CASSANDRA-5512,forceTablePrimaryRange fails with nullpointer exception,['fail']
+CASSANDRA-3288,CfDef can default to an invalid id and fail during system_add_column_family,['fail']
+CASSANDRA-2933,nodetool hangs (doesn't return prompt) if you specify a table that doesn't exist or a KS that has no CF's,['node']
+CASSANDRA-6232,Installation shouldn't fail if /etc/sysctl.d/cassandra is deleted,['fail']
+CASSANDRA-4995,CompactionSerializerTest fails to find jemalloc,['fail']
+CASSANDRA-1639,NPE in StorageService when cluster is first being created,['cluster']
