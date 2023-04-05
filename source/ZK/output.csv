@@ -1,151 +1,326 @@
-Issue_key,keyword
-ZOOKEEPER-1262,"['node', 'node']"
-ZOOKEEPER-2926,"['node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower']"
-ZOOKEEPER-1340,['node']
-ZOOKEEPER-313,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'cluster']"
-ZOOKEEPER-4311,"['leader', 'leader', 'election']"
-ZOOKEEPER-4305,"['network', 'remote']"
-ZOOKEEPER-2775,"['network', 'network', 'cluster']"
-ZOOKEEPER-1695,['consistent']
-ZOOKEEPER-1883,['consistent']
-ZOOKEEPER-2886,"['leader', 'follower']"
-ZOOKEEPER-3128,['node']
-ZOOKEEPER-1521,"['leader', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1237,"['election', 'election', 'election', 'election']"
-ZOOKEEPER-3531,"['node', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'follower', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-914,"['leader', 'follower', 'follower', 'cluster']"
-ZOOKEEPER-2355,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'leader', 'follower', 'follower', 'follower', 'cluster']"
-ZOOKEEPER-1465,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-1366,"['clock', 'clock']"
-ZOOKEEPER-3145,"['node', 'node', 'node', 'node', 'node', 'consistent']"
-ZOOKEEPER-2212,"['leader', 'leader', 'follower', 'follower', 'follower']"
-ZOOKEEPER-3479,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster']"
-ZOOKEEPER-2982,"['leader', 'cluster', 'cluster']"
-ZOOKEEPER-1933,"['delay', 'delay', 'delay']"
-ZOOKEEPER-2006,['leader']
-ZOOKEEPER-2893,"['network', 'network']"
-ZOOKEEPER-1294,"['node', 'node', 'leader', 'cluster']"
-ZOOKEEPER-1700,"['leader', 'leader', 'leader', 'follower', 'follower', 'election', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-2418,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'cluster', 'cluster']"
-ZOOKEEPER-2052,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-1870,"['leader', 'election']"
-ZOOKEEPER-1367,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'consistent']"
-ZOOKEEPER-2323,"['network', 'network']"
-ZOOKEEPER-2845,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-4325,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-2412,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader']"
-ZOOKEEPER-2224,"['network', 'network', 'network']"
-ZOOKEEPER-3758,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster']"
-ZOOKEEPER-1576,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-3104,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'consistent']"
-ZOOKEEPER-1514,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'election', 'election']"
-ZOOKEEPER-4275,"['delay', 'delay', 'delay', 'consistent', 'recovery', 'recovery']"
-ZOOKEEPER-2934,['election']
-ZOOKEEPER-1846,"['node', 'election']"
-ZOOKEEPER-2804,['node']
-ZOOKEEPER-3706,"['network', 'network', 'network', 'network']"
-ZOOKEEPER-3725,['cluster']
-ZOOKEEPER-2009,['node']
-ZOOKEEPER-4475,['node']
-ZOOKEEPER-1789,"['election', 'election', 'cluster']"
-ZOOKEEPER-876,"['leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1361,"['follower', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1894,"['leader', 'follower', 'consistent', 'consistent']"
-ZOOKEEPER-1807,"['election', 'election']"
-ZOOKEEPER-4565,['node']
-ZOOKEEPER-2210,"['clock', 'clock', 'clock', 'clock']"
-ZOOKEEPER-3988,['cluster']
-ZOOKEEPER-3306,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'consistent']"
-ZOOKEEPER-1878,['consistent']
-ZOOKEEPER-2808,"['node', 'node', 'node', 'node', 'node', 'node', 'leader', 'follower']"
-ZOOKEEPER-1906,"['node', 'node']"
-ZOOKEEPER-1560,"['node', 'node']"
-ZOOKEEPER-3776,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'delay', 'delay', 'delay', 'cluster']"
-ZOOKEEPER-1616,['clock']
-ZOOKEEPER-1277,"['follower', 'follower']"
-ZOOKEEPER-1840,"['election', 'election', 'election', 'election']"
-ZOOKEEPER-1910,"['node', 'node']"
-ZOOKEEPER-2783,"['node', 'node', 'leader', 'follower', 'follower', 'cluster']"
-ZOOKEEPER-1864,['election']
-ZOOKEEPER-2547,"['node', 'node', 'node']"
-ZOOKEEPER-1357,['leader']
-ZOOKEEPER-366,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'clock', 'clock']"
-ZOOKEEPER-2691,"['network', 'network', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election']"
-ZOOKEEPER-4247,['cluster']
-ZOOKEEPER-1747,['consistent']
-ZOOKEEPER-1496,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-3471,"['node', 'node', 'node']"
-ZOOKEEPER-786,['cluster']
-ZOOKEEPER-1304,"['node', 'node']"
-ZOOKEEPER-1813,['node']
-ZOOKEEPER-2319,"['node', 'node', 'node', 'leader']"
-ZOOKEEPER-1851,['leader']
-ZOOKEEPER-2978,['node']
-ZOOKEEPER-1412,"['node', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-2325,"['node', 'node', 'node', 'node', 'cluster']"
-ZOOKEEPER-2931,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-ZOOKEEPER-2193,"['node', 'node', 'election']"
-ZOOKEEPER-2338,['leader']
-ZOOKEEPER-1489,"['node', 'node', 'node', 'node', 'network']"
-ZOOKEEPER-1118,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent']"
-ZOOKEEPER-3001,"['node', 'node']"
-ZOOKEEPER-3778,"['leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-1211,['consistent']
-ZOOKEEPER-2819,['node']
-ZOOKEEPER-2872,"['leader', 'leader']"
-ZOOKEEPER-2774,"['node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-ZOOKEEPER-1900,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election']"
-ZOOKEEPER-4194,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-ZOOKEEPER-4316,"['node', 'node', 'network', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster']"
-ZOOKEEPER-1740,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'cluster']"
-ZOOKEEPER-1987,"['node', 'node', 'leader', 'cluster', 'cluster']"
-ZOOKEEPER-2310,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'follower', 'election', 'recovery', 'recovery', 'recovery']"
-ZOOKEEPER-1332,"['node', 'node', 'leader', 'leader', 'leader']"
-ZOOKEEPER-3513,['node']
-ZOOKEEPER-1295,['node']
-ZOOKEEPER-1650,"['consistent', 'consistent']"
-ZOOKEEPER-1782,"['node', 'node', 'node']"
-ZOOKEEPER-1997,['cluster']
-ZOOKEEPER-2901,"['node', 'node', 'node']"
-ZOOKEEPER-995,['node']
-ZOOKEEPER-2151,"['node', 'leader', 'follower', 'follower', 'election']"
-ZOOKEEPER-4367,['cluster']
-ZOOKEEPER-1492,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-2316,['follower']
-ZOOKEEPER-3199,"['cluster', 'cluster']"
-ZOOKEEPER-3399,"['leader', 'follower', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-1779,"['replica', 'replica']"
-ZOOKEEPER-1769,"['node', 'node', 'node']"
-ZOOKEEPER-1483,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election']"
-ZOOKEEPER-1380,['consistent']
-ZOOKEEPER-1419,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-ZOOKEEPER-2852,['leader']
-ZOOKEEPER-1353,['consistent']
-ZOOKEEPER-1048,['node']
-ZOOKEEPER-1699,"['leader', 'leader', 'leader', 'leader']"
-ZOOKEEPER-3373,"['follower', 'follower', 'cluster']"
-ZOOKEEPER-1891,['consistent']
-ZOOKEEPER-1128,['node']
-ZOOKEEPER-2198,['consistent']
-ZOOKEEPER-939,"['network', 'leader', 'cluster']"
-ZOOKEEPER-2949,"['cluster', 'cluster']"
-ZOOKEEPER-2923,['leader']
-ZOOKEEPER-1949,"['election', 'election']"
-ZOOKEEPER-1930,['election']
-ZOOKEEPER-1404,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'election', 'election']"
-ZOOKEEPER-1819,['node']
-ZOOKEEPER-2725,['node']
-ZOOKEEPER-2178,"['clock', 'clock']"
-ZOOKEEPER-2556,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster']"
-ZOOKEEPER-3296,"['network', 'network', 'leader', 'election']"
-ZOOKEEPER-3117,"['follower', 'follower', 'follower', 'follower']"
-ZOOKEEPER-1395,['node']
-ZOOKEEPER-2186,"['election', 'cluster']"
-ZOOKEEPER-3144,"['node', 'leader', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent']"
-ZOOKEEPER-2953,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower']"
-ZOOKEEPER-4360,"['node', 'node', 'leader', 'follower']"
-ZOOKEEPER-1220,"['node', 'node', 'node', 'node']"
-ZOOKEEPER-2249,"['node', 'node']"
-ZOOKEEPER-3016,"['node', 'node']"
-ZOOKEEPER-2082,"['election', 'election', 'election']"
-ZOOKEEPER-1628,['node']
+Issue_key,Summary,keyword
+ZOOKEEPER-1262,Documentation for Lock recipe has major flaw,"['node', 'node', 'client', 'crash', 'crash', 'server', 'server']"
+ZOOKEEPER-2926,Data inconsistency issue due to the flaw in the session management,"['node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1340,multi problem - typical user operations are generating ERROR level messages in the server,"['node', 'message', 'message', 'message', 'server', 'server', 'server']"
+ZOOKEEPER-313,Problem with successive leader failures when no client is connected ,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'cluster', 'client', 'client', 'client', 'fail', 'fail']"
+ZOOKEEPER-4269,acceptedEpoch.tmp rename failure will cause server startup error,"['fail', 'message', 'server', 'server']"
+ZOOKEEPER-2173,ZK startup failure should be handled with proper error message,"['fail', 'fail', 'fail', 'message', 'message']"
+ZOOKEEPER-2684,Fix a crashing bug in the mixed workloads commit processor,"['client', 'client', 'client', 'client', 'crash', 'crash', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2060,Trace bug in NettyServerCnxnFactory,"['lock', 'lock', 'race', 'race', 'server']"
+ZOOKEEPER-4311,Fsync errors are ignored in AtomicFileWritingIdiom,"['leader', 'leader', 'election', 'fail', 'server', 'server']"
+ZOOKEEPER-4305,log4j CVE problem,"['network', 'remote']"
+ZOOKEEPER-916,Problem receiving messages from subscribed channels in c++ client ,"['client', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message']"
+ZOOKEEPER-2775,ZK Client not able to connect with Xid out of order error ,"['network', 'network', 'cluster', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2108,Compilation error in ZkAdaptor.cc with GCC 4.7 or later,['fail']
+ZOOKEEPER-2989,IPv6 literal address causes problems for Quorum members,"['connection', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1712,transient test failure in TestReconfig.cc,"['fail', 'fail']"
+ZOOKEEPER-2049,Yosemite build failure: htonll conflict,['fail']
+ZOOKEEPER-1695,Inconsistent error code and type for new errors introduced by dynamic reconfiguration  ,['consistent']
+ZOOKEEPER-1662,Fix to two small bugs in ReconfigTest.testPortChange(),['client']
+ZOOKEEPER-653,hudson failure in LETest,['fail']
+ZOOKEEPER-1883,C client unit test failures,"['consistent', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2886,Permanent session moved error in multi-op only connections,"['leader', 'follower', 'client', 'client', 'client', 'connection', 'connection']"
+ZOOKEEPER-3128,Get CLI Command displays Authentication error for Authorization error,['node']
+ZOOKEEPER-2760,"AAch64 build error: Error: unknown mnemonic `lock' -- `lock xaddl x1,[x0]'","['fail', 'lock', 'lock', 'lock', 'lock', 'message']"
+ZOOKEEPER-2472,ServerConfig#parse(String[]) parse params has problems,['client']
+ZOOKEEPER-1521,LearnerHandler initLimit/syncLimit problems specifying follower socket timeout limits,"['leader', 'follower', 'follower', 'follower']"
+ZOOKEEPER-2491,C client build error in vs 2015 ,['client']
+ZOOKEEPER-1440,Spurious log error messages when QuorumCnxManager is shutting down,"['message', 'server']"
+ZOOKEEPER-1237,ERRORs being logged when queued responses are sent after socket has closed.,"['election', 'election', 'election', 'election', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4008,"""package org.junit.jupiter.api does not exist"" compilation error in Branch 3.6","['server', 'server']"
+ZOOKEEPER-2096,C client builds with incorrect error codes in VisualStudio 2010+,['client']
+ZOOKEEPER-3531,Synchronization on ACLCache cause cluster to hang when network/disk issues happen during datatree serialization,"['node', 'network', 'network', 'network', 'network', 'network', 'leader', 'leader', 'leader', 'leader', 'follower', 'delay', 'delay', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'block', 'block', 'block', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1451,C API improperly logs getaddrinfo failures on Linux when using glibc,['fail']
+ZOOKEEPER-1522,intermittent failures in Zab test due to NPE in recursiveDelete test function,"['fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4342,Robustify C client against errors during SASL negotiation,"['client', 'client', 'crash']"
+ZOOKEEPER-914,QuorumCnxManager blocks forever ,"['leader', 'follower', 'follower', 'cluster', 'block', 'block', 'block', 'fail', 'lock', 'lock', 'lock', 'lock', 'server', 'server']"
+ZOOKEEPER-2355,Ephemeral node is never deleted if follower fails while reading the proposal packet,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'leader', 'follower', 'follower', 'follower', 'cluster', 'fail', 'fail', 'fail', 'server', 'server']"
+ZOOKEEPER-2841,ZooKeeper public include files leak porting changes,['client']
+ZOOKEEPER-1594,TestReconfig intermittently fails,"['client', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail']"
+ZOOKEEPER-1100,Killed (or missing) SendThread will cause hanging threads,"['connection', 'fail']"
+ZOOKEEPER-1465,Cluster availability following new leader election takes a long time with large datasets - is correlated to dataset size,"['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'fail', 'fail', 'restart']"
+ZOOKEEPER-1863,"Race condition in commit processor leading to out of order request completion, xid mismatch on client.","['block', 'block', 'block', 'block', 'client', 'client', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'race', 'server']"
+ZOOKEEPER-1366,Zookeeper should be tolerant of clock adjustments,"['clock', 'clock', 'fail', 'lock', 'lock']"
+ZOOKEEPER-3145,Potential watch missing issue due to stale pzxid when replaying CloseSession txn with fuzzy snapshot,"['node', 'node', 'node', 'node', 'node', 'consistent', 'client']"
+ZOOKEEPER-2212,distributed race condition related to QV version,"['leader', 'leader', 'follower', 'follower', 'follower', 'distributed', 'distributed', 'distributed', 'distributed', 'message', 'race', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-1797,PurgeTxnLog may delete data logs during roll,['server']
+ZOOKEEPER-3479,Logging false leader election times,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2982,Re-try DNS hostname -> IP resolution,"['leader', 'cluster', 'cluster', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1933,Windows release build of zk client cannot connect to zk server,"['delay', 'delay', 'delay', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2006,Standalone mode won't take client port from dynamic config,"['leader', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'distributed', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1835,dynamic configuration file renaming fails on Windows,"['fail', 'fail', 'server']"
+ZOOKEEPER-2893,very poor choice of logging if client fails to connect to server,"['network', 'network', 'client', 'connection', 'connection', 'fail', 'fail', 'fail', 'message', 'message', 'message', 'message', 'message', 'message', 'race', 'race', 'race', 'server', 'server']"
+ZOOKEEPER-1936,Server exits when unable to create data directory due to race ,"['fail', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1294,One of the zookeeper server is not accepting any requests,"['node', 'node', 'leader', 'cluster', 'client', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1700,FLETest consistently failing - setLastSeenQuorumVerifier seems to be hanging,"['leader', 'leader', 'leader', 'follower', 'follower', 'election', 'consistent', 'consistent', 'consistent', 'fail', 'fail', 'message', 'message', 'message', 'server', 'server', 'server']"
+ZOOKEEPER-740,zkpython leading to segfault on zookeeper,['crash']
+ZOOKEEPER-2418,txnlog diff sync can skip sending some transactions to followers,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'cluster', 'cluster', 'connection']"
+ZOOKEEPER-2052,Unable to delete a node when the node has no children,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'client', 'client', 'fail', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'server']"
+ZOOKEEPER-1870,flakey test in StandaloneDisabledTest.startSingleServerTest,"['leader', 'election', 'client', 'fail', 'server', 'restart']"
+ZOOKEEPER-1367,Data inconsistencies and unexpired ephemeral nodes after cluster restart,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'election', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'consistent', 'client', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart', 'restart', 'restart']"
+ZOOKEEPER-1683,ZooKeeper client NPE when updating server list on disconnected client,"['client', 'client', 'client', 'client', 'client', 'client', 'server', 'server']"
+ZOOKEEPER-2323,ZooKeeper client enters into infinite AuthFailedException cycle if its unable to recreate Kerberos ticket,"['network', 'network', 'client', 'client', 'client', 'fail', 'server']"
+ZOOKEEPER-2078,"zkServer.sh uses pattern unsupported by ""grep"" on Solaris","['client', 'fail', 'server']"
+ZOOKEEPER-1620,NIOServerCnxnFactory (new code introduced in ZK-1504) opens selectors but never closes them,"['fail', 'message', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2845,Data inconsistency issue due to retain database in leader election,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'election', 'election', 'election', 'election', 'consistent', 'consistent', 'consistent', 'message', 'server', 'server', 'server', 'restart', 'restart', 'restart']"
+ZOOKEEPER-1974,"winvs2008 jenkins job failing with ""unresolved external symbol""","['fail', 'fail']"
+ZOOKEEPER-3803,FileTxnSnapLog.fastForwardFromEdits() throws NPE if TestingServer is started from another thread,"['lock', 'lock', 'lock', 'lock', 'race', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4325,"IllegalArgumentException when use ZkUtil::listSubTreeBFS to list ""/""","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'server']"
+ZOOKEEPER-2412,"leader zk out of memory,  and leader db lastZxid is not update when process set data. ","['node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'client', 'client', 'client', 'client', 'client', 'connection', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2224,Four letter command hangs when network is slow,"['network', 'network', 'network']"
+ZOOKEEPER-4343,"OWASP Dependency-Check fails with CVE-2021-29425, commons-io-2.6",['fail']
+ZOOKEEPER-3758,Update from 3.5.7 to 3.6.0 does not work,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster', 'client', 'message', 'message', 'message', 'message', 'message', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2171,avoid reverse lookups in QuorumCnxManager,"['fail', 'server']"
+ZOOKEEPER-1576,Zookeeper cluster - failed to connect to cluster if one of the provided IPs causes java.net.UnknownHostException,"['cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'block', 'block', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2213,Empty path in Set crashes server and prevents restart,"['crash', 'crash', 'crash', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart', 'restart']"
+ZOOKEEPER-1437,Client uses session before SASL authentication complete,"['client', 'fail', 'region', 'server']"
+ZOOKEEPER-3104,Potential data inconsistency due to NEWLEADER packet being sent too early during SNAP sync,"['leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'consistent', 'crash', 'server']"
+ZOOKEEPER-2124,Allow Zookeeper version string to have underscore '_',"['fail', 'fail', 'race', 'race']"
+ZOOKEEPER-1561,Zookeeper client may hang on a server restart,"['client', 'client', 'server', 'restart']"
+ZOOKEEPER-1836,addrvec_next() fails to set next parameter if addrvec_hasnext() returns false,"['assign', 'assign', 'fail', 'assign', 'assign']"
+ZOOKEEPER-1514,FastLeaderElection - leader ignores the round information when joining a quorum,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'election', 'election', 'fail', 'fail', 'fail', 'server', 'server', 'restart', 'restart', 'restart']"
+ZOOKEEPER-4275,"Slowness in sasl login or subject.doAs() causes zk client to falsely assume that the server did not respond, closes connection and goes to unnecessary retries","['delay', 'delay', 'delay', 'consistent', 'recovery', 'recovery', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2757,Incorrect path crashes zkCli,"['crash', 'crash', 'crash', 'fail']"
+ZOOKEEPER-1937,init script needs fixing for ZOOKEEPER-1719,['fail']
+ZOOKEEPER-2722,Flaky Test: org.apache.zookeeper.test.ReadOnlyModeTest.testSessionEstablishment,['race']
+ZOOKEEPER-1833,fix windows build,"['fail', 'server']"
+ZOOKEEPER-2197,non-ascii character in FinalRequestProcessor.java,['server']
+ZOOKEEPER-4246,Resource leaks in org.apache.zookeeper.server.persistence.SnapStream#getInputStream and #getOutputStream,"['assign', 'assign', 'server', 'server', 'server']"
+ZOOKEEPER-2934,c versions of election and queue recipes do not compile,"['election', 'message']"
+ZOOKEEPER-1846,Cached InetSocketAddresses prevent proper dynamic DNS resolution,"['node', 'election', 'connection', 'fail', 'server', 'restart']"
+ZOOKEEPER-2804,Node creation fails with NPE if ACLs are null,"['node', 'client', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3231, Purge task may lost data when the recent snapshots are all invalid,['server']
+ZOOKEEPER-3706,ZooKeeper.close() would leak SendThread when the network is broken,"['network', 'network', 'network', 'network', 'block', 'block', 'client', 'lock', 'lock']"
+ZOOKEEPER-3797,Conflict between fatjar and full-build Maven profiles in branch-3.6,['race']
+ZOOKEEPER-3725,Zookeeper fails to establish quorum with 2 servers using 3.5.6,"['cluster', 'fail', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2009,zkCli does not execute command passed as arguments,"['node', 'fail']"
+ZOOKEEPER-4475,Persistent recursive watcher got NodeChildrenChanged event,"['node', 'client', 'server']"
+ZOOKEEPER-1789,3.4.x observer causes NPE on 3.5.0 (trunk) participants,"['election', 'election', 'cluster', 'assign', 'block', 'connection', 'lock', 'assign', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-876,Unnecessary snapshot transfers between new leader and followers,"['leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'follower']"
+ZOOKEEPER-1361,Leader.lead iterates over 'learners' set without proper synchronisation,"['follower', 'follower', 'follower', 'follower', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+ZOOKEEPER-2743,Netty connection leaks JMX connection bean upon connection close in certain race conditions.,"['client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'race', 'race', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1894,ObserverTest.testObserver fails consistently,"['leader', 'follower', 'consistent', 'consistent', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1807,Observers spam each other creating connections to the election addr,"['election', 'election', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4245,Resource leaks in org.apache.zookeeper.server.persistence.SnapStream#getInputStream and #getOutputStream,"['assign', 'assign', 'server', 'server', 'server']"
+ZOOKEEPER-517,NIO factory fails to close connections when the number of file handles run out.,"['connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail']"
+ZOOKEEPER-4565,Config watch path get truncated abnormally and fail chroot zookeeper client,"['node', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4210,Zookeeper c client: detect connection loss during opportunistic async send,"['block', 'client', 'client', 'client', 'client', 'connection', 'lock', 'message', 'server']"
+ZOOKEEPER-2210,clock_gettime is not available in os x,"['clock', 'clock', 'clock', 'clock', 'lock', 'lock', 'lock', 'lock']"
+ZOOKEEPER-2056,Zookeeper 3.4.x and 3.5.0-alpha is not OSGi compliant,"['client', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1932,Remove deprecated LeaderElection class,"['fail', 'fail']"
+ZOOKEEPER-2146,BinaryInputArchive readString should check length before allocating memory,"['crash', 'server']"
+ZOOKEEPER-1992,backward compatibility of zoo.cfg,"['client', 'server', 'server']"
+ZOOKEEPER-3988,org.apache.zookeeper.server.NettyServerCnxn.receiveMessage throws NullPointerException,"['cluster', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3306,Node may not accessible due the the inconsistent ACL reference map after SNAP sync ,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'consistent', 'server']"
+ZOOKEEPER-1878,Inconsistent behavior in autocreation of dataDir and dataLogDir,"['consistent', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2808,ACL with index 1 might be removed if it's only being used once,"['node', 'node', 'node', 'node', 'node', 'node', 'leader', 'follower', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1906,zkpython: invalid data in GetData for empty node,"['node', 'node']"
+ZOOKEEPER-4296,NullPointerException when ClientCnxnSocketNetty is closed without being opened,"['client', 'server', 'server', 'server']"
+ZOOKEEPER-1966,VS and line breaks,['client']
+ZOOKEEPER-1560,Zookeeper client hangs on creation of large nodes,"['node', 'node', 'client', 'client', 'server', 'server']"
+ZOOKEEPER-3776,Cluster stuck not forming up quorum ,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'delay', 'delay', 'delay', 'cluster', 'client', 'client', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1616,time calculations should use a monotonic clock,"['clock', 'lock']"
+ZOOKEEPER-2278,4lw command stmk throws NullPointerException,['fail']
+ZOOKEEPER-1277,servers stop serving when lower 32bits of zxid roll over,"['follower', 'follower', 'client', 'client', 'message', 'server']"
+ZOOKEEPER-2859,CMake build doesn't support OS X,['client']
+ZOOKEEPER-3025,cmake windows build is broken on jenkins,['fail']
+ZOOKEEPER-1840,Server tries to connect to itself during dynamic reconfig,"['election', 'election', 'election', 'election', 'client', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-978,ZookeeperServer does not close zk database on shutdwon,['fail']
+ZOOKEEPER-1910,RemoveWatches wrongly removes the watcher if multiple watches exists on a path,"['node', 'node', 'client', 'client', 'server']"
+ZOOKEEPER-2783,follower disconnects and cannot reconnect,"['node', 'node', 'leader', 'follower', 'follower', 'cluster', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-1582,EndOfStreamException: Unable to read additional data from client,"['block', 'client', 'client', 'client', 'client', 'connection', 'lock', 'server', 'server']"
+ZOOKEEPER-1864,quorumVerifier is null when creating a QuorumPeerConfig from parsing a Properties object,"['election', 'server', 'server', 'server']"
+ZOOKEEPER-2547,IP ACL is not working with NettyServerCnxnFactory,"['node', 'node', 'node', 'fail', 'server', 'server', 'server']"
+ZOOKEEPER-1357,"Zab1_0Test uses hard-wired port numbers. Specifically, it uses the same port for leader in two different tests. The second test periodically fails complaining that the port is still in use.","['leader', 'assign', 'assign', 'connection', 'fail', 'assign', 'assign', 'server', 'server', 'server']"
+ZOOKEEPER-1214,QuorumPeer should unregister only its previsously registered MBeans instead of use MBeanRegistry.unregisterAll() method.,"['fail', 'server', 'server', 'server', 'server', 'server', 'server', 'restart', 'restart']"
+ZOOKEEPER-2347,Deadlock shutting down zookeeper,"['client', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-366,Session timeout detection can go wrong if the leader system time changes,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'clock', 'clock', 'lock', 'lock']"
+ZOOKEEPER-4278,dependency-check:check failing - netty-transport-4.1.60.Final CVE-2021-21409 ,['fail']
+ZOOKEEPER-2691,recreateSocketAddresses may recreate the unreachable IP address,"['network', 'network', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election']"
+ZOOKEEPER-4247,NPE while processing message from restarted quorum member,"['cluster', 'client', 'message', 'race', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-4445,branch-3.6 txnLogCountTest use wrong version of Junit Assert import,"['fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3546,Containers that never have children stay forever,['race']
+ZOOKEEPER-2376,Server fails to start if there is a zero-length TxnLog file present in the log directory,"['crash', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1540,ZOOKEEPER-1411 breaks backwards compatibility,"['client', 'server']"
+ZOOKEEPER-4347,Flaky test: EagerACLFilterTest.testSetDataFail,['fail']
+ZOOKEEPER-1747,Zookeeper server fails to start if transaction log file is corrupted,"['consistent', 'corrupt', 'fail', 'fail', 'fail', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-805,four letter words fail with latest ubuntu nc.openbsd,"['fail', 'fail', 'server']"
+ZOOKEEPER-1496,Ephemeral node not getting cleared even after client has exited,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'client', 'connection', 'fail', 'fail', 'lock', 'parallel', 'server']"
+ZOOKEEPER-3471,Potential lock unavailable due to dangling ephemeral nodes left during local session upgrading,"['node', 'node', 'node', 'client', 'lock', 'race']"
+ZOOKEEPER-2964,"""Conf"" command returns dataDir and dataLogDir opposingly","['server', 'server']"
+ZOOKEEPER-1888,"ZkCli.cmd commands fail with ""'java' is not recognized as an internal or external command""",['fail']
+ZOOKEEPER-886,"Hedwig Server stays in ""disconnected"" state when connection to ZK dies but gets reconnected","['client', 'connection', 'fail', 'server', 'server']"
+ZOOKEEPER-2785,Server inappropriately throttles connections under load before SASL completes,"['client', 'client', 'client', 'connection', 'connection', 'connection', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2221,Zookeeper JettyAdminServer server should start on configured IP.,"['server', 'server', 'server', 'server']"
+ZOOKEEPER-2190,"In StandaloneDisabledTest, testReconfig() shouldn't take leaving servers as joining servers","['server', 'server']"
+ZOOKEEPER-786,Exception in ZooKeeper.toString,"['cluster', 'client', 'connection']"
+ZOOKEEPER-1309,Creating a new ZooKeeper client can leak file handles,"['client', 'connection', 'server']"
+ZOOKEEPER-1304,"[IGNORE THIS --- MOVING TO BOOKKEEPER JIRA] publish and subscribe methods get ServiceDownException even when the hubs, bookies, and zookeepers are running","['node', 'node', 'message', 'server', 'server']"
+ZOOKEEPER-1813,Zookeeper restart fails due to missing node from snapshot,"['node', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart', 'restart']"
+ZOOKEEPER-2319,UnresolvedAddressException cause the QuorumCnxManager.Listener exit,"['node', 'node', 'node', 'leader', 'client']"
+ZOOKEEPER-1851,Follower and Observer Request Processors Do Not Forward create2 Requests,"['leader', 'client', 'server', 'server']"
+ZOOKEEPER-4204,Flaky test - RequestPathMetricsCollectorTest.testMultiThreadPerf,"['fail', 'server']"
+ZOOKEEPER-2978,fix potential null pointer exception when deleting node,"['node', 'client', 'client']"
+ZOOKEEPER-1412,java client watches inconsistently triggered on reconnect,"['node', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent', 'consistent', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2111,Not isAlive states should be synchronized in ClientCnxn,"['race', 'race']"
+ZOOKEEPER-2960,The dataDir and dataLogDir are used opposingly,"['server', 'server', 'server', 'server']"
+ZOOKEEPER-2325,Data inconsistency if all snapshots empty or missing,"['node', 'node', 'node', 'node', 'cluster']"
+ZOOKEEPER-2931,WriteLock recipe: incorrect znode ordering when the sessionId is part of the znode name,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'client', 'lock']"
+ZOOKEEPER-2054,test-patch.sh: don't set ulimit -n,['fail']
+ZOOKEEPER-2029,Leader.LearnerCnxAcceptor should handle exceptions in run(),['crash']
+ZOOKEEPER-1952,Default log directory and file name can be changed,['server']
+ZOOKEEPER-1417,investigate differences in client last zxid handling btw c and java clients,"['client', 'client', 'client']"
+ZOOKEEPER-2193,reconfig command completes even if parameter is wrong obviously,"['node', 'node', 'election', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2338,c bindings should create socket's with SOCK_CLOEXEC to avoid fd leaks on fork/exec,['leader']
+ZOOKEEPER-3082,Fix server snapshot behavior when out of disk space,"['fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-1783,Distinguish initial configuration from first established configuration,['server']
+ZOOKEEPER-1489,Data loss after truncate on transaction log,"['node', 'node', 'node', 'node', 'network', 'connection', 'message', 'server', 'server', 'server']"
+ZOOKEEPER-4244,Resource leaks in org.apache.zookeeper.server.persistence.SnapStream#getInputStream and #getOutputStream,"['assign', 'assign', 'server', 'server', 'server']"
+ZOOKEEPER-1118,Inconsistent data after server crashes several times,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'consistent', 'consistent', 'crash', 'crash', 'crash', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-4011,Maven build fails on branch-3.6 because of jUnit 5 usage in DIFFSyncConsistencyTest,"['fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3001,Incorrect log message when try to delete container node,"['node', 'node', 'message', 'message']"
+ZOOKEEPER-3778,Cannot upgrade from 3.5.7 to 3.6.0 due to multiAddress.reachabilityCheckEnabled,"['leader', 'leader', 'leader', 'leader', 'election', 'delay', 'cluster', 'cluster', 'cluster', 'connection', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3280,ClientCnxn xid rollover can break sessions,"['client', 'client', 'client', 'connection', 'connection', 'connection', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1427,Writing to local files is done non-atomically,['crash']
+ZOOKEEPER-1211,C client's package name,"['consistent', 'client', 'client', 'client', 'client']"
+ZOOKEEPER-2819,Changing membership configuration via rolling restart does not work on 3.5.x.,"['node', 'restart', 'restart', 'restart', 'restart']"
+ZOOKEEPER-1862,ServerCnxnTest.testServerCnxnExpiry is intermittently failing,"['client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'race', 'server', 'server', 'server']"
+ZOOKEEPER-2872,Interrupted snapshot sync causes data loss,"['leader', 'leader', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1538,Improve space handling in zkServer.sh and zkEnv.sh,['fail']
+ZOOKEEPER-4446,branch-3.6 txnLogCountTest use wrong version of Junit Assert import,"['fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2072,Netty Server Should Configure Child Channel Pipeline By Specifying ChannelPipelineFactory,"['connection', 'server', 'server', 'server']"
+ZOOKEEPER-2774,"Ephemeral znode will not be removed when sesstion timeout, if the system time of ZooKeeper node changes unexpectedly.","['node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'client', 'client', 'server']"
+ZOOKEEPER-1795,unable to build c client on ubuntu,['client']
+ZOOKEEPER-1900, NullPointerException in truncate,"['leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'assign', 'connection', 'connection', 'connection', 'assign', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3072,Race condition in throttling,"['client', 'client', 'fail', 'fail', 'lock', 'message', 'race', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4194,ZooInspector throws NullPointerExceptions to console when node data is null,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
+ZOOKEEPER-1014,"DateFormat.getDateTimeInstance() is very expensive, we can cache it to improve performance","['race', 'server']"
+ZOOKEEPER-4316,Leader election fails due to SocketTimeoutException in QuorumCnxManager,"['node', 'node', 'network', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster', 'connection', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1740,Zookeeper 3.3.4 loses ephemeral nodes under stress,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'cluster', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'server', 'server']"
+ZOOKEEPER-2042,zkServer.sh does not work properly on Solaris,['fail']
+ZOOKEEPER-1318,"In Python binding, get_children (and get and exists, and probably others) with expired session doesn't raise exception properly",['race']
+ZOOKEEPER-1942,ZooKeeper OSGi package imports: org.ietf.jgss dependency missing from manifest,['client']
+ZOOKEEPER-1373,Hardcoded SASL login context name clashes with Hadoop security configuration override,"['client', 'connection', 'meta', 'server']"
+ZOOKEEPER-705,Fails to Build due to unknown opcode 'lock' in mt_adaptor.c,"['fail', 'lock']"
+ZOOKEEPER-4243,Resource leaks in org.apache.zookeeper.server.persistence.SnapStream#getInputStream and #getOutputStream,"['server', 'server', 'server']"
+ZOOKEEPER-1909,removeWatches doesn't return NOWATCHER when there is no watch set,"['client', 'client', 'server', 'server']"
+ZOOKEEPER-2341,bin/zkEnv.cmd needs quotes around %JAVA%,['fail']
+ZOOKEEPER-1987,unable to restart 3 node cluster,"['node', 'node', 'leader', 'cluster', 'cluster', 'client', 'server', 'restart', 'restart', 'restart']"
+ZOOKEEPER-2806,Flaky test: org.apache.zookeeper.server.quorum.FLEBackwardElectionRoundTest.testBackwardElectionRound,['server']
+ZOOKEEPER-2310,Snapshot files must be synced to prevent inconsistency or data loss,"['node', 'node', 'leader', 'leader', 'leader', 'leader', 'follower', 'election', 'recovery', 'recovery', 'recovery', 'client', 'crash', 'crash', 'crash', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1791,ZooKeeper package includes unnecessary jars that are part of the package.,['meta']
+ZOOKEEPER-1332,Zookeeper data is not in sync with quorum in the mentioned scenario,"['node', 'node', 'leader', 'leader', 'leader', 'client', 'client', 'server', 'server']"
+ZOOKEEPER-3513,Zookeeper upgrade fails due to missing snapshots,"['node', 'client', 'client', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1295,Documentation for jute.maxbuffer is not correct in ZooKeeper Administrator's Guide,"['node', 'client', 'client', 'client', 'server', 'server', 'server']"
+ZOOKEEPER-2660,"acceptedEpoch and currentEpoch data inconsistency, ZK process can not start!",['fail']
+ZOOKEEPER-1650,testServerCnxnExpiry failing consistently on solaris apache jenkins,"['consistent', 'consistent', 'fail', 'fail']"
+ZOOKEEPER-1793,Zab1_0Test.testNormalObserverRun() is flaky,"['fail', 'server']"
+ZOOKEEPER-2809,Unnecessary stack-trace in server when the client disconnect unexpectedly,"['client', 'client', 'message', 'race', 'race', 'race', 'race', 'race', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1726,No way to dynamically go from 1 ZK server -> 2 ZK servers?,"['server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1652,zookeeper java client does a reverse dns lookup when connecting,"['client', 'client', 'client', 'fail']"
+ZOOKEEPER-1186,ZooKeeper client seems to hang quietly on OutOfMemoryError,"['block', 'client', 'client', 'lock', 'restart']"
+ZOOKEEPER-1782,zookeeper.superUser is not as super as superDigest,"['node', 'node', 'node']"
+ZOOKEEPER-1939,ReconfigRecoveryTest.testNextConfigUnreachable is failing,"['fail', 'fail', 'fail', 'fail', 'message', 'server', 'server', 'server']"
+ZOOKEEPER-1997,server with a single line server list shouldn't be StandaloneEnabled,"['cluster', 'client', 'client', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1550,ZooKeeperSaslClient does not finish anonymous login on OpenJDK,"['broker', 'broker', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1374,C client multi-threaded test suite fails to compile on ARM architectures.,"['client', 'fail', 'fail', 'lock', 'lock', 'message']"
+ZOOKEEPER-2318,segfault in auth_completion_func,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'message', 'race', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3524, LearnerMetricsTest.testLearnerMetricsTest is flaky again,"['fail', 'fail', 'fail', 'server', 'server']"
+ZOOKEEPER-1950,configBackwardCompatibilityMode breaks compatibility,"['client', 'client', 'client', 'client', 'client', 'crash', 'crash', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart', 'restart']"
+ZOOKEEPER-2670,CLONE - Connections fo ZooKeeper server becomes slow over time with native GSSAPI,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2901,Session ID that is negative causes mis-calculation of Ephemeral Type,"['node', 'node', 'node', 'client', 'client', 'connection', 'connection']"
+ZOOKEEPER-995,C Client exposing chroot information,"['node', 'client', 'client', 'connection', 'fail']"
+ZOOKEEPER-2151,FollowerZookeeperServer has thousands of outstanding requests stuck in CommitProcessor,"['node', 'leader', 'follower', 'follower', 'election', 'client', 'client', 'client', 'client', 'connection', 'connection', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-1126,state of zk_handle should NOT be initialized to 0 (CLOSED) in zokeeper_init. It should have a not initialized state.,"['connection', 'race']"
+ZOOKEEPER-1339,C clien doesn't build with --enable-debug,"['client', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message']"
+ZOOKEEPER-4367,Zookeeper#Login thread leak in case of Sasl AuthFailed.,"['cluster', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1492,leader cannot switch to LOOKING state when lost the majority,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'client', 'message', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-4239,NullPointerException in ContainerManager is still a thing,"['server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2316,comment does not match code logic,['follower']
+ZOOKEEPER-1996,Incorrect statement in documentation,['client']
+ZOOKEEPER-1612,Zookeeper unable to recover and start once datadir disk is full and disk space cleared,"['fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-3199,Unable to produce verbose logs of Zookeeper,"['cluster', 'cluster']"
+ZOOKEEPER-3399,Remove logging in getGlobalOutstandingLimit for optimal performance.,"['leader', 'follower', 'cluster', 'cluster', 'cluster', 'cluster', 'server', 'server', 'server']"
+ZOOKEEPER-1892,addrvec_next gets called twice when failing over to the next server,"['client', 'client', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1861,ConcurrentHashMap isn't used properly in QuorumCnxManager,"['block', 'lock', 'lock']"
+ZOOKEEPER-642,"""exceeded deadline by N ms"" floods logs","['client', 'client', 'message', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1984,testLeaderTimesoutOnNewQuorum is a flakey test ,"['fail', 'fail', 'fail']"
+ZOOKEEPER-1897,ZK Shell/Cli not processing commands,"['client', 'server', 'server']"
+ZOOKEEPER-1779,ReconfigTest littering the source root with test files,"['replica', 'replica']"
+ZOOKEEPER-4516,checkstyle:check  is failing,"['fail', 'fail']"
+ZOOKEEPER-1769,ZooInspector can't display node data/metadata/ACLs,"['node', 'node', 'node', 'meta']"
+ZOOKEEPER-1483,Fix leader election recipe documentation,"['node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'client', 'client', 'client']"
+ZOOKEEPER-2890,Local automatic variable is left uninitialized and then freed.,"['assign', 'assign', 'assign', 'fail', 'fail', 'region', 'assign', 'assign', 'assign', 'server', 'server']"
+ZOOKEEPER-1380,zkperl: _zk_release_watch doesn't remove items properly from the watch list,['consistent']
+ZOOKEEPER-1664,Kerberos auth doesn't work with native platform GSS integration,['fail']
+ZOOKEEPER-3540,Client port unavailable after binding the same client port during reconfig,"['client', 'client', 'server', 'server']"
+ZOOKEEPER-1419,Leader election never settles for a 5-node cluster,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'leader', 'election', 'election', 'election', 'election', 'election', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'connection', 'connection', 'connection', 'message', 'message', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-2852,Snapshot size factor is not read from system property,['leader']
+ZOOKEEPER-1353,C client test suite fails consistently,"['consistent', 'client', 'client', 'client', 'fail', 'fail', 'fail']"
+ZOOKEEPER-1048,addauth command does not work in cli_mt/cli_st,['node']
+ZOOKEEPER-1699,Leader should timeout and give up leadership when losing quorum of last proposed configuration,"['leader', 'leader', 'leader', 'leader']"
+ZOOKEEPER-2798,Fix flaky test: org.apache.zookeeper.test.ReadOnlyModeTest.testConnectionEvents,"['fail', 'fail']"
+ZOOKEEPER-1752,Download area contains obsolete releases,['server']
+ZOOKEEPER-1236,Security uses proprietary Sun APIs,['server']
+ZOOKEEPER-1499,clientPort config changes not backwards-compatible,"['client', 'client', 'client', 'server']"
+ZOOKEEPER-3373,"need change description for ""Single System Image"" guarantee in document","['follower', 'follower', 'cluster', 'client', 'client', 'client', 'connection', 'server', 'server', 'server']"
+ZOOKEEPER-1891,StaticHostProviderTest.testUpdateLoadBalancing times out,['consistent']
+ZOOKEEPER-1625,"zkServer.sh is looking for clientPort in config file, but it may no longer be there with ZK-1411","['client', 'client', 'client', 'client', 'client', 'client', 'server', 'server']"
+ZOOKEEPER-2039,Jute compareBytes incorrect comparison index,['parallel']
+ZOOKEEPER-1128,Recipe wrong for Lock process.,"['node', 'client', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race']"
+ZOOKEEPER-2861,Main-Class JAR manifest attribute is incorrect,['server']
+ZOOKEEPER-2198,Set default test.junit.threads to 1.,"['consistent', 'fail']"
+ZOOKEEPER-1343,getEpochToPropose should check if lastAcceptedEpoch is greater or equal than epoch,"['block', 'lock']"
+ZOOKEEPER-939,the threads number of a zookeeper is increased all the time,"['network', 'leader', 'cluster', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1352,server.InvalidSnapshotTest is using connection timeouts that are too short,"['connection', 'connection', 'fail', 'server', 'server', 'server']"
+ZOOKEEPER-2949,"SSL ServerName not set when using hostname, some proxies may failed to proxy the request.","['cluster', 'cluster', 'client', 'client', 'client', 'fail']"
+ZOOKEEPER-2923,The comment of the variable matchSyncs in class CommitProcessor has a mistake.,['leader']
+ZOOKEEPER-4377,KeeperException.create has NullPointerException when low version client requests the high version server,"['client', 'server', 'server', 'server']"
+ZOOKEEPER-2853,The lastZxidSeen in FileTxnLog.java is never being assigned,"['assign', 'assign', 'assign', 'assign']"
+ZOOKEEPER-2847,Cannot bind to client port when reconfig based on old static config,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'restart']"
+ZOOKEEPER-2924,Flaky Test: org.apache.zookeeper.test.LoadFromLogTest.testRestoreWithTransactionErrors,"['block', 'block', 'client', 'client', 'client', 'connection', 'connection', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2073,Memory leak on zookeeper_close,"['client', 'race']"
+ZOOKEEPER-2157,Upgrade option should be removed from zkServer.sh usage,['restart']
+ZOOKEEPER-3887,In SSL-only server zkServer.sh status command should use secureClientPortAddress instead of clientPortAddress,"['client', 'client', 'client', 'client', 'fail', 'server']"
+ZOOKEEPER-1893,automake: use serial-tests option,"['parallel', 'parallel']"
+ZOOKEEPER-2114,jute generated allocate_* functions are not externally visible,"['message', 'message']"
+ZOOKEEPER-1949,recipes jar not included in the distribution package,"['election', 'election', 'lock', 'lock']"
+ZOOKEEPER-1930,A typo in zookeeper recipes.html,['election']
+ZOOKEEPER-1404,leader election pseudo code probably incorrect,"['node', 'node', 'node', 'node', 'node', 'leader', 'leader', 'leader', 'leader', 'election', 'election']"
+ZOOKEEPER-1819,DeserializationPerfTest calls method with wrong arguments,['node']
+ZOOKEEPER-2725,Upgrading to a global session fails with a multiop,"['node', 'client', 'client', 'client', 'fail', 'message', 'server']"
+ZOOKEEPER-1336,"javadoc for multi is confusing, references functionality that doesn't seem to exist ","['fail', 'fail']"
+ZOOKEEPER-1585,make dist for src/c broken in trunk,['fail']
+ZOOKEEPER-2178,Native client fails compilation on Windows.,"['clock', 'clock', 'client', 'client', 'fail', 'fail', 'lock', 'lock']"
+ZOOKEEPER-1351,invalid test verification in MultiTransactionTest,['fail']
+ZOOKEEPER-3605,ZOOKEEPER-3242 add a connection throttle. Default constructor needs to set it,"['connection', 'connection']"
+ZOOKEEPER-2253,"C asserts ordering of ping requests, while Java client does not","['client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'server']"
+ZOOKEEPER-2030,"dynamicConfigFile should have an absolute path, not a relative path, to the dynamic configuration file",['server']
+ZOOKEEPER-1672,"zookeeper client does not accept ""-members"" option in reconfig command",['client']
+ZOOKEEPER-1354,AuthTest.testBadAuthThenSendOtherCommands fails intermittently,"['client', 'client', 'corrupt', 'fail', 'fail', 'message', 'server']"
+ZOOKEEPER-2556,"peerType remains as ""observer"" in zoo.cfg even though we change the node from observer to participant runtime","['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-2759,Flaky test: org.apache.zookeeper.server.quorum.QuorumCnxManagerTest.testNoAuthLearnerConnectToAuthRequiredServerWithHigherSid,['server']
+ZOOKEEPER-3296,Cannot join quorum due to Quorum SSLSocket connection not closed explicitly when there is handshake issue,"['network', 'network', 'leader', 'election', 'connection', 'connection', 'connection', 'connection', 'connection', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1563,Wrong solution - unable to build under Windows with Visual Studio,"['fail', 'message', 'message']"
+ZOOKEEPER-2026,Startup order in ServerCnxnFactory-ies is wrong,['fail']
+ZOOKEEPER-3117, Correct the LeaderBean.followerInfo to only return the followers list,"['follower', 'follower', 'follower', 'follower', 'server']"
+ZOOKEEPER-1395,node-watcher double-free redux,"['node', 'connection', 'connection', 'crash', 'race']"
+ZOOKEEPER-3356,Request throttling in Netty is not working as expected and could cause direct buffer OOM issue ,"['message', 'message']"
+ZOOKEEPER-2186,QuorumCnxManager#receiveConnection may crash with random input,"['election', 'cluster', 'crash', 'crash', 'fail', 'message', 'message']"
+ZOOKEEPER-3144,Potential ephemeral nodes inconsistent due to global session inconsistent with fuzzy snapshot,"['node', 'leader', 'consistent', 'consistent', 'consistent', 'consistent', 'consistent', 'server']"
+ZOOKEEPER-2953,Flaky Test: testNoLogBeforeLeaderEstablishment,"['leader', 'leader', 'leader', 'leader', 'leader', 'follower', 'follower', 'server', 'server', 'restart']"
+ZOOKEEPER-4360,Avoid NPE during metrics execution if the leader is not set on a FOLLOWER node ,"['node', 'node', 'leader', 'follower', 'server', 'server', 'server']"
+ZOOKEEPER-1348,Zookeeper 3.4.2 C client incorrectly reports string version of 3.4.1,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client']"
+ZOOKEEPER-2581,Not handled NullPointerException while creating key manager and trustManager,"['server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-1494,C client: socket leak after receive timeout in zookeeper_interest(),['client']
+ZOOKEEPER-973,bind() could fail on Leader because it does not setReuseAddress on its ServerSocket ,['fail']
+ZOOKEEPER-1406,dpkg init scripts don't restart - missing check_priv_sep_dir,"['restart', 'restart', 'restart', 'restart']"
+ZOOKEEPER-1265,Normalize switch cases lists on request types,['client']
+ZOOKEEPER-2885,zookeeper-3.5.3-beta.tar.gz file in mirror site is corrupted,"['corrupt', 'corrupt']"
+ZOOKEEPER-1386,"avoid flaky URL redirection in ""ant javadoc"" : replace ""http://java.sun.com/javase/6/docs/api/"" with ""http://download.oracle.com/javase/6/docs/api/"" ",['fail']
+ZOOKEEPER-1220,./zkCli.sh 'create' command is throwing ArrayIndexOutOfBoundsException,"['node', 'node', 'node', 'node']"
+ZOOKEEPER-2249,CRC check failed when preAllocSize smaller than node data,"['node', 'node', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server']"
+ZOOKEEPER-895,ClientCnxn.authInfo must be thread safe,"['connection', 'server']"
+ZOOKEEPER-3016,Follower QuorumCnxManager$Listener thread died due to incorrect client packet,"['node', 'node', 'client', 'client', 'client', 'connection', 'connection', 'crash', 'message', 'server', 'server']"
+ZOOKEEPER-2082,Mistype of electionAlgo can fill out your disk in minutes,"['election', 'election', 'election', 'server']"
+ZOOKEEPER-1628,Documented list of allowable characters in ZK doc not in line with code,['node']

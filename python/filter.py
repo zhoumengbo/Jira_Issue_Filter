@@ -53,5 +53,5 @@ def issue_filter(source):
 
 if __name__ == '__main__':
     source_list = ['CAS', 'HADOOP', 'HBASE', 'HDFS', 'KAFKA', 'ZK']
-    source = '../source/CAS'
+    source = '../source/ZK'
     issue_filter(source)

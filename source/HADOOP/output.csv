@@ -1,175 +1,809 @@
-Issue_key,keyword
-HADOOP-15129,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'remote']"
-HADOOP-16936,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote']"
-HADOOP-18242,['node']
-HADOOP-14604,"['replica', 'replica', 'replica', 'replica', 'replica']"
-HADOOP-17457,['delay']
-HADOOP-18219,"['cluster', 'cluster']"
-HADOOP-14486,['consistent']
-HADOOP-17040,['node']
-HADOOP-16051,"['node', 'node', 'node', 'node']"
-HADOOP-13837,"['node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-13215,['cluster']
-HADOOP-16311,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-13831,['consistent']
-HADOOP-14343,['node']
-HADOOP-18217,"['network', 'delay', 'delay', 'remote']"
-HADOOP-12888,['cluster']
-HADOOP-17158,"['remote', 'remote']"
-HADOOP-16028,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
-HADOOP-15548,['election']
-HADOOP-17975,"['node', 'node', 'cluster', 'cluster', 'cluster', 'replica']"
-HADOOP-13433,"['cluster', 'replica', 'replica', 'replica', 'replica']"
-HADOOP-15206,"['node', 'cluster']"
-HADOOP-15446,"['replica', 'replica']"
-HADOOP-17324,['cluster']
-HADOOP-15850,['consistent']
-HADOOP-17398,"['network', 'delay']"
-HADOOP-14062,"['node', 'cluster']"
-HADOOP-14044,['node']
-HADOOP-14636,"['network', 'clock']"
-HADOOP-13989,['cluster']
-HADOOP-17011,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-16457,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-15059,['cluster']
-HADOOP-17346,['cluster']
-HADOOP-12884,"['recovery', 'recovery', 'recovery', 'recovery']"
-HADOOP-13565,['node']
-HADOOP-17151,"['node', 'node']"
-HADOOP-15098,"['node', 'node']"
-HADOOP-15317,"['node', 'node', 'node', 'node', 'node']"
-HADOOP-17925,['cluster']
-HADOOP-13236,['node']
-HADOOP-12862,['node']
-HADOOP-17934,['node']
-HADOOP-15473,['network']
-HADOOP-15273,['remote']
-HADOOP-18581,['node']
-HADOOP-15939,['cluster']
-HADOOP-15292,['node']
-HADOOP-15527,['node']
-HADOOP-17308,['cluster']
-HADOOP-18521,"['network', 'network', 'cluster']"
-HADOOP-13137,"['node', 'cluster']"
-HADOOP-14966,['node']
-HADOOP-14563,['consistent']
-HADOOP-15008,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-15865,"['recovery', 'recovery', 'recovery']"
-HADOOP-15908,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote']"
-HADOOP-13264,"['node', 'node', 'node']"
-HADOOP-15390,"['cluster', 'cluster', 'cluster']"
-HADOOP-15121,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-17068,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-16107,"['replica', 'replica', 'replica']"
-HADOOP-15320,['remote']
-HADOOP-15519,['node']
-HADOOP-16385,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-13816,"['remote', 'remote']"
-HADOOP-16345,"['node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-14416,"['cluster', 'cluster']"
-HADOOP-14855,['node']
-HADOOP-13897,"['consistent', 'consistent']"
-HADOOP-13638,"['cluster', 'cluster', 'consistent']"
-HADOOP-13440,"['node', 'consistent']"
-HADOOP-14363,['consistent']
-HADOOP-18528,['consistent']
-HADOOP-12919,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica']"
-HADOOP-15633,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-18398,['cluster']
-HADOOP-17689,['replica']
-HADOOP-17138,"['node', 'node', 'node', 'node']"
-HADOOP-15180,"['node', 'node', 'node', 'cluster']"
-HADOOP-17438,['delay']
-HADOOP-17209,"['node', 'node', 'node', 'node', 'cluster']"
-HADOOP-17059,['node']
-HADOOP-15684,"['node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-14214,['node']
-HADOOP-17783,['cluster']
-HADOOP-16495,['node']
-HADOOP-16265,"['consistent', 'consistent']"
-HADOOP-15733,"['node', 'node']"
-HADOOP-13224,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-14558,"['cluster', 'cluster', 'cluster']"
-HADOOP-16440,"['cluster', 'cluster', 'cluster']"
-HADOOP-15375,"['node', 'node', 'node', 'node', 'node']"
-HADOOP-17642,['cluster']
-HADOOP-16011,['remote']
-HADOOP-16199,['cluster']
-HADOOP-16793,"['node', 'remote']"
-HADOOP-14198,['remote']
-HADOOP-16674,['network']
-HADOOP-12964,['remote']
-HADOOP-14450,['consistent']
-HADOOP-18452,"['node', 'node']"
-HADOOP-15411,"['node', 'node', 'node', 'node', 'node']"
-HADOOP-14071,['consistent']
-HADOOP-13864,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-16662,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'cluster']"
-HADOOP-17762,"['remote', 'remote', 'remote', 'remote']"
-HADOOP-13173,"['node', 'network', 'network', 'network', 'cluster', 'cluster', 'cluster', 'cluster']"
-HADOOP-17143,"['node', 'node', 'cluster']"
-HADOOP-14727,['consistent']
-HADOOP-14540,"['node', 'node', 'node']"
-HADOOP-14669,['clock']
-HADOOP-14207,['node']
-HADOOP-13663,['node']
-HADOOP-13924,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
-HADOOP-14412,"['node', 'cluster', 'cluster', 'cluster']"
-HADOOP-14820,['consistent']
-HADOOP-13072,"['node', 'node', 'node', 'node']"
-HADOOP-16765,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster']"
-HADOOP-15169,['node']
-HADOOP-17850,['consistent']
-HADOOP-17919,"['node', 'cluster', 'cluster', 'cluster']"
-HADOOP-18002,"['recovery', 'recovery']"
-HADOOP-17870,['consistent']
-HADOOP-18100,['node']
-HADOOP-17360,"['remote', 'remote']"
-HADOOP-13132,"['node', 'node', 'node', 'node']"
-HADOOP-17999,['delay']
-HADOOP-14867,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
-HADOOP-17142,"['node', 'node', 'node', 'cluster']"
-HADOOP-16755,"['node', 'cluster']"
-HADOOP-15166,['cluster']
-HADOOP-18633,['remote']
-HADOOP-16161,['remote']
-HADOOP-16677,"['node', 'node', 'remote', 'remote']"
-HADOOP-15594,['cluster']
-HADOOP-16013,['delay']
-HADOOP-15316,['delay']
-HADOOP-15772,['node']
-HADOOP-15571,['replica']
-HADOOP-15396,"['node', 'node', 'node', 'node']"
-HADOOP-10318,['node']
-HADOOP-4773,"['node', 'node']"
-HADOOP-9085,"['node', 'node', 'node']"
-HADOOP-7822,['node']
-HADOOP-7488,"['node', 'network']"
-HADOOP-9126,['delay']
-HADOOP-5983,['node']
-HADOOP-12317,['recovery']
-HADOOP-10718,['remote']
-HADOOP-10941,['remote']
-HADOOP-8564,['node']
-HADOOP-6460,['node']
-HADOOP-12449,['network']
-HADOOP-5311,['recovery']
-HADOOP-12061,['cluster']
-HADOOP-2159,['node']
-HADOOP-3395,['node']
-HADOOP-6554,['consistent']
-HADOOP-4019,['node']
-HADOOP-11955,['cluster']
-HADOOP-10227,['remote']
-HADOOP-4264,"['node', 'cluster']"
-HADOOP-9633,"['node', 'network']"
-HADOOP-6028,['node']
-HADOOP-10069,['node']
-HADOOP-6774,['node']
-HADOOP-8082,['cluster']
-HADOOP-9782,['node']
-HADOOP-12017,['replica']
-HADOOP-5665,['node']
-HADOOP-6710,['consistent']
-HADOOP-1979,"['node', 'node']"
-HADOOP-6647,['node']
+Issue_key,Summary,keyword
+HADOOP-13942,Build failure due to errors of javadoc build in hadoop-azure,"['fail', 'fail', 'fail']"
+HADOOP-17120,Fix failure of docker image creation due to pip2 install error,['fail']
+HADOOP-17907,FileUtil#fullyDelete deletes contents of sym-linked directory when symlink cannot be deleted because of local fs fault,['fail']
+HADOOP-14030,PreCommit TestKDiag failure,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-13675,Bug in return value for delete() calls in WASB,"['client', 'client']"
+HADOOP-17229,Test failure as failed request body counted in byte received metric - ITestAbfsNetworkStatistics#testAbfsHttpResponseStatistics,"['fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message']"
+HADOOP-15129,Datanode caches namenode DNS lookup failure and cannot startup,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'remote', 'assign', 'client', 'client', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'message', 'message', 'assign', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-18363,Fix bug preventing hadoop-metrics2 from emitting metrics to > 1 Ganglia servers.,['server']
+HADOOP-14479,Erasurecode testcase failures with native enabled,"['crash', 'crash', 'fail', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-15819,S3A integration test failures: FileSystem is closed! - without parallel test run,"['fail', 'fail', 'fail', 'fail', 'parallel']"
+HADOOP-17203,Test failures in ITestAzureBlobFileSystemCheckAccess in ABFS,"['fail', 'fail', 'parallel', 'parallel']"
+HADOOP-17965,Fix documentation build failure using JDK 7 on branch-2.10,"['fail', 'fail']"
+HADOOP-16936,Failure in Abfs tests,"['replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'remote', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race']"
+HADOOP-18242,ABFS Rename Failure when tracking metadata is in incomplete state,"['node', 'crash', 'fail', 'fail', 'meta', 'meta', 'region', 'race', 'server']"
+HADOOP-15781,S3A assumed role tests failing due to changed error text in AWS exceptions,"['fail', 'fail', 'fail', 'fail', 'message']"
+HADOOP-17916,Fix compilation error of ITUseHadoopCodecs with -DskipShade,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail']"
+HADOOP-17608,Fix TestKMS failure,"['fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-14851,LambdaTestUtils.eventually() doesn't spin on Assertion failures,"['fail', 'fail', 'fail']"
+HADOOP-14604,Fix the bug of aggregation log have one replication in HDFS Federation environment,"['replica', 'replica', 'replica', 'replica', 'replica']"
+HADOOP-17457,intermittent ITestS3AInconsistency.testGetFileStatus failure.,"['delay', 'fail', 'fail', 'fail']"
+HADOOP-17645,Fix test failures in org.apache.hadoop.fs.azure.ITestOutputStreamSemantics,"['fail', 'lock']"
+HADOOP-12955,Fix bugs in the initialization of the ISA-L library JNI bindings,['fail']
+HADOOP-17574,Build failure on trunk,"['fail', 'fail', 'lock']"
+HADOOP-13824,FsShell can suppress the real error if no error message is present,"['message', 'message', 'race', 'race']"
+HADOOP-17812,NPE in S3AInputStream read() after failure to reconnect to store,['fail']
+HADOOP-13574,Unnecessary file existence check causes problems with S3,"['fail', 'region']"
+HADOOP-14461,Azure: handle failure gracefully in case of missing account access key,"['fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'message', 'message', 'race']"
+HADOOP-18219,Fix shadedclient test failure,"['cluster', 'cluster', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-14486,TestSFTPFileSystem#testGetAccessTime test failure using openJDK 1.8.0  ,"['consistent', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-17040,Fix intermittent failure of ITestBlockingThreadPoolExecutorService,"['node', 'fail', 'fail', 'lock', 'lock']"
+HADOOP-17298,Backslash in username causes build failure in the environment started by start-build-env.sh.,"['fail', 'fail', 'race']"
+HADOOP-17219,ZStandardCodec compression mail fail(generic error) when encounter specific file,"['fail', 'fail']"
+HADOOP-17496,Build failure due to python2.7 deprecation by pip,"['fail', 'fail', 'race']"
+HADOOP-13928,TestAdlFileContextMainOperationsLive.testGetFileContext1 runtime error,"['lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-17573,Fix compilation error of OBSFileSystem in trunk,"['fail', 'lock']"
+HADOOP-17801,No error message reported when bucket doesn't exist in S3AFS,"['message', 'message', 'message', 'message', 'message']"
+HADOOP-13961,Fix compilation failure from missing hadoop-kms test jar,"['fail', 'fail']"
+HADOOP-17755,EOF reached error reading ORC file on S3A,"['corrupt', 'fail']"
+HADOOP-14474,Use OpenJDK 7 instead of Oracle JDK 7 to avoid oracle-java7-installer failures,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-18043,Use mina-core 2.0.22 to fix LDAP unit test failures,"['client', 'connection', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-14028,S3A BlockOutputStreams doesn't delete temporary files in multipart uploads or handle part upload failures,"['block', 'block', 'block', 'block', 'client', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-13830,"Intermittent failure of ITestS3NContractRootDir#testRecursiveRootListing: ""Can not create a Path from an empty string""","['fail', 'fail']"
+HADOOP-17730,[thirdparty] Do not exclude error_prone,"['fail', 'race']"
+HADOOP-13389,TestS3ATemporaryCredentials.testSTS error when using IAM credentials,['fail']
+HADOOP-16689,Fix test failure of ITestAzureBlobFileSystemCLI.testMkdirRootNonExistentContainer,['fail']
+HADOOP-16051,branch-2 build is failing by npm error,"['node', 'node', 'node', 'node', 'client', 'fail', 'fail', 'race']"
+HADOOP-18601,Fix build failure with docs profile,"['client', 'fail', 'fail', 'fail', 'message', 'message']"
+HADOOP-16934,Test failure in TestAbfsOutputStream because of HADOOP-16910,['fail']
+HADOOP-17034,Fix failure of TestSnappyCompressorDecompressor on CentOS 8,"['fail', 'fail']"
+HADOOP-17427,Javadoc failure in hadoop-aws (branch-3.3),"['fail', 'fail']"
+HADOOP-18322,Yetus build failure in branch-3.3.,['fail']
+HADOOP-16869, Upgrade findbugs-maven-plugin to 3.0.5 to fix mvn findbugs:findbugs failure,"['assign', 'fail', 'fail', 'assign']"
+HADOOP-14622,Test failure in TestFilterFileSystem and TestHarFileSystem,['fail']
+HADOOP-17836,Improve logging on ABFS error reporting,"['client', 'connection', 'connection', 'fail']"
+HADOOP-13837,Always get unable to kill error message even the hadoop process was successfully killed,"['node', 'node', 'node', 'node', 'node', 'cluster', 'message', 'message', 'race']"
+HADOOP-12970,Intermittent signature match failures in S3AFileSystem due connection closure,"['client', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'meta', 'meta', 'meta', 'server', 'server', 'server']"
+HADOOP-15674,Test failure TestSSLHttpServer.testExcludedCiphers with TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256 cipher suite,"['fail', 'fail', 'fail', 'fail', 'fail', 'race']"
+HADOOP-13215,INTERNAL_SERVER_ERROR due to NPE from PseudoAuthenticationHandler,"['cluster', 'client', 'server', 'server', 'server', 'server']"
+HADOOP-16311,Hadoop build failure - natively on ARM (armv7) - oom_listener_main.c issues,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-17412,"When `fs.s3a.connection.ssl.enabled=true`,   Error when visit S3A with AKSK","['client', 'connection', 'connection']"
+HADOOP-15331,Fix a race condition causing parsing error of java.io.BufferedInputStream in class org.apache.hadoop.conf.Configuration,"['crash', 'race', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-13526,Add detailed logging in KMS for the authentication failure of proxy user,"['fail', 'message', 'message', 'server']"
+HADOOP-13831,Correct check for error code to detect Azure Storage Throttling and provide retries,['consistent']
+HADOOP-13532,Fix typo in hadoop_connect_to_hosts error message,['message']
+HADOOP-14059,"typo in s3a rename(self, subdir) error message","['message', 'message']"
+HADOOP-18048,[branch-3.3] Dockerfile_aarch64 build fails with fatal error: Python.h: No such file or directory,['fail']
+HADOOP-18375,Fix failure of shelltest for hadoop_add_ldlibpath,"['fail', 'fail']"
+HADOOP-14835,mvn site build throws SAX errors,['race']
+HADOOP-14343,Wrong pid file name in error message when starting secure daemon,"['node', 'message']"
+HADOOP-13167,"""javac: invalid target release: 1.8"" failures happen on YARN precommit jobs","['fail', 'fail']"
+HADOOP-16885,Encryption zone file copy failure leaks temp file ._COPYING_ and wrapped stream,['fail']
+HADOOP-15085,Output streams closed with IOUtils suppressing write errors,"['block', 'corrupt', 'lock']"
+HADOOP-15028,Got errors while running org.apache.hadoop.io.TestSequenceFileAppend,"['corrupt', 'corrupt', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-18251,Fix failure of extracting JIRA id from commit message in git_jira_fix_version_check.py,"['fail', 'message', 'message']"
+HADOOP-13861,Spelling errors in logging and exceptions for code,['message']
+HADOOP-13125,FS Contract tests don't report FS initialization errors well,"['fail', 'message']"
+HADOOP-17522,Looking to build Hadoop but start-build-env.sh errors,"['fail', 'race']"
+HADOOP-18158,Fix failure of create-release script due to releasedocmaker changes in branch-2.10,['fail']
+HADOOP-18217,shutdownhookmanager should not be multithreaded (deadlock possible),"['network', 'delay', 'delay', 'remote', 'crash', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'parallel', 'parallel']"
+HADOOP-13903,Improvements to KMS logging to help debug authorization errors ,['race']
+HADOOP-18340,deleteOnExit does not work with S3AFileSystem,"['fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-14283,Upgrade AWS SDK to 1.11.134,"['fail', 'parallel']"
+HADOOP-12888,Shell to disable bash and setsid support when running under JVM security manager,"['cluster', 'client', 'client', 'client', 'client', 'fail', 'fail', 'server']"
+HADOOP-17769,Upgrade JUnit to 4.13.2,"['fail', 'fail', 'fail', 'lock', 'lock', 'lock']"
+HADOOP-17891,lz4-java and snappy-java should be excluded from relocation in shaded Hadoop libraries,"['client', 'client']"
+HADOOP-17764,S3AInputStream read does not re-open the input stream on the second read retry attempt,"['client', 'client', 'corrupt', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-17007,hadoop-cos fails to build,"['fail', 'fail']"
+HADOOP-13240,TestAclCommands.testSetfaclValidations fail,"['fail', 'fail', 'fail', 'fail', 'fail', 'message']"
+HADOOP-17158,Test timeout for ITestAbfsInputStreamStatistics#testReadAheadCounters,"['remote', 'remote', 'race']"
+HADOOP-16028,Fix NetworkTopology chooseRandom function to support excluded nodes,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster', 'cluster']"
+HADOOP-18159,"Certificate doesn't match any of the subject alternative names: [*.s3.amazonaws.com, s3.amazonaws.com]","['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'fail', 'message']"
+HADOOP-14586,StringIndexOutOfBoundsException breaks org.apache.hadoop.util.Shell on 2.7.x with Java 9,"['fail', 'fail', 'fail']"
+HADOOP-15385,Many tests are failing in hadoop-distcp project in branch-2,"['crash', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-15548,Randomize local dirs,['election']
+HADOOP-14658,branch-2 compilation is broken in hadoop-azure,['fail']
+HADOOP-14445,Use DelegationTokenIssuer to create KMS delegation tokens that can authenticate to all KMS instances,['client']
+HADOOP-18085,S3 SDK Upgrade causes AccessPoint ARN endpoint mistranslation,['region']
+HADOOP-14722,Azure: BlockBlobInputStream position incorrect after seek,"['lock', 'lock']"
+HADOOP-17975,Fallback to simple auth does not work for a secondary DistributedFileSystem instance,"['node', 'node', 'cluster', 'cluster', 'cluster', 'replica', 'block', 'block', 'block', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server']"
+HADOOP-16276,Fix jsvc startup command in hadoop-functions.sh due to jsvc >= 1.0.11 changed default current working directory,['fail']
+HADOOP-18222,Prevent DelegationTokenSecretManagerMetrics from registering multiple times ,"['server', 'server', 'server', 'server']"
+HADOOP-17723,[build] fix the Dockerfile for ARM,"['fail', 'fail']"
+HADOOP-18321,Fix when to read an additional record from a BZip2 text file split,"['block', 'block', 'block', 'block', 'block', 'block', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-13433,Race in UGI.reloginFromKeytab,"['cluster', 'replica', 'replica', 'replica', 'replica', 'client', 'connection', 'connection', 'fail', 'region', 'region', 'region', 'region', 'race', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16768,SnappyCompressor test cases wrongly assume that the compressed data is always smaller than the input data,"['fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race']"
+HADOOP-15206,BZip2 drops and duplicates records when input split size is small,"['node', 'cluster', 'client', 'client', 'client', 'client', 'client', 'client']"
+HADOOP-16554,mvn javadoc:javadoc fails in hadoop-aws,"['fail', 'fail']"
+HADOOP-16016,TestSSLFactory#testServerWeakCiphers sporadically fails in precommit builds,"['fail', 'fail']"
+HADOOP-15446,WASB: PageBlobInputStream.skip breaks HBASE replication,"['replica', 'replica', 'corrupt']"
+HADOOP-14441,LoadBalancingKMSClientProvider#addDelegationTokens should add delegation tokens from all KMS instances,"['client', 'client', 'client']"
+HADOOP-17324,Don't relocate org.bouncycastle in shaded client jars,"['cluster', 'client', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-18324,Interrupting RPC Client calls can lead to thread exhaustion,['client']
+HADOOP-17052,NetUtils.connect() throws unchecked exception (UnresolvedAddressException) causing clients to abort,"['client', 'client', 'fail']"
+HADOOP-15850,CopyCommitter#concatFileChunks should check that the blocks per chunk is not 0,"['consistent', 'block', 'fail', 'lock']"
+HADOOP-14512,WASB atomic rename should not throw exception if the file is neither in src nor in dst when doing the rename,"['crash', 'crash', 'fail', 'lock', 'region', 'region', 'region', 'region', 'region', 'region', 'server', 'server', 'server', 'restart', 'restart']"
+HADOOP-17398,Skipping network I/O in S3A getFileStatus(/) breaks some tests,"['network', 'delay', 'fail', 'fail']"
+HADOOP-14062,ApplicationMasterProtocolPBClientImpl.allocate fails with EOFException when RPC privacy is enabled,"['node', 'cluster', 'block', 'client', 'fail', 'fail', 'lock', 'parallel', 'partition']"
+HADOOP-18408,[ABFS]: ITestAbfsManifestCommitProtocol  fails on nonHNS configuration,"['fail', 'fail', 'fail']"
+HADOOP-15610,Hadoop Docker Image Pip Install Fails,['fail']
+HADOOP-18216,"Document ""io.file.buffer.size"" must be greater than zero","['block', 'block', 'lock', 'lock']"
+HADOOP-14044,Synchronization issue in delegation token cancel functionality,"['node', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'message', 'race', 'server', 'server', 'server']"
+HADOOP-14636,TestKDiag failing intermittently on Jenkins/Yetus at login from keytab,"['network', 'clock', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'race', 'race']"
+HADOOP-17258,MagicS3GuardCommitter fails with `pendingset` already exists,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-13388,Clean up TestLocalFileSystemPermission,['message']
+HADOOP-18621,CryptoOutputStream::close leak when encrypted zones + quota exceptions,"['client', 'client', 'fail']"
+HADOOP-15478,WASB: hflush() and hsync() regression,"['block', 'block', 'block', 'block', 'fail', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-15822,zstd compressor can fail with a small output buffer,"['fail', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-16532,Fix TestViewFsTrash to use the correct homeDir.,"['block', 'fail', 'fail', 'fail', 'lock', 'parallel']"
+HADOOP-17056,shelldoc fails in hadoop-common,"['fail', 'fail', 'race']"
+HADOOP-13989,Remove erroneous source jar option from hadoop-client shade configuration,"['cluster', 'client', 'client', 'client']"
+HADOOP-17011,Tolerate leading and trailing spaces in fs.defaultFS,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'message', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-13927,ADLS TestAdlContractRootDirLive.testRmNonEmptyRootDirNonRecursive failed,"['fail', 'fail']"
+HADOOP-18202,create-release fails fatal: unsafe repository ('/build/source' is owned by someone else),"['fail', 'fail']"
+HADOOP-14239,S3A Retry Multiple S3 Key Deletion,"['fail', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-16457,Hadoop does not work with Kerberos config in hdfs-site.xml for simple security,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'fail', 'message', 'server', 'server', 'server']"
+HADOOP-13922,Some modules have dependencies on hadoop-client jar removed by HADOOP-11804,"['client', 'client', 'server']"
+HADOOP-15059,3.0 deployment cannot work with old version MR tar ball which breaks rolling upgrade,"['cluster', 'fail']"
+HADOOP-18274,Use CMake 3.19.0 in Debian 10,"['client', 'fail']"
+HADOOP-15398,StagingTestBase uses methods not available in Mockito 1.8.5,['fail']
+HADOOP-14399,Configuration does not correctly XInclude absolute file URIs,"['fail', 'fail']"
+HADOOP-13403,AzureNativeFileSystem rename/delete performance improvements,"['client', 'fail', 'fail', 'parallel']"
+HADOOP-17694,abfs: Unable to use OAuth authentication at storage account level if the default authn type is Custom,"['fail', 'fail']"
+HADOOP-17718,Explicitly set locale in the Dockerfile,"['fail', 'race']"
+HADOOP-17346,Fair call queue is defeated by abusive service principals,"['cluster', 'server', 'server']"
+HADOOP-13805,UGI.getCurrentUser() fails if user does not have a keytab associated,"['client', 'fail']"
+HADOOP-14298,TestHadoopArchiveLogsRunner fails,['fail']
+HADOOP-16080,hadoop-aws does not work with hadoop-client-api,"['client', 'client', 'client', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-13707,"If kerberos is enabled while HTTP SPNEGO is not configured, some links cannot be accessed",['message']
+HADOOP-18069,CVE-2021-0341 in okhttp@2.7.5 detected in hdfs-client  ,"['client', 'client', 'race']"
+HADOOP-12948,Remove the defunct startKdc profile from hadoop-common,['race']
+HADOOP-13183,S3A proxy tests fail after httpclient/httpcore upgrade.,"['client', 'client', 'fail', 'fail']"
+HADOOP-15541,AWS SDK can mistake stream timeouts for EOF and throw SdkClientExceptions,['fail']
+HADOOP-14680,Azure: IndexOutOfBoundsException in BlockBlobInputStream,"['lock', 'lock', 'lock']"
+HADOOP-12884,A failed atomic folder rename operation can never recovery for the destination file is deleted in Wasb filesystem,"['recovery', 'recovery', 'recovery', 'recovery', 'block', 'crash', 'crash', 'fail', 'fail', 'lock']"
+HADOOP-14677,mvn clean compile fails,"['fail', 'race']"
+HADOOP-15450,Avoid fsync storm triggered by DiskChecker and handle disk full situation,['fail']
+HADOOP-13565,KerberosAuthenticationHandler#authenticate should not rebuild SPN based on client request,"['node', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15746,Hadoop: branch-2.8 docker image failed to build,"['fail', 'fail']"
+HADOOP-17641,ITestWasbUriAndConfiguration.testCanonicalServiceName() failing now mockaccount exists,"['fail', 'fail']"
+HADOOP-17151,upgrade jetty to 9.4.21,"['node', 'node', 'fail', 'message', 'server']"
+HADOOP-18157,S3AFileSystem cannot find a fake dir on minio,"['lock', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta']"
+HADOOP-13748,TestKMS fails in testProxyUserSimple and testDelegationTokensOpsSimple,"['client', 'fail', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-14472,Azure: TestReadAndSeekPageBlobAfterWrite fails intermittently,"['fail', 'fail']"
+HADOOP-15098,TestClusterTopology#testChooseRandom fails intermittently,"['node', 'node', 'fail', 'fail', 'race']"
+HADOOP-14919,BZip2 drops records when reading data in splits,"['block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'client', 'client', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-14754,TestCommonConfigurationFields failed: core-default.xml has 2 wasb properties missing in classes,['fail']
+HADOOP-16151,pip install pylint fails in branch-2.8 and branch-2.9,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-16031,TestSecureLogins#testValidKerberosName fails,['fail']
+HADOOP-16018,DistCp won't reassemble chunks when blocks per chunk > 0,"['block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'parallel']"
+HADOOP-15317,Improve NetworkTopology chooseRandom's loop,"['node', 'node', 'node', 'node', 'node', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+HADOOP-13513,Java 1.7 support for org.apache.hadoop.fs.azure testcases,"['lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-17925,BUILDING.txt should not encourage to activate docs profile on building binary artifacts,"['cluster', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'fail', 'message', 'message']"
+HADOOP-15681,AuthenticationFilter should generate valid date format for Set-Cookie header regardless of default Locale,"['client', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16600,StagingTestBase uses methods not available in Mockito 1.8.5 in branch-3.1,['fail']
+HADOOP-13375,o.a.h.security.TestGroupsCaching.testBackgroundRefreshCounters seems flaky,"['fail', 'fail', 'race']"
+HADOOP-16900,Very large files can be truncated when written through S3AFileSystem,"['corrupt', 'fail']"
+HADOOP-15062,TestCryptoStreamsWithOpensslAesCtrCryptoCodec fails on Debian 9,"['fail', 'fail']"
+HADOOP-14421,TestAdlFileSystemContractLive#testListStatus assertion failed,"['fail', 'fail', 'fail']"
+HADOOP-13236,truncate will fail when we use viewfilesystem,"['node', 'fail', 'fail']"
+HADOOP-12862,LDAP Group Mapping over SSL can not specify trust store,"['node', 'client', 'client', 'client', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16590,IBM Java has deprecated OS login module classes and OS principal classes.,['fail']
+HADOOP-17934,NullPointerException when no HTTP response set on AbfsRestOperation,"['node', 'region', 'server']"
+HADOOP-15217,FsUrlConnection does not handle paths with spaces,['race']
+HADOOP-16049,DistCp result has data and checksum mismatch when blocks per chunk > 0,"['block', 'block', 'lock', 'lock']"
+HADOOP-18120,Hadoop auth does not handle HTTP Headers in a case-insensitive way,['fail']
+HADOOP-13558,UserGroupInformation created from a Subject incorrectly tries to renew the Kerberos ticket,['fail']
+HADOOP-15473,Configure serialFilter in KeyProvider to avoid UnrecoverableKeyException caused by JDK-8189997,"['network', 'fail']"
+HADOOP-15273,distcp can't handle remote stores with different checksum algorithms,"['remote', 'block', 'block', 'block', 'corrupt', 'fail', 'lock', 'lock', 'lock', 'message']"
+HADOOP-14140,"S3A reporting ""Not found on empty bucket",['race']
+HADOOP-14146,KerberosAuthenticationHandler should authenticate with SPN in AP-REQ,"['client', 'server', 'server']"
+HADOOP-18581,Handle Server KDC re-login when Server and Client run in same JVM.,"['node', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'server', 'server', 'server', 'server']"
+HADOOP-15414,Job submit not work well on HDFS Federation with Transparent Encryption feature,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail']"
+HADOOP-17657,SequenceFile.Writer should implement StreamCapabilities,"['lock', 'lock', 'lock']"
+HADOOP-15679,ShutdownHookManager shutdown time needs to be configurable & extended,"['block', 'lock']"
+HADOOP-17655,Upgrade Jetty to 9.4.40,"['connection', 'fail']"
+HADOOP-14501,Switch from aalto-xml to woodstox to handle odd XML features,"['client', 'fail']"
+HADOOP-14637,GenericTestUtils.waitFor needs to check condition again after max wait time,"['server', 'server', 'server']"
+HADOOP-15939,Filter overlapping objenesis class in hadoop-client-minicluster ,"['cluster', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail']"
+HADOOP-14026,start-build-env.sh: invalid docker image name,['fail']
+HADOOP-17971,Exclude IBM Java security classes from being shaded/relocated,"['client', 'client', 'fail']"
+HADOOP-15292,Distcp's use of pread is slowing it down.,"['node', 'client', 'lock', 'lock', 'lock']"
+HADOOP-18233,Possible race condition with TemporaryAWSCredentialsProvider,"['fail', 'fail', 'fail', 'meta', 'region', 'race', 'race']"
+HADOOP-13697,LogLevel#main throws exception if no arguments provided,['message']
+HADOOP-15527,loop until TIMEOUT before sending kill -9,['node']
+HADOOP-17308,WASB : PageBlobOutputStream succeeding hflush even when underlying flush to storage failed ,"['cluster', 'fail']"
+HADOOP-16586,"ITestS3GuardFsck, others fails when run using a local metastore","['fail', 'fail', 'meta', 'meta', 'meta']"
+HADOOP-15859,ZStandardDecompressor.c mistakes a class for an instance,"['crash', 'corrupt']"
+HADOOP-15355,TestCommonConfigurationFields is broken by HADOOP-15312,['fail']
+HADOOP-13439,Fix race between TestMetricsSystemImpl and TestGangliaMetrics,['race']
+HADOOP-15401,ConcurrentModificationException on Subject.getPrivateCredentials in UGI constructor,"['client', 'client', 'race']"
+HADOOP-15922,DelegationTokenAuthenticationFilter get wrong doAsUser since it does not decode URL,"['client', 'client', 'connection', 'server']"
+HADOOP-18150,Fix ITestAuditManagerDisabled after S3A audit logging was enabled in HADOOP-18091,"['fail', 'race']"
+HADOOP-15856,Trunk build fails to compile native on Windows,"['fail', 'fail']"
+HADOOP-18521,ABFS ReadBufferManager buffer sharing across concurrent HTTP requests,"['network', 'network', 'cluster', 'client', 'corrupt', 'corrupt', 'corrupt', 'corrupt', 'corrupt', 'corrupt']"
+HADOOP-15916,Upgrade Maven Surefire plugin to 3.0.0-M1,['fail']
+HADOOP-13137,TraceAdmin should support Kerberized cluster,"['node', 'cluster', 'fail', 'fail', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'race', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16676,Backport HADOOP-16152 to branch-3.2,['client']
+HADOOP-17902,Fix Hadoop build on Debian 10,"['fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'restart']"
+HADOOP-16655,Change cipher suite when fetching tomcat tarball for branch-2,['fail']
+HADOOP-17246,Fix build the hadoop-build Docker image failed,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-14966,Handle JDK-8071638 for hadoop-common,['node']
+HADOOP-14563,LoadBalancingKMSClientProvider#warmUpEncryptedKeys swallows IOException,"['consistent', 'fail', 'fail', 'fail']"
+HADOOP-18147,ITestAbfsRestOperationException failing,['fail']
+HADOOP-18049,Pin python lazy-object-proxy to 1.6.0 in Docker file as newer versions are incompatible with python2.7,"['fail', 'race']"
+HADOOP-15008,Metrics sinks may emit too frequently if multiple sink periods are configured,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node']"
+HADOOP-15283,Upgrade from findbugs 3.0.1 to spotbugs 3.1.2 in branch-2 to fix docker image build,"['fail', 'fail']"
+HADOOP-13351,TestDFSClientSocketSize buffer size tests are flaky,['fail']
+HADOOP-16932,distcp copy calls getFileStatus() needlessly and can fail against S3,['fail']
+HADOOP-15997,KMS client uses wrong UGI after HADOOP-14445,"['client', 'client', 'client', 'message']"
+HADOOP-14980,[JDK9] Upgrade maven-javadoc-plugin to 3.0.0-M1,"['client', 'client']"
+HADOOP-17018,Intermittent failing of ITestAbfsStreamStatistics in ABFS,"['fail', 'fail', 'fail', 'race']"
+HADOOP-15865,ConcurrentModificationException in Configuration.overlay() method,"['recovery', 'recovery', 'recovery', 'fail', 'fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15395,DefaultImpersonationProvider fails to parse proxy user config if username has . in it,"['fail', 'fail']"
+HADOOP-15752,[s3a] testDestroyNoBucket always fails,"['fail', 'fail']"
+HADOOP-15908,hadoop-build-tools jar is downloaded from remote repository instead of using from local,"['remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'remote', 'fail', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta']"
+HADOOP-18330,S3AFileSystem removes Path when calling createS3Client,['fail']
+HADOOP-13264,Hadoop HDFS - DFSOutputStream close method fails to clean up resources in case no hdfs datanodes are accessible ,"['node', 'node', 'node', 'client', 'fail', 'fail']"
+HADOOP-14687,AuthenticatedURL will reuse bad/expired session cookies,"['client', 'connection', 'connection', 'server']"
+HADOOP-14170,FileSystemContractBaseTest is not cleaning up test directory clearly,['fail']
+HADOOP-15390,Yarn RM logs flooded by DelegationTokenRenewer trying to renew KMS tokens,"['cluster', 'cluster', 'cluster', 'server', 'server', 'server', 'server']"
+HADOOP-16958,NPE when hadoop.security.authorization is enabled but the input PolicyProvider for ZKFCRpcServer is NULL,"['message', 'message', 'server', 'server', 'server']"
+HADOOP-15121,Encounter NullPointerException when using DecayRpcScheduler,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16160,TestAdlFileSystemContractLive fails in branch-2.8,['fail']
+HADOOP-14278,[JDK9] TestDFSClientFailover is using the removed sun.net.spi.nameservice package,"['fail', 'fail', 'fail']"
+HADOOP-15873,Add JavaBeans Activation Framework API to LICENSE.txt,"['client', 'client', 'fail', 'fail', 'message']"
+HADOOP-18569,NFS Gateway may release buffer too early,['crash']
+HADOOP-17068,client fails forever when namenode ipaddr changed,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'client', 'client', 'client', 'client', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'server', 'restart', 'restart']"
+HADOOP-13024,Distcp with -delete feature on raw data not implemented,"['distributed', 'fail', 'fail', 'fail']"
+HADOOP-16971,TestFileContextResolveAfs#testFileContextResolveAfs creates dangling link and fails for subsequent runs,"['fail', 'fail', 'fail']"
+HADOOP-17572,[branch-2.10] Docker image build fails due to the removal of openjdk-7-jdk package,['fail']
+HADOOP-13056,Print expected values when rejecting a server's determined principal,"['client', 'server']"
+HADOOP-15153,[branch-2.8] Increase heap memory to avoid the OOM in pre-commit,['race']
+HADOOP-18612,Avoid mixing canonical and non-canonical when performing comparisons,['fail']
+HADOOP-12954,Add a way to change hadoop.security.token.service.use_ip,"['block', 'client', 'lock']"
+HADOOP-13487,Hadoop KMS should load old delegation tokens from Zookeeper on startup,['message']
+HADOOP-16727,KMS Jetty server does not startup if trust store password is null,"['server', 'server']"
+HADOOP-16107,FilterFileSystem doesn't wrap all create() or new builder calls; may skip CRC logic,"['replica', 'replica', 'replica', 'block', 'block', 'block', 'lock', 'lock', 'lock']"
+HADOOP-15320,Remove customized getFileBlockLocations for hadoop-azure and hadoop-azure-datalake,"['remote', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-15519,KMS fails to read the existing key metadata after upgrading to JDK 1.8u171 ,"['node', 'fail', 'message', 'meta', 'meta', 'meta', 'race']"
+HADOOP-16385,"Namenode crashes with ""RedundancyMonitor thread received Runtime exception""","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'crash', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'restart']"
+HADOOP-14022,S3 connections  fails if in-URI AWS secret key contains '+' and '/' both,"['connection', 'fail', 'fail']"
+HADOOP-16390,Build fails due to bad use of '>' in javadoc,"['fail', 'fail']"
+HADOOP-15011,Getting file not found exception while using distcp with s3a,"['block', 'connection', 'fail', 'lock', 'server']"
+HADOOP-16754,Fix docker failed to build yetus/hadoop,"['fail', 'fail', 'message']"
+HADOOP-13816,Ambiguous plugin version warning from maven build.,"['remote', 'remote']"
+HADOOP-15280,TestKMS.testWebHDFSProxyUserKerb and TestKMS.testWebHDFSProxyUserSimple fail in trunk,"['client', 'client', 'fail', 'message']"
+HADOOP-17945,JsonSerialization raises EOFException reading JSON data stored on google GCS,"['block', 'fail', 'lock', 'message']"
+HADOOP-13907,Fix TestWebDelegationToken#testKerberosDelegationTokenAuthenticator on Windows,['fail']
+HADOOP-17329,mvn site commands fails due to MetricsSystemImpl changes,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-17300,FileSystem.DirListingIterator.next() call should return NoSuchElementException,"['fail', 'race']"
+HADOOP-16947,Stale record should be remove when MutableRollingAverages generating aggregate data.,"['lock', 'message']"
+HADOOP-14817,shelldocs fails mvn site,"['fail', 'fail']"
+HADOOP-13428,Fix hadoop-common to generate jdiff,['fail']
+HADOOP-12895,SSLFactory#createSSLSocketFactory exception message is wrong,['message']
+HADOOP-14281,Fix TestKafkaMetrics#testPutMetrics,['fail']
+HADOOP-15060,TestShellBasedUnixGroupsMapping.testFiniteGroupResolutionTime flaky,['message']
+HADOOP-15814,Maven 3.3.3 unable to parse pom file,"['assign', 'assign']"
+HADOOP-16345,Potential NPE when instantiating FairCallQueue metrics,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16669,TestRawLocalFileSystemContract.testPermission fails if no native library,"['fail', 'fail']"
+HADOOP-17373,hadoop-client-integration-tests doesn't work when building with skipShade,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'race', 'server']"
+HADOOP-14416,Path starting with 'wasb:///' not resolved correctly while authorizing with WASB-Ranger,"['cluster', 'cluster', 'fail']"
+HADOOP-14855,"Hadoop scripts may errantly believe a daemon is still running, preventing it from starting","['node', 'message']"
+HADOOP-13897,TestAdlFileContextMainOperationsLive#testGetFileContext1 fails consistently,"['consistent', 'consistent', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-17510,Hadoop prints sensitive Cookie information.,"['client', 'race']"
+HADOOP-16602,mvn package fails in hadoop-aws,"['fail', 'fail']"
+HADOOP-13410,RunJar adds the content of the jar twice to the classpath,['fail']
+HADOOP-15151,MapFile.fix creates a wrong index file in case of block-compressed data file.,"['block', 'block', 'lock', 'lock']"
+HADOOP-13149,Windows distro build fails on dist-copynativelibs.,"['fail', 'fail']"
+HADOOP-13638,KMS should set UGI's Configuration object properly,"['cluster', 'cluster', 'consistent', 'server']"
+HADOOP-13141,Mini HDFS Cluster fails to start on trunk,"['block', 'fail', 'fail', 'lock']"
+HADOOP-13815,TestKMS#testDelegationTokensOpsSimple and TestKMS#testDelegationTokensOpsKerberized Fails in Trunk,"['client', 'client', 'client', 'client', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-13440,FileContext does not react on changing umask via configuration,"['node', 'consistent', 'fail', 'fail', 'fail', 'server']"
+HADOOP-13476,CredentialProviderFactory fails at class loading from libhdfs (JNI),"['fail', 'fail', 'fail']"
+HADOOP-18419,Don't fail when using -DNoUnitTests,"['fail', 'fail']"
+HADOOP-14018,shaded jars of hadoop-client modules are missing hadoop's root LICENSE and NOTICE files,"['client', 'client']"
+HADOOP-14363,Inconsistent default block location in FileSystem javadoc,"['consistent', 'block', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-18528,Disable abfs prefetching by default,['consistent']
+HADOOP-17869,fs.s3a.connection.maximum should be bigger than fs.s3a.threads.max,['connection']
+HADOOP-14500,"Azure: TestFileSystemOperationExceptionHandling{,MultiThreaded} fails","['fail', 'fail', 'lock', 'lock']"
+HADOOP-15299,Bump Hadoop's Jackson 2 dependency 2.9.x,['client']
+HADOOP-17088,Failed to load XInclude files with relative path.,"['fail', 'fail', 'fail']"
+HADOOP-15644,Hadoop Docker Image Pip Install Fails on branch-2,"['fail', 'fail', 'fail', 'fail', 'message', 'race', 'race']"
+HADOOP-18006,maven-enforcer-plugin's execution of banned-illegal-imports gets overridden in child poms,['fail']
+HADOOP-13287,TestS3ACredentials#testInstantiateFromURL fails if AWS secret key contains '+'.,"['fail', 'fail']"
+HADOOP-17107,hadoop-azure parallel tests not working on recent JDKs,"['fail', 'parallel', 'parallel']"
+HADOOP-17024,"ListStatus on ViewFS root (ls ""/"") should list the linkFallBack root (configured target root).","['fail', 'fail', 'fail', 'fail']"
+HADOOP-12962,KMS key names are incorrectly encoded when creating key,"['fail', 'message', 'message']"
+HADOOP-14598,Blacklist Http/HttpsFileSystem in FsUrlStreamHandlerFactory,['fail']
+HADOOP-17528,Not closing an SFTP File System instance prevents JVM from exiting. ,"['connection', 'connection']"
+HADOOP-14195,CredentialProviderFactory$getProviders is not thread-safe,"['parallel', 'race']"
+HADOOP-16043,NPE in ITestDynamoDBMetadataStore when fs.s3a.s3guard.ddb.table is not set,['race']
+HADOOP-13381,KMS clients should use KMS Delegation Tokens from current UGI.,"['client', 'fail']"
+HADOOP-17358,Improve excessive reloading of Configurations,"['client', 'client', 'server']"
+HADOOP-16868,ipc.Server readAndProcess threw NullPointerException,['client']
+HADOOP-13030,Handle special characters in passwords in KMS startup script,"['server', 'server']"
+HADOOP-12919,MiniDFSCluster uses wrong IP address,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'replica', 'replica', 'replica', 'replica', 'replica', 'replica', 'block', 'block', 'block', 'block', 'block', 'client', 'client', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15696,KMS performance regression due to too many open file descriptors after Jetty migration,"['connection', 'fail']"
+HADOOP-15633,fs.TrashPolicyDefault: Can't create trash directory,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16361,TestSecureLogins#testValidKerberosName fails on branch-2,"['fail', 'fail']"
+HADOOP-17581,Fix reference to LOG is ambiguous after HADOOP-17482,"['block', 'fail', 'lock']"
+HADOOP-13901,Fix ASF License warnings,"['client', 'client', 'client']"
+HADOOP-13858,TestGridmixMemoryEmulation and TestResourceUsageEmulators fail on the environment other than Linux or Windows,"['fail', 'fail', 'fail']"
+HADOOP-18398,Prevent AvroRecord*.class from being included non-test jar,"['cluster', 'client', 'client', 'client', 'client', 'fail', 'fail', 'fail', 'message', 'message']"
+HADOOP-13422,ZKDelegationTokenSecretManager JaasConfig does not work well with other ZK users in process,['race']
+HADOOP-13896,Invoke assembly plugin after building jars,['client']
+HADOOP-13787,Azure testGlobStatusThrowsExceptionForUnreadableDir fails,"['fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-17689,Avoid Potential NPE in org.apache.hadoop.fs,"['replica', 'block', 'lock', 'race']"
+HADOOP-17138,Fix spotbugs warnings surfaced after upgrade to 4.0.6,"['node', 'node', 'node', 'node', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-17399,lz4 sources missing for native Visual Studio project,['fail']
+HADOOP-17362,Doing hadoop ls on Har file triggers too many RPC calls,['meta']
+HADOOP-16605,NPE in TestAdlSdkConfiguration failing in yetus,"['fail', 'fail']"
+HADOOP-15180,branch-2 : daemon processes' sysout overwrites 'ulimit -a' in daemon's out file,"['node', 'node', 'node', 'cluster', 'lock', 'message']"
+HADOOP-17438,Increase docker memory limit in Jenkins,"['delay', 'fail', 'fail', 'restart']"
+HADOOP-16321,ITestS3ASSL+TestOpenSSLSocketFactory failing with java.lang.UnsatisfiedLinkErrors,"['fail', 'fail']"
+HADOOP-12903,"IPC Server should allow suppressing exception logging by type, not log 'server too busy' messages","['client', 'client', 'message', 'message', 'message', 'message', 'server', 'server']"
+HADOOP-18238,Fix reentrancy check in SFTPFileSystem.close(),"['connection', 'connection', 'connection', 'connection', 'fail']"
+HADOOP-17505,public interface GroupMappingServiceProvider needs default impl for getGroupsSet() ,['fail']
+HADOOP-18364,All method metrics related to the RPC protocol should be initialized,['lock']
+HADOOP-17578,Improve UGI debug log to help troubleshooting TokenCache related issues,['fail']
+HADOOP-13155,Implement TokenRenewer to renew and cancel delegation tokens in KMS,['server']
+HADOOP-17209,Erasure Coding: Native library memory leak,"['node', 'node', 'node', 'node', 'cluster']"
+HADOOP-17059,ArrayIndexOfboundsException in ViewFileSystem#listStatus,['node']
+HADOOP-14616,"Client fails to read a block with erasure code (XOR, native) when one of the data block is lost","['block', 'block', 'fail', 'fail', 'lock', 'lock']"
+HADOOP-14458,Add missing imports to TestAliyunOSSFileSystemContract.java,"['fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'race']"
+HADOOP-15684,"triggerActiveLogRoll stuck on dead name node, when ConnectTimeoutException happens. ","['node', 'node', 'node', 'node', 'node', 'node', 'fail', 'server', 'server']"
+HADOOP-16881,KerberosAuthentication does not disconnect HttpURLConnection leading to CLOSE_WAIT cnxns,['connection']
+HADOOP-14214,DomainSocketWatcher::add()/delete() should not self interrupt while looping await(),"['node', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'meta', 'race', 'race']"
+HADOOP-14204,"S3A multipart commit failing, ""UnsupportedOperationException at java.util.Collections$UnmodifiableList.sort""","['fail', 'race']"
+HADOOP-13826,S3A Deadlock in multipart copy due to thread pool limits.,"['lock', 'lock', 'lock']"
+HADOOP-14949,TestKMS#testACLs fails intermittently,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'meta', 'meta', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16774,TestDiskChecker and TestReadWriteDiskValidator fails when run with -Pparallel-tests,"['fail', 'parallel', 'parallel']"
+HADOOP-15041,"XInclude support in .xml configuration file is broken after ""5eb7dbe9b31a45f57f2e1623aa1c9ce84a56c4d1"" commit",['message']
+HADOOP-15288,TestSwiftFileSystemBlockLocation doesn't compile,"['lock', 'lock']"
+HADOOP-17783,Old JQuery version causing security concerns,['cluster']
+HADOOP-13049,Fix the TestFailures After HADOOP-12563,['fail']
+HADOOP-16495,Fix invalid metric types in PrometheusMetricsSink,"['node', 'server']"
+HADOOP-17899,Avoid using implicit dependency on junit-jupiter-api,['fail']
+HADOOP-14770,S3A http connection in s3a driver not reuse in Spark application,"['connection', 'connection', 'connection']"
+HADOOP-16265,Configuration#getTimeDuration is not consistent between default value and manual settings.,"['consistent', 'consistent']"
+HADOOP-18400, Fix file split duplicating records from a succeeding split when reading BZip2 text files ,"['block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-15614,TestGroupsCaching.testExceptionOnBackgroundRefreshHandled reliably fails,"['fail', 'fail']"
+HADOOP-15733,Correct the log when Invalid emptier Interval configured,"['node', 'node']"
+HADOOP-14842,Hadoop 2.8.2 release build process get stuck due to java issue,"['fail', 'fail']"
+HADOOP-14067,VersionInfo should load version-info.properties from its own classloader,['fail']
+HADOOP-13557,UserGroupInformation created from a Subject incorrectly tries to renew the Kerberos ticket,['fail']
+HADOOP-13224,Grep job in Single Cluster document fails,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster', 'fail', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16278,"With S3A Filesystem, Long Running services End up Doing lot of GC and eventually die","['block', 'lock', 'meta', 'meta', 'race']"
+HADOOP-14859,Shaded AWS library stops s3a recognising ConnectTimeoutException,['fail']
+HADOOP-14912,FairCallQueue may defer servicing calls,"['lock', 'race']"
+HADOOP-14558,RPC requests on a secure cluster are 10x slower due to expensive encryption and decryption ,"['cluster', 'cluster', 'cluster', 'meta', 'meta', 'race', 'race', 'race']"
+HADOOP-17340,TestLdapGroupsMapping failing -string mismatch in exception validation,['fail']
+HADOOP-15358,SFTPConnectionPool connections leakage,"['connection', 'connection', 'connection', 'connection', 'connection', 'connection', 'server', 'server', 'server']"
+HADOOP-16021,SequenceFile.createWriter appendIfExists codec cause NullPointerException,"['broker', 'meta', 'parallel', 'partition', 'partition', 'server']"
+HADOOP-18201,Remove base and bucket overrides for endpoint in ITestS3ARequesterPays.java,"['fail', 'region', 'region', 'region', 'region', 'region']"
+HADOOP-16440,Distcp can not preserve timestamp with -delete  option,"['cluster', 'cluster', 'cluster']"
+HADOOP-17993,Disable JIRA plugin for YETUS on Hadoop,['fail']
+HADOOP-14922,"Build of Mapreduce Native Task module fails with unknown opcode ""bswap""","['fail', 'lock', 'lock', 'message', 'message', 'message', 'message', 'message', 'message']"
+HADOOP-15375,Branch-2 pre-commit failed to build docker image,"['node', 'node', 'node', 'node', 'node', 'fail', 'fail']"
+HADOOP-17028,ViewFS should initialize target filesystems lazily,"['client', 'client', 'client', 'connection', 'connection']"
+HADOOP-17988,Disable JIRA plugin for YETUS on Hadoop,['fail']
+HADOOP-16245,Enabling SSL within LdapGroupsMapping can break system SSL configs,"['client', 'client', 'server']"
+HADOOP-16411,Fix javadoc warnings in hadoop-dynamometer,['fail']
+HADOOP-17245,Add RootedOzFS AbstractFileSystem to core-default.xml,['fail']
+HADOOP-17650,Fails to build using Maven 3.8.1,"['block', 'block', 'lock', 'lock', 'lock']"
+HADOOP-15442,ITestS3AMetrics.testMetricsRegister can't know metrics source's name,"['fail', 'fail', 'fail', 'parallel']"
+HADOOP-14982,Clients using FailoverOnNetworkExceptionRetry can go into a loop if they're used without authenticating with kerberos in HA env,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'connection', 'connection', 'connection', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'fail', 'message', 'server', 'server', 'server', 'server']"
+HADOOP-15410,Update scope of log4j in hadoop-auth to provided,['fail']
+HADOOP-17642,Remove appender EventCounter to avoid instantiation ,['cluster']
+HADOOP-18641,cyclonedx maven plugin breaks builds on recent maven releases (3.9.0),['fail']
+HADOOP-15655,Enhance KMS client retry behavior,"['client', 'client', 'client', 'client', 'connection', 'fail', 'fail']"
+HADOOP-17256,DistCp -update option will be invalid when distcp files from hdfs to S3,"['block', 'block', 'block', 'block', 'block', 'block', 'block', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-13657,IPC Reader thread could silently die and leave NameNode unresponsive,['fail']
+HADOOP-18584,[NFS GW] Fix regression after netty4 migration,"['block', 'client', 'client', 'fail', 'lock']"
+HADOOP-15686,Supress bogus AbstractWadlGeneratorGrammarGenerator in KMS stderr,"['message', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15307,NFS: flavor AUTH_SYS should use VerifierNone,"['fail', 'message', 'server']"
+HADOOP-17985,Disable JIRA plugin for YETUS on Hadoop,['fail']
+HADOOP-13572,fs.s3native.mkdirs does not work if the user is only authorized to a subdirectory,"['fail', 'fail', 'fail', 'fail']"
+HADOOP-16011,OsSecureRandom very slow compared to other SecureRandom implementations,"['remote', 'connection']"
+HADOOP-18077,ProfileOutputServlet unable to proceed due to NPE,"['fail', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16199,KMSLoadBlanceClientProvider does not select token correctly,"['cluster', 'client']"
+HADOOP-16793, Remove WARN log when ipc connection interrupted in Client#handleSaslConnectionFailure(),"['node', 'remote', 'connection', 'server', 'server']"
+HADOOP-18268,Install Maven from Apache archives,"['assign', 'fail', 'fail', 'assign']"
+HADOOP-15789,DistCp does not clean staging folder if class extends DistCp,"['fail', 'fail', 'fail']"
+HADOOP-16435,RpcMetrics should not be retained forever,['server']
+HADOOP-17557,skip-dir option is not processed by Yetus,['parallel']
+HADOOP-17532,Yarn Job execution get failed when LZ4 Compression Codec is used,"['fail', 'fail', 'message']"
+HADOOP-14198,Should have a way to let PingInputStream to abort,"['remote', 'fail', 'server']"
+HADOOP-14985,Remove subversion related code from VersionInfoMojo.java,"['fail', 'message', 'message']"
+HADOOP-16410,Hadoop 3.2 azure jars incompatible with alpine 3.9,['meta']
+HADOOP-16962,Making `getBoolean` log warning message for unrecognized value,"['fail', 'message', 'message', 'message', 'message']"
+HADOOP-16789,"In TestZKFailoverController, restore changes from HADOOP-11149 that were dropped by HDFS-6440","['fail', 'fail', 'fail', 'fail']"
+HADOOP-16674,TestDNS.testRDNS can fail with ServiceUnavailableException,"['network', 'fail', 'fail', 'fail']"
+HADOOP-12964,Http server vulnerable to clickjacking ,"['remote', 'server', 'server']"
+HADOOP-16681,mvn javadoc:javadoc fails in hadoop-aws,"['fail', 'fail', 'message']"
+HADOOP-18386,ITestS3SelectLandsat timeout after 10 minutes,"['race', 'race', 'race']"
+HADOOP-15738,MRAppBenchmark.benchmark1() fails with NullPointerException,"['fail', 'fail']"
+HADOOP-14450,ADLS Python client inconsistent when used in tandem with AdlFileSystem,"['consistent', 'client', 'client', 'client', 'client', 'fail']"
+HADOOP-18452,Fix TestKMS#testKMSHAZooKeeperDelegationToken Failed By Hadoop-18427,"['node', 'node']"
+HADOOP-15411,AuthenticationFilter should use Configuration.getPropsWithPrefix instead of iterator,"['node', 'node', 'node', 'node', 'node', 'fail', 'fail', 'message', 'race', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-18563,Misleading AWS SDK S3 timeout configuration comment,"['client', 'connection', 'connection', 'connection', 'connection']"
+HADOOP-16299,[JDK 11] Build fails without specifying -Djavac.version=11,"['fail', 'fail']"
+HADOOP-13243,TestRollingFileSystemSink.testSetInitialFlushTime() fails intermittently,"['fail', 'fail', 'fail', 'race']"
+HADOOP-17196,Fix C/C++ standard warnings,['client']
+HADOOP-18331,Shouldn't relocate org/wildfly/openssl in shaded client,['client']
+HADOOP-12966,TestNativeLibraryChecker is crashing,"['crash', 'crash', 'fail']"
+HADOOP-14071,S3a: Failed to reset the request input stream,"['consistent', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'block', 'fail', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-13864,KMS should not require truststore password,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15290,Imprecise assertion in FileStatus w.r.t. symlink,['race']
+HADOOP-16662,Remove unnecessary InnerNode check in NetworkTopology#add(),"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'network', 'network', 'cluster', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-17762,branch-2.10 daily build fails to pull latest changes,"['remote', 'remote', 'remote', 'remote', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'fail', 'fail', 'race', 'race']"
+HADOOP-13173,SecurityUtil.buildtokenService broke token authentication in multi-home network env,"['node', 'network', 'network', 'network', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'race', 'race', 'race']"
+HADOOP-17223,update  org.apache.httpcomponents:httpclient to 4.5.13 and httpcore to 4.4.13,"['client', 'client']"
+HADOOP-17143,Fix outdated properties of JournalNode when performing rollback,"['node', 'node', 'cluster', 'client', 'fail', 'lock', 'server', 'server', 'server', 'server']"
+HADOOP-13588,ConfServlet should respect Accept request header,['client']
+HADOOP-15234,Throw meaningful message on null when initializing KMSWebApp,"['message', 'server']"
+HADOOP-13601,Fix typo in a log messages of AbstractDelegationTokenSecretManager,"['message', 'message']"
+HADOOP-14942,DistCp#cleanup() should check whether jobFS is null,"['meta', 'meta']"
+HADOOP-14961,Docker failed to build yetus/hadoop:0de40f0: Oracle JDK 8 is NOT installed,"['fail', 'fail', 'fail']"
+HADOOP-13872,KMS JMX exception,"['distributed', 'message', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-17992,Disable JIRA plugin for YETUS on Hadoop,['fail']
+HADOOP-13535,Add jetty6 acceptor startup issue workaround to branch-2,"['connection', 'connection']"
+HADOOP-14727,Socket not closed properly when reading Configurations with BlockReaderRemote,"['consistent', 'block', 'block', 'client', 'client', 'client', 'client', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-13073,RawLocalFileSystem does not react on changing umask,"['block', 'lock']"
+HADOOP-16824,[thirdparty] port HADOOP-16754 (Fix docker failed to build yetus/hadoop) to thirdparty Dockerfile,"['fail', 'fail']"
+HADOOP-17989,"ITestAzureBlobFileSystemDelete failing ""Operations has null HTTP response""","['fail', 'fail']"
+HADOOP-14540,Replace MRv1 specific terms in HostsFileReader,"['node', 'node', 'node']"
+HADOOP-14669,GenericTestUtils.waitFor should use monotonic time,"['clock', 'lock']"
+HADOOP-14377,Increase Common test timeouts from 1 second to 10 seconds,['fail']
+HADOOP-15866,Renamed HADOOP_SECURITY_GROUP_SHELL_COMMAND_TIMEOUT keys break compatibility,"['block', 'client', 'client', 'lock', 'message', 'message']"
+HADOOP-16897,Sort fields in ReflectionUtils.java,"['fail', 'fail', 'fail', 'fail', 'fail', 'race']"
+HADOOP-14024,KMS JMX endpoint throws ClassNotFoundException,"['server', 'server', 'server', 'server']"
+HADOOP-14116,FailoverOnNetworkExceptionRetry does not wait when failover on certain exception ,"['fail', 'fail']"
+HADOOP-13859,TestConfigurationFieldsBase fails for fields that are DEFAULT values of skipped properties.,"['fail', 'fail']"
+HADOOP-14207,"""dfsadmin -refreshCallQueue"" fails with DecayRpcScheduler","['node', 'fail', 'lock', 'server']"
+HADOOP-15265,Exclude json-smart explicitly in hadoop-auth avoid being pulled in transitively,"['client', 'client', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'race']"
+HADOOP-17588,CryptoInputStream#close() should be synchronized,['fail']
+HADOOP-16086,Backport HADOOP-15549 to branch-3.1,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail', 'server', 'server']"
+HADOOP-13251,Authenticate with Kerberos credentials when renewing KMS delegation token,"['client', 'server']"
+HADOOP-13663,Index out of range in SysInfoWindows,"['node', 'server']"
+HADOOP-15205,maven release: missing source attachments for hadoop-mapreduce-client-core,"['client', 'client', 'client']"
+HADOOP-17241,s3a: bucket names which aren't parseable hostnames unsupported,['race']
+HADOOP-15618,Fix debug log for property IPC_CLIENT_BIND_WILDCARD_ADDR_KEY,"['client', 'message']"
+HADOOP-13924,Update checkstyle and checkstyle plugin version to handle indentation of JDK8 Lambdas,"['node', 'node', 'node', 'node', 'node', 'node', 'node', 'node', 'block', 'block', 'block', 'fail', 'fail', 'fail', 'fail', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-14412,HostsFileReader#getHostDetails is very expensive on large clusters,"['node', 'cluster', 'cluster', 'cluster', 'server']"
+HADOOP-17585,Correct timestamp format in the docs for the touch command,['message']
+HADOOP-13233,help of stat is confusing,"['block', 'block', 'lock', 'lock']"
+HADOOP-13177,"Native tests fail on OS X, because DYLD_LIBRARY_PATH is not defined to include libhadoop.dylib.",['fail']
+HADOOP-13012,yetus-wrapper should fail sooner when download fails,"['fail', 'fail', 'fail', 'fail', 'server']"
+HADOOP-14820,Wasb mkdirs security checks inconsistent with HDFS,"['consistent', 'fail']"
+HADOOP-13242,Authenticate to Azure Data Lake using client ID and keys,"['client', 'client', 'client', 'client']"
+HADOOP-13072,WindowsGetSpaceUsed constructor should be public,"['node', 'node', 'node', 'node', 'lock', 'lock', 'lock', 'lock', 'server', 'server', 'server', 'server']"
+HADOOP-13320,Fix arguments check in documentation for WordCount v2.0,"['client', 'client', 'message', 'message', 'message']"
+HADOOP-16166,TestRawLocalFileSystemContract fails with build Docker container running on Mac,"['fail', 'fail', 'fail']"
+HADOOP-16765,Fix curator dependencies for gradle projects using hadoop-minicluster,"['node', 'node', 'node', 'node', 'node', 'cluster', 'cluster', 'cluster', 'cluster', 'client', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16461,Regression: FileSystem cache lock parses XML within the lock,"['client', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-16944,Use Yetus 0.12.0 in GitHub PR,['fail']
+HADOOP-13868,New defaults for S3A multi-part configuration,"['block', 'block', 'block', 'lock', 'lock', 'lock']"
+HADOOP-13470,GenericTestUtils$LogCapturer is flaky,"['assign', 'assign']"
+HADOOP-15169,"""hadoop.ssl.enabled.protocols"" should be considered in httpserver2","['node', 'server', 'server', 'server']"
+HADOOP-13512,ReloadingX509TrustManager should keep reloading in case of exception,"['fail', 'fail']"
+HADOOP-16998,WASB : NativeAzureFsOutputStream#close() throwing IllegalArgumentException,"['block', 'lock']"
+HADOOP-17850,Upgrade ZooKeeper to 3.4.14 in branch-3.2,['consistent']
+HADOOP-16098,Fix javadoc warnings in hadoop-aws,['fail']
+HADOOP-17919,Fix command line example in Hadoop Cluster Setup documentation,"['node', 'cluster', 'cluster', 'cluster']"
+HADOOP-18576,Java 11 JavaDoc fails due to missing package comments,"['fail', 'fail']"
+HADOOP-17582,Replace GitHub App Token with GitHub OAuth token,['fail']
+HADOOP-14287,Compiling trunk with -DskipShade fails ,"['client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'fail']"
+HADOOP-17186,Fixing javadoc in ListingOperationCallbacks,['fail']
+HADOOP-14644,Increase max heap size of Maven javadoc plugin,['fail']
+HADOOP-17931,Fix typos in usage message in winutils.exe,"['message', 'message']"
+HADOOP-16925,MetricsConfig incorrectly loads the configuration whose value is String list in the properties file,"['lock', 'lock', 'lock']"
+HADOOP-18002,abfs rename idempotency broken -remove recovery,"['recovery', 'recovery']"
+HADOOP-17390,Skip license check on lz4 code files,"['client', 'client', 'client', 'client']"
+HADOOP-18126,Update junit 5 version due to build issues,"['fail', 'fail']"
+HADOOP-17870,HTTP Filesystem to qualify paths in open()/getFileStatus(),"['consistent', 'fail']"
+HADOOP-17032,Handle an internal dir in viewfs having multiple children mount points pointing to different filesystems,['fail']
+HADOOP-17184,Add --mvn-custom-repos parameter to yetus calls,"['fail', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta', 'meta']"
+HADOOP-18313,AliyunOSS: AliyunOSSBlockOutputStream should not mark the temporary file for deletion,"['lock', 'lock']"
+HADOOP-17858,Avoid possible class loading deadlock with VerifierNone initialization,"['client', 'lock', 'lock', 'lock']"
+HADOOP-18245,Extend KMS related exceptions that get mapped to ConnectException ,['race']
+HADOOP-17328,LazyPersist Overwrite fails in direct write mode,"['fail', 'fail']"
+HADOOP-18100,Change scope of inner classes in InodeTree to make them accessible outside package,['node']
+HADOOP-17621,hadoop-auth to remove jetty-server dependency,"['server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-17360,Log the remote address for authentication success,"['remote', 'remote', 'server']"
+HADOOP-17686,Avoid potential NPE by using Path#getParentPath API in hadoop-huaweicloud,['race']
+HADOOP-13132,Handle ClassCastException on AuthenticationException in LoadBalancingKMSClientProvider,"['node', 'node', 'node', 'node', 'client', 'fail', 'fail', 'message', 'message', 'server', 'server', 'server', 'server']"
+HADOOP-17317,[JDK 11] Upgrade dnsjava to remove illegal access warnings,['message']
+HADOOP-17999,No-op implementation of setWriteChecksum and setVerifyChecksum in ViewFileSystem,['delay']
+HADOOP-14867,"Update HDFS Federation setup document, for incorrect property name for secondary name node http address","['node', 'node', 'node', 'node', 'node', 'node', 'node', 'cluster']"
+HADOOP-16149,hadoop-mapreduce-client-app build not converging due to transient dependencies,"['client', 'client', 'client', 'fail']"
+HADOOP-15923,create-release script should set max-cache-ttl as well as default-cache-ttl for gpg-agent,['fail']
+HADOOP-17142,Fix outdated properties of journal node when perform rollback,"['node', 'node', 'node', 'cluster', 'client', 'fail', 'lock', 'server', 'server', 'server', 'server']"
+HADOOP-16710,testing_azure.md documentation is misleading,"['parallel', 'parallel', 'parallel', 'parallel', 'parallel', 'parallel', 'parallel', 'parallel', 'parallel', 'parallel']"
+HADOOP-16755,Fix broken link in single node cluster setup documentation,"['node', 'cluster']"
+HADOOP-14891,Remove references to Guava Objects.toStringHelper,"['client', 'client', 'fail']"
+HADOOP-18567,LogThrottlingHelper: the dependent recorder is not triggered correctly,['fail']
+HADOOP-15166,CLI MiniCluster fails with ClassNotFoundException o.a.h.yarn.server.timelineservice.collector.TimelineCollectorManager,"['cluster', 'fail', 'fail', 'server', 'server']"
+HADOOP-18633,fix test AbstractContractDistCpTest#testDistCpUpdateCheckFileSkip ,"['remote', 'block', 'fail', 'fail', 'lock', 'race']"
+HADOOP-16240,start-build-env.sh can consume all disk space during image creation,"['fail', 'fail']"
+HADOOP-15802,start-build-env.sh creates an invalid /etc/sudoers.d/hadoop-build-${USER_ID} file entry,['fail']
+HADOOP-18428,Parameterize platform toolset version,['fail']
+HADOOP-18402,S3A committer NPE in spark job abort,['partition']
+HADOOP-18636,LocalDirAllocator cannot recover from directory tree deletion during the life of a filesystem client,"['block', 'client', 'client', 'lock']"
+HADOOP-16161,NetworkTopology#getWeightUsingNetworkLocation return unexpected result,"['remote', 'client']"
+HADOOP-15122,Lock down version of doxia-module-markdown plugin,['lock']
+HADOOP-15869,BlockDecompressorStream#decompress should not return -1 in case of IOException.,"['fail', 'lock', 'lock', 'lock', 'lock', 'lock']"
+HADOOP-16076,SPNEGO+SSL Client Connections with HttpClient Broken,['connection']
+HADOOP-16677,Recalculate the remaining timeout millis correctly while throwing an InterupptedException in SocketIOWithTimeout.,"['node', 'node', 'remote', 'remote', 'message', 'server', 'server']"
+HADOOP-15594,Exclude commons-lang3 from hadoop-client-minicluster,"['cluster', 'client']"
+HADOOP-15817,Reuse Object Mapper in KMSJSONReader,"['lock', 'race', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-16067,Incorrect Format Debug Statement KMSACLs,"['message', 'server', 'server']"
+HADOOP-16114,NetUtils#canonicalizeHost gives different value for same host,"['fail', 'race', 'race']"
+HADOOP-16967,TestSequenceFile#testRecursiveSeqFileCreate fails in subsequent run ,"['fail', 'fail', 'fail', 'fail', 'fail']"
+HADOOP-15340,Provide meaningful RPC server name for RpcMetrics,"['server', 'server', 'server', 'server', 'server']"
+HADOOP-16013,DecayRpcScheduler decay thread should run as a daemon,['delay']
+HADOOP-15698,KMS log4j is not initialized properly at startup,['message']
+HADOOP-15455,Incorrect debug message in KMSACL#hasAccess,['message']
+HADOOP-15289,FileStatus.readFields() assertion incorrect,['fail']
+HADOOP-15316,GenericTestUtils can exceed maxSleepTime,['delay']
+HADOOP-15772,Remove the 'Path ... should be specified as a URI' warnings on startup,['node']
+HADOOP-16808,Use forkCount and reuseForks parameters instead of forkMode in the config of maven surefire plugin,['parallel']
+HADOOP-17116,Skip Retry INFO logging on first failover from a proxy,"['client', 'fail', 'fail', 'fail', 'message']"
+HADOOP-15813,Enable more reliable SSL connection reuse,"['connection', 'connection']"
+HADOOP-16127,"In ipc.Client, put a new connection could happen after stop",['connection']
+HADOOP-17119,Jetty upgrade to 9.4.x causes MR app fail with IOException,"['client', 'fail', 'race', 'server', 'server', 'server']"
+HADOOP-15571,Multiple FileContexts created with the same configuration object should be allowed to have different umask,"['replica', 'fail']"
+HADOOP-15396,Some java source files are executable,"['node', 'node', 'node', 'node', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'client', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15886,Fix findbugs warnings in RegistryDNS.java,"['server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-15223,Replace Collections.EMPTY* with empty* when available,"['assign', 'assign']"
+HADOOP-16331,Fix ASF License check in pom.xml,"['client', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server', 'server']"
+HADOOP-12267,s3a failure due to integer overflow bug in AWS SDK,['fail']
+HADOOP-8074,Small bug in hadoop error message for unknown commands,['message']
+HADOOP-6498,IPC client  bug may cause rpc call hang,['client']
+HADOOP-11916,TestStringUtils#testLowerAndUpperStrings failed on MAC due to a JVM bug,['fail']
+HADOOP-12714,"Fix hadoop-mapreduce-client-nativetask unit test which fails because it is not able to open the ""glibc bug spill"" file.","['client', 'fail']"
+HADOOP-8953,Shell PathData parsing failures on Windows,['fail']
+HADOOP-12605,Fix intermittent failure of TestIPC.testIpcWithReaderQueuing,['fail']
+HADOOP-12033,Reducer task failure with java.lang.NoClassDefFoundError: Ljava/lang/InternalError at org.apache.hadoop.io.compress.snappy.SnappyDecompressor.decompressBytesDirect,['fail']
+HADOOP-9007,TestJobStatusPersistency.testJobStoreDisablingWithInvalidPath failure,['fail']
+HADOOP-7290,Unit test failure in TestUserGroupInformation.testGetServerSideGroups,['fail']
+HADOOP-8977,multiple FsShell test failures on Windows,['fail']
+HADOOP-12540,TestAzureFileSystemInstrumentation#testClientErrorMetrics fails intermittently due to assumption that a lease error will be thrown.,['fail']
+HADOOP-8220,ZKFailoverController doesn't handle failure to become active correctly,['fail']
+HADOOP-10318,Incorrect reference to nodeFile in RumenToSLSConverter error message,"['node', 'message']"
+HADOOP-7256,Resource leak during failure scenario of closing of resources. ,['fail']
+HADOOP-5367,"After some jobs have finished, Reducer will run new job's reduce tasks sequentially and not in parallel (mapred.JobTracker: Serious problem.  While updating status, cannot find taskid...)",['parallel']
+HADOOP-8732,Address intermittent test failures on Windows,['fail']
+HADOOP-6145,No error message for deleting non-existant file or directory.,['message']
+HADOOP-9896,TestIPC fail on trunk with error VM crash or System.exit,"['crash', 'fail']"
+HADOOP-5059,"'whoami', 'topologyscript' calls failing with java.io.IOException: error=12, Cannot allocate memory",['fail']
+HADOOP-12181,Fix intermittent test failure of TestZKSignerSecretProvider,['fail']
+HADOOP-12014,hadoop-config.cmd displays a wrong error message,['message']
+HADOOP-11958,MetricsSystemImpl fails to show backtrace when an error occurs,"['fail', 'race']"
+HADOOP-12468,Partial group resolution failure should not result in user lockout,"['fail', 'lock']"
+HADOOP-7950,trunk test failure at org.apache.hadoop.fs.viewfs.TestViewFileSystemHdfs,['fail']
+HADOOP-9058,branch-1-win build failure ,['fail']
+HADOOP-12609,Fix intermittent failure of TestDecayRpcScheduler,['fail']
+HADOOP-8714,Jenkins cannot detect download failure,['fail']
+HADOOP-8956,FileSystem.primitiveMkdir failures on Windows cause multiple test suites to fail,"['fail', 'fail']"
+HADOOP-9583,test-patch gives +1 despite build failure when running tests,['fail']
+HADOOP-10837,Fix the failures from TestSymlinkLocalFSFileContext & TestSymlinkLocalFSFileSystem,['fail']
+HADOOP-12718,Incorrect error message by fs -put local dir without permission,['message']
+HADOOP-9186,test-patch.sh should report build failure to JIRA,['fail']
+HADOOP-9844,NPE when trying to create an error message response of SASL RPC,['message']
+HADOOP-11611,fix TestHTracedRESTReceiver unit test failures,"['fail', 'race']"
+HADOOP-12423,Handle failure of registering shutdownhook by ShutdownHookManager in static block,"['block', 'fail', 'lock']"
+HADOOP-8257,Auto-HA: TestZKFailoverControllerStress occasionally fails with Mockito error,['fail']
+HADOOP-12479,ProtocMojo does not log the reason for a protoc compilation failure.,['fail']
+HADOOP-9249,hadoop-maven-plugins version-info goal causes build failure when running with Clover,['fail']
+HADOOP-8961,GenericOptionsParser URI parsing failure on Windows,['fail']
+HADOOP-12152,Fix test case failures o.a.h.h.TestHDFSFileSystemContract and TestWebHdfsFileSystemContract.testListStatus,['fail']
+HADOOP-12516,jdiff fails with error 'duplicate comment id' about MetricsSystem.register_changed,['fail']
+HADOOP-8534,Some tests leave a config file open causing failure on windows,['fail']
+HADOOP-8603,"Test failures with ""Container .. is running beyond virtual memory limits""",['fail']
+HADOOP-4773,"namenode startup error, hadoop-user-namenode.pid permission denied.","['node', 'node']"
+HADOOP-9085,"start namenode failure,bacause pid of namenode pid file is other process pid or thread id before start namenode","['node', 'node', 'node', 'fail']"
+HADOOP-6820,"RunJar fails executing thousands JARs within single JVM with error ""Too many open files""",['fail']
+HADOOP-6619,Improve error messages when logging in from keytab,['message']
+HADOOP-9309,test failures on Windows due to UnsatisfiedLinkError in NativeCodeLoader#buildSupportsSnappy,['fail']
+HADOOP-12697,IPC retry policies should recognise that SASL auth failures are unrecoverable,['fail']
+HADOOP-4926,compile-core-test build fails (bad class file error: ExternalMapReduce.class),['fail']
+HADOOP-9146,failure to set sticky bit regression on branch-trunk-win,['fail']
+HADOOP-9505,Specifying checksum type to NULL can cause write failures with AIOBE,['fail']
+HADOOP-11951,test-patch should give better info about failures to handle dev-support updates without resetrepo option,['fail']
+HADOOP-5529,Task Error messages might not make it to job's history file,['message']
+HADOOP-12795,KMS does not log detailed stack trace for unexpected errors.,['race']
+HADOOP-7822,Hadoop startup script has a race condition : this causes failures in datanodes status and stop commands,"['node', 'fail', 'race']"
+HADOOP-12699,TestKMS#testKMSProvider intermittently fails during 'test rollover draining',['fail']
+HADOOP-10518,TestSaslRPC fails on Windows,['fail']
+HADOOP-10510,TestSymlinkLocalFSFileContext tests are failing,['fail']
+HADOOP-12611,TestZKSignerSecretProvider#testMultipleInit occasionally fail,['fail']
+HADOOP-5254,Xinclude setup results in a stack trace,['race']
+HADOOP-7755,Detect MapReduce PreCommit Trunk builds silently failing when running test-patch.sh,['fail']
+HADOOP-5646,TestQueueCapacities is failing Hudson tests for the last few builds,['fail']
+HADOOP-5920,TestJobHistory fails some times.,['fail']
+HADOOP-12603,TestSymlinkLocalFSFileContext#testSetTimesSymlinkToDir occasionally fail,['fail']
+HADOOP-12418,TestRPC.testRPCInterruptedSimple fails intermittently,['fail']
+HADOOP-7488,"When Namenode network is unplugged, DFSClient operations waits for ever","['node', 'network']"
+HADOOP-10277,setfacl -x fails to parse ACL spec if trying to remove the mask entry.,['fail']
+HADOOP-5655,TestMRServerPorts fails on java.net.BindException,['fail']
+HADOOP-12202,releasedocmaker drops missing component and assignee entries,"['assign', 'assign']"
+HADOOP-9126,FormatZK and ZKFC startup can fail due to zkclient connection establishment delay,"['delay', 'client', 'connection', 'fail']"
+HADOOP-10888,org.apache.hadoop.ipc.TestIPC.testRetryProxy failed often with timeout,['fail']
+HADOOP-12300,"BUILDING.txt instructions for skipping tests incomplete/obsolete, build can fail.",['fail']
+HADOOP-12617,SPNEGO authentication request to non-default realm gets default realm name inserted in target server principal,['server']
+HADOOP-11742,mkdir by file system shell fails on an empty bucket,['fail']
+HADOOP-10272,"Hadoop 2 ""-copyFromLocal"" fail when source is a folder and there are spaces in the path",['fail']
+HADOOP-11425,Compilation failed on Windows WIN32 platform,['fail']
+HADOOP-5983,Namenode shouldn't read mapred-site.xml,['node']
+HADOOP-860,start-all.sh fails on Ubuntu 6.10,['fail']
+HADOOP-12590,TestCompressorDecompressor failing without stack traces,"['fail', 'race']"
+HADOOP-8933,test-patch.sh fails erroneously on platforms that can't build native,['fail']
+HADOOP-12317,Applications fail on NM restart on some linux distro because NM container recovery declares AM container as LOST,"['recovery', 'fail', 'restart']"
+HADOOP-7768,PreCommit-HADOOP-Build is failing on hadoop-auth-examples,['fail']
+HADOOP-10718,"""IOException: An existing connection was forcibly closed by the remote host"" frequently happens on Windows","['remote', 'connection']"
+HADOOP-11784,failed to locate Winutils for win 32 platform,['fail']
+HADOOP-3522,"ValuesIterator.next() doesn't return a new object, thus failing many equals() tests.",['fail']
+HADOOP-8802,TestUserGroupInformation testcase fails using IBM JDK 6.0 SR11,['fail']
+HADOOP-12416,Trash messages should be handled by Logger instead of being delivered on System.out ,['message']
+HADOOP-10941,Proxy user verification NPEs if remote host is unresolvable,['remote']
+HADOOP-8564,Port and extend Hadoop native libraries for Windows to address datanode concurrent reading and writing issue,['node']
+HADOOP-8763,Set group owner on Windows failed,['fail']
+HADOOP-12364,Deleting pid file after stop is causing the daemons to keep restarting ,['restart']
+HADOOP-8321,TestUrlStreamHandler fails,['fail']
+HADOOP-12767,update apache httpclient version to 4.5.2; httpcore to 4.4.4,['client']
+HADOOP-8731,TestTrackerDistributedCacheManager fails on Windows,['fail']
+HADOOP-4318,distcp fails,['fail']
+HADOOP-6460,Namenode runs of out of memory due to memory leak in ipc Server,['node']
+HADOOP-8978,TestTrash fails on Windows,['fail']
+HADOOP-12449,TestDNS and TestNetUtils failing if no network,"['network', 'fail']"
+HADOOP-5311,Write pipeline recovery fails,"['recovery', 'fail']"
+HADOOP-12061,Incorrect command in single cluster setup document,['cluster']
+HADOOP-5057, Chukwa agent crash on startup with missing check point file,['crash']
+HADOOP-1740,"Certain Pipes tasks fail, after exiting the C++ application",['fail']
+HADOOP-12757,Findbug compilation fails for 'Kafka Library support',['fail']
+HADOOP-5903,"DFSClient ""Could not obtain block:...""","['block', 'lock']"
+HADOOP-8976,TestFSMainOperationsLocalFileSystem fails on Windows,['fail']
+HADOOP-7514,Build fails with ClassCastException when running both mvn-install and mvn-deploy targets,['fail']
+HADOOP-11458,Dos Scripts fail when spaces are in Java Path,['fail']
+HADOOP-12849,TestSymlinkLocalFSFileSystem fails intermittently ,['fail']
+HADOOP-9052,fix 6 failing tests in hadoop-streaming,['fail']
+HADOOP-8042,"When copying a file out of HDFS, modifying it, and uploading it back into HDFS, the put fails due to a CRC mismatch",['fail']
+HADOOP-8975,TestFileContextResolveAfs fails on Windows,['fail']
+HADOOP-2159,Namenode stuck in safemode,['node']
+HADOOP-11685,"StorageException complaining "" no lease ID"" during HBase distributed log splitting",['distributed']
+HADOOP-6101,CDPATH environment variable causes bin scripts to fail.,['fail']
+HADOOP-11959,WASB should configure client side socket timeout in storage client blob request options,"['client', 'client']"
+HADOOP-8621,FileUtil.symLink fails if spaces in path,['fail']
+HADOOP-8568,DNS#reverseDns fails on IPv6 addresses,['fail']
+HADOOP-9265,S3 blockstore filesystem breaks part of the Filesystem contract,"['block', 'lock']"
+HADOOP-11019,Queued IPC calls are not aborted if the connection drops,['connection']
+HADOOP-12452,Fix tracing documention reflecting the update to htrace-4,['race']
+HADOOP-10438,TestStreamingTaskLog fails,['fail']
+HADOOP-9990,TestMetricsSystemImpl fails,['fail']
+HADOOP-9232,JniBasedUnixGroupsMappingWithFallback fails on Windows with UnsatisfiedLinkError,['fail']
+HADOOP-5623,Streaming: process provided status messages are overwritten every 10 seoncds,['message']
+HADOOP-3395,Namenode.initialize() sets the default filesystem uri to an ip6 address (0:0:0:0:0:0:0:0),['node']
+HADOOP-8734,LocalJobRunner does not support private distributed cache,['distributed']
+HADOOP-9057,TestMetricsSystemImpl.testInitFirst fails intermittently,['fail']
+HADOOP-6760,WebServer shouldn't increase port number in case of negative port setting caused by Jetty's race,['race']
+HADOOP-9631,ViewFs should use underlying FileSystem's server side defaults,['server']
+HADOOP-6554,DelegationTokenSecretManager lifecycle is inconsistent,['consistent']
+HADOOP-12508,delete fails with exception when lease is held on blob,['fail']
+HADOOP-8299,ViewFileSystem link slash mount point crashes with IndexOutOfBoundsException,['crash']
+HADOOP-12408,java8 build failing in javadocs at AuthenticationToken.java,['fail']
+HADOOP-11900,Add failIfNoTests=false to hadoop-build-tools pom,['fail']
+HADOOP-12474,MiniKMS should use random ports for Jetty server by default,['server']
+HADOOP-8577,The RPC must have failed proxyUser (auth:SIMPLE) via realUser1@HADOOP.APACHE.ORG (auth:SIMPLE),['fail']
+HADOOP-12542,TestDNS fails on Windows after HADOOP-12437.,['fail']
+HADOOP-9687,branch-1-win TestJobTrackerQuiescence and TestFileLengthOnClusterRestart failed caused by incorrect DFS path construction on Windows,['fail']
+HADOOP-12417,TestWebDelegationToken failing with port in use,['fail']
+HADOOP-6468,compile-core-test failing with java.lang.NoSuchMethodError: org.objectweb.asm.ClassWriter.<init>,['fail']
+HADOOP-12054,RPC client should not retry for InvalidToken exceptions,['client']
+HADOOP-9202,test-patch.sh fails during mvn eclipse:eclipse if patch adds a new module to the build,['fail']
+HADOOP-12678,Handle empty rename pending metadata file during atomic rename in redo path,['meta']
+HADOOP-4019,Hadoop 0.18.0 does not start on Mac OS X Leopard: NPE if no dfs.datanode.ipc.address value in the configuration,['node']
+HADOOP-5412,TestInjectionForSimulatedStorage occasionally fails on timeout,['fail']
+HADOOP-12681,start-build-env.sh fails in branch-2,['fail']
+HADOOP-12052,"IPC client downgrades all exception types to IOE, breaks callers trying to use them",['client']
+HADOOP-11846,TestCertificateUtil.testCorruptPEM failing on Jenkins JDK8,['fail']
+HADOOP-12018,smart-apply-patch.sh fails if the patch edits CR+LF files and is created by 'git diff --no-prefix',['fail']
+HADOOP-12608,Fix exception message in WASB when connecting with anonymous credential,['message']
+HADOOP-11955,Fix a typo in the cluster setup doc,['cluster']
+HADOOP-9692,Improving log message when SequenceFile reader throws EOFException on zero-length file,['message']
+HADOOP-10406,TestIPC.testIpcWithReaderQueuing may fail,['fail']
+HADOOP-12622,RetryPolicies (other than FailoverOnNetworkExceptionRetry) should put on retry failed reason or the log from RMProxy's retry could be very misleading.,['fail']
+HADOOP-9719,Branch-1-win TestFsShellReturnCode#testChgrp() failed caused by incorrect exit codes,['fail']
+HADOOP-5654,TestReplicationPolicy.<init> fails on java.net.BindException,['fail']
+HADOOP-7567,mvn eclipse:eclipse fails for hadoop-alredo,['fail']
+HADOOP-10227,IPC shutdown hangs if remote connection not reachable,"['remote', 'connection']"
+HADOOP-4264,DFSIO is failing on 500 nodes cluster,"['node', 'cluster', 'fail']"
+HADOOP-9463,branch-1-win fails to build with OpenJDK7,['fail']
+HADOOP-9633,"An incorrect data node might be added to the network topology, an exception is thrown though","['node', 'network']"
+HADOOP-8979,TestHttpServer fails on Windows,['fail']
+HADOOP-8974,TestDFVariations fails on Windows,['fail']
+HADOOP-8530,Potential deadlock in IPC,['lock']
+HADOOP-12095,org.apache.hadoop.fs.shell.TestCount fails,['fail']
+HADOOP-8213,TestGetBlocks is asserting on a wrong string,['lock']
+HADOOP-12454,Hadoop Audit release failing due to file CHANGES-HDFS-EC-7285.txt,['fail']
+HADOOP-8177,MBeans shouldn't try to register when it fails to create MBeanName,['fail']
+HADOOP-10869,JavaKeyStoreProvider backing jceks file may get corrupted,['corrupt']
+HADOOP-9393,TestRPC fails with JDK7,['fail']
+HADOOP-4385,Build fails for Mac OSX,['fail']
+HADOOP-4168,TestInjectionForSimulatedStorage job is failing on linux ,['fail']
+HADOOP-12164,Fix TestMove and TestFsShellReturnCode failed to get command name using reflection.,['fail']
+HADOOP-6638,try to relogin in a case of  failed RPC connection (expired tgt) only in case the subject is loginUser or proxyUgi.realUser.,"['connection', 'fail']"
+HADOOP-4313,ease-of-use:  missing fs.default.name should be caught and give a helpful message,['message']
+HADOOP-8004,Multiple SLF4J binding message in .out file for all daemons,['message']
+HADOOP-10091,Job with a har archive as input fails on 0.23,['fail']
+HADOOP-9743,TestStaticMapping test fails,['fail']
+HADOOP-10092,hadoop-2.2.0-src build fails owing to wrong maven-site-plugin version,['fail']
+HADOOP-6028,NPE server side when getting http://namenode/fileChecksum/* ,"['node', 'server']"
+HADOOP-12842,LocalFileSystem checksum file creation fails when source filename contains a colon,['fail']
+HADOOP-9641,hadoop-client should not exclude commons-httpclient,"['client', 'client']"
+HADOOP-9256,A number of Yarn and Mapreduce tests fail due to not substituted values in *-version-info.properties,['fail']
+HADOOP-5937,"Correct  info message  ""Use hadoop dfs -safemode option""  to  "" Use hdfs dfsadmin -safemode option""  . ",['message']
+HADOOP-12493,bash unit tests are failing ,['fail']
+HADOOP-8542,TestViewFsTrash failed several times on Precommit test,['fail']
+HADOOP-9048,TestHDFSFileSystemContract.testMkdirsWithUmask failed by using umask 022,['fail']
+HADOOP-10069,Not need to start secondary namenode upon NN HA?,['node']
+HADOOP-12445,TestNativeAzureFileSystemOperationsMocked fails in trunk,['fail']
+HADOOP-12765,HttpServer2 should switch to using the non-blocking SslSelectChannelConnector to prevent performance degradation when handling SSL connections,"['block', 'connection', 'lock']"
+HADOOP-10061,TestMetricsSystemImpl#testInitFirstVerifyStopInvokedImmediately failed,['fail']
+HADOOP-12573,TestRPC.testClientBackOff failing,['fail']
+HADOOP-10411,TestCacheDirectives.testExceedsCapacity fails occasionally,['fail']
+HADOOP-11020,TestRefreshUserMappings fails,['fail']
+HADOOP-5436,"job history directory grows without bound, locks up job tracker on new job submission",['lock']
+HADOOP-5800,Capacity scheduler test case is failing due to incorrect cleanup of svn workspace,['fail']
+HADOOP-11189,TestDNFencing.testQueueingWithAppend failed often in latest test,['fail']
+HADOOP-10165,TestMetricsSystemImpl#testMultiThreadedPublish occasionally fails,['fail']
+HADOOP-11408,TestRetryCacheWithHA.testUpdatePipeline failed in trunk,['fail']
+HADOOP-6524,Contrib tests are failing Clover'ed build,['fail']
+HADOOP-6774,Namenode is not able to recover from disk full condition,['node']
+HADOOP-4013,SocketException with S3 native file system causes job to fail,['fail']
+HADOOP-8412,"TestModTime, TestDelegationToken and TestAuthenticationToken fail intermittently on Windows",['fail']
+HADOOP-8411,"TestStorageDirecotyFailure, TestTaskLogsTruncater, TestWebHdfsUrl and TestSecurityUtil fail on Windows",['fail']
+HADOOP-8733,"TestStreamingTaskLog, TestJvmManager, TestLinuxTaskControllerLaunchArgs fail on Windows",['fail']
+HADOOP-6576,TestStreamingStatus is failing on 0.20 branch,['fail']
+HADOOP-1798,The counts of currently running maps and reduces isn't maintained correctly when task trackers fail,['fail']
+HADOOP-1970,tasktracker hang in reduce. Deadlock between main and comm thread,['lock']
+HADOOP-7769,TestJMXJsonServlet is failing,['fail']
+HADOOP-5349,"When the size required for a path is -1, LocalDirAllocator.getLocalPathForWrite fails with a DiskCheckerException when the disk it selects is bad.",['fail']
+HADOOP-5268,Using MultipleOutputFormat and setting reducers to 0 causes org.apache.hadoop.hdfs.protocol.AlreadyBeingCreatedException and job to fail,['fail']
+HADOOP-8959,"TestUserGroupInformation fails on Windows due to ""id"" executable not found",['fail']
+HADOOP-11035,distcp on mr1(branch-1) fails with NPE using a short relative source path.,['fail']
+HADOOP-9082,Simplify scripting usages so that parallel platform-dependent scripts are simple to maintain,['parallel']
+HADOOP-5054,Chukwa database partitions does not create/expire automatically,['partition']
+HADOOP-9905,remove dependency of zookeeper for hadoop-client,['client']
+HADOOP-12124,Add HTrace support for FsShell,['race']
+HADOOP-12407,Test failing: hadoop.ipc.TestSaslRPC,['fail']
+HADOOP-9891,CLIMiniCluster instructions fail with MiniYarnCluster ClassNotFoundException,['fail']
+HADOOP-12552,Fix undeclared/unused dependency to httpclient,['client']
+HADOOP-8208,Disallow self failover,['fail']
+HADOOP-11859,PseudoAuthenticationHandler fails with httpcomponents v4.4,['fail']
+HADOOP-9677,TestSetupAndCleanupFailure#testWithDFS fails on Windows,['fail']
+HADOOP-11180,"Change log message ""token.Token: Cannot find class for token kind kms-dt"" to debug",['message']
+HADOOP-11912,Extra configuration key used in TraceUtils should respect prefix,['race']
+HADOOP-8066,The full docs build intermittently fails,['fail']
+HADOOP-8082,add hadoop-client and hadoop-minicluster to the dependency-management section,"['cluster', 'client']"
+HADOOP-9782,Datanode daemon cannot be started on OS X,['node']
+HADOOP-12755,Fix typo in defaultFS warning message,['message']
+HADOOP-8354,test-patch findbugs may fail if a dependent module is changed,['fail']
+HADOOP-5719,Jobs failed during job initalization are never removed from Capacity Schedulers waiting list,['fail']
+HADOOP-7680,"TestHardLink fails on Mac OS X, when gnu stat is in path",['fail']
+HADOOP-12171,Shorten overly-long htrace span names for server,"['race', 'server']"
+HADOOP-12017,Hadoop archives command should use configurable replication factor when closing,['replica']
+HADOOP-11484,hadoop-mapreduce-client-nativetask fails to build on ARM AARCH64 due to x86 asm statements,"['client', 'fail']"
+HADOOP-11962,Sasl message with MD5 challenge text shouldn't be LOG out even in debug level.,['message']
+HADOOP-9742,TestTableMapping test fails,['fail']
+HADOOP-12780,During WASB atomic rename handle crash when one directory has been renamed but not file under it.,['crash']
+HADOOP-5924,JT fails to recover the jobs after restart after HADOOP:4372,"['fail', 'restart']"
+HADOOP-8960,TestMetricsServlet fails on Windows,['fail']
+HADOOP-5265,Builds failing - Cannot run program ant,['fail']
+HADOOP-5665,"Namenode could not be formatted because the ""whoami"" program could not be run. ",['node']
+HADOOP-1922,The task output promotion exception handler should include the IOException in the diagnostic message,['message']
+HADOOP-12447,Clean up some htrace integration issues,['race']
+HADOOP-5109,TestKillCompletedJob is failing intermittetnly when run as part of test-core,['fail']
+HADOOP-9718,Branch-1-win TestGroupFallback#testGroupWithFallback() failed caused by java.lang.UnsatisfiedLinkError,['fail']
+HADOOP-9026,Hadoop.cmd fails to initialize if user's %path% variable has parenthesis,['fail']
+HADOOP-9722,Branch-1-win TestNativeIO failed caused by Window incompatible test case,['fail']
+HADOOP-776,Task failed with java.io.IOException: No valid local directories in property: dfs.client.buffer.dir,"['client', 'fail']"
+HADOOP-3550,Reduce tasks failing with OOM,['fail']
+HADOOP-6710,Symbolic umask for file creation is not consistent with posix,['consistent']
+HADOOP-1979,fsck on namenode without datanodes takes too much time,"['node', 'node']"
+HADOOP-3371,MBeanUtil dumps stacktrace from registerMBean,['race']
+HADOOP-6757,NullPointerException for hadoop clients launched from streaming tasks,['client']
+HADOOP-6647,"balancer fails with ""is not authorized for protocol interface NamenodeProtocol"" in secure environment","['node', 'fail']"
+HADOOP-6627,"""Bad Connection to FS"" message in FSShell should print message from the exception","['message', 'message']"
